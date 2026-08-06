@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "unique_dois_queried": 641,
+  "scopus_found": 611,
+  "scopus_not_found": 30,
+  "not_found_examples": [
+    "10.1002/ggn2.10040",
+    "10.1021/acscatal.5c04074%e2%80%8b",
+    "10.1049/el:1999501",
+    "10.1103/3w8q-c26h",
+    "10.1109/cleo.1997.603463",
+    "10.1109/cleo.1998.675801",
+    "10.1109/cleo.1999.834066",
+    "10.1109/cleo.1999.834109",
+    "10.1109/cleo.1999.834420",
+    "10.1109/cleo.1999.834610"
+  ],
+  "total_author_records": 3090,
+  "papers_with_affiliation_data": 608,
+  "author_records_with_affiliation": 3074,
+  "toyota_affiliated_author_records": 1865,
+  "unique_scopus_author_ids": 1294,
+  "vs_crossref": {
+    "papers_compared": 639,
+    "crossref_coverage_pct": 34.5,
+    "scopus_coverage_pct": 99.5,
+    "union_coverage_pct": 96.1,
+    "scopus_only": 394
+  }
+}

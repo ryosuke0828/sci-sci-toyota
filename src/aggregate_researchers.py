@@ -35,6 +35,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parent.parent
 IN_AUTHORS = ROOT / "data" / "derived" / "paper_enrichment" / "crossref_authors.csv"
 IN_PAPERS = ROOT / "data" / "derived" / "paper_enrichment" / "crossref_papers.csv"
+IN_SCOPUS = ROOT / "data" / "derived" / "paper_enrichment" / "scopus_paper_authors.csv"
 OUT_DIR = ROOT / "data" / "derived" / "researchers"
 
 
@@ -109,6 +110,41 @@ def validate_namekey(df: pd.DataFrame) -> dict:
     }
 
 
+def merge_scopus_affiliations(a: pd.DataFrame) -> pd.DataFrame:
+    """Scopus由来の所属を著者レコードに統合する。
+
+    Crossref の所属は網羅率34.5%しかないのに対し、Scopus Abstract Retrieval は
+    99.5%の論文で所属を返す（2026-08-06実測）。両者を突き合わせて網羅率を上げる。
+
+    突き合わせは **同一論文内で「姓 + 名の先頭イニシャル」が一致するか** で行う。
+    1論文の著者は数名〜数十名しかいないため、この粒度でも取り違えはほぼ起きない
+    （著者名の全体照合ではないので、表記ゆれに強い）。
+    """
+    if not IN_SCOPUS.exists():
+        print("Scopusの所属データがないので Crossref のみで進めます。", flush=True)
+        a["scopus_affiliation"] = None
+        a["scopus_author_id"] = None
+        a["scopus_is_toyota"] = False
+        return a
+
+    s = pd.read_csv(IN_SCOPUS)
+    s["match_key"] = [f"{d}|{name_key(g, f)}" for d, g, f
+                      in zip(s["doi"], s["given_name"], s["surname"])]
+    # 同じ論文内で同じキーが複数ある場合（同姓同名の共著者）は先頭を採る
+    s = s.drop_duplicates("match_key").set_index("match_key")
+
+    a["match_key"] = [f"{d}|{k}" for d, k in zip(a["doi"], a["name_key"])]
+    a["scopus_affiliation"] = a["match_key"].map(s["affiliation"])
+    a["scopus_author_id"] = a["match_key"].map(s["scopus_author_id"])
+    a["scopus_is_toyota"] = a["match_key"].map(
+        s["is_toyota_affiliated"]).fillna(False).astype(bool)
+
+    matched = a["scopus_affiliation"].notna().sum()
+    print(f"Scopusとの突き合わせ: {matched}/{len(a)}件 "
+          f"({matched/len(a)*100:.1f}%) の著者レコードに所属を付与", flush=True)
+    return a.drop(columns=["match_key"])
+
+
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     a = pd.read_csv(IN_AUTHORS)
@@ -120,6 +156,18 @@ def main() -> None:
         r"(\d{4}-\d{4}-\d{4}-[\dxX]{4})", expand=False)
 
     print(f"著者レコード {len(a)}件 / 氏名キー {a['name_key'].nunique()}種", flush=True)
+
+    # ---- Scopus の所属を統合し、所属の網羅率を上げる ----
+    a = merge_scopus_affiliations(a)
+    # どちらかで所属が取れていれば「所属あり」、どちらかがトヨタ系なら「トヨタ系」
+    a["affiliation_any"] = a["affiliation"].fillna(a["scopus_affiliation"])
+    a["is_toyota_any"] = (a["is_toyota_affiliated"].fillna(False).astype(bool)
+                          | a["scopus_is_toyota"])
+    print(f"所属の網羅率: Crossrefのみ {a['affiliation'].notna().mean()*100:.1f}% "
+          f"→ Scopus統合後 {a['affiliation_any'].notna().mean()*100:.1f}%", flush=True)
+    print(f"トヨタ系と判定された著者レコード: "
+          f"{int(a['is_toyota_affiliated'].fillna(False).sum())}件 "
+          f"→ {int(a['is_toyota_any'].sum())}件", flush=True)
 
     # ---- 名寄せ規則の精度をORCIDで実測 ----
     validation = validate_namekey(a)
@@ -167,8 +215,12 @@ def main() -> None:
             "last_year": int(yrs.max()) if len(yrs) else None,
             "source_orgs": " / ".join(sorted(set(g["source_org"].dropna()))),
             "n_source_orgs": g["source_org"].nunique(),
-            "n_toyota_affiliated_records": int(g["is_toyota_affiliated"].sum()),
-            "has_affiliation_data": bool(g["affiliation"].notna().any()),
+            "n_toyota_affiliated_records": int(g["is_toyota_any"].sum()),
+            "has_affiliation_data": bool(g["affiliation_any"].notna().any()),
+            "affiliations": " | ".join(dict.fromkeys(
+                x for x in g["affiliation_any"].dropna() if x))[:500],
+            "scopus_author_ids": "; ".join(sorted(set(
+                str(x) for x in g["scopus_author_id"].dropna()))),
             "total_citations": int(g["is_referenced_by_count"].fillna(0).sum()),
         })
 
