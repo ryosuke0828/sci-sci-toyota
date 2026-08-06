@@ -1,0 +1,1250 @@
+cluster_id,canonical_name,n_name_variants,name_variants,orcid,n_orcids,n_papers,first_year,last_year,source_orgs,n_source_orgs,n_toyota_affiliated_records,has_affiliation_data,total_citations,id_source,initials_only,confidence
+orcid:0000-0001-9438-6183,Martin E. Fermann,5,M. E. Fermann / M. Fermann / M.E. Fermann / Martin E. Fermann / Martin Fermann,0000-0001-9438-6183,1,100,1992.0,2026.0,AISIN IMRA(米国・imra.com),1,12,True,4083,orcid,False,high
+name:harter|d,Donald J. Harter,6,D. Harter / D. J. Harter / D.J Harter / D.J. Harter / Donald Harter / Donald J. Harter,,0,47,1988.0,2006.0,AISIN IMRA(米国・imra.com),1,2,True,1234,name_key,False,medium
+name:galvanauskas|a,Almantas Galvanauskas,2,A. Galvanauskas / Almantas Galvanauskas,,0,42,1992.0,2006.0,AISIN IMRA(米国・imra.com),1,4,True,1605,name_key,False,medium
+orcid:0000-0003-4786-3498,Kenji KAWASHIMA,4,K Kawashima / K. Kawashima / Kenji KAWASHIMA / Kenji Kawashima,0000-0003-4786-3498,1,29,2016.0,2025.0,AISIN IMRA(日本・aisin.com),1,19,True,613,orcid,False,high
+name:hartl|i,Ingmar Hartl,2,I. Hartl / Ingmar Hartl,,0,27,2004.0,2012.0,AISIN IMRA(米国・imra.com),1,1,True,1831,name_key,False,medium
+name:sucha|g,Gregg D. Sucha,5,G. D. Sucha / G. Sucha / G.D. Sucha / Gregg D. Sucha / Gregg Sucha,,0,27,1994.0,2006.0,AISIN IMRA(米国・imra.com),1,1,True,409,name_key,False,medium
+orcid:0000-0002-8299-6416,Hiroshi Eisaki,3,H Eisaki / H. Eisaki / Hiroshi Eisaki,0000-0002-8299-6416,1,25,2016.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,612,orcid,False,high
+orcid:0000-0002-9610-647X,Akira IYO,3,A Iyo / Akira IYO / Akira Iyo,0000-0002-9610-647X,1,25,2016.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,605,orcid,False,high
+orcid:0000-0001-9445-8079,Shigeyuki Ishida,2,S Ishida / Shigeyuki Ishida,0000-0001-9445-8079,1,24,2016.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,605,orcid,False,high
+name:fejer|m,M. M. Fejer,2,M. M. Fejer / M.M. Fejer,,0,22,1997.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,947,name_key,True,low
+orcid:0000-0001-9308-153X,Hiroshi FUJIHISA,3,H Fujihisa / Hiroshi FUJIHISA / Hiroshi Fujihisa,0000-0001-9308-153X,1,21,2016.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,509,orcid,False,high
+orcid:0000-0001-6967-9574,Takamasa Nonaka,1,Takamasa Nonaka,0000-0001-6967-9574,1,20,2019.0,2025.0,豊田中央研究所,1,13,True,414,orcid,False,high
+orcid:0000-0001-5033-8833,Yoshito Gotoh,2,Y Gotoh / Yoshito Gotoh,0000-0001-5033-8833,1,20,2016.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,509,orcid,False,high
+orcid:0000-0002-3214-0062,Antoine Rolland,1,Antoine Rolland,0000-0002-3214-0062,1,19,2019.0,2026.0,AISIN IMRA(米国・imra.com),1,9,True,366,orcid,False,high
+orcid:0000-0001-7998-1873,Yoshiyuki Yoshida,1,Yoshiyuki Yoshida,0000-0001-7998-1873,1,18,2016.0,2022.0,AISIN IMRA(日本・aisin.com),1,0,True,508,orcid,False,high
+name:imeshev|g,Gennady Imeshev,2,G. Imeshev / Gennady Imeshev,,0,18,1998.0,2006.0,AISIN IMRA(米国・imra.com),1,1,True,593,name_key,False,medium
+name:shah|l,Lawrence Shah,2,L. Shah / Lawrence Shah,,0,16,2004.0,2007.0,AISIN IMRA(米国・imra.com),1,0,False,253,name_key,False,medium
+name:dong|l,Liang Dong,2,L. Dong / Liang Dong,,0,16,2005.0,2011.0,AISIN IMRA(米国・imra.com),1,1,True,665,name_key,False,medium
+name:stock|m,Michelle L. Stock,3,M. L. Stock / M.L. Stock / Michelle L. Stock,,0,15,1993.0,2006.0,AISIN IMRA(米国・imra.com),1,1,True,279,name_key,False,medium
+name:liu|b,Bing Liu,2,B. Liu / Bing Liu,,0,14,2006.0,2025.0,AISIN IMRA(米国・imra.com),1,6,True,532,name_key,False,medium
+name:cho|g,Gyu Cheon Cho,5,G. C. Cho / G. Cho / G.C. Cho / Gyu C. Cho / Gyu Cheon Cho,,0,14,2000.0,2006.0,AISIN IMRA(米国・imra.com),1,2,True,762,name_key,False,medium
+orcid:0000-0002-4985-0925,Takeshi Morikawa,1,Takeshi Morikawa,0000-0002-4985-0925,1,14,2019.0,2026.0,豊田中央研究所,1,10,True,549,orcid,False,high
+orcid:0000-0002-8156-7361,Naoko Takechi Takahashi,4,Hisaaki Takao / Naoki Takahashi / Naoko Takahashi / Naoko Takechi Takahashi,0000-0002-8156-7361,1,14,2019.0,2024.0,豊田中央研究所,1,9,True,207,orcid,False,high
+orcid:0000-0002-0097-8389,Hiraku Ogino,3,H Ogino / H. Ogino / Hiraku Ogino,0000-0002-0097-8389,1,13,2018.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,158,orcid,False,high
+name:arai|a,Alan Y. Arai,4,A. Arai / A.Y. Arai / Alan Arai / Alan Y. Arai,,0,13,2003.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,114,name_key,False,medium
+orcid:0000-0003-0166-3343,Hideaki Oka,1,Hideaki Oka,0000-0003-0166-3343,1,13,2019.0,2025.0,豊田中央研究所,1,5,True,220,orcid,False,high
+orcid:0000-0002-5590-8652,Souichiro Kato,2,Satoru Kato / Souichiro Kato,0000-0002-5590-8652,1,13,2019.0,2025.0,豊田中央研究所,1,6,True,370,orcid,False,high
+name:hofer|m,Martin Hofer,2,M. Hofer / Martin Hofer,,0,12,1992.0,1999.0,AISIN IMRA(米国・imra.com),1,0,False,317,name_key,False,medium
+name:reddy|p,Paidi Yella Reddy,5,P YELLA REDDY / P. Y. Reddy / P. Yella Reddy / Paidi Yella Reddy / Paidi Yella Reddy,,0,12,2006.0,2016.0,AISIN IMRA(日本・aisin.com),1,5,True,605,name_key,False,medium
+orcid:0000-0002-6786-7798,Yoshihiko Ito,3,Yasuo Ito / Yoshihiko Ito / Yuji Ito,0000-0002-6786-7798,1,12,2017.0,2025.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,6,True,136,orcid,False,high
+orcid:0000-0001-7236-1241,Hiroki NINOMIYA,3,H. Ninomiya / Hiroki NINOMIYA / Hiroki Ninomiya,0000-0001-7236-1241,1,12,2019.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,80,orcid,False,high
+orcid:0000-0002-6159-4792,Naonari Sakamoto,1,Naonari Sakamoto,0000-0002-6159-4792,1,12,2019.0,2025.0,豊田中央研究所,1,11,True,253,orcid,False,high
+name:shigemori|y,Yasushi SHIGEMORI,3,Y. Shigemori / Yasushi SHIGEMORI / Yasushi Shigemori,,0,11,2004.0,2015.0,AISIN IMRA(日本・aisin.com),1,1,True,151,name_key,False,medium
+name:kondo|y,Yasuhito Kondo,1,Yasuhito Kondo,,0,11,2020.0,2025.0,豊田中央研究所,1,6,True,315,name_key,False,medium
+orcid:0000-0002-0263-6702,Masashi Harada,1,Masashi Harada,0000-0002-0263-6702,1,11,2020.0,2025.0,豊田中央研究所,1,6,True,187,orcid,False,high
+name:jiang|j,Jie Jiang,2,J. Jiang / Jie Jiang,,0,11,2012.0,2025.0,AISIN IMRA(米国・imra.com),1,5,True,413,name_key,False,medium
+name:kosaka|s,Satoru Kosaka,1,Satoru Kosaka,,0,10,2020.0,2025.0,豊田中央研究所,1,7,True,109,name_key,False,medium
+name:iwamoto|m,Mitsumasa Iwamoto,2,Masami Iwamoto / Mitsumasa Iwamoto,,0,10,2018.0,2025.0,豊田中央研究所,1,3,True,93,name_key,False,medium
+orcid:0000-0002-0319-1602,Brendan M. Heffernan,1,Brendan M. Heffernan,0000-0002-0319-1602,1,10,2023.0,2026.0,AISIN IMRA(米国・imra.com),1,6,True,98,orcid,False,high
+orcid:0000-0003-2660-0410,Keita Sekizawa,1,Keita Sekizawa,0000-0003-2660-0410,1,10,2020.0,2025.0,豊田中央研究所,1,8,True,395,orcid,False,high
+orcid:0000-0002-9998-0816,Takeshi Uyama,1,Takeshi Uyama,0000-0002-9998-0816,1,10,2019.0,2025.0,豊田中央研究所,1,7,True,102,orcid,False,high
+orcid:0000-0001-8170-9326,Yoshinari Makimura,1,Yoshinari Makimura,0000-0001-8170-9326,1,10,2019.0,2024.0,豊田中央研究所,1,4,True,215,orcid,False,high
+name:che|y,Yong Che,2,Y. Che / Yong Che,,0,10,2006.0,2012.0,AISIN IMRA(米国・imra.com),1,4,True,377,name_key,False,medium
+orcid:0000-0002-1273-9318,Izumi Hase,2,I. Hase / Izumi Hase,0000-0002-1273-9318,1,10,2017.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,88,orcid,False,high
+orcid:0000-0002-0822-1161,Ryosuke Jinnouchi,1,Ryosuke Jinnouchi,0000-0002-0822-1161,1,9,2020.0,2025.0,豊田中央研究所,1,4,True,1561,orcid,False,high
+name:bovatsek|j,James M. Bovatsek,5,J. Bovatsek / James Bovatsek / James M. Bovatsek / Jim Bovatsek / Jim M. Bovatsek,,0,9,2003.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,110,name_key,False,medium
+name:nishi|t,Tomoki Nishi,1,Tomoki Nishi,,0,9,2019.0,2026.0,豊田中央研究所,1,1,True,132,name_key,False,medium
+orcid:0000-0001-7731-257X,James Greenberg,1,James Greenberg,0000-0001-7731-257X,1,9,2023.0,2026.0,AISIN IMRA(米国・imra.com),1,5,True,98,orcid,False,high
+orcid:0000-0001-8178-7367,Shunsuke Sato,2,Shuichi Sato / Shunsuke Sato,0000-0001-8178-7367,1,9,2019.0,2025.0,豊田中央研究所,1,6,True,299,orcid,False,high
+name:qian|w,Wei Qian,1,Wei Qian,,0,9,2012.0,2025.0,AISIN IMRA(米国・imra.com),1,5,True,259,name_key,False,medium
+name:koide|s,Satoshi Koide,1,Satoshi Koide,,0,9,2019.0,2023.0,豊田中央研究所,1,4,True,150,name_key,False,medium
+orcid:0000-0001-5556-3845,Akihiko Kato,1,Akihiko Kato,0000-0001-5556-3845,1,9,2019.0,2025.0,豊田中央研究所,1,3,True,293,orcid,False,high
+name:arbore|m,M. A. Arbore,2,M. A. Arbore / M.A. Arbore,,0,9,1997.0,1998.0,AISIN IMRA(米国・imra.com),1,0,False,481,name_key,True,low
+name:hariharan|a,A. Hariharan,2,A Hariharan / A. Hariharan,,0,9,1996.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,229,name_key,True,low
+orcid:0000-0003-1120-6306,Kensaku Kodama,1,Kensaku Kodama,0000-0003-1120-6306,1,9,2020.0,2025.0,豊田中央研究所,1,2,True,1396,orcid,False,high
+orcid:0000-0003-0787-0335,Masato Tanaka,1,Masato Tanaka,0000-0003-0787-0335,1,8,2018.0,2024.0,豊田中央研究所,1,2,True,97,orcid,False,high
+name:chandrasekharam|m,Malapaka Chandrasekharam,2,M CHANDRASEKHARAM / Malapaka Chandrasekharam,,0,8,2006.0,2013.0,AISIN IMRA(日本・aisin.com),1,0,True,433,name_key,False,medium
+orcid:0000-0002-2708-9039,Hiroki Kondo,1,Hiroki Kondo,0000-0002-2708-9039,1,8,2020.0,2025.0,豊田中央研究所,1,2,True,206,orcid,False,high
+orcid:0000-0001-7746-8355,Kimitoshi Yamazaki,2,Kimitoshi Yamazaki / Kiyoshi Yamazaki,0000-0001-7746-8355,1,8,2018.0,2024.0,トヨタ自動車未来創成センター / 豊田中央研究所,2,1,True,124,orcid,False,high
+name:yoshino|f,Fumiyo Yoshino,2,F. Yoshino / Fumiyo Yoshino,,0,8,2005.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,38,name_key,False,medium
+orcid:0000-0002-2658-6260,Ryoji Asahi,1,Ryoji Asahi,0000-0002-2658-6260,1,8,2018.0,2020.0,豊田中央研究所,1,5,True,339,orcid,False,high
+name:lee|k,Kevin F. Lee,1,Kevin F. Lee,,0,8,2021.0,2026.0,AISIN IMRA(米国・imra.com),1,4,True,35,name_key,False,medium
+orcid:0000-0002-3783-3693,Nobuhiro Ishida,1,Nobuhiro Ishida,0000-0002-3783-3693,1,8,2018.0,2024.0,豊田中央研究所,1,6,True,167,orcid,False,high
+name:tanaka|h,Hiromitsu Tanaka,4,Hidenori Tanaka / Hirokazu Tanaka / Hiromitsu Tanaka / Hiroya Tanaka,,0,8,2016.0,2025.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,4,True,96,name_key,False,medium
+orcid:0000-0001-8768-0122,Wataru Yoshimune,1,Wataru Yoshimune,0000-0001-8768-0122,1,8,2021.0,2025.0,豊田中央研究所,1,6,True,183,orcid,False,high
+orcid:0000-0002-6305-6859,Nobuhiro Ogihara,1,Nobuhiro Ogihara,0000-0002-6305-6859,1,8,2019.0,2025.0,豊田中央研究所,1,5,True,238,orcid,False,high
+orcid:0000-0002-1844-3040,Yukihiro Tadokoro,1,Yukihiro Tadokoro,0000-0002-1844-3040,1,8,2018.0,2025.0,豊田中央研究所,1,2,True,91,orcid,False,high
+orcid:0000-0002-7055-6675,Tsuyoshi Nomura,1,Tsuyoshi Nomura,0000-0002-7055-6675,1,7,2019.0,2025.0,豊田中央研究所,1,2,True,217,orcid,False,high
+orcid:0000-0003-2069-0355,Yasumoto Sato,2,Yasumoto Sato / Yuki Sato,0000-0003-2069-0355,1,7,2021.0,2025.0,豊田中央研究所,1,4,True,89,orcid,False,high
+name:rajkumar|g,Ganugula Rajkumar,2,G RAJKUMAR / Ganugula Rajkumar,,0,7,2011.0,2013.0,AISIN IMRA(日本・aisin.com),1,3,True,102,name_key,False,medium
+name:minelly|j,J. D. Minelly,2,J. D. Minelly / J.D. Minelly,,0,7,1995.0,1998.0,AISIN IMRA(米国・imra.com),1,0,False,98,name_key,True,low
+orcid:0000-0003-0749-2020,Susumu Saito,2,Shiro Saito / Susumu Saito,0000-0003-0749-2020,1,7,2023.0,2026.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,0,True,53,orcid,False,high
+name:liu|z,Zhenlin Liu,2,Z. Liu / Zhenlin Liu,,0,7,2000.0,2006.0,AISIN IMRA(米国・imra.com),1,0,True,161,name_key,False,medium
+name:langrock|c,Carsten Langrock,2,C. Langrock / Carsten Langrock,,0,7,2005.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,326,name_key,False,medium
+orcid:0000-0001-9779-6401,Nobuko Ohba,1,Nobuko Ohba,0000-0001-9779-6401,1,7,2018.0,2024.0,豊田中央研究所,1,3,True,314,orcid,False,high
+name:kinjo|t,Tomoyuki Kinjo,2,Tatsuya Kinjo / Tomoyuki Kinjo,,0,7,2016.0,2025.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,1,True,434,name_key,False,medium
+name:nakamura|h,Hiroshi Nakamura,1,Hiroshi Nakamura,,0,7,2019.0,2026.0,豊田中央研究所,1,2,True,317,name_key,False,medium
+name:akimoto|y,Yusuke Akimoto,1,Yusuke Akimoto,,0,7,2019.0,2026.0,豊田中央研究所,1,3,True,346,name_key,False,medium
+orcid:0000-0002-1514-2410,Takayuki Hirai,1,Takayuki Hirai,0000-0002-1514-2410,1,6,2019.0,2026.0,豊田中央研究所,1,3,True,86,orcid,False,high
+orcid:0000-0002-9931-8574,Ayano Okoso,1,Ayano Okoso,0000-0002-9931-8574,1,6,2019.0,2025.0,豊田中央研究所,1,2,True,61,orcid,False,high
+name:giribabu|l,Lingamallu Giribabu,3,L GIRIBABU / L. Giribabu / Lingamallu Giribabu,,0,6,2006.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,True,503,name_key,False,medium
+orcid:0000-0002-1433-9465,Tetsuo Kan,1,Tetsuo Kan,0000-0002-1433-9465,1,6,2023.0,2026.0,AISIN IMRA(日本・aisin.com),1,0,False,48,orcid,False,high
+orcid:0000-0003-1480-4862,Atsushi Beniya,1,Atsushi Beniya,0000-0003-1480-4862,1,6,2019.0,2023.0,豊田中央研究所,1,3,True,661,orcid,False,high
+orcid:0000-0002-9013-535X,Akitoshi Suzumura,1,Akitoshi Suzumura,0000-0002-9013-535X,1,6,2018.0,2024.0,豊田中央研究所,1,1,True,123,orcid,False,high
+orcid:0000-0003-1685-5153,Taketsune Nakamura,5,Tadashi Nakamura / Takahiro Nakamura / Taketsune Nakamura / Tomohiro Nakamura / Toshihiro Nakamura,0000-0003-1685-5153,1,6,2018.0,2024.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,0,True,85,orcid,False,high
+orcid:0000-0002-1373-2855,Taichiro Nishio,1,Taichiro Nishio,0000-0002-1373-2855,1,6,2016.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,376,orcid,False,high
+orcid:0000-0002-0874-4560,Yasuhiko Takeda,1,Yasuhiko Takeda,0000-0002-0874-4560,1,6,2019.0,2025.0,豊田中央研究所,1,5,True,164,orcid,False,high
+orcid:0000-0001-9431-0867,Keisuke Otaki,1,Keisuke Otaki,0000-0001-9431-0867,1,6,2019.0,2025.0,豊田中央研究所,1,1,True,50,orcid,False,high
+orcid:0000-0002-2672-8732,Yusaku F. Nishimura,1,Yusaku F. Nishimura,0000-0002-2672-8732,1,6,2019.0,2025.0,豊田中央研究所,1,3,True,156,orcid,False,high
+orcid:0000-0002-8145-1908,Takeo Arai,1,Takeo Arai,0000-0002-8145-1908,1,6,2019.0,2024.0,豊田中央研究所,1,5,True,317,orcid,False,high
+orcid:0000-0002-9335-1269,Atsushi Kawamoto,1,Atsushi Kawamoto,0000-0002-9335-1269,1,6,2019.0,2025.0,豊田中央研究所,1,1,True,182,orcid,False,high
+name:chemla|d,Daniel Chemla,2,D. S. Chemla / Daniel Chemla,,0,6,1994.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,93,name_key,False,medium
+orcid:0000-0002-7887-4117,Shougo Higashi,1,Shougo Higashi,0000-0002-7887-4117,1,6,2019.0,2023.0,豊田中央研究所,1,3,True,661,orcid,False,high
+name:suresh|t,Thogiti Suresh,3,T SURESH / Thogiti Suresh / Thogoti Suresh,,0,6,2011.0,2013.0,AISIN IMRA(日本・aisin.com),1,0,True,99,name_key,False,medium
+orcid:0000-0001-7793-5988,Yuki Higuchi,1,Yuki Higuchi,0000-0001-7793-5988,1,6,2020.0,2025.0,豊田中央研究所,1,3,True,135,orcid,False,high
+name:peng|x,Xiang Peng,1,Xiang Peng,,0,6,2005.0,2007.0,AISIN IMRA(米国・imra.com),1,0,False,490,name_key,False,medium
+orcid:0000-0001-6863-4868,Tomohiko Jimbo,1,Tomohiko Jimbo,0000-0001-6863-4868,1,6,2019.0,2022.0,トヨタ自動車未来創成センター / 豊田中央研究所,2,1,True,163,orcid,False,high
+name:bolton|s,S. R. Bolton,2,S. R. Bolton / Sarah Bolton,,0,6,1994.0,1999.0,AISIN IMRA(米国・imra.com),1,0,True,107,name_key,False,medium
+orcid:0000-0002-7256-1021,Tadao Nagatsuma,1,Tadao Nagatsuma,0000-0002-7256-1021,1,6,2019.0,2024.0,AISIN IMRA(米国・imra.com),1,0,True,258,orcid,False,high
+orcid:0000-0002-7808-0528,Daisuke Nakamura,1,Daisuke Nakamura,0000-0002-7808-0528,1,6,2018.0,2024.0,豊田中央研究所,1,4,True,90,orcid,False,high
+orcid:0000-0002-6805-8124,Hiroyuki Kawaura,1,Hiroyuki Kawaura,0000-0002-6805-8124,1,6,2019.0,2024.0,豊田中央研究所,1,4,True,164,orcid,False,high
+name:ober|m,M. H. Ober,2,M. H. Ober / M.H. Ober,,0,6,1992.0,1995.0,AISIN IMRA(米国・imra.com),1,0,False,228,name_key,True,low
+name:hu|z,Zhendong Hu,3,Z. D. Hu / Z.D. Hu / Zhendong Hu,,0,5,2007.0,2008.0,AISIN IMRA(米国・imra.com),1,2,True,201,name_key,False,medium
+name:kajita|s,Seiji Kajita,1,Seiji Kajita,,0,5,2020.0,2023.0,豊田中央研究所,1,2,True,117,name_key,False,medium
+orcid:0000-0002-1612-6121,Shun Taguchi,1,Shun Taguchi,0000-0002-1612-6121,1,5,2019.0,2023.0,豊田中央研究所,1,4,True,89,orcid,False,high
+orcid:0000-0002-0615-628X,Yannis M. Paulus,1,Yannis M. Paulus,0000-0002-0615-628X,1,5,2021.0,2024.0,AISIN IMRA(米国・imra.com),1,0,True,241,orcid,False,high
+name:li|p,Peng Li,1,Peng Li,,0,5,2022.0,2025.0,AISIN IMRA(米国・imra.com),1,2,True,200,name_key,False,medium
+orcid:0000-0001-7750-6809,Takahisa Suzuki,2,Takahisa Suzuki / Yasutaka Nagai,0000-0001-7750-6809,1,5,2020.0,2024.0,豊田中央研究所,1,0,False,356,orcid,False,high
+orcid:0000-0002-4830-9205,Wataru Yoshimune,2,Wataru Yoshimune / Yasutaka Nagai,0000-0002-4830-9205,1,5,2019.0,2024.0,豊田中央研究所,1,2,True,250,orcid,False,high
+name:sato|n,Norikazu Sato,1,Norikazu Sato,,0,5,2019.0,2025.0,豊田中央研究所,1,0,False,59,name_key,False,medium
+name:pan|x,Xiaoqing Pan,3,X. Q. Pan / X.Q. Pan / Xiaoqing Pan,,0,5,2007.0,2008.0,AISIN IMRA(米国・imra.com),1,0,True,201,name_key,False,medium
+name:kondo|k,Kazuhiro Kondo,1,Kazuhiro Kondo,,0,5,2006.0,2014.0,AISIN IMRA(日本・aisin.com),1,0,False,73,name_key,False,medium
+name:sasaki|t,Tsuyoshi Sasaki,1,Tsuyoshi Sasaki,,0,5,2021.0,2024.0,豊田中央研究所,1,1,True,165,name_key,False,medium
+name:sasagawa|t,Takashi Sasagawa,1,Takashi Sasagawa,,0,5,2018.0,2023.0,豊田中央研究所,1,0,False,58,name_key,False,medium
+orcid:0000-0002-7485-9075,Hiroki Sugimoto,1,Hiroki Sugimoto,0000-0002-7485-9075,1,5,2018.0,2025.0,豊田中央研究所,1,3,True,63,orcid,False,high
+orcid:0000-0001-5081-2777,Nao Takeshita,2,N. Takeshita / Nao Takeshita,0000-0001-5081-2777,1,5,2017.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,94,orcid,False,high
+orcid:0000-0001-9754-4992,Hironori Suzuki,1,Hironori Suzuki,0000-0001-9754-4992,1,5,2021.0,2026.0,AISIN IMRA(日本・aisin.com),1,1,True,45,orcid,False,high
+orcid:0000-0002-2076-8565,Tomohiro Tetsumoto,1,Tomohiro Tetsumoto,0000-0002-2076-8565,1,5,2020.0,2023.0,AISIN IMRA(米国・imra.com),1,1,True,246,orcid,False,high
+name:nazeeruddin|m,Mahammad Khaja Nazeeruddin,3,Mahammad Khaja Nazeeruddin / Mohammad Khaja Nazeeruddin / Mohammad K. Nazeeruddin,,0,5,2006.0,2016.0,AISIN IMRA(日本・aisin.com),1,0,True,441,name_key,False,medium
+orcid:0000-0002-5798-5627,Shigehiro Kawauchi,1,Shigehiro Kawauchi,0000-0002-5798-5627,1,5,2019.0,2026.0,豊田中央研究所,1,1,True,103,orcid,False,high
+name:nagasako|n,Naoyuki Nagasako,1,Naoyuki Nagasako,,0,5,2019.0,2024.0,豊田中央研究所,1,2,True,83,name_key,False,medium
+orcid:0000-0001-9158-1549,Naohiko Kato,1,Naohiko Kato,0000-0001-9158-1549,1,5,2018.0,2025.0,豊田中央研究所,1,4,True,168,orcid,False,high
+orcid:0000-0002-4465-4001,Masataka Ohashi,1,Masataka Ohashi,0000-0002-4465-4001,1,5,2018.0,2024.0,豊田中央研究所,1,4,True,99,orcid,False,high
+orcid:0000-0002-8333-7295,Noritake Isomura,1,Noritake Isomura,0000-0002-8333-7295,1,5,2020.0,2024.0,豊田中央研究所,1,2,True,70,orcid,False,high
+orcid:0000-0002-1812-6491,Takayoshi Yoshimura,1,Takayoshi Yoshimura,0000-0002-1812-6491,1,5,2019.0,2022.0,豊田中央研究所,1,1,True,123,orcid,False,high
+name:caplen|j,J. E. Caplen,2,J. E. Caplen / J.E. Caplen,,0,5,1995.0,1998.0,AISIN IMRA(米国・imra.com),1,0,False,45,name_key,True,low
+name:sugden|k,K. Sugden,1,K. Sugden,,0,5,1995.0,1995.0,AISIN IMRA(米国・imra.com),1,0,True,122,name_key,True,low
+orcid:0009-0005-0435-5735,Takashi Hori,1,Takashi Hori,0009-0005-0435-5735,1,5,2020.0,2024.0,AISIN IMRA(米国・imra.com),1,2,True,122,orcid,False,high
+name:wong|k,K. K. Wong,2,K. K. Wong / K.K. Wong,,0,5,1998.0,2000.0,AISIN IMRA(米国・imra.com),1,1,True,121,name_key,True,low
+name:weiner|a,A. M. Weiner,2,A. M. Weiner / A.M. Weiner,,0,5,1993.0,2000.0,AISIN IMRA(米国・imra.com),1,0,True,140,name_key,True,low
+name:suzuki|t,Tomiko M. Suzuki,2,Takahisa Suzuki / Tomiko M. Suzuki,,0,5,2020.0,2026.0,豊田中央研究所,1,1,True,99,name_key,False,medium
+name:bennion|i,I. Bennion,1,I. Bennion,,0,5,1995.0,1995.0,AISIN IMRA(米国・imra.com),1,0,True,122,name_key,True,low
+name:endert|h,Heinrich Endert,1,Heinrich Endert,,0,5,2002.0,2003.0,AISIN IMRA(米国・imra.com),1,0,False,8,name_key,False,medium
+orcid:0000-0003-1091-6381,Yoshinobu Itou,2,Yoshinobu Itou / Yuichi Itou,0000-0003-1091-6381,1,5,2019.0,2025.0,豊田中央研究所,1,2,True,136,orcid,False,high
+orcid:0000-0003-4855-4339,Keita Kataoka,1,Keita Kataoka,0000-0003-4855-4339,1,5,2019.0,2020.0,豊田中央研究所,1,2,True,83,orcid,False,high
+orcid:0000-0003-4718-9683,Kenichi Yatsugi,1,Kenichi Yatsugi,0000-0003-4718-9683,1,5,2021.0,2025.0,豊田中央研究所,1,1,True,55,orcid,False,high
+name:wang|x,Xueding Wang,1,Xueding Wang,,0,5,2021.0,2024.0,AISIN IMRA(米国・imra.com),1,0,True,241,name_key,False,medium
+name:yamaguchi|s,Satoshi Yamaguchi,1,Satoshi Yamaguchi,,0,5,2019.0,2023.0,豊田中央研究所,1,2,True,293,name_key,False,medium
+orcid:0000-0001-7728-218X,Yoshihiro Goto,2,Yasutomo Goto / Yoshihiro Goto,0000-0001-7728-218X,1,4,2021.0,2024.0,豊田中央研究所,1,1,True,32,orcid,False,high
+orcid:0009-0002-2926-829X,Kazuhiko Umemoto,1,Kazuhiko Umemoto,0009-0002-2926-829X,1,4,2021.0,2025.0,豊田中央研究所,1,1,True,89,orcid,False,high
+name:hirose|n,Noriaki Hirose,1,Noriaki Hirose,,0,4,2021.0,2022.0,豊田中央研究所,1,3,True,19,name_key,False,medium
+orcid:0000-0003-3763-4245,Tomiko. M. Suzuki,2,Tomiko M. Suzuki / Tomiko. M. Suzuki,0000-0003-3763-4245,1,4,2021.0,2025.0,豊田中央研究所,1,4,True,138,orcid,False,high
+orcid:0009-0001-1687-0356,Tatsuya Tanigawa,1,Tatsuya Tanigawa,0009-0001-1687-0356,1,4,2021.0,2024.0,AISIN IMRA(米国・imra.com),1,1,True,77,orcid,False,high
+orcid:0000-0001-8805-7922,Yoko Hase,1,Yoko Hase,0000-0001-8805-7922,1,4,2019.0,2023.0,豊田中央研究所,1,3,True,56,orcid,False,high
+orcid:0000-0001-9140-1691,Yu Morimoto,1,Yu Morimoto,0000-0001-9140-1691,1,4,2020.0,2021.0,豊田中央研究所,1,0,False,1004,orcid,False,high
+name:tajima|s,Shin Tajima,1,Shin Tajima,,0,4,2018.0,2021.0,豊田中央研究所,1,1,True,103,name_key,False,medium
+name:ye|z,Z. Z. Ye,2,Z. Z. Ye / Z.Z. Ye,,0,4,2006.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,176,name_key,True,low
+orcid:0000-0001-5446-2188,Saori Minami,1,Saori Minami,0000-0001-5446-2188,1,4,2021.0,2024.0,豊田中央研究所,1,3,True,325,orcid,False,high
+name:kudo|a,Akihiko Kudo,1,Akihiko Kudo,,0,4,2022.0,2026.0,豊田中央研究所,1,0,True,49,name_key,False,medium
+name:kajiya|s,Shuji Kajiya,1,Shuji Kajiya,,0,4,2019.0,2023.0,豊田中央研究所,1,3,True,90,name_key,False,medium
+name:chen|h,Hou-Tong Chen,2,H.-T. Chen / Hou-Tong Chen,,0,4,2003.0,2005.0,AISIN IMRA(米国・imra.com),1,0,True,571,name_key,False,medium
+name:henry|j,Jessica Henry,1,Jessica Henry,,0,4,2021.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,235,name_key,False,medium
+orcid:0000-0002-6340-3435,Seiji Yamamoto,1,Seiji Yamamoto,0000-0002-6340-3435,1,4,2020.0,2025.0,豊田中央研究所,1,1,True,25,orcid,False,high
+name:chen|y,Yanbin Chen,3,Y. B. Chen / Y.B. Chen / Yanbin Chen,,0,4,2007.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,169,name_key,False,medium
+orcid:0000-0003-2403-9324,Hideyuki Matsumoto,2,H. Matsumoto / Hideyuki Matsumoto,0000-0003-2403-9324,1,4,2004.0,2024.0,AISIN IMRA(米国・imra.com) / 豊田中央研究所,2,0,False,190,orcid,False,high
+orcid:0009-0003-8694-9566,Yuki Ichikawa,1,Yuki Ichikawa,0009-0003-8694-9566,1,4,2012.0,2025.0,AISIN IMRA(米国・imra.com),1,1,True,2,orcid,False,high
+name:takeshita|k,Keisuke Takeshita,1,Keisuke Takeshita,,0,4,2018.0,2024.0,トヨタ自動車未来創成センター,1,2,True,21,name_key,False,medium
+orcid:0000-0002-2539-8321,Wei Zhang,1,Wei Zhang,0000-0002-2539-8321,1,4,2021.0,2024.0,AISIN IMRA(米国・imra.com),1,0,True,228,orcid,False,high
+name:silberberg|y,Y. Silberberg,1,Y. Silberberg,,0,4,1993.0,1993.0,AISIN IMRA(米国・imra.com),1,0,True,125,name_key,True,low
+orcid:0000-0001-5821-3330,Takashi Ozaki,2,T. Ozaki / Takashi Ozaki,0000-0001-5821-3330,1,4,2020.0,2026.0,豊田中央研究所,1,0,False,131,orcid,False,high
+orcid:0000-0002-3477-1909,Keiichiro Hayakawa,2,Kazumi Hayakawa / Keiichiro Hayakawa,0000-0002-3477-1909,1,4,2019.0,2024.0,豊田中央研究所,1,0,False,37,orcid,False,high
+name:xu|w,W. Z. Xu,2,W. Z. Xu / W.Z. Xu,,0,4,2006.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,176,name_key,True,low
+orcid:0000-0002-7540-5040,Toshiyuki Yamamoto,4,Tadashi Yamamoto / Takashi Yamamoto / Takumi Yamamoto / Toshiyuki Yamamoto,0000-0002-7540-5040,1,4,2005.0,2024.0,AISIN IMRA(米国・imra.com) / トヨタ自動車未来創成センター / 豊田中央研究所,3,0,True,25,orcid,False,high
+orcid:0000-0003-3544-7032,Hiroyuki Tetsuka,1,Hiroyuki Tetsuka,0000-0003-3544-7032,1,4,2018.0,2022.0,豊田中央研究所,1,3,True,252,orcid,False,high
+orcid:0000-0001-6932-4845,Soichi Shirai,1,Soichi Shirai,0000-0001-6932-4845,1,4,2023.0,2024.0,豊田中央研究所,1,3,True,163,orcid,False,high
+name:kadoura|h,Hiroaki Kadoura,1,Hiroaki Kadoura,,0,4,2021.0,2025.0,豊田中央研究所,1,2,True,102,name_key,False,medium
+orcid:0000-0002-7026-1033,Hideo Iizuka,1,Hideo Iizuka,0000-0002-7026-1033,1,4,2021.0,2024.0,豊田中央研究所,1,0,False,54,orcid,False,high
+orcid:0000-0001-7607-3028,Sunao Tomita,1,Sunao Tomita,0000-0001-7607-3028,1,4,2022.0,2025.0,豊田中央研究所,1,0,False,96,orcid,False,high
+orcid:0000-0001-8039-1010,Hiroshi Nozaki,1,Hiroshi Nozaki,0000-0001-8039-1010,1,4,2018.0,2024.0,豊田中央研究所,1,2,True,92,orcid,False,high
+orcid:0000-0002-4482-3258,William F. McGrew,1,William F. McGrew,0000-0002-4482-3258,1,4,2025.0,2026.0,AISIN IMRA(米国・imra.com),1,2,True,14,orcid,False,high
+name:ichikawa|t,Tadashi Ichikawa,1,Tadashi Ichikawa,,0,4,2019.0,2023.0,豊田中央研究所,1,1,True,87,name_key,False,medium
+orcid:0000-0003-3926-4903,Daisuke Inoue,1,Daisuke Inoue,0000-0003-3926-4903,1,4,2019.0,2023.0,豊田中央研究所,1,1,True,87,orcid,False,high
+name:soujanya|y,Yarasi Soujanya,2,Y. Soujanya / Yarasi Soujanya,,0,4,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,True,118,name_key,False,medium
+orcid:0000-0001-6429-4683,Keisuke Ishikawa,1,Keisuke Ishikawa,0000-0001-6429-4683,1,4,2019.0,2025.0,豊田中央研究所,1,1,True,43,orcid,False,high
+orcid:0000-0003-4903-9208,Herbert G. Winful,3,H. Winful / Herbert G. Winful / Herbert Winful,0000-0003-4903-9208,1,4,2000.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,311,orcid,False,high
+orcid:0000-0001-6361-9634,Yoichi Hosokawa,1,Yoichi Hosokawa,0000-0001-6361-9634,1,4,2019.0,2020.0,豊田中央研究所,1,2,True,60,orcid,False,high
+orcid:0000-0001-6345-4884,Kenji Fujimoto,1,Kenji Fujimoto,0000-0001-6345-4884,1,4,2019.0,2025.0,豊田中央研究所,1,0,True,18,orcid,False,high
+name:kersting|r,Roland Kersting,2,R. Kersting / Roland Kersting,,0,4,2003.0,2005.0,AISIN IMRA(米国・imra.com),1,0,True,571,name_key,False,medium
+name:hatanaka|t,Takaaki Hatanaka,2,Takaaki Hatanaka / Tatsuya Hatanaka,,0,4,2019.0,2020.0,豊田中央研究所,1,1,True,223,name_key,False,medium
+orcid:0000-0001-7466-1483,Van Phuc Nguyen,1,Van Phuc Nguyen,0000-0001-7466-1483,1,4,2021.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,235,orcid,False,high
+name:patel|r,Rajesh S. Patel,1,Rajesh S. Patel,,0,4,2002.0,2003.0,AISIN IMRA(米国・imra.com),1,0,False,8,name_key,False,medium
+orcid:0000-0002-4263-471X,Jaewook Lee,2,Jaewook Lee / Joohwi Lee,0000-0002-4263-471X,1,4,2019.0,2023.0,豊田中央研究所,1,2,True,138,orcid,False,high
+orcid:0000-0002-8351-4060,Nobuaki Kikkawa,1,Nobuaki Kikkawa,0000-0002-8351-4060,1,4,2020.0,2022.0,豊田中央研究所,1,2,True,89,orcid,False,high
+name:herman|p,Peter R. Herman,2,P.R. Herman / Peter R. Herman,,0,4,2005.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,4,name_key,False,medium
+name:goldberg|l,L. Goldberg,1,L. Goldberg,,0,4,1998.0,2000.0,AISIN IMRA(米国・imra.com),1,0,False,91,name_key,True,low
+name:masuoka|y,Yumi Masuoka,1,Yumi Masuoka,,0,4,2018.0,2024.0,豊田中央研究所,1,3,True,66,name_key,False,medium
+orcid:0009-0007-4354-4074,Riho Mikita,1,Riho Mikita,0009-0007-4354-4074,1,4,2020.0,2025.0,豊田中央研究所,1,2,True,74,orcid,False,high
+name:fu|l,Libin Fu,1,Libin Fu,,0,4,2008.0,2011.0,AISIN IMRA(米国・imra.com),1,0,False,113,name_key,False,medium
+name:li|y,Yanxiu Li,3,Yanxiu Li / Yihan Li / Yiyu Li,,0,4,2019.0,2024.0,AISIN IMRA(米国・imra.com),1,0,True,184,name_key,False,medium
+orcid:0000-0003-0076-2112,Jun Ye,2,J. Ye / Jun Ye,0000-0003-0076-2112,1,4,2008.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,843,orcid,False,high
+orcid:0000-0003-1058-5877,Yoshiki Fukada,1,Yoshiki Fukada,0000-0003-1058-5877,1,4,2018.0,2019.0,トヨタ自動車未来創成センター,1,0,False,28,orcid,False,high
+name:zhu|l,L. P. Zhu,2,L. P. Zhu / L.P. Zhu,,0,4,2006.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,176,name_key,True,low
+orcid:0000-0002-1284-1814,Taishi Kimura,1,Taishi Kimura,0000-0002-1284-1814,1,4,2018.0,2020.0,豊田中央研究所,1,2,True,37,orcid,False,high
+name:yoshida|h,Hiroaki Yoshida,1,Hiroaki Yoshida,,0,4,2020.0,2024.0,豊田中央研究所,1,0,False,157,name_key,False,medium
+orcid:0000-0002-1480-7994,Yuji Mahara,1,Yuji Mahara,0000-0002-1480-7994,1,4,2021.0,2023.0,豊田中央研究所,1,3,True,70,orcid,False,high
+name:schibli|t,T. R. Schibli,2,T. R. Schibli / T.R. Schibli,,0,4,2004.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,518,name_key,True,low
+name:zhao|b,B. H. Zhao,2,B. H. Zhao / B.H. Zhao,,0,4,2006.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,176,name_key,True,low
+orcid:0000-0002-9474-8970,Kosuke Tahara,1,Kosuke Tahara,0000-0002-9474-8970,1,4,2019.0,2025.0,豊田中央研究所,1,1,True,21,orcid,False,high
+orcid:0000-0003-1423-365X,Jumpei Kawada,1,Jumpei Kawada,0000-0003-1423-365X,1,4,2019.0,2024.0,豊田中央研究所,1,3,True,59,orcid,False,high
+orcid:0000-0002-0351-4491,Toshiyuki Matsunaga,2,Takuro Matsunaga / Toshiyuki Matsunaga,0000-0002-0351-4491,1,4,2020.0,2026.0,豊田中央研究所,1,1,True,121,orcid,False,high
+orcid:0000-0003-0316-4820,Hiroyuki Nakano,1,Hiroyuki Nakano,0000-0003-0316-4820,1,4,2020.0,2022.0,豊田中央研究所,1,3,True,122,orcid,False,high
+name:eaton|s,Shane M. Eaton,3,S.M. Eaton / Shane Eaton / Shane M. Eaton,,0,4,2005.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,4,name_key,False,medium
+orcid:0000-0002-0741-7250,Keiichiro Oh-Ishi,2,Keiichiro Oh-Ishi / Keiichiro Oh-ishi,0000-0002-0741-7250,1,4,2020.0,2024.0,豊田中央研究所,1,3,True,61,orcid,False,high
+orcid:0000-0001-9597-0285,Tadayoshi Matsumori,1,Tadayoshi Matsumori,0000-0001-9597-0285,1,4,2019.0,2022.0,豊田中央研究所,1,1,True,129,orcid,False,high
+name:shibata|k,Kazuki Shibata,1,Kazuki Shibata,,0,4,2020.0,2023.0,豊田中央研究所,1,1,True,34,name_key,False,medium
+orcid:0000-0002-0871-0221,Naomi Kumano,1,Naomi Kumano,0000-0002-0871-0221,1,4,2019.0,2024.0,豊田中央研究所,1,0,False,271,orcid,False,high
+name:andrejco|m,M. J. Andrejco,1,M. J. Andrejco,,0,4,1993.0,1994.0,AISIN IMRA(米国・imra.com),1,0,True,200,name_key,True,low
+name:zeng|y,Y. J. Zeng,2,Y. J. Zeng / Y.J. Zeng,,0,4,2006.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,176,name_key,True,low
+name:sakai|h,Hiroyuki Sakai,1,Hiroyuki Sakai,,0,4,2019.0,2023.0,豊田中央研究所,1,1,True,23,name_key,False,medium
+name:muramoto|n,Nobuhiko Muramoto,1,Nobuhiko Muramoto,,0,4,2018.0,2025.0,豊田中央研究所,1,3,True,58,name_key,False,medium
+orcid:0000-0002-1086-5724,Tatsuya Yamashita,1,Tatsuya Yamashita,0000-0002-1086-5724,1,4,2019.0,2023.0,豊田中央研究所,1,1,True,87,orcid,False,high
+orcid:0000-0001-9901-5525,Eslam Abubakr,1,Eslam Abubakr,0000-0001-9901-5525,1,4,2024.0,2026.0,AISIN IMRA(日本・aisin.com),1,0,False,25,orcid,False,high
+name:hasegawa|n,Naoki Hasegawa,1,Naoki Hasegawa,,0,4,2021.0,2025.0,豊田中央研究所,1,1,True,312,name_key,False,medium
+orcid:0000-0002-5895-8962,Hiroaki Makino,2,Hiroaki Makino / Hiroya Makino,0000-0002-5895-8962,1,3,2020.0,2024.0,豊田中央研究所,1,2,True,26,orcid,False,high
+name:bliss|d,D. Bliss,1,D. Bliss,,0,3,2006.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,145,name_key,True,low
+name:nishigaki|h,Hidekazu Nishigaki,1,Hidekazu Nishigaki,,0,3,2019.0,2023.0,豊田中央研究所,1,0,False,87,name_key,False,medium
+name:karsai|f,Ferenc Karsai,1,Ferenc Karsai,,0,3,2020.0,2025.0,豊田中央研究所,1,0,True,234,name_key,False,medium
+name:kato|y,Yuichi Kato,1,Yuichi Kato,,0,3,2020.0,2021.0,豊田中央研究所,1,2,True,78,name_key,False,medium
+name:mendonca|c,C. A. C. Mendonca,2,C. A. C. Mendonca / C.A.C. Mendonca,,0,3,1995.0,1995.0,AISIN IMRA(米国・imra.com),1,0,False,21,name_key,True,low
+orcid:0000-0003-4038-7839,Hiroki Iwase,1,Hiroki Iwase,0000-0003-4038-7839,1,3,2021.0,2025.0,豊田中央研究所,1,0,True,63,orcid,False,high
+name:bonnaud|p,Patrick A. Bonnaud,1,Patrick A. Bonnaud,,0,3,2023.0,2025.0,豊田中央研究所,1,0,False,25,name_key,False,medium
+orcid:0000-0002-5755-6793,Masaaki Oshita,1,Masaaki Oshita,0000-0002-5755-6793,1,3,2023.0,2024.0,AISIN IMRA(日本・aisin.com),1,0,False,43,orcid,False,high
+orcid:0000-0002-4882-7854,Katsunori Ueno,2,Katsunori Ueno / Kosei Ueno,0000-0002-4882-7854,1,3,2017.0,2021.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,0,False,150,orcid,False,high
+orcid:0000-0002-4951-5326,Jacob Lampen,1,Jacob Lampen,0000-0002-4951-5326,1,3,2022.0,2025.0,AISIN IMRA(米国・imra.com),1,1,True,18,orcid,False,high
+name:moriyasu|r,Ryuta Moriyasu,1,Ryuta Moriyasu,,0,3,2019.0,2026.0,豊田中央研究所,1,1,True,27,name_key,False,medium
+name:norris|t,T. B. Norris,2,T. B. Norris / T.B Norris,,0,3,1996.0,2001.0,AISIN IMRA(米国・imra.com),1,0,True,339,name_key,True,low
+orcid:0000-0002-5116-7359,Shin-ichi Takata,1,Shin-ichi Takata,0000-0002-5116-7359,1,3,2021.0,2025.0,豊田中央研究所,1,0,True,63,orcid,False,high
+name:vodopyanov|k,Konstantin L. Vodopyanov,2,K. L. Vodopyanov / Konstantin L. Vodopyanov,,0,3,2006.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,354,name_key,False,medium
+name:yost|d,Dylan C. Yost,2,D. C. Yost / Dylan C. Yost,,0,3,2008.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,662,name_key,False,medium
+name:matsumoto|y,Yoshihiro Matsumoto,1,Yoshihiro Matsumoto,,0,3,2021.0,2024.0,豊田中央研究所,1,0,True,81,name_key,False,medium
+name:mizutani|m,Mamoru Mizutani,1,Mamoru Mizutani,,0,3,2020.0,2024.0,豊田中央研究所,1,3,True,41,name_key,False,medium
+orcid:0000-0002-1349-5730,Masahiko Ishii,1,Masahiko Ishii,0000-0002-1349-5730,1,3,2019.0,2026.0,豊田中央研究所,1,0,False,193,orcid,False,high
+name:kuse|n,Naoya Kuse,2,N. Kuse / Naoya Kuse,,0,3,2019.0,2020.0,AISIN IMRA(米国・imra.com),1,1,True,113,name_key,False,medium
+name:yada|h,Hiroyuki Yada,1,Hiroyuki Yada,,0,3,2024.0,2025.0,AISIN IMRA(米国・imra.com),1,1,True,2,name_key,False,medium
+name:navickaite|g,Gabriele Navickaite,1,Gabriele Navickaite,,0,3,2020.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,205,name_key,False,medium
+orcid:0000-0002-2313-6029,K. Kugimoto,2,K. Kugimoto / Ko Kugimoto,0000-0002-2313-6029,1,3,2019.0,2026.0,豊田中央研究所,1,1,True,39,orcid,False,high
+name:kumar|c,Ch. Vijay Kumar,2,CH VIJAY KUMAR / Ch. Vijay Kumar,,0,3,2006.0,2011.0,AISIN IMRA(日本・aisin.com),1,1,True,116,name_key,False,medium
+name:windeler|r,Robert S. Windeler,2,R.S. Windeler / Robert S. Windeler,,0,3,1998.0,1999.0,AISIN IMRA(米国・imra.com),1,0,False,52,name_key,False,medium
+orcid:0000-0002-2227-5983,Masanori Usui,1,Masanori Usui,0000-0002-2227-5983,1,3,2019.0,2021.0,豊田中央研究所,1,0,False,34,orcid,False,high
+name:tanaka|k,Keiichi Tanaka,3,Kakeru Tanaka / Kazuya Tanaka / Keiichi Tanaka,,0,3,2008.0,2021.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,0,True,44,name_key,False,medium
+orcid:0009-0006-1786-2928,Keisuke Maekawa,1,Keisuke Maekawa,0009-0006-1786-2928,1,3,2023.0,2024.0,AISIN IMRA(米国・imra.com),1,0,True,59,orcid,False,high
+name:kudo|k,Kenji Kudo,1,Kenji Kudo,,0,3,2019.0,2021.0,豊田中央研究所,1,0,False,465,name_key,False,medium
+orcid:0000-0002-2750-2655,Shogo Komagata,1,Shogo Komagata,0000-0002-2750-2655,1,3,2023.0,2025.0,豊田中央研究所,1,1,True,136,orcid,False,high
+name:uehara|y,Yuzuru Uehara,2,Y. Uehara / Yuzuru Uehara,,0,3,2004.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,16,name_key,False,medium
+name:nakahira|y,Yuko Nakahira,1,Yuko Nakahira,,0,3,2020.0,2025.0,豊田中央研究所,1,1,True,41,name_key,False,medium
+name:kondo|r,Ruho Kondo,1,Ruho Kondo,,0,3,2021.0,2025.0,豊田中央研究所,1,2,True,28,name_key,False,medium
+orcid:0009-0006-3052-3488,Terunari Koshinuma,1,Terunari Koshinuma,0009-0006-3052-3488,1,3,2020.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,12,orcid,False,high
+name:li|j,Jun Li,1,Jun Li,,0,3,2006.0,2007.0,AISIN IMRA(米国・imra.com),1,0,False,228,name_key,False,medium
+orcid:0000-0001-9102-4259,Georg Kresse,1,Georg Kresse,0000-0001-9102-4259,1,3,2020.0,2025.0,豊田中央研究所,1,0,True,234,orcid,False,high
+orcid:0000-0001-9052-7823,Akihiro Shinohara,1,Akihiro Shinohara,0000-0001-9052-7823,1,3,2020.0,2023.0,豊田中央研究所,1,1,True,315,orcid,False,high
+orcid:0000-0001-9999-0486,Yoshihide Watanabe,2,Yoshihide Watanabe / Yusuke Watanabe,0000-0001-9999-0486,1,3,2014.0,2022.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,1,True,184,orcid,False,high
+name:tellefsen|j,Jens A. Tellefsen,2,J. A. Tellefsen / Jens A. Tellefsen,,0,3,1992.0,1994.0,AISIN IMRA(米国・imra.com),1,0,True,84,name_key,False,medium
+orcid:0000-0002-3313-2689,Shuji Nakanishi,1,Shuji Nakanishi,0000-0002-3313-2689,1,3,2019.0,2023.0,豊田中央研究所,1,0,True,52,orcid,False,high
+name:lu|j,J. G. Lu,2,J. G. Lu / J.G. Lu,,0,3,2006.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,99,name_key,True,low
+name:terashima|t,Taichi Terashima,1,Taichi Terashima,,0,3,2020.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,32,name_key,False,medium
+name:suzuki|r,Ryo Suzuki,1,Ryo Suzuki,,0,3,2018.0,2024.0,豊田中央研究所,1,2,True,77,name_key,False,medium
+name:allenic|a,Arnold Allenic,2,A. Allenic / Arnold Allenic,,0,3,2007.0,2008.0,AISIN IMRA(米国・imra.com),1,0,True,121,name_key,False,medium
+orcid:0000-0002-1512-9080,Masakazu Murase,1,Masakazu Murase,0000-0002-1512-9080,1,3,2023.0,2024.0,豊田中央研究所,1,3,True,15,orcid,False,high
+name:narita|a,Atsushi Narita,2,Akira Narita / Atsushi Narita,,0,3,2022.0,2025.0,豊田中央研究所,1,0,False,11,name_key,False,medium
+name:thomas|b,Brian K. Thomas,2,B. K. Thomas / Brian K. Thomas,,0,3,2008.0,2011.0,AISIN IMRA(米国・imra.com),1,0,False,113,name_key,False,medium
+name:tohyama|m,Mamoru Tohyama,1,Mamoru Tohyama,,0,3,2023.0,2025.0,豊田中央研究所,1,0,False,25,name_key,False,medium
+name:tamura|t,Tomohiro Tamura,1,Tomohiro Tamura,,0,3,2006.0,2007.0,AISIN IMRA(日本・aisin.com),1,0,False,15,name_key,False,medium
+orcid:0000-0002-4356-2279,Yoshifumi Maegawa,1,Yoshifumi Maegawa,0000-0002-4356-2279,1,3,2020.0,2023.0,豊田中央研究所,1,2,True,58,orcid,False,high
+name:kawasaki|a,Akari Kawasaki,1,Akari Kawasaki,,0,3,2019.0,2023.0,豊田中央研究所,1,1,True,80,name_key,False,medium
+orcid:0000-0002-6154-6539,Kazuhiko Mukai,1,Kazuhiko Mukai,0000-0002-6154-6539,1,3,2020.0,2023.0,豊田中央研究所,1,2,True,38,orcid,False,high
+name:shimanuki|k,Kento Shimanuki,1,Kento Shimanuki,,0,3,2023.0,2025.0,豊田中央研究所,1,0,False,81,name_key,False,medium
+name:ikeuchi|a,Akinori Ikeuchi,1,Akinori Ikeuchi,,0,3,2018.0,2025.0,豊田中央研究所,1,0,False,62,name_key,False,medium
+orcid:0000-0001-6364-0695,Kensuke Takechi,1,Kensuke Takechi,0000-0001-6364-0695,1,3,2020.0,2022.0,豊田中央研究所,1,2,True,30,orcid,False,high
+orcid:0000-0003-0990-8894,Hirofumi Hazama,1,Hirofumi Hazama,0000-0003-0990-8894,1,3,2018.0,2020.0,豊田中央研究所,1,2,True,74,orcid,False,high
+name:cho|a,A. Y. Cho,1,A. Y. Cho,,0,3,1994.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,23,name_key,True,low
+orcid:0000-0002-7948-3505,Atsuhiro Takahashi,1,Atsuhiro Takahashi,0000-0002-7948-3505,1,3,2019.0,2021.0,豊田中央研究所,1,0,False,54,orcid,False,high
+name:ito|s,Seigo Ito,1,Seigo Ito,,0,3,2019.0,2024.0,豊田中央研究所,1,3,True,12,name_key,False,medium
+name:geiselmann|m,Michael Geiselmann,1,Michael Geiselmann,,0,3,2020.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,205,name_key,False,medium
+orcid:0000-0003-3531-124X,Satoshi Yamaguchi,1,Satoshi Yamaguchi,0000-0003-3531-124X,1,3,2023.0,2025.0,豊田中央研究所,1,1,True,33,orcid,False,high
+name:zhang|x,Xi-Cheng Zhang,2,X.-C. Zhang / Xi-Cheng Zhang,,0,3,1999.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,16,name_key,False,medium
+name:onochi|y,Yusaku Onochi,1,Yusaku Onochi,,0,3,2020.0,2021.0,豊田中央研究所,1,2,True,50,name_key,False,medium
+orcid:0000-0002-9359-1289,Akinori Sato,1,Akinori Sato,0000-0002-9359-1289,1,3,2023.0,2024.0,豊田中央研究所,1,0,False,67,orcid,False,high
+name:rao|c,Chikkam Srinivasa Rao,1,Chikkam Srinivasa Rao,,0,3,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,True,31,name_key,False,medium
+name:squier|j,Jeff Squier,2,J. Squier / Jeff Squier,,0,3,1988.0,1996.0,AISIN IMRA(米国・imra.com),1,0,False,35,name_key,False,medium
+name:oyama|s,Shin Oyama,1,Shin Oyama,,0,3,2023.0,2023.0,豊田中央研究所,1,1,True,84,name_key,False,medium
+orcid:0000-0002-9220-1883,Masashi Kikugawa,1,Masashi Kikugawa,0000-0002-9220-1883,1,3,2019.0,2024.0,豊田中央研究所,1,0,False,24,orcid,False,high
+name:hidaka|k,Ken Hidaka,1,Ken Hidaka,,0,3,2018.0,2026.0,豊田中央研究所,1,0,False,33,name_key,False,medium
+name:song|y,Yuyang Song,1,Yuyang Song,,0,3,2019.0,2024.0,豊田中央研究所,1,1,True,145,name_key,False,medium
+name:yoshida|m,Makoto Yoshida,2,M. Yoshida / Makoto Yoshida,,0,3,2000.0,2006.0,AISIN IMRA(米国・imra.com),1,1,True,28,name_key,False,medium
+orcid:0000-0003-3065-4147,Kunihiro Kihou,1,Kunihiro Kihou,0000-0003-3065-4147,1,3,2016.0,2018.0,AISIN IMRA(日本・aisin.com),1,0,True,375,orcid,False,high
+name:gr tzel|m,Michael Grätzel,2,M. Grätzel / Michael Grätzel,,0,3,2006.0,2016.0,AISIN IMRA(日本・aisin.com),1,0,True,413,name_key,False,medium
+name:harris|j,J. S. Harris,1,J. S. Harris,,0,3,2006.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,145,name_key,True,low
+name:hofer|r,R. Hofer,1,R. Hofer,,0,3,1995.0,1995.0,AISIN IMRA(米国・imra.com),1,0,False,21,name_key,True,low
+orcid:0000-0002-8868-3613,Keita Funayama,1,Keita Funayama,0000-0002-8868-3613,1,3,2021.0,2024.0,豊田中央研究所,1,1,True,20,orcid,False,high
+name:shinohara|t,Takenao Shinohara,1,Takenao Shinohara,,0,3,2021.0,2024.0,豊田中央研究所,1,0,True,81,name_key,False,medium
+orcid:0000-0002-8674-2528,Kazuma Shinozaki,1,Kazuma Shinozaki,0000-0002-8674-2528,1,3,2020.0,2023.0,豊田中央研究所,1,0,False,389,orcid,False,high
+orcid:0000-0003-3028-0042,Kazuhisa Isegawa,1,Kazuhisa Isegawa,0000-0003-3028-0042,1,3,2021.0,2026.0,豊田中央研究所,1,0,True,42,orcid,False,high
+name:mitani|y,Yasuo Mitani,1,Yasuo Mitani,,0,3,2006.0,2007.0,AISIN IMRA(日本・aisin.com),1,0,False,15,name_key,False,medium
+orcid:0000-0001-5709-6283,Daigo Setoyama,1,Daigo Setoyama,0000-0001-5709-6283,1,3,2019.0,2024.0,豊田中央研究所,1,2,True,143,orcid,False,high
+name:shiozawa|m,Masahito Shiozawa,1,Masahito Shiozawa,,0,3,2018.0,2021.0,豊田中央研究所,1,2,True,162,name_key,False,medium
+name:hirose|h,Hishiro T. Hirose,1,Hishiro T. Hirose,,0,3,2020.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,32,name_key,False,medium
+orcid:0000-0003-0405-5511,Shinji Inagaki,1,Shinji Inagaki,0000-0003-0405-5511,1,3,2018.0,2021.0,豊田中央研究所,1,2,True,68,orcid,False,high
+name:ohta|n,Norikazu Ohta,2,N. Ohta / Norikazu Ohta,,0,3,2021.0,2026.0,豊田中央研究所,1,0,False,118,name_key,False,medium
+orcid:0000-0001-7101-9989,Shinya Moribe,1,Shinya Moribe,0000-0001-7101-9989,1,3,2018.0,2025.0,豊田中央研究所,1,3,True,33,orcid,False,high
+orcid:0000-0003-0864-6482,Su Ryon Shin,1,Su Ryon Shin,0000-0003-0864-6482,1,3,2020.0,2022.0,豊田中央研究所,1,0,True,257,orcid,False,high
+name:ohshima|a,Ayako Ohshima,1,Ayako Ohshima,,0,3,2019.0,2024.0,豊田中央研究所,1,2,True,89,name_key,False,medium
+name:yum|j,Jun-Ho Yum,2,Jun-Ho Yum / Jun‐Ho Yum,,0,3,2006.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,True,377,name_key,False,medium
+name:singh|v,VARUN KUMAR SINGH,3,V.K. Singh / VARUN KUMAR SINGH / Varun Kumar Singh,,0,3,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,True,66,name_key,False,medium
+orcid:0000-0002-6651-6232,Ryosuke Kataoka,1,Ryosuke Kataoka,0000-0002-6651-6232,1,3,2024.0,2026.0,豊田中央研究所,1,0,False,21,orcid,False,high
+orcid:0000-0002-6657-7166,Satoko Hirabayashi,1,Satoko Hirabayashi,0000-0002-6657-7166,1,3,2018.0,2023.0,豊田中央研究所,1,1,True,40,orcid,False,high
+orcid:0000-0002-8370-4526,Norifumi L. Yamada,2,Norifumi L Yamada / Norifumi L. Yamada,0000-0002-8370-4526,1,3,2020.0,2022.0,豊田中央研究所,1,0,True,58,orcid,False,high
+name:imaeda|t,Takao Imaeda,1,Takao Imaeda,,0,3,2019.0,2024.0,豊田中央研究所,1,0,False,23,name_key,False,medium
+name:sivco|d,D. L. Sivco,1,D. L. Sivco,,0,3,1994.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,23,name_key,True,low
+name:yamaguchi|y,Yuichi Yamaguchi,2,Yuhei Yamaguchi / Yuichi Yamaguchi,,0,3,2021.0,2026.0,豊田中央研究所,1,0,False,48,name_key,False,medium
+name:ohno|h,Hiroshi Ohno,1,Hiroshi Ohno,,0,3,2019.0,2022.0,豊田中央研究所,1,0,False,51,name_key,False,medium
+name:hasegawa|m,Masaki Hasegawa,1,Masaki Hasegawa,,0,3,2020.0,2023.0,豊田中央研究所,1,2,True,52,name_key,False,medium
+orcid:0000-0002-8374-1482,Tatsuya Miyano,1,Tatsuya Miyano,0000-0002-8374-1482,1,3,2020.0,2024.0,豊田中央研究所,1,1,True,13,orcid,False,high
+name:chiu|t,T. H. Chiu,2,T. H. Chiu / T.H. Chiu,,0,3,1995.0,1995.0,AISIN IMRA(米国・imra.com),1,0,False,21,name_key,True,low
+orcid:0000-0003-0266-1745,Hidenori Tanaka,1,Hidenori Tanaka,0000-0003-0266-1745,1,3,2018.0,2021.0,豊田中央研究所,1,1,True,51,orcid,False,high
+name:hibi|s,Shogo Hibi,1,Shogo Hibi,,0,3,2023.0,2024.0,豊田中央研究所,1,2,True,73,name_key,False,medium
+name:srinivasu|m,Mareedu Srinivasu,2,M SRINIVASU / Mareedu Srinivasu,,0,3,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,88,name_key,False,medium
+name:zhang|h,Honghao Zhang,2,Haibin Zhang / Honghao Zhang,,0,3,2005.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,38,name_key,False,medium
+orcid:0000-0002-8324-2798,Ryuji Omote,1,Ryuji Omote,0000-0002-8324-2798,1,3,2018.0,2020.0,豊田中央研究所,1,0,False,16,orcid,False,high
+orcid:0000-0001-6864-5532,Norihiro Mizoshita,1,Norihiro Mizoshita,0000-0001-6864-5532,1,3,2016.0,2025.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,3,True,13,orcid,False,high
+orcid:0000-0001-7296-5627,Keisuke Shigetoh,1,Keisuke Shigetoh,0000-0001-7296-5627,1,3,2018.0,2023.0,豊田中央研究所,1,2,True,41,orcid,False,high
+name:tanaka|t,Toshiyuki Tanaka,2,Tomoko Tanaka / Toshiyuki Tanaka,,0,2,2019.0,2020.0,豊田中央研究所,1,1,True,35,name_key,False,medium
+name:sakai|m,Masatoshi Sakai,2,Masahiro Sakai / Masatoshi Sakai,,0,2,2000.0,2019.0,AISIN IMRA(米国・imra.com) / 豊田中央研究所,2,0,True,56,name_key,False,medium
+orcid:0000-0001-9440-832X,Masanori Ishigaki,1,Masanori Ishigaki,0000-0001-9440-832X,1,2,2021.0,2025.0,豊田中央研究所,1,1,True,36,orcid,False,high
+name:weiss|s,S. Weiss,1,S. Weiss,,0,2,1994.0,1995.0,AISIN IMRA(米国・imra.com),1,0,True,55,name_key,True,low
+orcid:0000-0001-9684-2584,Norihiro Oyama,1,Norihiro Oyama,0000-0001-9684-2584,1,2,2023.0,2024.0,豊田中央研究所,1,1,True,31,orcid,False,high
+name:yonekura|s,Shogo Yonekura,1,Shogo Yonekura,,0,2,2023.0,2025.0,豊田中央研究所,1,0,False,15,name_key,False,medium
+name:ruehl|a,Axel Ruehl,1,Axel Ruehl,,0,2,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,425,name_key,False,medium
+name:yoneyama|h,Hiroaki Yoneyama,1,Hiroaki Yoneyama,,0,2,2021.0,2022.0,豊田中央研究所,1,2,True,37,name_key,False,medium
+orcid:0000-0001-9530-8830,Motohiro Fujiyoshi,2,M. Fujiyoshi / Motohiro Fujiyoshi,0000-0001-9530-8830,1,2,2025.0,2026.0,豊田中央研究所,1,0,False,18,orcid,False,high
+name:murai|d,Daisuke Murai,1,Daisuke Murai,,0,2,2020.0,2023.0,豊田中央研究所,1,1,True,48,name_key,False,medium
+name:tanabe|t,Toshitaka Tanabe,1,Toshitaka Tanabe,,0,2,2019.0,2019.0,豊田中央研究所,1,1,True,23,name_key,False,medium
+name:sartania|z,Zaza Sartania,2,Z. Sartania / Zaza Sartania,,0,2,2001.0,2003.0,AISIN IMRA(米国・imra.com),1,0,False,10,name_key,False,medium
+orcid:0000-0001-5085-2613,Shunsuke Hashimoto,1,Shunsuke Hashimoto,0000-0001-5085-2613,1,2,2020.0,2023.0,豊田中央研究所,1,0,False,24,orcid,False,high
+name:ogishima|s,Soichi Ogishima,1,Soichi Ogishima,,0,2,2022.0,2024.0,豊田中央研究所,1,0,False,10,name_key,False,medium
+name:yoshimune|w,Wataru Yoshimune,1,Wataru Yoshimune,,0,2,2021.0,2023.0,豊田中央研究所,1,0,True,29,name_key,False,medium
+name:sarukura|n,Nobuhiko Sarukura,2,N. Sarukura / Nobuhiko Sarukura,,0,2,2000.0,2001.0,AISIN IMRA(米国・imra.com),1,0,True,28,name_key,False,medium
+name:tsuchimoto|k,Katsuya Tsuchimoto,2,K. Tsuchimoto / Katsuya Tsuchimoto,,0,2,2016.0,2018.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,2,True,64,name_key,False,medium
+name:mitsukawa|n,Norihiro Mitsukawa,1,Norihiro Mitsukawa,,0,2,2018.0,2020.0,豊田中央研究所,1,1,True,40,name_key,False,medium
+name:tsukamoto|t,Takeyo Tsukamoto,2,T. Tsukamoto / Takeyo Tsukamoto,,0,2,2000.0,2001.0,AISIN IMRA(米国・imra.com),1,0,True,28,name_key,False,medium
+name:miwa|k,Kazutoshi Miwa,1,Kazutoshi Miwa,,0,2,2020.0,2022.0,豊田中央研究所,1,2,True,204,name_key,False,medium
+name:yu|x,X. Yu,1,X. Yu,,0,2,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,71,name_key,True,low
+name:miyaji|a,Asami Miyaji,1,Asami Miyaji,,0,2,2012.0,2014.0,AISIN IMRA(日本・aisin.com),1,0,False,58,name_key,False,medium
+orcid:0000-0002-0849-360X,Tetsuo Narita,1,Tetsuo Narita,0000-0002-0849-360X,1,2,2019.0,2020.0,豊田中央研究所,1,1,True,57,orcid,False,high
+name:vijaykumar|c,Challuri Vijaykumar,1,Challuri Vijaykumar,,0,2,2006.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,375,name_key,False,medium
+name:mizuno|s,Shintaro Mizuno,1,Shintaro Mizuno,,0,2,2021.0,2021.0,豊田中央研究所,1,1,True,136,name_key,False,medium
+orcid:0000-0002-0721-0954,Katsuya Nomura,1,Katsuya Nomura,0000-0002-0721-0954,1,2,2019.0,2021.0,豊田中央研究所,1,0,False,24,orcid,False,high
+name:mohr|c,C. Mohr,1,C. Mohr,,0,2,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,178,name_key,True,low
+orcid:0000-0002-0662-950X,Ayaka Yonaga,1,Ayaka Yonaga,0000-0002-0662-950X,1,2,2023.0,2026.0,豊田中央研究所,1,1,True,49,orcid,False,high
+orcid:0000-0002-0652-5508,Toru Hamasaki,1,Toru Hamasaki,0000-0002-0652-5508,1,2,2021.0,2021.0,豊田中央研究所,1,1,True,5,orcid,False,high
+name:moritani|h,Hiroshi Moritani,1,Hiroshi Moritani,,0,2,2023.0,2025.0,豊田中央研究所,1,0,False,17,name_key,False,medium
+name:sasaki|m,Megumi Sasaki,1,Megumi Sasaki,,0,2,2024.0,2026.0,豊田中央研究所,1,1,True,13,name_key,False,medium
+name:yoshioka|t,Toki Yoshioka,1,Toki Yoshioka,,0,2,2023.0,2024.0,AISIN IMRA(米国・imra.com),1,0,True,32,name_key,False,medium
+name:yoshino|s,Shuhei Yoshino,2,Shuhei Yoshino / Shunya Yoshino,,0,2,2020.0,2022.0,豊田中央研究所,1,0,False,64,name_key,False,medium
+name:setoyama|n,Norihiko Setoyama,1,Norihiko Setoyama,,0,2,2024.0,2024.0,豊田中央研究所,1,1,True,9,name_key,False,medium
+name:seki|j,Juntaro Seki,1,Juntaro Seki,,0,2,2019.0,2020.0,豊田中央研究所,1,1,True,33,name_key,False,medium
+name:zhe|j,Josh Zhe,1,Josh Zhe,,0,2,2022.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,52,name_key,False,medium
+orcid:0000-0001-5310-9841,Yukino Baba,1,Yukino Baba,0000-0001-5310-9841,1,2,2025.0,2025.0,豊田中央研究所,1,0,True,19,orcid,False,high
+name:shinjoh|h,Hirofumi Shinjoh,1,Hirofumi Shinjoh,,0,2,2019.0,2019.0,豊田中央研究所,1,0,False,31,name_key,False,medium
+orcid:0000-0002-0253-1740,Ken-ichi Yamanaka,1,Ken-ichi Yamanaka,0000-0002-0253-1740,1,2,2021.0,2021.0,豊田中央研究所,1,1,True,50,orcid,False,high
+name:satoh|t,Toshikazu Satoh,1,Toshikazu Satoh,,0,2,2019.0,2020.0,豊田中央研究所,1,0,False,8,name_key,False,medium
+name:sasayama|t,Toshiki Sasayama,1,Toshiki Sasayama,,0,2,2019.0,2020.0,豊田中央研究所,1,0,False,34,name_key,False,medium
+orcid:0000-0002-0078-3207,Shota Katayama,1,Shota Katayama,0000-0002-0078-3207,1,2,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,1,True,20,orcid,False,high
+name:shinoda|j,Jun Shinoda,1,Jun Shinoda,,0,2,2020.0,2021.0,豊田中央研究所,1,0,True,7,name_key,False,medium
+name:takeshita|t,Tomohiro Takeshita,1,Tomohiro Takeshita,,0,2,2020.0,2024.0,豊田中央研究所,1,1,True,127,name_key,False,medium
+name:wong|w,William S. Wong,2,W.S. Wong / William S. Wong,,0,2,2005.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,158,name_key,False,medium
+name:takeshita|s,Soshi Takeshita,1,Soshi Takeshita,,0,2,2018.0,2020.0,豊田中央研究所,1,0,True,69,name_key,False,medium
+orcid:0000-0001-7736-8872,Hiromitsu Tanaka,1,Hiromitsu Tanaka,0000-0001-7736-8872,1,2,2023.0,2024.0,豊田中央研究所,1,2,True,16,orcid,False,high
+orcid:0000-0001-6482-0647,Francesco Tani,1,Francesco Tani,0000-0001-6482-0647,1,2,2022.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,15,orcid,False,high
+name:ono|s,Shingo Ono,2,S. Ono / Shingo Ono,,0,2,2000.0,2001.0,AISIN IMRA(米国・imra.com),1,0,True,28,name_key,False,medium
+name:onae|a,A. Onae,1,A. Onae,,0,2,2004.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,177,name_key,True,low
+name:nicholson|j,J. W. Nicholson,1,J. W. Nicholson,,0,2,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,103,name_key,True,low
+name:okumura|k,Koji Okumura,1,Koji Okumura,,0,2,2006.0,2008.0,AISIN IMRA(日本・aisin.com),1,0,False,9,name_key,False,medium
+name:ninomiya|k,Kazuhiko Ninomiya,1,Kazuhiko Ninomiya,,0,2,2018.0,2020.0,豊田中央研究所,1,0,True,69,name_key,False,medium
+name:okuda|c,Chikaaki Okuda,1,Chikaaki Okuda,,0,2,2021.0,2024.0,豊田中央研究所,1,1,True,49,name_key,False,medium
+name:sun|k,Kai Sun,1,Kai Sun,,0,2,2007.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,33,name_key,False,medium
+name:nishizawa|s,Seizi Nishizawa,2,S. Nishizawa / Seizi Nishizawa,,0,2,2000.0,2001.0,AISIN IMRA(米国・imra.com),1,0,True,28,name_key,False,medium
+name:oka|k,Kunihiko Oka,1,Kunihiko Oka,,0,2,2017.0,2019.0,AISIN IMRA(日本・aisin.com),1,0,True,19,name_key,False,medium
+name:yagi|k,Kazuyuki Yagi,2,Kazuyuki Yagi / Kenichi Yagi,,0,2,2020.0,2020.0,豊田中央研究所,1,1,True,27,name_key,False,medium
+name:sugiyama|j,Jun Sugiyama,1,Jun Sugiyama,,0,2,2018.0,2020.0,豊田中央研究所,1,1,True,69,name_key,False,medium
+name:niwa|t,Takahiro Niwa,1,Takahiro Niwa,,0,2,2022.0,2025.0,豊田中央研究所,1,1,True,28,name_key,False,medium
+name:nojiri|n,Natsumi Nojiri,1,Natsumi Nojiri,,0,2,2021.0,2021.0,豊田中央研究所,1,1,True,136,name_key,False,medium
+name:suzuki|a,Akira Suzuki,2,A. Suzuki / Akira Suzuki,,0,2,2016.0,2018.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,2,True,64,name_key,False,medium
+orcid:0000-0001-6965-1512,Takuro Kutsuna,1,Takuro Kutsuna,0000-0001-6965-1512,1,2,2020.0,2025.0,豊田中央研究所,1,1,True,4,orcid,False,high
+name:oishi|m,Michio Oishi,2,M. Oishi / Michio Oishi,,0,2,2004.0,2006.0,AISIN IMRA(日本・aisin.com),1,0,False,10,name_key,False,medium
+name:nose|k,Keisuke Nose,1,Keisuke Nose,,0,2,2025.0,2025.0,AISIN IMRA(米国・imra.com),1,1,True,11,name_key,False,medium
+name:oishi|k,Koshi Oishi,1,Koshi Oishi,,0,2,2021.0,2022.0,トヨタ自動車未来創成センター / 豊田中央研究所,2,1,True,19,name_key,False,medium
+name:suda|a,Akihiko Suda,1,Akihiko Suda,,0,2,2019.0,2019.0,豊田中央研究所,1,1,True,135,name_key,False,medium
+name:ohta|k,Kunihiro Ohta,1,Kunihiro Ohta,,0,2,2018.0,2020.0,豊田中央研究所,1,0,True,48,name_key,False,medium
+name:yamaguchi|h,Hiroyuki Yamaguchi,2,H. Yamaguchi / Hiroyuki Yamaguchi,,0,2,2019.0,2024.0,豊田中央研究所,1,0,False,127,name_key,False,medium
+name:oda|a,Arisa H. Oda,2,Arisa H. Oda / Arisa Oda,,0,2,2018.0,2020.0,豊田中央研究所,1,0,True,48,name_key,False,medium
+name:ohtake|h,Hideyuki Ohtake,2,H. Ohtake / Hideyuki Ohtake,,0,2,2000.0,2001.0,AISIN IMRA(米国・imra.com),1,0,True,28,name_key,False,medium
+orcid:0000-0001-7386-5871,Tetsuya Shimogaki,1,Tetsuya Shimogaki,0000-0001-7386-5871,1,2,2021.0,2023.0,豊田中央研究所,1,0,False,18,orcid,False,high
+orcid:0000-0001-7331-3380,Tohru Shiga,1,Tohru Shiga,0000-0001-7331-3380,1,2,2019.0,2021.0,豊田中央研究所,1,1,True,31,orcid,False,high
+name:ogimoto|k,Kazuhiko Ogimoto,1,Kazuhiko Ogimoto,,0,2,2024.0,2025.0,豊田中央研究所,1,0,False,20,name_key,False,medium
+name:ohmori|t,Toshihide Ohmori,1,Toshihide Ohmori,,0,2,2020.0,2020.0,豊田中央研究所,1,1,True,15,name_key,False,medium
+name:yanagisawa|k,Keiichi Yanagisawa,1,Keiichi Yanagisawa,,0,2,2019.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,78,name_key,False,medium
+orcid:0000-0001-5938-9557,Noritoshi Atsumi,1,Noritoshi Atsumi,0000-0001-5938-9557,1,2,2020.0,2023.0,豊田中央研究所,1,1,True,20,orcid,False,high
+name:nagami|f,Fuji Nagami,1,Fuji Nagami,,0,2,2022.0,2024.0,豊田中央研究所,1,0,False,10,name_key,False,medium
+name:suzuoki|t,Tetsunori Suzuoki,1,Tetsunori Suzuoki,,0,2,2019.0,2024.0,豊田中央研究所,1,0,False,28,name_key,False,medium
+name:reider|g,G. A. Reider,2,G. A. Reider / G.A. Reider,,0,2,1995.0,1995.0,AISIN IMRA(米国・imra.com),1,0,False,6,name_key,True,low
+name:reichman|w,Wilbur J. Reichman,2,W. J. Reichman / Wilbur J. Reichman,,0,2,2006.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,3,name_key,False,medium
+name:reddy|v,Veeranagari Gopal Reddy,2,V GOPAL REDDY / Veeranagari Gopal Reddy,,0,2,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,62,name_key,False,medium
+name:smith|d,D. A. Smith,2,D. A. Smith / D.A. Smith,,0,2,1993.0,1993.0,AISIN IMRA(米国・imra.com),1,0,False,37,name_key,True,low
+name:nagatani|t,Takaaki Nagatani,1,Takaaki Nagatani,,0,2,2018.0,2018.0,トヨタ自動車未来創成センター,1,0,False,20,name_key,False,medium
+name:takanashi|m,Masaki Takanashi,1,Masaki Takanashi,,0,2,2022.0,2024.0,豊田中央研究所,1,0,False,10,name_key,False,medium
+orcid:0000-0001-9271-3574,Izumi Umegaki,1,Izumi Umegaki,0000-0001-9271-3574,1,2,2018.0,2020.0,豊田中央研究所,1,1,True,69,orcid,False,high
+orcid:0000-0001-9155-6212,Eizo Ushijima,1,Eizo Ushijima,0000-0001-9155-6212,1,2,2020.0,2021.0,AISIN IMRA(日本・aisin.com),1,1,True,5,orcid,False,high
+name:takahashi|y,Yoshio Takahashi,1,Yoshio Takahashi,,0,2,2012.0,2014.0,AISIN IMRA(日本・aisin.com),1,0,False,58,name_key,False,medium
+name:yella reddy|p,Paidi Yella Reddy,1,Paidi Yella Reddy,,0,2,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,1,True,38,name_key,False,medium
+orcid:0000-0001-5584-4938,Masao Shibata,1,Masao Shibata,0000-0001-5584-4938,1,2,2020.0,2023.0,豊田中央研究所,1,0,False,32,orcid,False,high
+name:yano|k,Kazuhisa Yano,1,Kazuhisa Yano,,0,2,2020.0,2024.0,豊田中央研究所,1,1,True,38,name_key,False,medium
+orcid:0000-0001-5649-7130,Yuhei Yamaguchi,1,Yuhei Yamaguchi,0000-0001-5649-7130,1,2,2021.0,2024.0,豊田中央研究所,1,0,False,79,orcid,False,high
+orcid:0000-0001-8843-6180,Minoru Waki,1,Minoru Waki,0000-0001-8843-6180,1,2,2018.0,2023.0,豊田中央研究所,1,2,True,32,orcid,False,high
+name:nanba|t,Tetsuya Nanba,1,Tetsuya Nanba,,0,2,2024.0,2024.0,豊田中央研究所,1,0,False,13,name_key,False,medium
+name:yang|l,L.-M. Yang,1,L.-M. Yang,,0,2,1993.0,1994.0,AISIN IMRA(米国・imra.com),1,0,False,112,name_key,False,medium
+name:yanagi|y,Yousuke Yanagi,1,Yousuke Yanagi,,0,2,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,2,True,2,name_key,False,medium
+name:nakanishi|a,Akio Nakanishi,2,A. Nakanishi / Akio Nakanishi,,0,2,2000.0,2001.0,AISIN IMRA(米国・imra.com),1,0,True,28,name_key,False,medium
+name:nakano|h,Hiroyuki Nakano,1,Hiroyuki Nakano,,0,2,2021.0,2024.0,豊田中央研究所,1,1,True,25,name_key,False,medium
+name:suzuki|s,Shigeru Suzuki,2,S. Suzuki / Shigeru Suzuki,,0,2,2011.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,104,name_key,False,medium
+orcid:0000-0001-8665-0028,Mitsutaro Umehara,1,Mitsutaro Umehara,0000-0001-8665-0028,1,2,2023.0,2024.0,豊田中央研究所,1,2,True,10,orcid,False,high
+name:nakaoki|y,Yuichiro Nakaoki,1,Yuichiro Nakaoki,,0,2,2008.0,2016.0,AISIN IMRA(日本・aisin.com),1,1,True,10,name_key,False,medium
+name:nakao|a,Akihiro Nakao,2,Akihiro Nakao / Akiko Nakao,,0,2,2019.0,2021.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,0,True,17,name_key,False,medium
+name:nakashita|t,Tomoya Nakashita,1,Tomoya Nakashita,,0,2,2023.0,2024.0,AISIN IMRA(米国・imra.com),1,0,True,32,name_key,False,medium
+orcid:0000-0001-8418-4633,Tomoki Nishi,1,Tomoki Nishi,0000-0001-8418-4633,1,2,2025.0,2025.0,豊田中央研究所,1,0,False,8,orcid,False,high
+name:nakaya|n,Naoki Nakaya,1,Naoki Nakaya,,0,2,2022.0,2024.0,豊田中央研究所,1,0,False,10,name_key,False,medium
+name:nakazato|c,Chikara Nakazato,1,Chikara Nakazato,,0,2,2018.0,2018.0,トヨタ自動車未来創成センター,1,0,False,20,name_key,False,medium
+name:nakazato|k,Kazuo Nakazato,1,Kazuo Nakazato,,0,2,2020.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,5,name_key,False,medium
+orcid:0000-0001-5872-3365,Yuichi Manaka,1,Yuichi Manaka,0000-0001-5872-3365,1,2,2024.0,2024.0,豊田中央研究所,1,0,False,13,orcid,False,high
+orcid:0009-0009-7908-1096,Junpei Oba,1,Junpei Oba,0009-0009-7908-1096,1,2,2023.0,2025.0,豊田中央研究所,1,1,True,20,orcid,False,high
+name:minoshima|k,K. Minoshima,1,K. Minoshima,,0,2,2004.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,177,name_key,True,low
+orcid:0000-0002-7912-3403,Shinichi Ookawara,1,Shinichi Ookawara,0000-0002-7912-3403,1,2,2024.0,2024.0,豊田中央研究所,1,0,False,13,orcid,False,high
+name:hozawa|a,Atsushi Hozawa,1,Atsushi Hozawa,,0,2,2022.0,2024.0,豊田中央研究所,1,0,False,10,name_key,False,medium
+orcid:0000-0002-7452-2827,S. Macrae Montgomery,1,S. Macrae Montgomery,0000-0002-7452-2827,1,2,2023.0,2024.0,豊田中央研究所,1,0,True,67,orcid,False,high
+name:honma|t,Tetsuo Honma,1,Tetsuo Honma,,0,2,2012.0,2014.0,AISIN IMRA(日本・aisin.com),1,0,False,58,name_key,False,medium
+name:hong|f,F.-L. Hong,1,F.-L. Hong,,0,2,2004.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,177,name_key,False,medium
+name:hirotani|j,Jun Hirotani,1,Jun Hirotani,,0,2,2021.0,2023.0,豊田中央研究所,1,0,True,16,name_key,False,medium
+name:hirata|h,Hirohito Hirata,1,Hirohito Hirata,,0,2,2020.0,2022.0,豊田中央研究所,1,1,True,146,name_key,False,medium
+name:hirao|r,Rie Hirao,1,Rie Hirao,,0,2,2023.0,2024.0,豊田中央研究所,1,2,True,28,name_key,False,medium
+name:higuchi|k,Kazuo Higuchi,1,Kazuo Higuchi,,0,2,2018.0,2023.0,豊田中央研究所,1,2,True,31,name_key,False,medium
+orcid:0000-0002-8015-5218,Norihiro Fukaya,1,Norihiro Fukaya,0000-0002-8015-5218,1,2,2024.0,2024.0,豊田中央研究所,1,0,False,22,orcid,False,high
+name:guo|w,W. Guo,1,W. Guo,,0,2,2007.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,89,name_key,True,low
+orcid:0000-0002-8053-9473,Makoto Chikaraishi,1,Makoto Chikaraishi,0000-0002-8053-9473,1,2,2022.0,2023.0,豊田中央研究所,1,0,False,9,orcid,False,high
+orcid:0000-0002-8160-7298,Yumi Inagaki,1,Yumi Inagaki,0000-0002-8160-7298,1,2,2020.0,2024.0,豊田中央研究所,1,1,True,14,orcid,False,high
+name:hayashida|h,Hirotoshi Hayashida,1,Hirotoshi Hayashida,,0,2,2023.0,2024.0,豊田中央研究所,1,0,True,59,name_key,False,medium
+orcid:0000-0002-8362-2694,Ken‐ichi Fujita,2,Ken‐ichi Fujita / Kikuo Fujita,0000-0002-8362-2694,1,2,2019.0,2020.0,豊田中央研究所,1,0,True,57,orcid,False,high
+orcid:0000-0002-8588-1948,Shogo Sayama,1,Shogo Sayama,0000-0002-8588-1948,1,2,2022.0,2025.0,豊田中央研究所,1,0,False,15,orcid,False,high
+orcid:0000-0002-8610-047X,Takahiro Horiba,1,Takahiro Horiba,0000-0002-8610-047X,1,2,2024.0,2024.0,豊田中央研究所,1,1,True,104,orcid,False,high
+name:hamaguchi|t,Tsuyoshi Hamaguchi,1,Tsuyoshi Hamaguchi,,0,2,2019.0,2021.0,豊田中央研究所,1,1,True,62,name_key,False,medium
+name:hamaguchi|k,Kanae Hamaguchi,1,Kanae Hamaguchi,,0,2,2020.0,2021.0,豊田中央研究所,1,0,False,113,name_key,False,medium
+name:ho|s,Stephen Ho,1,Stephen Ho,,0,2,2005.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,4,name_key,False,medium
+orcid:0000-0002-7351-4649,Takashi Harada,1,Takashi Harada,0000-0002-7351-4649,1,2,2019.0,2023.0,豊田中央研究所,1,0,True,47,orcid,False,high
+orcid:0000-0002-7283-8617,Hiroaki Yoshida,1,Hiroaki Yoshida,0000-0002-7283-8617,1,2,2018.0,2025.0,豊田中央研究所,1,0,False,57,orcid,False,high
+orcid:0000-0002-7274-0708,Shun-ichi Azuma,1,Shun-ichi Azuma,0000-0002-7274-0708,1,2,2019.0,2020.0,豊田中央研究所,1,0,False,38,orcid,False,high
+orcid:0000-0002-4783-3080,Rubab Amin,1,Rubab Amin,0000-0002-4783-3080,1,2,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,1,True,29,orcid,False,high
+orcid:0000-0002-4810-092X,Giles Allison,1,Giles Allison,0000-0002-4810-092X,1,2,2017.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,False,113,orcid,False,high
+name:kanazawa|h,Hoshinori Kanazawa,1,Hoshinori Kanazawa,,0,2,2023.0,2025.0,豊田中央研究所,1,0,False,15,name_key,False,medium
+name:kamitaka|y,Yuji Kamitaka,1,Yuji Kamitaka,,0,2,2020.0,2021.0,豊田中央研究所,1,0,False,108,name_key,False,medium
+orcid:0000-0002-5113-0927,Hiroya Tanaka,1,Hiroya Tanaka,0000-0002-5113-0927,1,2,2018.0,2019.0,豊田中央研究所,1,0,False,10,orcid,False,high
+orcid:0000-0002-5586-4346,Takashi Machida,1,Takashi Machida,0000-0002-5586-4346,1,2,2022.0,2022.0,豊田中央研究所,1,1,True,7,orcid,False,high
+orcid:0000-0002-6018-9277,Kazuhide Kamiya,1,Kazuhide Kamiya,0000-0002-6018-9277,1,2,2019.0,2020.0,豊田中央研究所,1,0,True,33,orcid,False,high
+name:iwafune|y,Yumiko Iwafune,1,Yumiko Iwafune,,0,2,2024.0,2025.0,豊田中央研究所,1,0,False,20,name_key,False,medium
+orcid:0000-0002-6513-0610,Mitsuru Matsumoto,2,Mitsuru Matsumoto / Morio Matsumoto,0000-0002-6513-0610,1,2,2020.0,2023.0,豊田中央研究所,1,0,False,83,orcid,False,high
+name:ishigaki|m,Masanori Ishigaki,1,Masanori Ishigaki,,0,2,2019.0,2020.0,豊田中央研究所,1,0,False,9,name_key,False,medium
+name:inoue|y,Yoshinori Inoue,1,Yoshinori Inoue,,0,2,2021.0,2024.0,豊田中央研究所,1,0,False,29,name_key,False,medium
+name:inoue|j,Jin Inoue,2,J. Inoue / Jin Inoue,,0,2,2006.0,2009.0,AISIN IMRA(日本・aisin.com),1,0,False,56,name_key,False,medium
+name:inoue|d,Daisuke Inoue,1,Daisuke Inoue,,0,2,2020.0,2021.0,豊田中央研究所,1,0,False,127,name_key,False,medium
+name:inaba|h,H. Inaba,1,H. Inaba,,0,2,2004.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,177,name_key,True,low
+name:ikuta|y,Yasuhiro Ikuta,1,Yasuhiro Ikuta,,0,2,2019.0,2019.0,豊田中央研究所,1,1,True,4,name_key,False,medium
+name:ikawa|t,Taiji Ikawa,1,Taiji Ikawa,,0,2,2019.0,2022.0,豊田中央研究所,1,0,False,46,name_key,False,medium
+orcid:0000-0002-7160-7331,Michael Eisterer,1,Michael Eisterer,0000-0002-7160-7331,1,2,2019.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,83,orcid,False,high
+name:haberl|f,F. Haberl,1,F. Haberl,,0,2,1992.0,1996.0,AISIN IMRA(米国・imra.com),1,0,False,146,name_key,True,low
+name:graetzel|m,Michael Graetzel,1,Michael Graetzel,,0,2,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,True,28,name_key,False,medium
+name:karpowicz|n,Nicholas Karpowicz,1,Nicholas Karpowicz,,0,2,2005.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,57,name_key,False,medium
+name:ayano|f,Fumiya Ayano,1,Fumiya Ayano,,0,2,2019.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,36,name_key,False,medium
+orcid:0000-0003-4869-4374,Izuru Miyazaki,1,Izuru Miyazaki,0000-0003-4869-4374,1,2,2023.0,2024.0,豊田中央研究所,1,2,True,10,orcid,False,high
+orcid:0000-0003-4976-7301,Tomoyuki Nagai,1,Tomoyuki Nagai,0000-0003-4976-7301,1,2,2021.0,2021.0,豊田中央研究所,1,0,False,881,orcid,False,high
+orcid:0009-0000-0508-3309,Ashenafi Abadi,1,Ashenafi Abadi,0009-0000-0508-3309,1,2,2024.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,False,24,orcid,False,high
+name:barty|c,Christopher P. J. Barty,2,C. P. J. Barty / Christopher P. J. Barty,,0,2,2006.0,2007.0,AISIN IMRA(米国・imra.com),1,0,False,75,name_key,False,medium
+orcid:0009-0001-1124-3513,Ryohei Morimoto,1,Ryohei Morimoto,0009-0001-1124-3513,1,2,2024.0,2025.0,豊田中央研究所,1,2,True,18,orcid,False,high
+name:balzani|d,Daniel Balzani,1,Daniel Balzani,,0,2,2018.0,2020.0,豊田中央研究所,1,0,False,10,name_key,False,medium
+orcid:0009-0001-3143-1327,Masaaki Tani,2,M. Tani / Masaaki Tani,0009-0001-3143-1327,1,2,2026.0,2026.0,AISIN IMRA(米国・imra.com) / 豊田中央研究所,2,0,False,0,orcid,False,high
+orcid:0009-0002-5972-1091,Tsukasa Usuki,1,Tsukasa Usuki,0009-0002-5972-1091,1,2,2023.0,2025.0,豊田中央研究所,1,1,True,34,orcid,False,high
+name:asano|y,Yoshitaka Asano,1,Yoshitaka Asano,,0,2,2020.0,2021.0,豊田中央研究所,1,0,True,7,name_key,False,medium
+orcid:0000-0002-8972-2477,Philip St. J.Russell,2,Philip St. J.Russell / Philip St.J. Russell,0000-0002-8972-2477,1,2,2022.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,15,orcid,False,high
+orcid:0009-0004-8382-3615,Tetsuro Kobayashi,1,Tetsuro Kobayashi,0009-0004-8382-3615,1,2,2020.0,2024.0,豊田中央研究所,1,0,False,47,orcid,False,high
+orcid:0009-0005-8072-4504,Daiki Mori,1,Daiki Mori,0009-0005-8072-4504,1,2,2020.0,2025.0,豊田中央研究所,1,1,True,11,orcid,False,high
+orcid:0009-0006-2428-488X,Tsuneaki Watanabe,2,Taro Watanabe / Tsuneaki Watanabe,0009-0006-2428-488X,1,2,2007.0,2026.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,0,False,1,orcid,False,high
+name:andou|m,Masao Andou,1,Masao Andou,,0,2,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,1,True,20,name_key,False,medium
+orcid:0009-0006-5782-1549,Chikara Ohto,1,Chikara Ohto,0009-0006-5782-1549,1,2,2018.0,2025.0,豊田中央研究所,1,0,False,36,orcid,False,high
+name:amano|h,Hiroshi Amano,1,Hiroshi Amano,,0,2,2020.0,2020.0,豊田中央研究所,1,0,True,11,name_key,False,medium
+name:allison|t,Thomas K. Allison,1,Thomas K. Allison,,0,2,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,425,name_key,False,medium
+name:aihara|k,Kazuyuki Aihara,1,Kazuyuki Aihara,,0,2,2019.0,2021.0,豊田中央研究所,1,0,False,108,name_key,False,medium
+name:bischoff|m,Mark Bischoff,2,M. Bischoff / Mark Bischoff,,0,2,2001.0,2003.0,AISIN IMRA(米国・imra.com),1,0,False,6,name_key,False,medium
+name:blixt|p,Peter Blixt,2,P. Blixt / Peter Blixt,,0,2,1993.0,1994.0,AISIN IMRA(米国・imra.com),1,0,True,63,name_key,False,medium
+orcid:0000-0003-3597-1328,Hiroki Kobayashi,1,Hiroki Kobayashi,0000-0003-3597-1328,1,2,2023.0,2024.0,豊田中央研究所,1,1,True,56,orcid,False,high
+name:chou|m,M. H. Chou,1,M. H. Chou,,0,2,1997.0,1998.0,AISIN IMRA(米国・imra.com),1,0,False,202,name_key,True,low
+name:gorai|n,Naoki Gorai,1,Naoki Gorai,,0,2,2017.0,2021.0,AISIN IMRA(日本・aisin.com),1,1,True,82,name_key,False,medium
+orcid:0000-0002-9618-3387,Hirotoshi Hirai,1,Hirotoshi Hirai,0000-0002-9618-3387,1,2,2024.0,2024.0,豊田中央研究所,1,1,True,4,orcid,False,high
+name:galvanauskes|a,Almantas Galvanauskes,1,Almantas Galvanauskes,,0,2,1999.0,2002.0,AISIN IMRA(米国・imra.com),1,0,False,5,name_key,False,medium
+orcid:0000-0003-0192-5526,Satoshi Kondo,2,Satoshi Kondo / Shigeru Kondo,0000-0003-0192-5526,1,2,2018.0,2021.0,豊田中央研究所,1,0,False,40,orcid,False,high
+name:fujimoto|s,Satoshi Fujimoto,1,Satoshi Fujimoto,,0,2,2020.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,5,name_key,False,medium
+name:fujii|f,Fumio Fujii,1,Fumio Fujii,,0,2,2020.0,2021.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+orcid:0000-0003-1070-387X,Hiroaki Misawa,1,Hiroaki Misawa,0000-0003-1070-387X,1,2,2017.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,False,113,orcid,False,high
+orcid:0000-0003-1464-8230,Takayuki Fuyuto,1,Takayuki Fuyuto,0000-0003-1464-8230,1,2,2018.0,2019.0,豊田中央研究所,1,2,True,23,orcid,False,high
+orcid:0000-0003-1601-2308,Yoshihiro Ohama,1,Yoshihiro Ohama,0000-0003-1601-2308,1,2,2021.0,2024.0,豊田中央研究所,1,2,True,6,orcid,False,high
+orcid:0000-0003-1827-5494,Kaito Miyamoto,1,Kaito Miyamoto,0000-0003-1827-5494,1,2,2019.0,2022.0,豊田中央研究所,1,1,True,28,orcid,False,high
+orcid:0000-0003-1897-3487,Yuichi Yamaguchi,1,Yuichi Yamaguchi,0000-0003-1897-3487,1,2,2023.0,2025.0,豊田中央研究所,1,0,True,9,orcid,False,high
+name:dong|f,Fei Dong,1,Fei Dong,,0,2,2019.0,2021.0,豊田中央研究所,1,0,False,47,name_key,False,medium
+name:dohmae|k,Kazuhiko Dohmae,1,Kazuhiko Dohmae,,0,2,2019.0,2019.0,豊田中央研究所,1,0,False,61,name_key,False,medium
+name:dawson|j,Jay W. Dawson,2,J. W. Dawson / Jay W. Dawson,,0,2,2006.0,2007.0,AISIN IMRA(米国・imra.com),1,0,False,75,name_key,False,medium
+orcid:0000-0003-2959-4183,Yuma Kawamoto,1,Yuma Kawamoto,0000-0003-2959-4183,1,2,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,29,orcid,False,high
+orcid:0000-0003-3150-0510,Md Abdus Samad Kamal,1,Md Abdus Samad Kamal,0000-0003-3150-0510,1,2,2019.0,2020.0,豊田中央研究所,1,0,False,38,orcid,False,high
+name:cing z|a,Arman Cingöz,1,Arman Cingöz,,0,2,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,425,name_key,False,medium
+name:kantam|m,Mannepalli Lakshmi Kantam,2,M. Lakshmi Kantam / Mannepalli Lakshmi Kantam,,0,2,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,True,39,name_key,False,medium
+name:hayashi|k,Koki Hayashi,1,Koki Hayashi,,0,2,2017.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,False,113,name_key,False,medium
+name:uedono|a,Akira Uedono,1,Akira Uedono,,0,2,2019.0,2020.0,豊田中央研究所,1,0,False,45,name_key,False,medium
+orcid:0000-0002-3901-9572,Liang Yue,1,Liang Yue,0000-0002-3901-9572,1,2,2023.0,2024.0,豊田中央研究所,1,0,True,67,orcid,False,high
+name:kojima|k,Kazunobu Kojima,2,Katsura Kojima / Kazunobu Kojima,,0,2,2019.0,2020.0,豊田中央研究所,1,0,True,42,name_key,False,medium
+orcid:0000-0002-1255-388X,Shintaro Yamasaki,1,Shintaro Yamasaki,0000-0002-1255-388X,1,2,2019.0,2021.0,豊田中央研究所,1,0,False,25,orcid,False,high
+name:kohda|k,Katsunori Kohda,1,Katsunori Kohda,,0,2,2019.0,2021.0,豊田中央研究所,1,0,False,28,name_key,False,medium
+name:kogure|m,Mana Kogure,1,Mana Kogure,,0,2,2022.0,2024.0,豊田中央研究所,1,0,False,10,name_key,False,medium
+orcid:0000-0002-3212-5284,H. Jerry Qi,1,H. Jerry Qi,0000-0002-3212-5284,1,2,2023.0,2024.0,豊田中央研究所,1,0,True,67,orcid,False,high
+name:matsuoka|y,Yoriko Matsuoka,1,Yoriko Matsuoka,,0,2,2020.0,2021.0,豊田中央研究所,1,0,False,46,name_key,False,medium
+orcid:0000-0002-3927-0492,Koji Kimoto,1,Koji Kimoto,0000-0002-3927-0492,1,2,2019.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,78,orcid,False,high
+name:minagawa|h,Haruki Minagawa,1,Haruki Minagawa,,0,2,2018.0,2018.0,トヨタ自動車未来創成センター,1,0,False,20,name_key,False,medium
+name:matsuyama|t,Takashi Matsuyama,1,Takashi Matsuyama,,0,2,2019.0,2022.0,豊田中央研究所,1,0,False,17,name_key,False,medium
+orcid:0000-0002-1184-3332,Takayuki Matsui,1,Takayuki Matsui,0000-0002-1184-3332,1,2,2022.0,2022.0,豊田中央研究所,1,2,True,26,orcid,False,high
+name:kitagawa yogo|r,Ritsuko Kitagawa-Yogo,2,Ritsuko Kitagawa-Yogo / Ritsuko Kitagawa‐Yogo,,0,2,2020.0,2025.0,豊田中央研究所,1,2,True,12,name_key,False,medium
+name:mckay|h,Hugh A. McKay,2,Hugh A McKay / Hugh A. McKay,,0,2,2008.0,2011.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,False,medium
+name:meade|t,T. Meade,1,T. Meade,,0,2,2000.0,2001.0,AISIN IMRA(米国・imra.com),1,0,True,336,name_key,True,low
+name:mikawa|t,Tsutomu Mikawa,2,T. Mikawa / Tsutomu Mikawa,,0,2,2006.0,2009.0,AISIN IMRA(日本・aisin.com),1,0,False,56,name_key,False,medium
+name:kojima|t,Takashi Kojima,1,Takashi Kojima,,0,2,2019.0,2021.0,豊田中央研究所,1,0,False,24,name_key,False,medium
+name:komori|y,Yasuhiro Komori,1,Yasuhiro Komori,,0,2,2019.0,2020.0,豊田中央研究所,1,0,True,33,name_key,False,medium
+name:kondoh|t,Tsuguo Kondoh,1,Tsuguo Kondoh,,0,2,2019.0,2019.0,豊田中央研究所,1,0,False,109,name_key,False,medium
+name:matsubara|t,Takamitsu Matsubara,1,Takamitsu Matsubara,,0,2,2020.0,2021.0,豊田中央研究所,1,0,False,20,name_key,False,medium
+name:matsubara|h,Hiroyuki Matsubara,1,Hiroyuki Matsubara,,0,2,2019.0,2023.0,豊田中央研究所,1,1,True,17,name_key,False,medium
+name:kraatz|s,Simon Kraatz,2,S. Kraatz / Simon Kraatz,,0,2,2004.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,100,name_key,False,medium
+name:krol|d,Denise M. Krol,2,D. M. Krol / Denise M. Krol,,0,2,2006.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,3,name_key,False,medium
+name:kubo|m,Michael K. Kubo,2,M. Kenya Kubo / Michael K. Kubo,,0,2,2018.0,2020.0,豊田中央研究所,1,0,True,69,name_key,False,medium
+name:kumagai|h,Hitoshi Kumagai,1,Hitoshi Kumagai,,0,2,2021.0,2023.0,豊田中央研究所,1,1,True,41,name_key,False,medium
+name:lu|y,Y. F. Lu,2,Y. F. Lu / Y.F. Lu,,0,2,2007.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,37,name_key,True,low
+name:kuniyoshi|y,Yasuo Kuniyoshi,1,Yasuo Kuniyoshi,,0,2,2023.0,2025.0,豊田中央研究所,1,0,False,15,name_key,False,medium
+orcid:0000-0002-2462-7284,Gengji Zhou,1,Gengji Zhou,0000-0002-2462-7284,1,2,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,13,orcid,False,high
+orcid:0000-0002-1758-0043,Changyoung Yuhn,1,Changyoung Yuhn,0000-0002-1758-0043,1,2,2023.0,2024.0,豊田中央研究所,1,1,True,56,orcid,False,high
+name:li|m,Ming Li,2,M. Li / Ming Li,,0,2,1999.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,16,name_key,False,medium
+name:kusumoto|t,Takayoshi Kusumoto,1,Takayoshi Kusumoto,,0,2,2019.0,2020.0,豊田中央研究所,1,0,True,33,name_key,False,medium
+orcid:0000-0002-2292-7961,Masanori Inaba,1,Masanori Inaba,0000-0002-2292-7961,1,2,2021.0,2024.0,豊田中央研究所,1,1,True,51,orcid,False,high
+name:liang dong|,Liang Dong,1,Liang Dong,,0,2,2004.0,2004.0,AISIN IMRA(米国・imra.com),1,0,False,11,name_key,True,low
+orcid:0000-0002-4026-7389,Ritsuko Yaokawa,1,Ritsuko Yaokawa,0000-0002-4026-7389,1,2,2023.0,2025.0,豊田中央研究所,1,2,True,12,orcid,False,high
+name:lee|y,Y. S. Lee,2,Y. S. Lee / Y.-S. Lee,,0,2,2000.0,2001.0,AISIN IMRA(米国・imra.com),1,0,True,336,name_key,False,medium
+name:kato|t,Teruki Kato,1,Teruki Kato,,0,2,2025.0,2025.0,豊田中央研究所,1,1,True,17,name_key,False,medium
+name:kato|h,Hidemi Kato,2,Hidemi Kato / Hisao Kato,,0,2,2020.0,2021.0,AISIN IMRA(日本・aisin.com) / 豊田中央研究所,2,0,False,103,name_key,False,medium
+orcid:0000-0002-4546-3864,Minoru Hirano,1,Minoru Hirano,0000-0002-4546-3864,1,2,2020.0,2021.0,豊田中央研究所,1,1,True,37,orcid,False,high
+name:kawano|k,Keisuke Kawano,1,Keisuke Kawano,,0,2,2020.0,2021.0,豊田中央研究所,1,0,False,8,name_key,False,medium
+name:kawai|y,Yasuaki Kawai,1,Yasuaki Kawai,,0,2,2021.0,2021.0,豊田中央研究所,1,1,True,136,name_key,False,medium
+orcid:0000-0002-4309-2043,Kentaro Yaji,1,Kentaro Yaji,0000-0002-4309-2043,1,2,2019.0,2021.0,豊田中央研究所,1,0,False,25,orcid,False,high
+name:urisu|t,Tsuneo Urisu,1,Tsuneo Urisu,,0,1,2008.0,2008.0,AISIN IMRA(日本・aisin.com),1,0,False,3,name_key,False,medium
+name:yamaoka|u,Utana Yamaoka,1,Utana Yamaoka,,0,1,2024.0,2024.0,AISIN IMRA(日本・aisin.com),1,0,False,2,name_key,False,medium
+orcid:0009-0009-7339-0912,Katsuhiro Kutsuki,1,Katsuhiro Kutsuki,0009-0009-7339-0912,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,11,orcid,False,high
+name:yamanaka|y,Yumi Yamanaka,1,Yumi Yamanaka,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,15,name_key,False,medium
+orcid:0000-0002-1708-8454,Trey Ideker,1,Trey Ideker,0000-0002-1708-8454,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,3,orcid,False,high
+name:yamamoto|n,Naoki Yamamoto,1,Naoki Yamamoto,,0,1,2025.0,2025.0,豊田中央研究所,1,0,True,9,name_key,False,medium
+name:yamakawa|s,Shunsuke Yamakawa,1,Shunsuke Yamakawa,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,24,name_key,False,medium
+orcid:0000-0003-3585-8608,Masato Yamamura,1,Masato Yamamura,0000-0003-3585-8608,1,1,2024.0,2024.0,豊田中央研究所,1,0,False,78,orcid,False,high
+orcid:0000-0003-3691-5133,Kotaro Nagahama,1,Kotaro Nagahama,0000-0003-3691-5133,1,1,2020.0,2020.0,トヨタ自動車未来創成センター,1,0,True,5,orcid,False,high
+orcid:0000-0003-3996-7932,M. I. Dykman,1,M. I. Dykman,0000-0003-3996-7932,1,1,2018.0,2018.0,豊田中央研究所,1,0,False,27,orcid,True,high
+orcid:0000-0003-4213-5299,Magnus Egerstedt,1,Magnus Egerstedt,0000-0003-4213-5299,1,1,2024.0,2024.0,豊田中央研究所,1,0,True,3,orcid,False,high
+orcid:0000-0003-4364-3551,Yoshinao Ishii,1,Yoshinao Ishii,0000-0003-4364-3551,1,1,2022.0,2022.0,豊田中央研究所,1,0,False,5,orcid,False,high
+name:yamada|y,Yuka Yamada,1,Yuka Yamada,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,102,name_key,False,medium
+name:yamada|t,T. Yamada,1,T. Yamada,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,12,name_key,True,low
+name:yamada|d,Daisuke Yamada,1,Daisuke Yamada,,0,1,2021.0,2021.0,豊田中央研究所,1,1,True,4,name_key,False,medium
+name:yagi|m,Mitsuru Yagi,1,Mitsuru Yagi,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,29,name_key,False,medium
+orcid:0000-0003-4413-1857,Roberto Eramo,1,Roberto Eramo,0000-0003-4413-1857,1,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,1,orcid,False,high
+name:usui|t,Tomotaka Usui,1,Tomotaka Usui,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,21,name_key,False,medium
+orcid:0000-0003-4814-1972,Hayato Goto,1,Hayato Goto,0000-0003-4814-1972,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,3,orcid,False,high
+name:yamashita|s,Shunya Yamashita,1,Shunya Yamashita,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,10,name_key,False,medium
+name:wegener|j,J. Wegener,1,J. Wegener,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+orcid:0000-0002-1491-2647,Yoshiharu Uchimoto,1,Yoshiharu Uchimoto,0000-0002-1491-2647,1,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,orcid,False,high
+orcid:0000-0003-2427-0972,Gen Inoue,1,Gen Inoue,0000-0003-2427-0972,1,1,2023.0,2023.0,豊田中央研究所,1,0,False,49,orcid,False,high
+orcid:0000-0003-2130-0523,Akira Yasui,1,Akira Yasui,0000-0003-2130-0523,1,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,orcid,False,high
+name:ukani|r,Rahil Ukani,1,Rahil Ukani,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,11,name_key,False,medium
+name:yoneda|s,Shiori Yoneda,1,Shiori Yoneda,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,33,name_key,False,medium
+name:yokokura|s,Seiya Yokokura,1,Seiya Yokokura,,0,1,2025.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,0,name_key,False,medium
+name:yogo|y,Yasuhiro Yogo,1,Yasuhiro Yogo,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,16,name_key,False,medium
+orcid:0000-0003-2171-3942,Jiaju Ma,1,Jiaju Ma,0000-0003-2171-3942,1,1,2026.0,2026.0,豊田中央研究所,1,0,False,0,orcid,False,high
+name:umeo|m,Miyuki Umeo,1,Miyuki Umeo,,0,1,2012.0,2012.0,AISIN IMRA(日本・aisin.com),1,0,False,20,name_key,False,medium
+name:yi|l,Li Yi,1,Li Yi,,0,1,2019.0,2019.0,AISIN IMRA(米国・imra.com),1,0,False,1,name_key,False,medium
+orcid:0000-0003-2386-5560,Makoto Koike,1,Makoto Koike,0000-0003-2386-5560,1,1,2019.0,2019.0,豊田中央研究所,1,0,False,25,orcid,False,high
+orcid:0000-0003-2410-9214,Yoshitake Suganuma,1,Yoshitake Suganuma,0000-0003-2410-9214,1,1,2023.0,2023.0,豊田中央研究所,1,0,True,4,orcid,False,high
+orcid:0000-0003-2554-2386,Luis Enrique García-Rivera,1,Luis Enrique García-Rivera,0000-0003-2554-2386,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,30,orcid,False,high
+name:yamauchi|t,T. Yamauchi,1,T. Yamauchi,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,25,name_key,True,low
+name:yeo|m,Mark Yeo,1,Mark Yeo,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,35,name_key,False,medium
+orcid:0000-0003-2854-5881,Mario Siciliani de Cumis,1,Mario Siciliani de Cumis,0000-0003-2854-5881,1,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,1,orcid,False,high
+name:yasuda|h,Hiroshi Yasuda,1,Hiroshi Yasuda,,0,1,2021.0,2021.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+orcid:0000-0001-9934-8303,Soichiro Makino,1,Soichiro Makino,0000-0001-9934-8303,1,1,2026.0,2026.0,豊田中央研究所,1,0,False,1,orcid,False,high
+name:yang|w,Weijia Yang,1,Weijia Yang,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,81,name_key,False,medium
+orcid:0000-0003-2877-3438,Daisuke Inoue,1,Daisuke Inoue,0000-0003-2877-3438,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,0,orcid,False,high
+orcid:0000-0001-9989-9965,Kazuki Iida,1,Kazuki Iida,0000-0001-9989-9965,1,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,17,orcid,False,high
+orcid:0000-0003-3143-121X,Takeshi Hatanaka,1,Takeshi Hatanaka,0000-0003-3143-121X,1,1,2020.0,2020.0,豊田中央研究所,1,0,False,10,orcid,False,high
+name:uno|h,Hidetaka Uno,1,Hidetaka Uno,,0,1,2008.0,2008.0,AISIN IMRA(日本・aisin.com),1,0,False,3,name_key,False,medium
+orcid:0000-0003-3505-1652,Amrita Kumar Sana,1,Amrita Kumar Sana,0000-0003-3505-1652,1,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,False,40,orcid,False,high
+orcid:0000-0003-4842-9458,Zhenzhou Cheng,1,Zhenzhou Cheng,0000-0003-4842-9458,1,1,2017.0,2017.0,AISIN IMRA(日本・aisin.com),1,0,False,73,orcid,False,high
+name:usuki|a,Arimitsu Usuki,1,Arimitsu Usuki,,0,1,2019.0,2019.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:webber|j,Julian Webber,1,Julian Webber,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,35,name_key,False,medium
+name:wilke|k,Kyle L. Wilke,1,Kyle L. Wilke,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,395,name_key,False,medium
+orcid:0009-0003-3147-695X,S. Iwase,1,S. Iwase,0009-0003-3147-695X,1,1,2024.0,2024.0,豊田中央研究所,1,1,True,10,orcid,True,high
+name:witcher|j,J. J. Witcher,1,J. J. Witcher,,0,1,2008.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,3,name_key,True,low
+name:wang|m,Mingyang Wang,1,Mingyang Wang,,0,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,39,name_key,False,medium
+orcid:0009-0007-3826-4561,Hinano Mizuno,1,Hinano Mizuno,0009-0007-3826-4561,1,1,2025.0,2025.0,豊田中央研究所,1,1,True,3,orcid,False,high
+name:wang|t,Ting Wang,1,Ting Wang,,0,1,2022.0,2022.0,豊田中央研究所,1,0,True,42,name_key,False,medium
+orcid:0009-0004-2738-0186,Tian Ooi,1,Tian Ooi,0009-0004-2738-0186,1,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,orcid,False,high
+orcid:0009-0004-6466-1294,Jotaro J. Nakane,1,Jotaro J. Nakane,0009-0004-6466-1294,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,11,orcid,False,high
+orcid:0009-0007-1156-1881,Adrian Leitner,1,Adrian Leitner,0009-0007-1156-1881,1,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,orcid,False,high
+orcid:0009-0006-9897-9705,Masane Kin,1,Masane Kin,0009-0006-9897-9705,1,1,2024.0,2024.0,豊田中央研究所,1,0,True,11,orcid,False,high
+name:willis|a,Alexander J. Willis,1,Alexander J. Willis,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:wiesenfeld|j,J. M. Wiesenfeld,1,J. M. Wiesenfeld,,0,1,1994.0,1994.0,AISIN IMRA(米国・imra.com),1,0,True,5,name_key,True,low
+orcid:0000-0002-1404-4392,Tomohiro Tachi,1,Tomohiro Tachi,0000-0002-1404-4392,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,10,orcid,False,high
+name:weyburne|d,D. Weyburne,1,D. Weyburne,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:westbrook|p,P. S. Westbrook,1,P. S. Westbrook,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,102,name_key,True,low
+name:washio|m,Masakazu Washio,1,Masakazu Washio,,0,1,2019.0,2019.0,豊田中央研究所,1,0,True,5,name_key,False,medium
+orcid:0009-0004-9030-7838,Mingzhe Yang,1,Mingzhe Yang,0009-0004-9030-7838,1,1,2025.0,2025.0,豊田中央研究所,1,0,True,15,orcid,False,high
+name:wei|y,Yaochi Wei,1,Yaochi Wei,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,45,name_key,False,medium
+orcid:0000-0002-1167-0072,Michiaki Kamiyama,1,Michiaki Kamiyama,0000-0002-1167-0072,1,1,2026.0,2026.0,豊田中央研究所,1,0,False,0,orcid,False,high
+orcid:0009-0006-1090-729X,Shuji Takahashi,1,Shuji Takahashi,0009-0006-1090-729X,1,1,2026.0,2026.0,豊田中央研究所,1,0,False,0,orcid,False,high
+orcid:0000-0002-1154-6004,Takaaki Hatanaka,1,Takaaki Hatanaka,0000-0002-1154-6004,1,1,2018.0,2018.0,豊田中央研究所,1,1,True,8,orcid,False,high
+name:watanabe|k,Kota Watanabe,1,Kota Watanabe,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,29,name_key,False,medium
+orcid:0000-0002-1114-585X,Takumi Kusano,1,Takumi Kusano,0000-0002-1114-585X,1,1,2026.0,2026.0,豊田中央研究所,1,0,False,0,orcid,False,high
+name:wong|m,Michael S. Wong,1,Michael S. Wong,,0,1,2025.0,2025.0,AISIN IMRA(米国・imra.com),1,0,False,7,name_key,False,medium
+name:wang|e,Evelyn N. Wang,1,Evelyn N. Wang,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,395,name_key,False,medium
+orcid:0009-0001-7700-657X,Yuki Shibata,1,Yuki Shibata,0009-0001-7700-657X,1,1,2025.0,2025.0,豊田中央研究所,1,1,True,2,orcid,False,high
+orcid:0000-0002-1217-5022,Tianqu Zhai,1,Tianqu Zhai,0000-0002-1217-5022,1,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,6,orcid,False,high
+orcid:0000-0002-1382-7184,Tatsuya Kikuchi,1,Tatsuya Kikuchi,0000-0002-1382-7184,1,1,2023.0,2023.0,豊田中央研究所,1,0,False,15,orcid,False,high
+name:y zbasi|n,Nur Sena Yüzbasi,1,Nur Sena Yüzbasi,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,9,name_key,False,medium
+name:vienne|g,G. G. Vienne,1,G. G. Vienne,,0,1,1996.0,1996.0,AISIN IMRA(米国・imra.com),1,0,False,23,name_key,True,low
+orcid:0000-0003-4986-7177,Tomonari Mizoguchi,1,Tomonari Mizoguchi,0000-0003-4986-7177,1,1,2022.0,2022.0,豊田中央研究所,1,0,False,28,orcid,False,high
+orcid:0000-0002-1281-0372,Kengo Nagata,1,Kengo Nagata,0000-0002-1281-0372,1,1,2020.0,2020.0,豊田中央研究所,1,0,True,20,orcid,False,high
+name:vijay kumar|c,Challuri Vijay Kumar,1,Challuri Vijay Kumar,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,True,12,name_key,False,medium
+orcid:0009-0008-5434-477X,Kenro Tokuhiro,1,Kenro Tokuhiro,0009-0008-5434-477X,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,3,orcid,False,high
+orcid:0009-0007-8319-3942,Haruko Toyama,1,Haruko Toyama,0009-0007-8319-3942,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,11,orcid,False,high
+orcid:0000-0002-0946-5870,Hirotaka Yonekura,1,Hirotaka Yonekura,0000-0002-0946-5870,1,1,2021.0,2021.0,豊田中央研究所,1,1,True,6,orcid,False,high
+name:von der wense|l,Lars von der Wense,1,Lars von der Wense,,0,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,name_key,False,medium
+name:wada|e,Eriko Wada,1,Eriko Wada,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:xu|l,L. Xu,1,L. Xu,,0,1,2001.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+orcid:0009-0001-1749-3644,Shin-ichi Tamura,1,Shin-ichi Tamura,0009-0001-1749-3644,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,11,orcid,False,high
+name:xu|h,Hong Xu,1,Hong Xu,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,168,name_key,False,medium
+name:xuanchen|l,Liu Xuanchen,1,Liu Xuanchen,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,49,name_key,False,medium
+orcid:0000-0002-2075-0218,Hidetoshi Teramoto,1,Hidetoshi Teramoto,0000-0002-2075-0218,1,1,2020.0,2020.0,豊田中央研究所,1,0,True,5,orcid,False,high
+name:waizumi|h,Hiroki Waizumi,1,Hiroki Waizumi,,0,1,2025.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,0,name_key,False,medium
+orcid:0000-0002-1248-479X,Pascal Van Der Voort,1,Pascal Van Der Voort,0000-0002-1248-479X,1,1,2018.0,2018.0,豊田中央研究所,1,0,True,13,orcid,False,high
+name:xiang peng|,Xiang Peng,1,Xiang Peng,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:wu|t,Tsai-wei Wu,1,Tsai-wei Wu,,0,1,2008.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,30,name_key,False,medium
+name:wakabayashi|t,Taku Wakabayashi,1,Taku Wakabayashi,,0,1,2025.0,2025.0,豊田中央研究所,1,0,True,5,name_key,False,medium
+name:xiao|c,Chuan Xiao,1,Chuan Xiao,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,30,name_key,False,medium
+orcid:0000-0002-4666-3008,Hidemasa Kosaka,1,Hidemasa Kosaka,0000-0002-4666-3008,1,1,2020.0,2020.0,豊田中央研究所,1,1,True,17,orcid,False,high
+orcid:0000-0002-2170-0431,Yuichi Yamazaki,1,Yuichi Yamazaki,0000-0002-2170-0431,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,11,orcid,False,high
+orcid:0000-0002-2271-6355,Norikazu Saito,1,Norikazu Saito,0000-0002-2271-6355,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,0,orcid,False,high
+orcid:0000-0002-3987-6099,Masao Kinoshita,1,Masao Kinoshita,0000-0002-3987-6099,1,1,2018.0,2018.0,豊田中央研究所,1,1,True,13,orcid,False,high
+orcid:0000-0001-6933-5552,Yasuhiro Hatsugai,1,Yasuhiro Hatsugai,0000-0001-6933-5552,1,1,2022.0,2022.0,豊田中央研究所,1,0,False,28,orcid,False,high
+orcid:0000-0002-6965-6935,Yoshihito Kuno,1,Yoshihito Kuno,0000-0002-6965-6935,1,1,2022.0,2022.0,豊田中央研究所,1,0,False,28,orcid,False,high
+orcid:0000-0002-6990-4177,Hiroshi Itahara,1,Hiroshi Itahara,0000-0002-6990-4177,1,1,2024.0,2024.0,豊田中央研究所,1,1,True,6,orcid,False,high
+orcid:0000-0001-8249-4283,Yuri Yamada,1,Yuri Yamada,0000-0001-8249-4283,1,1,2024.0,2024.0,豊田中央研究所,1,1,True,3,orcid,False,high
+orcid:0000-0002-7045-3107,Teppei Yoshida,1,Teppei Yoshida,0000-0002-7045-3107,1,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,orcid,False,high
+orcid:0000-0001-8303-0552,Seiichi Kunitomi,1,Seiichi Kunitomi,0000-0001-8303-0552,1,1,2023.0,2023.0,豊田中央研究所,1,0,False,7,orcid,False,high
+orcid:0000-0001-6826-9995,Yoshio Hayasaki,1,Yoshio Hayasaki,0000-0001-6826-9995,1,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,34,orcid,False,high
+orcid:0000-0002-7047-3183,Kang Kim,1,Kang Kim,0000-0002-7047-3183,1,1,2024.0,2024.0,豊田中央研究所,1,0,True,3,orcid,False,high
+orcid:0000-0002-7076-655X,Misaki Sakashita,1,Misaki Sakashita,0000-0002-7076-655X,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,7,orcid,False,high
+orcid:0000-0002-7089-8202,Takahito Kashiwabara,1,Takahito Kashiwabara,0000-0002-7089-8202,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,0,orcid,False,high
+orcid:0000-0002-3987-0017,Masaoki Iwasaki,1,Masaoki Iwasaki,0000-0002-3987-0017,1,1,2019.0,2019.0,豊田中央研究所,1,1,True,9,orcid,False,high
+orcid:0000-0002-7226-7076,Alan McLean,1,Alan McLean,0000-0002-7226-7076,1,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,11,orcid,False,high
+orcid:0000-0001-6380-8435,Takanobu Kiss,1,Takanobu Kiss,0000-0001-6380-8435,1,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,12,orcid,False,high
+orcid:0000-0001-6365-2637,Yasamin A Jodat,1,Yasamin A Jodat,0000-0001-6365-2637,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,30,orcid,False,high
+orcid:0000-0001-8508-1660,Yuka Yamada,1,Yuka Yamada,0000-0001-8508-1660,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,10,orcid,False,high
+orcid:0000-0001-8624-2649,T. Shiroka,1,T. Shiroka,0000-0001-8624-2649,1,1,2025.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,0,orcid,True,high
+orcid:0000-0001-6304-4156,Takahiro Shiga,1,Takahiro Shiga,0000-0001-6304-4156,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,3,orcid,False,high
+orcid:0000-0002-3616-079X,Jason F. Kreisberg,1,Jason F. Kreisberg,0000-0002-3616-079X,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,3,orcid,False,high
+orcid:0000-0001-6220-4824,Sho Yamaguchi,1,Sho Yamaguchi,0000-0001-6220-4824,1,1,2020.0,2020.0,豊田中央研究所,1,1,True,39,orcid,False,high
+orcid:0000-0001-6102-1495,Tomomi Nemoto,1,Tomomi Nemoto,0000-0001-6102-1495,1,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,15,orcid,False,high
+orcid:0000-0001-6072-9504,Daniel Kagerbauer,1,Daniel Kagerbauer,0000-0001-6072-9504,1,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,17,orcid,False,high
+orcid:0000-0002-7537-7027,Satoshi Fukui,1,Satoshi Fukui,0000-0002-7537-7027,1,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,orcid,False,high
+orcid:0000-0002-7690-1249,Kazuto Kugou,1,Kazuto Kugou,0000-0002-7690-1249,1,1,2018.0,2018.0,豊田中央研究所,1,0,False,33,orcid,False,high
+orcid:0000-0002-7763-7961,Jun Ogawa,1,Jun Ogawa,0000-0002-7763-7961,1,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,orcid,False,high
+orcid:0000-0002-6850-493X,Yike Huang,1,Yike Huang,0000-0002-6850-493X,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,30,orcid,False,high
+orcid:0000-0002-4173-2211,Sigrid Holleis,1,Sigrid Holleis,0000-0002-4173-2211,1,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,17,orcid,False,high
+orcid:0000-0001-8248-9652,Hideyuki Murata,1,Hideyuki Murata,0000-0001-8248-9652,1,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,False,0,orcid,False,high
+orcid:0000-0001-7521-2743,Hiroyuki Aoki,1,Hiroyuki Aoki,0000-0001-7521-2743,1,1,2022.0,2022.0,豊田中央研究所,1,0,True,29,orcid,False,high
+orcid:0000-0002-4768-5524,R. Khasanov,1,R. Khasanov,0000-0002-4768-5524,1,1,2025.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,0,orcid,True,high
+orcid:0000-0002-4562-9385,Shintaro Arai,1,Shintaro Arai,0000-0002-4562-9385,1,1,2019.0,2019.0,豊田中央研究所,1,0,False,1,orcid,False,high
+orcid:0000-0001-8036-8435,Takeshi Kawasaki,1,Takeshi Kawasaki,0000-0001-8036-8435,1,1,2024.0,2024.0,豊田中央研究所,1,0,True,3,orcid,False,high
+orcid:0000-0002-4887-6250,James A. Elliott,1,James A. Elliott,0000-0002-4887-6250,1,1,2023.0,2023.0,豊田中央研究所,1,0,True,4,orcid,False,high
+orcid:0000-0002-5089-3949,Shingo Ohta,1,Shingo Ohta,0000-0002-5089-3949,1,1,2021.0,2021.0,豊田中央研究所,1,1,True,14,orcid,False,high
+orcid:0000-0002-5436-7516,Erika Ouchi,1,Erika Ouchi,0000-0002-5436-7516,1,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,orcid,False,high
+orcid:0000-0002-5542-2601,Yoshihiro Nomura,1,Yoshihiro Nomura,0000-0002-5542-2601,1,1,2020.0,2020.0,豊田中央研究所,1,1,True,3,orcid,False,high
+orcid:0000-0001-7623-8961,Shintaro Hiraoka,1,Shintaro Hiraoka,0000-0001-7623-8961,1,1,2019.0,2019.0,豊田中央研究所,1,0,False,1,orcid,False,high
+orcid:0000-0002-5558-2664,Anthony Basuni Hamzah,1,Anthony Basuni Hamzah,0000-0002-5558-2664,1,1,2024.0,2024.0,豊田中央研究所,1,0,False,3,orcid,False,high
+orcid:0000-0001-8137-9136,Hiro Tabata,1,Hiro Tabata,0000-0001-8137-9136,1,1,2023.0,2023.0,豊田中央研究所,1,0,True,19,orcid,False,high
+orcid:0000-0002-5791-4386,Akira Onoda,1,Akira Onoda,0000-0002-5791-4386,1,1,2018.0,2018.0,豊田中央研究所,1,0,True,13,orcid,False,high
+orcid:0000-0002-5832-2032,Yoshiharu Hirose,1,Yoshiharu Hirose,0000-0002-5832-2032,1,1,2019.0,2019.0,豊田中央研究所,1,1,True,101,orcid,False,high
+orcid:0000-0001-7023-8020,Marie Ishikawa,1,Marie Ishikawa,0000-0001-7023-8020,1,1,2023.0,2023.0,豊田中央研究所,1,0,False,54,orcid,False,high
+orcid:0000-0002-6016-3229,P. Gao,1,P. Gao,0000-0002-6016-3229,1,1,2016.0,2016.0,AISIN IMRA(日本・aisin.com),1,0,True,38,orcid,True,high
+orcid:0000-0002-4323-8698,Dolores Esquivel,1,Dolores Esquivel,0000-0002-4323-8698,1,1,2018.0,2018.0,豊田中央研究所,1,0,True,13,orcid,False,high
+orcid:0000-0002-6129-4618,Vojtěch Kaiser,1,Vojtěch Kaiser,0000-0002-6129-4618,1,1,2018.0,2018.0,豊田中央研究所,1,0,False,57,orcid,False,high
+orcid:0000-0002-6263-7627,Shuntaro Inoue,1,Shuntaro Inoue,0000-0002-6263-7627,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,30,orcid,False,high
+orcid:0000-0002-6353-5470,Xu Shi,1,Xu Shi,0000-0002-6353-5470,1,1,2017.0,2017.0,AISIN IMRA(日本・aisin.com),1,0,False,73,orcid,False,high
+orcid:0000-0002-6484-4304,Eder Luna Cerón,1,Eder Luna Cerón,0000-0002-6484-4304,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,30,orcid,False,high
+orcid:0000-0002-6505-0450,Peter J. H. Scott,1,Peter J. H. Scott,0000-0002-6505-0450,1,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,orcid,False,high
+orcid:0000-0002-4286-6641,Kazuki Takahashi,1,Kazuki Takahashi,0000-0002-4286-6641,1,1,2024.0,2024.0,豊田中央研究所,1,0,True,11,orcid,False,high
+orcid:0000-0002-6616-197X,Justin Romberg,1,Justin Romberg,0000-0002-6616-197X,1,1,2024.0,2024.0,豊田中央研究所,1,0,True,3,orcid,False,high
+orcid:0000-0002-6618-6974,Haruhiko Yamada,1,Haruhiko Yamada,0000-0002-6618-6974,1,1,2020.0,2020.0,豊田中央研究所,1,0,False,63,orcid,False,high
+orcid:0000-0002-4209-1196,Tomoyuki Shoji,1,Tomoyuki Shoji,0000-0002-4209-1196,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,26,orcid,False,high
+orcid:0000-0001-5795-5068,Daiki Ootsuki,1,Daiki Ootsuki,0000-0001-5795-5068,1,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,orcid,False,high
+orcid:0000-0001-5669-9082,Chuankun Zhang,1,Chuankun Zhang,0000-0001-5669-9082,1,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,orcid,False,high
+orcid:0000-0002-7770-8272,Raoul Kopelman,1,Raoul Kopelman,0000-0002-7770-8272,1,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,11,orcid,False,high
+orcid:0000-0001-9546-4139,Teppei Nishi,1,Teppei Nishi,0000-0001-9546-4139,1,1,2024.0,2024.0,豊田中央研究所,1,1,True,4,orcid,False,high
+name:zhao|g,G.Y. Zhao,1,G.Y. Zhao,,0,1,2007.0,2007.0,AISIN IMRA(米国・imra.com),1,0,False,11,name_key,True,low
+orcid:0000-0002-9343-4320,Pavan Kumar Naik Sugali,1,Pavan Kumar Naik Sugali,0000-0002-9343-4320,1,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,12,orcid,False,high
+orcid:0000-0002-9424-5572,Tomoyuki Yoshida,1,Tomoyuki Yoshida,0000-0002-9424-5572,1,1,2019.0,2019.0,豊田中央研究所,1,1,True,101,orcid,False,high
+orcid:0000-0002-2408-2560,Masanori Ishigaki,1,Masanori Ishigaki,0000-0002-2408-2560,1,1,2023.0,2023.0,豊田中央研究所,1,0,False,28,orcid,False,high
+name:zhang|s,S. B. Zhang,1,S. B. Zhang,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,True,62,name_key,True,low
+orcid:0000-0002-9745-6869,Scott C. Egbert,1,Scott C. Egbert,0000-0002-9745-6869,1,1,2025.0,2025.0,AISIN IMRA(米国・imra.com),1,0,False,3,orcid,False,high
+name:zhang|l,Lenan Zhang,1,Lenan Zhang,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,395,name_key,False,medium
+orcid:0000-0003-0031-9823,Hidehiko Kimura,1,Hidehiko Kimura,0000-0003-0031-9823,1,1,2019.0,2019.0,豊田中央研究所,1,1,True,101,orcid,False,high
+orcid:0000-0002-2392-1887,Y. Lange Simmons,1,Y. Lange Simmons,0000-0002-2392-1887,1,1,2026.0,2026.0,AISIN IMRA(米国・imra.com),1,1,True,0,orcid,False,high
+orcid:0000-0003-0401-6731,Yusuke Noda,1,Yusuke Noda,0000-0003-0401-6731,1,1,2025.0,2025.0,豊田中央研究所,1,0,True,5,orcid,False,high
+orcid:0000-0003-0621-6446,Savanna Lloyd,1,Savanna Lloyd,0000-0003-0621-6446,1,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,False,0,orcid,False,high
+name:yun|y,Yu Yun,1,Yu Yun,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,1,True,12,name_key,False,medium
+orcid:0000-0002-2551-9146,Marissa L. Weichman,1,Marissa L. Weichman,0000-0002-2551-9146,1,1,2026.0,2026.0,AISIN IMRA(米国・imra.com),1,0,True,1,orcid,False,high
+orcid:0000-0003-0708-7973,Tatsuo Fukano,1,Tatsuo Fukano,0000-0003-0708-7973,1,1,2025.0,2025.0,豊田中央研究所,1,1,True,0,orcid,False,high
+orcid:0000-0001-7928-201X,Keita Niitani,1,Keita Niitani,0000-0001-7928-201X,1,1,2022.0,2022.0,豊田中央研究所,1,1,True,5,orcid,False,high
+orcid:0000-0001-9558-1642,Shigefusa F. Chichibu,1,Shigefusa F. Chichibu,0000-0001-9558-1642,1,1,2019.0,2019.0,豊田中央研究所,1,0,False,37,orcid,False,high
+orcid:0000-0003-0800-712X,Ken-ichi Okazaki,1,Ken-ichi Okazaki,0000-0003-0800-712X,1,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,orcid,False,high
+orcid:0000-0003-0863-1512,Toshiji Kanaya,1,Toshiji Kanaya,0000-0003-0863-1512,1,1,2021.0,2021.0,豊田中央研究所,1,0,True,48,orcid,False,high
+orcid:0000-0003-1023-6933,Hiroyuki Yoshida,1,Hiroyuki Yoshida,0000-0003-1023-6933,1,1,2022.0,2022.0,豊田中央研究所,1,0,True,4,orcid,False,high
+orcid:0000-0003-1366-2639,Shrinathan Esaki Muthu Pandara Kone,1,Shrinathan Esaki Muthu Pandara Kone,0000-0003-1366-2639,1,1,2025.0,2025.0,豊田中央研究所,1,1,True,1,orcid,False,high
+orcid:0000-0002-2276-1009,Tsuneya Yoshida,1,Tsuneya Yoshida,0000-0002-2276-1009,1,1,2022.0,2022.0,豊田中央研究所,1,0,False,28,orcid,False,high
+name:yoshikawa|m,Masaaki Yoshikawa,1,Masaaki Yoshikawa,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,1,True,12,name_key,False,medium
+orcid:0000-0003-1494-6502,Kazuki Ohishi,1,Kazuki Ohishi,0000-0003-1494-6502,1,1,2023.0,2023.0,豊田中央研究所,1,0,False,15,orcid,False,high
+orcid:0000-0003-1512-8683,Yujiro Hayashi,1,Yujiro Hayashi,0000-0003-1512-8683,1,1,2019.0,2019.0,豊田中央研究所,1,1,True,101,orcid,False,high
+name:zhong|z,Ziyun Zhong,1,Ziyun Zhong,,0,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,name_key,False,medium
+name:zhu|m,M. Zhu,1,M. Zhu,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,74,name_key,True,low
+orcid:0000-0002-3105-4592,Kotaro Satoh,1,Kotaro Satoh,0000-0002-3105-4592,1,1,2019.0,2019.0,豊田中央研究所,1,0,False,22,orcid,False,high
+orcid:0000-0001-5198-4650,Benjamin Rotenberg,1,Benjamin Rotenberg,0000-0001-5198-4650,1,1,2018.0,2018.0,豊田中央研究所,1,0,False,57,orcid,False,high
+orcid:0000-0001-5629-1319,G. Lamura,1,G. Lamura,0000-0001-5629-1319,1,1,2025.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,0,orcid,True,high
+orcid:0000-0001-5624-8791,Daniel Vela Jarquin,1,Daniel Vela Jarquin,0000-0001-5624-8791,1,1,2021.0,2021.0,豊田中央研究所,1,0,False,30,orcid,False,high
+orcid:0000-0002-7850-3164,Takeshi Ohshima,1,Takeshi Ohshima,0000-0002-7850-3164,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,11,orcid,False,high
+orcid:0000-0002-2937-9814,Tatsuya Nobunaga,1,Tatsuya Nobunaga,0000-0002-2937-9814,1,1,2018.0,2018.0,豊田中央研究所,1,0,False,9,orcid,False,high
+orcid:0000-0002-8056-6287,Toshiyuki Itoh,1,Toshiyuki Itoh,0000-0002-8056-6287,1,1,2024.0,2024.0,豊田中央研究所,1,1,True,1,orcid,False,high
+orcid:0000-0002-2866-7400,Hideyuki Mizuno,1,Hideyuki Mizuno,0000-0002-2866-7400,1,1,2024.0,2024.0,豊田中央研究所,1,0,True,3,orcid,False,high
+orcid:0000-0002-1066-202X,Thorsten Schumm,1,Thorsten Schumm,0000-0002-1066-202X,1,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,orcid,False,high
+orcid:0000-0001-5413-8038,Quan Sun,1,Quan Sun,0000-0001-5413-8038,1,1,2017.0,2017.0,AISIN IMRA(日本・aisin.com),1,0,False,73,orcid,False,high
+orcid:0000-0002-2866-3282,Hideyuki Nakano,1,Hideyuki Nakano,0000-0002-2866-3282,1,1,2018.0,2018.0,豊田中央研究所,1,1,True,42,orcid,False,high
+orcid:0000-0001-5256-4965,Takaya Yamazato,1,Takaya Yamazato,0000-0001-5256-4965,1,1,2019.0,2019.0,豊田中央研究所,1,0,False,1,orcid,False,high
+orcid:0000-0001-5252-1834,Tomoki Himiyama,1,Tomoki Himiyama,0000-0001-5252-1834,1,1,2018.0,2018.0,豊田中央研究所,1,1,True,13,orcid,False,high
+orcid:0000-0001-5122-1063,Toshihiro Shimada,1,Toshihiro Shimada,0000-0001-5122-1063,1,1,2025.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,0,orcid,False,high
+orcid:0000-0002-8857-0029,Michael H. Frosz,1,Michael H. Frosz,0000-0002-8857-0029,1,1,2022.0,2022.0,AISIN IMRA(米国・imra.com),1,0,False,9,orcid,False,high
+orcid:0000-0002-2771-4519,Pablo Cancio Pastor,1,Pablo Cancio Pastor,0000-0002-2771-4519,1,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,1,orcid,False,high
+orcid:0000-0002-8627-6926,Emiliana Fabbri,1,Emiliana Fabbri,0000-0002-8627-6926,1,1,2023.0,2023.0,豊田中央研究所,1,0,True,9,orcid,False,high
+orcid:0000-0002-8707-6723,Kjeld Beeks,1,Kjeld Beeks,0000-0002-8707-6723,1,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,orcid,False,high
+orcid:0000-0001-9312-339X,Masayuki Fujita,1,Masayuki Fujita,0000-0001-9312-339X,1,1,2020.0,2020.0,豊田中央研究所,1,0,False,10,orcid,False,high
+name:zou|m,Meijun Zou,1,Meijun Zou,,0,1,2026.0,2026.0,AISIN IMRA(米国・imra.com),1,0,True,1,name_key,False,medium
+orcid:0000-0002-8739-4246,Kentaro Yamamoto,1,Kentaro Yamamoto,0000-0002-8739-4246,1,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,orcid,False,high
+orcid:0000-0002-8772-7805,Akihiro Nagoya,1,Akihiro Nagoya,0000-0002-8772-7805,1,1,2018.0,2018.0,豊田中央研究所,1,1,True,7,orcid,False,high
+name:zhu|t,Tianye Zhu,1,Tianye Zhu,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,40,name_key,False,medium
+name:zhu|r,Rui Zhu,1,Rui Zhu,,0,1,2020.0,2020.0,トヨタ自動車未来創成センター,1,0,True,5,name_key,False,medium
+orcid:0000-0002-8788-5555,Shintaro Fukushima,1,Shintaro Fukushima,0000-0002-8788-5555,1,1,2025.0,2025.0,豊田中央研究所,1,0,False,3,orcid,False,high
+orcid:0000-0001-9391-6197,Masamichi Yoshimura,1,Masamichi Yoshimura,0000-0001-9391-6197,1,1,2024.0,2024.0,豊田中央研究所,1,0,False,2,orcid,False,high
+name:yuan|s,Songtao Yuan,1,Songtao Yuan,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,40,name_key,False,medium
+name:aaberg|m,Michael Aaberg,1,Michael Aaberg,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,False,143,name_key,False,medium
+name:ueda|s,Sayako Ueda,1,Sayako Ueda,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,1,name_key,False,medium
+name:haruta|h,Hirotaka Haruta,1,Hirotaka Haruta,,0,1,2004.0,2004.0,AISIN IMRA(日本・aisin.com),1,0,False,6,name_key,False,medium
+name:igarashi|k,Kensuke Igarashi,1,Kensuke Igarashi,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,19,name_key,False,medium
+name:igawa|t,Tatsuya Igawa,1,Tatsuya Igawa,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,6,name_key,False,medium
+name:iguchi|h,Hiroko Iguchi,1,Hiroko Iguchi,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,37,name_key,False,medium
+name:iizuka|t,Tetsuya Iizuka,1,Tetsuya Iizuka,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,5,name_key,False,medium
+name:ikeda|k,Kiyohiro Ikeda,1,Kiyohiro Ikeda,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,1,name_key,False,medium
+name:ikenaga|e,Eiji Ikenaga,1,Eiji Ikenaga,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,name_key,False,medium
+name:imai|m,Motoharu Imai,1,Motoharu Imai,,0,1,2019.0,2019.0,AISIN IMRA(日本・aisin.com),1,0,False,66,name_key,False,medium
+name:imamura|c,Chie IMAMURA,1,Chie IMAMURA,,0,1,2010.0,2010.0,AISIN IMRA(日本・aisin.com),1,0,False,5,name_key,False,medium
+name:inagaki|m,Masahide Inagaki,1,Masahide Inagaki,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,14,name_key,False,medium
+name:ishibashi|s,Shoji Ishibashi,1,Shoji Ishibashi,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,37,name_key,False,medium
+name:ishida|t,Tatsuhiro Ishida,1,Tatsuhiro Ishida,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,name_key,False,medium
+name:ishii|k,Ken Ishii,1,Ken Ishii,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,6,name_key,False,medium
+name:ishikawa|s,Shota Ishikawa,1,Shota Ishikawa,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,49,name_key,False,medium
+name:ishikawa|t,Tsuyoshi Ishikawa,1,Tsuyoshi Ishikawa,,0,1,2018.0,2018.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:ishikawa|y,Yoshiharu Ishikawa,1,Yoshiharu Ishikawa,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,30,name_key,False,medium
+name:ishiwata|r,Ryosuke Ishiwata,1,Ryosuke Ishiwata,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:ishizaki|n,Noriko N. Ishizaki,1,Noriko N. Ishizaki,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,28,name_key,False,medium
+name:islam|a,Ashraful Islam,1,Ashraful Islam,,0,1,2013.0,2013.0,AISIN IMRA(日本・aisin.com),1,0,False,18,name_key,False,medium
+name:itagaki|n,N. Itagaki,1,N. Itagaki,,0,1,2002.0,2002.0,AISIN IMRA(米国・imra.com),1,0,False,37,name_key,True,low
+name:itoh|k,Kenji Itoh,1,Kenji Itoh,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:itoigawa|f,Fumihiro Itoigawa,1,Fumihiro Itoigawa,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:ito|m,Masakazu Ito,1,Masakazu Ito,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:iwai|k,Koichiro Iwai,1,Koichiro Iwai,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:iwamoto|k,Kenta Iwamoto,1,Kenta Iwamoto,,0,1,2019.0,2019.0,AISIN IMRA(米国・imra.com),1,0,False,1,name_key,False,medium
+name:iwase|t,Tatsuya Iwase,1,Tatsuya Iwase,,0,1,2022.0,2022.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:iwata|n,Noritoshi Iwata,1,Noritoshi Iwata,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,16,name_key,False,medium
+name:iwata|r,Ryuichi Iwata,1,Ryuichi Iwata,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,395,name_key,False,medium
+name:ide|k,Kazuto Ide,1,Kazuto Ide,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,name_key,False,medium
+name:ichino|f,Fumiya Ichino,1,Fumiya Ichino,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,2,name_key,False,medium
+name:hwang|s,Sangyeul Hwang,1,Sangyeul Hwang,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:higashi|y,Y. Higashi,1,Y. Higashi,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,False,7,name_key,True,low
+name:hasegawa|s,Satoshi Hasegawa,1,Satoshi Hasegawa,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,34,name_key,False,medium
+name:hatanaka|r,Rieko Hatanaka,1,Rieko Hatanaka,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:hattori|y,Yoshikazu Hattori,1,Yoshikazu Hattori,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,6,name_key,False,medium
+name:hayakawa|t,Tetsuichiro Hayakawa,1,Tetsuichiro Hayakawa,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:hayashi|f,Fumiaki Hayashi,1,Fumiaki Hayashi,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,37,name_key,False,medium
+name:hayashi|t,Takashi Hayashi,1,Takashi Hayashi,,0,1,2018.0,2018.0,豊田中央研究所,1,0,True,13,name_key,False,medium
+name:heaney|a,A. Heaney,1,A. Heaney,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,False,5,name_key,True,low
+name:heck|k,Kimberly N. Heck,1,Kimberly N. Heck,,0,1,2025.0,2025.0,AISIN IMRA(米国・imra.com),1,0,False,7,name_key,False,medium
+name:heirich endert|h,Heirich Endert Heirich Endert,1,Heirich Endert Heirich Endert,,0,1,2001.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:he|h,H. P. He,1,H. P. He,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,True,62,name_key,True,low
+name:he|m,Mingfu He,1,Mingfu He,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,395,name_key,False,medium
+name:higashimine|k,Koichi Higashimine,1,Koichi Higashimine,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,False,medium
+name:higemoto|w,Wataru Higemoto,1,Wataru Higemoto,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:hu|y,Y. Hu,1,Y. Hu,,0,1,1999.0,1999.0,AISIN IMRA(米国・imra.com),1,0,False,41,name_key,True,low
+name:higgins|j,Jacob S. Higgins,1,Jacob S. Higgins,,0,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,name_key,False,medium
+name:hirata|f,Fumio Hirata,1,Fumio Hirata,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,1,name_key,False,medium
+name:hirata|y,Yutaka Hirata,1,Yutaka Hirata,,0,1,2019.0,2019.0,豊田中央研究所,1,0,True,7,name_key,False,medium
+name:hiratsuka|s,Shigeyoshi Hiratsuka,1,Shigeyoshi Hiratsuka,,0,1,2019.0,2019.0,豊田中央研究所,1,1,True,6,name_key,False,medium
+name:hirota|y,Y. Hirota,1,Y. Hirota,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,25,name_key,True,low
+name:hoang|c,Chung V. Hoang,1,Chung V. Hoang,,0,1,2017.0,2017.0,AISIN IMRA(日本・aisin.com),1,0,False,73,name_key,False,medium
+name:homma|t,Takayuki Homma,1,Takayuki Homma,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:hong|k,Kiheon Hong,1,Kiheon Hong,,0,1,2025.0,2025.0,AISIN IMRA(米国・imra.com),1,0,False,7,name_key,False,medium
+name:horiba|k,Koji Horiba,1,Koji Horiba,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,name_key,False,medium
+name:hotta|y,Yoshihiro Hotta,1,Yoshihiro Hotta,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,17,name_key,False,medium
+name:hsiao|k,Kuo Mo Hsiao,1,Kuo Mo Hsiao,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,1,name_key,False,medium
+name:hussain|s,Syed I. Hussain,1,Syed I. Hussain,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:jackson|s,S.D. Jackson,1,S.D. Jackson,,0,1,2005.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:jenks|r,R. A. Jenks,1,R. A. Jenks,,0,1,1999.0,1999.0,AISIN IMRA(米国・imra.com),1,0,False,19,name_key,True,low
+name:jiang|m,M. Jiang,1,M. Jiang,,0,1,1999.0,1999.0,AISIN IMRA(米国・imra.com),1,0,False,41,name_key,True,low
+name:koshiba|s,Seizo Koshiba,1,Seizo Koshiba,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:kinoshita|k,Kengo Kinoshita,1,Kengo Kinoshita,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:kishita|k,Keisuke Kishita,1,Keisuke Kishita,,0,1,2019.0,2019.0,豊田中央研究所,1,1,True,9,name_key,False,medium
+name:kitamura|m,Miho Kitamura,1,Miho Kitamura,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,name_key,False,medium
+name:kitano|n,Naoki Kitano,1,Naoki Kitano,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,273,name_key,False,medium
+name:kitazumi|k,Kosuke Kitazumi,1,Kosuke Kitazumi,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,71,name_key,False,medium
+name:kito|h,Hijiri Kito,1,Hijiri Kito,,0,1,2017.0,2017.0,AISIN IMRA(日本・aisin.com),1,0,True,10,name_key,False,medium
+name:knox|w,Wayne H. Knox,1,Wayne H. Knox,,0,1,2007.0,2007.0,AISIN IMRA(米国・imra.com),1,0,False,26,name_key,False,medium
+name:kobayashi|a,Aki Kobayashi,1,Aki Kobayashi,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,33,name_key,False,medium
+name:kobayashi|y,Yuuga Kobayashi,1,Yuuga Kobayashi,,0,1,2019.0,2019.0,AISIN IMRA(日本・aisin.com),1,0,False,66,name_key,False,medium
+name:koda|a,Akihiro Koda,1,Akihiro Koda,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:koiwai|a,Akihiko Koiwai,1,Akihiko Koiwai,,0,1,2021.0,2021.0,豊田中央研究所,1,1,True,40,name_key,False,medium
+name:kondoh|y,Yasuhiro Kondoh,1,Yasuhiro Kondoh,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,11,name_key,False,medium
+name:kozawa|t,Takahiro Kozawa,1,Takahiro Kozawa,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:kimoto|y,Yasuji Kimoto,1,Yasuji Kimoto,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:krotkus|a,A. Krotkus,1,A. Krotkus,,0,1,1992.0,1992.0,AISIN IMRA(米国・imra.com),1,0,True,21,name_key,True,low
+name:krug|p,Peter A. Krug,1,Peter A. Krug,,0,1,1996.0,1996.0,AISIN IMRA(米国・imra.com),1,0,False,20,name_key,False,medium
+name:kumada|t,Takatsune Kumada,1,Takatsune Kumada,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,1,name_key,False,medium
+name:kume|y,Yasuhiro Kume,1,Yasuhiro Kume,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,5,name_key,False,medium
+name:kurahashi|t,Tetsuo Kurahashi,1,Tetsuo Kurahashi,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,2,name_key,False,medium
+name:kurihara|k,Kenta Kurihara,1,Kenta Kurihara,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:kurihara|t,Takao Kurihara,1,Takao Kurihara,,0,1,2025.0,2025.0,AISIN IMRA(米国・imra.com),1,0,False,7,name_key,False,medium
+name:kuriyama|s,Shinichi Kuriyama,1,Shinichi Kuriyama,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:kusakabe|m,Makoto Kusakabe,1,Makoto Kusakabe,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,2,name_key,False,medium
+name:kuwahara|m,Makoto Kuwahara,1,Makoto Kuwahara,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:kuwaki|a,Akira Kuwaki,1,Akira Kuwaki,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,875,name_key,False,medium
+name:kwasnicki|a,Amanda Kwasnicki,1,Amanda Kwasnicki,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:kim|y,Yong-Hoon Kim,1,Yong-Hoon Kim,,0,1,2008.0,2008.0,AISIN IMRA(日本・aisin.com),1,0,False,3,name_key,False,medium
+name:kimmel|m,M. Kimmel,1,M. Kimmel,,0,1,2001.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:jimenez|j,J. Jimenez,1,J. Jimenez,,0,1,1999.0,1999.0,AISIN IMRA(米国・imra.com),1,0,False,41,name_key,True,low
+name:kaneko|y,Y. Kaneko,1,Y. Kaneko,,0,1,2002.0,2002.0,AISIN IMRA(米国・imra.com),1,0,False,37,name_key,True,low
+name:jun ho|y,Yum Jun-Ho,1,Yum Jun-Ho,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,26,name_key,False,medium
+name:jungerman|r,R.L. Jungerman,1,R.L. Jungerman,,0,1,2002.0,2002.0,AISIN IMRA(米国・imra.com),1,0,False,37,name_key,True,low
+name:jung|j,Jieun Jung,1,Jieun Jung,,0,1,2025.0,2025.0,豊田中央研究所,1,0,True,5,name_key,False,medium
+name:ju|y,Yang Ju,1,Yang Ju,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,8,name_key,False,medium
+name:kalyanasundaram|k,Kuppuswamy Kalyanasundaram,1,Kuppuswamy Kalyanasundaram,,0,1,2006.0,2006.0,AISIN IMRA(日本・aisin.com),1,0,False,331,name_key,False,medium
+name:kamada|k,Kenji Kamada,1,Kenji Kamada,,0,1,2025.0,2025.0,豊田中央研究所,1,0,True,5,name_key,False,medium
+name:kameda|t,Tsunenori Kameda,1,Tsunenori Kameda,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,5,name_key,False,medium
+name:kamekawa|m,Masahito Kamekawa,1,Masahito Kamekawa,,0,1,2025.0,2025.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:kamigaito|m,Masami Kamigaito,1,Masami Kamigaito,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,22,name_key,False,medium
+name:kamiya|y,Yoshihisa Kamiya,1,Yoshihisa Kamiya,,0,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,1,True,12,name_key,False,medium
+name:kaneda|y,Yuuki Kaneda,1,Yuuki Kaneda,,0,1,2024.0,2024.0,AISIN IMRA(日本・aisin.com),1,0,False,2,name_key,False,medium
+name:kaneko|t,Takanori Kaneko,1,Takanori Kaneko,,0,1,2026.0,2026.0,豊田中央研究所,1,0,False,1,name_key,False,medium
+name:kanetidis|m,Michael Kanetidis,1,Michael Kanetidis,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,11,name_key,False,medium
+name:kikuta|d,Daigo Kikuta,1,Daigo Kikuta,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,5,name_key,False,medium
+name:kane|s,Steve Kane,1,Steve Kane,,0,1,1996.0,1996.0,AISIN IMRA(米国・imra.com),1,0,False,3,name_key,False,medium
+name:kanno|i,Ikumi Kanno,1,Ikumi Kanno,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:kashima|k,Kenji Kashima,1,Kenji Kashima,,0,1,2026.0,2026.0,豊田中央研究所,1,0,False,0,name_key,False,medium
+name:katagiri|y,Yoshihide Katagiri,1,Yoshihide Katagiri,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,20,name_key,False,medium
+name:kato|d,Daichi Kato,1,Daichi Kato,,0,1,2021.0,2021.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:katsuno|t,Takashi Katsuno,1,Takashi Katsuno,,0,1,2018.0,2018.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:kawaguchi|s,Sho Kawaguchi,1,Sho Kawaguchi,,0,1,2026.0,2026.0,豊田中央研究所,1,0,False,0,name_key,False,medium
+name:kazakov|g,Georgy A. Kazakov,1,Georgy A. Kazakov,,0,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,name_key,False,medium
+name:kazansky|p,Peter G. Kazansky,1,Peter G. Kazansky,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,81,name_key,False,medium
+name:kieu|q,Quynh Kieu,1,Quynh Kieu,,0,1,2022.0,2022.0,AISIN IMRA(米国・imra.com),1,0,False,13,name_key,False,medium
+name:kihira|y,Yuki Kihira,1,Yuki Kihira,,0,1,2021.0,2021.0,豊田中央研究所,1,1,True,14,name_key,False,medium
+name:kikuchi|n,Noboru Kikuchi,1,Noboru Kikuchi,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,92,name_key,False,medium
+name:harvey|j,J.D. Harvey,1,J.D. Harvey,,0,1,2000.0,2000.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:harada|k,Kensuke Harada,1,Kensuke Harada,,0,1,2008.0,2008.0,AISIN IMRA(日本・aisin.com),1,0,False,3,name_key,False,medium
+name:tsutsui|m,Masakazu Tsutsui,1,Masakazu Tsutsui,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,34,name_key,False,medium
+name:harada|a,A. Harada,1,A. Harada,,0,1,2002.0,2002.0,AISIN IMRA(米国・imra.com),1,0,False,37,name_key,True,low
+name:bessho|t,Takeru Bessho,1,Takeru Bessho,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,44,name_key,False,medium
+name:bethge|j,J. Bethge,1,J. Bethge,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,104,name_key,True,low
+name:bocquet|l,Lydéric Bocquet,1,Lydéric Bocquet,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,57,name_key,False,medium
+name:botkin|d,D. Botkin,1,D. Botkin,,0,1,1994.0,1994.0,AISIN IMRA(米国・imra.com),1,0,True,5,name_key,True,low
+name:bo|h,Hiroki Bo,1,Hiroki Bo,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,18,name_key,False,medium
+name:bricchi|e,Erica Bricchi,1,Erica Bricchi,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,81,name_key,False,medium
+name:broberg|b,B. Broberg,1,B. Broberg,,0,1,1992.0,1992.0,AISIN IMRA(米国・imra.com),1,0,True,21,name_key,True,low
+name:broderick|s,Scott R. Broderick,1,Scott R. Broderick,,0,1,2022.0,2022.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:brooks|a,Allen F. Brooks,1,Allen F. Brooks,,0,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,name_key,False,medium
+name:buccafusca|o,O. Buccafusca,1,O. Buccafusca,,0,1,2002.0,2002.0,AISIN IMRA(米国・imra.com),1,0,False,37,name_key,True,low
+name:butryn|m,Martin Butryn,1,Martin Butryn,,0,1,2022.0,2022.0,AISIN IMRA(米国・imra.com),1,0,False,9,name_key,False,medium
+name:byer|r,Robert L. Byer,1,Robert L. Byer,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,283,name_key,False,medium
+name:chapman|a,Archie Chapman,1,Archie Chapman,,0,1,2022.0,2022.0,豊田中央研究所,1,0,True,3,name_key,False,medium
+name:charczun|d,Dominik Charczun,1,Dominik Charczun,,0,1,2026.0,2026.0,AISIN IMRA(米国・imra.com),1,0,True,1,name_key,False,medium
+name:chen|z,Z. J. Chen,1,Z. J. Chen,,0,1,1995.0,1995.0,AISIN IMRA(米国・imra.com),1,0,False,29,name_key,True,low
+name:chiba|i,Ippei Chiba,1,Ippei Chiba,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:chikatani|g,Genta Chikatani,1,Genta Chikatani,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,19,name_key,False,medium
+name:chino|m,Masahiko Chino,1,Masahiko Chino,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,34,name_key,False,medium
+name:cho|k,K. T. Cho,1,K. T. Cho,,0,1,2016.0,2016.0,AISIN IMRA(日本・aisin.com),1,0,True,38,name_key,True,low
+name:clark|a,Adam H. Clark,1,Adam H. Clark,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,9,name_key,False,medium
+name:coddington|i,I. Coddington,1,I. Coddington,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,102,name_key,True,low
+name:cooke|a,Alexander Cooke,1,Alexander Cooke,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,11,name_key,False,medium
+name:da silva|v,V. da Silva,1,V. da Silva,,0,1,1993.0,1993.0,AISIN IMRA(米国・imra.com),1,0,False,36,name_key,True,low
+name:dagenais|m,M. Dagenais,1,M. Dagenais,,0,1,1999.0,1999.0,AISIN IMRA(米国・imra.com),1,0,False,41,name_key,True,low
+name:dasilva|v,V.L. DaSilva,1,V.L. DaSilva,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,1,name_key,True,low
+name:datseris|i,Ioannis E. Datseris,1,Ioannis E. Datseris,,0,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,name_key,False,medium
+name:de la garza hern ndez|r,Rosakaren Ludivina De la Garza Hernández,1,Rosakaren Ludivina De la Garza Hernández,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,30,name_key,False,medium
+name:berg|m,M. Öberg,1,M. Öberg,,0,1,1992.0,1992.0,AISIN IMRA(米国・imra.com),1,0,True,21,name_key,True,low
+name:benko|c,Craig Benko,1,Craig Benko,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,False,medium
+name:baster|d,Dominika Baster,1,Dominika Baster,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,9,name_key,False,medium
+name:aoki|y,Yoshifumi Aoki,1,Yoshifumi Aoki,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,102,name_key,False,medium
+name:abe|h,Hideki Abe,1,Hideki Abe,,0,1,2019.0,2019.0,AISIN IMRA(日本・aisin.com),1,0,False,66,name_key,False,medium
+name:abe|t,Takeshi Abe,1,Takeshi Abe,,0,1,2022.0,2022.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:adachi|m,M. Adachi,1,M. Adachi,,0,1,2016.0,2016.0,AISIN IMRA(日本・aisin.com),1,1,True,38,name_key,True,low
+name:agrawal|g,G.P. Agrawal,1,G.P. Agrawal,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:akai|a,A. Akai,1,A. Akai,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,12,name_key,True,low
+name:akatsuka|h,Hiroshi Akatsuka,1,Hiroshi Akatsuka,,0,1,2018.0,2018.0,豊田中央研究所,1,0,True,13,name_key,False,medium
+name:akita|t,Tomoyuki Akita,1,Tomoyuki Akita,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,17,name_key,False,medium
+name:amano|k,Kumi Amano,1,Kumi Amano,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,20,name_key,False,medium
+name:amano|y,Yasushi Amano,1,Yasushi Amano,,0,1,2022.0,2022.0,トヨタ自動車未来創成センター,1,1,True,6,name_key,False,medium
+name:ando|t,Teruki Ando,1,Teruki Ando,,0,1,2025.0,2025.0,AISIN IMRA(日本・aisin.com),1,0,True,0,name_key,False,medium
+name:anil reddy|m,Marri Anil Reddy,1,Marri Anil Reddy,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,26,name_key,False,medium
+name:aoki|m,Masakazu Aoki,1,Masakazu Aoki,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:aoyama|t,Takayuki Aoyama,1,Takayuki Aoyama,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:baradaran|n,Negar Baradaran,1,Negar Baradaran,,0,1,2026.0,2026.0,AISIN IMRA(米国・imra.com),1,0,True,1,name_key,False,medium
+name:argyrakis|p,Panos Argyrakis,1,Panos Argyrakis,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,11,name_key,False,medium
+name:arteaga|j,Janna Arteaga,1,Janna Arteaga,,0,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,name_key,False,medium
+name:asaoka|s,Satoshi Asaoka,1,Satoshi Asaoka,,0,1,2012.0,2012.0,AISIN IMRA(日本・aisin.com),1,0,False,20,name_key,False,medium
+name:asaoka|t,Takahiko Asaoka,1,Takahiko Asaoka,,0,1,2021.0,2021.0,豊田中央研究所,1,1,True,14,name_key,False,medium
+name:avinor|i,Inbal Avinor,1,Inbal Avinor,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,11,name_key,False,medium
+name:b chi|f,Felix N. Büchi,1,Felix N. Büchi,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,168,name_key,False,medium
+name:baba|n,Naoki Baba,1,Naoki Baba,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,37,name_key,False,medium
+name:baba|t,Takeshi Baba,1,Takeshi Baba,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,102,name_key,False,medium
+name:bado|p,P. Bado,1,P. Bado,,0,1,1988.0,1988.0,AISIN IMRA(米国・imra.com),1,0,False,12,name_key,True,low
+name:balsamo|s,S. Balsamo,1,S. Balsamo,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,37,name_key,True,low
+name:banner|d,David J. Banner,1,David J. Banner,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:bar ad|s,S. Bar-Ad,1,S. Bar-Ad,,0,1,1997.0,1997.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:de silva|k,K. Kanishka H. De Silva,1,K. Kanishka H. De Silva,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,2,name_key,False,medium
+name:dede|e,Ercan M. Dede,1,Ercan M. Dede,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,92,name_key,False,medium
+name:deguchi|h,Hideki Deguchi,1,Hideki Deguchi,,0,1,2023.0,2023.0,豊田中央研究所,1,1,True,4,name_key,False,medium
+name:gogineni|t,Tarun Gogineni,1,Tarun Gogineni,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,11,name_key,False,medium
+name:fukushima|h,Hikaru Fukushima,1,Hikaru Fukushima,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:fumiyo yoshino|,Fumiyo Yoshino,1,Fumiyo Yoshino,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:furuta|y,Yoshikazu Furuta,1,Yoshikazu Furuta,,0,1,2025.0,2025.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:fuse|n,Nobuo Fuse,1,Nobuo Fuse,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:fu|y,Yingbin Fu,1,Yingbin Fu,,0,1,2022.0,2022.0,AISIN IMRA(米国・imra.com),1,0,False,13,name_key,False,medium
+name:gallant|b,Betar M. Gallant,1,Betar M. Gallant,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,395,name_key,False,medium
+name:galvanauskas|b,B. Galvanauskas,1,B. Galvanauskas,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,False,1,name_key,True,low
+name:galvanuskas|a,A. Galvanuskas,1,A. Galvanuskas,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,7,name_key,True,low
+name:gao|y,Yunfei Gao,1,Yunfei Gao,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,12,name_key,False,medium
+name:gerding|e,Enrico H. Gerding,1,Enrico H. Gerding,,0,1,2022.0,2022.0,豊田中央研究所,1,0,True,3,name_key,False,medium
+name:gholami|f,Farzad Gholami,1,Farzad Gholami,,0,1,2024.0,2024.0,豊田中央研究所,1,0,True,22,name_key,False,medium
+name:goda|k,Keisuke Goda,1,Keisuke Goda,,0,1,2017.0,2017.0,AISIN IMRA(日本・aisin.com),1,0,False,73,name_key,False,medium
+name:gong|s,Shuai Gong,1,Shuai Gong,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,395,name_key,False,medium
+name:fukumura|n,Naohiro Fukumura,1,Naohiro Fukumura,,0,1,2021.0,2021.0,豊田中央研究所,1,0,True,3,name_key,False,medium
+name:gopal reddy|v,Veerannagari Gopal Reddy,1,Veerannagari Gopal Reddy,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,1,True,12,name_key,False,medium
+name:goto|a,Ai Goto,1,Ai Goto,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,15,name_key,False,medium
+name:goto|i,Ippei Goto,1,Ippei Goto,,0,1,2022.0,2022.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:goto|k,Kunihiro Goto,1,Kunihiro Goto,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,17,name_key,False,medium
+name:goto|s,Shigeaki Goto,1,Shigeaki Goto,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,17,name_key,False,medium
+name:grancini|g,G. Grancini,1,G. Grancini,,0,1,2016.0,2016.0,AISIN IMRA(日本・aisin.com),1,0,True,38,name_key,True,low
+name:graule|t,Thomas Graule,1,Thomas Graule,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,9,name_key,False,medium
+name:gu|x,X. Gu,1,X. Gu,,0,1,2001.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:haibin zhang|,Haibin Zhang,1,Haibin Zhang,,0,1,2005.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:hamada|k,Koji Hamada,1,Koji Hamada,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:han|l,Liyuan Han,1,Liyuan Han,,0,1,2013.0,2013.0,AISIN IMRA(日本・aisin.com),1,0,False,18,name_key,False,medium
+name:han|p,P.Y. Han,1,P.Y. Han,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:fukunaga|a,Alex Fukunaga,1,Alex Fukunaga,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,1,name_key,False,medium
+name:fukumoto|k,Kazuhiro Fukumoto,1,Kazuhiro Fukumoto,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,102,name_key,False,medium
+name:demarchi|d,Danilo Demarchi,1,Danilo Demarchi,,0,1,2022.0,2022.0,豊田中央研究所,1,0,True,42,name_key,False,medium
+name:elkinton|c,C. N. Elkinton,1,C. N. Elkinton,,0,1,1999.0,1999.0,AISIN IMRA(米国・imra.com),1,0,False,19,name_key,True,low
+name:diel|s,Stephan Diel,1,Stephan Diel,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:digiovanni|d,D.J. DiGiovanni,1,D.J. DiGiovanni,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,1,name_key,True,low
+name:dimpel|d,Dimpel Dimpel,1,Dimpel Dimpel,,0,1,2025.0,2025.0,AISIN IMRA(米国・imra.com),1,0,False,7,name_key,False,medium
+name:doi|s,Shoichi Doi,1,Shoichi Doi,,0,1,2018.0,2018.0,豊田中央研究所,1,1,True,26,name_key,False,medium
+name:doyle|j,Jack F. Doyle,1,Jack F. Doyle,,0,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,name_key,False,medium
+name:dudley|j,J.M. Dudley,1,J.M. Dudley,,0,1,2000.0,2000.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:duerna|t,Tie Duerna,1,Tie Duerna,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:du|d,Detao Du,1,Detao Du,,0,1,1996.0,1996.0,AISIN IMRA(米国・imra.com),1,0,False,3,name_key,False,medium
+name:ebara|s,Shinji Ebara,1,Shinji Ebara,,0,1,2008.0,2008.0,AISIN IMRA(日本・aisin.com),1,0,False,15,name_key,False,medium
+name:edo|m,Masaharu Edo,1,Masaharu Edo,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,37,name_key,False,medium
+name:el kazzi|m,Mario El Kazzi,1,Mario El Kazzi,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,9,name_key,False,medium
+name:elias|w,Welman C. Elias,1,Welman C. Elias,,0,1,2025.0,2025.0,AISIN IMRA(米国・imra.com),1,0,False,7,name_key,False,medium
+name:eller|j,Jens Eller,1,Jens Eller,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,168,name_key,False,medium
+name:fujimoto|n,Naoki Fujimoto,1,Naoki Fujimoto,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,3,name_key,False,medium
+name:emura|y,Youhei Emura,1,Youhei Emura,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,34,name_key,False,medium
+name:engelhard|h,Herbert H. Engelhard,1,Herbert H. Engelhard,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:erdogan|t,T. Erdogan,1,T. Erdogan,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,False,5,name_key,True,low
+name:falqueto|j,Juliana B. Falqueto,1,Juliana B. Falqueto,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,9,name_key,False,medium
+name:fan|q,Qiaohui Fan,1,Qiaohui Fan,,0,1,2014.0,2014.0,AISIN IMRA(日本・aisin.com),1,0,False,38,name_key,False,medium
+name:fan|w,Wen Fan,1,Wen Fan,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,40,name_key,False,medium
+name:feder|k,K. S. Feder,1,K. S. Feder,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,102,name_key,True,low
+name:fletcher|l,L. B. Fletcher,1,L. B. Fletcher,,0,1,2008.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,3,name_key,True,low
+name:fortier|s,S. Fortier,1,S. Fortier,,0,1,2004.0,2004.0,AISIN IMRA(米国・imra.com),1,0,False,11,name_key,True,low
+name:fox|s,S. Fox,1,S. Fox,,0,1,1999.0,1999.0,AISIN IMRA(米国・imra.com),1,0,False,41,name_key,True,low
+name:fujieda|n,Nobushige Fujieda,1,Nobushige Fujieda,,0,1,2025.0,2025.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:fujii|a,Akinobu Fujii,1,Akinobu Fujii,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,17,name_key,False,medium
+name:kyles|i,I. Kyles,1,I. Kyles,,0,1,1997.0,1997.0,AISIN IMRA(米国・imra.com),1,0,False,3,name_key,True,low
+name:lakka|s,Sajani S. Lakka,1,Sajani S. Lakka,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:lakshmikantam|m,Mannepalli Lakshmikantam,1,Mannepalli Lakshmikantam,,0,1,2006.0,2006.0,AISIN IMRA(日本・aisin.com),1,0,False,331,name_key,False,medium
+name:leaird|d,D.E. Leaird,1,D.E. Leaird,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,1,name_key,True,low
+name:segi|m,Makoto Segi,1,Makoto Segi,,0,1,2022.0,2022.0,豊田中央研究所,1,0,False,15,name_key,False,medium
+name:sezutsu|h,Hideki Sezutsu,1,Hideki Sezutsu,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,5,name_key,False,medium
+name:shamoto|e,Eiji Shamoto,1,Eiji Shamoto,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,2,name_key,False,medium
+name:shao|x,Xia Shao,1,Xia Shao,,0,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,name_key,False,medium
+name:shen|s,S. Shen,1,S. Shen,,0,1,2000.0,2000.0,AISIN IMRA(米国・imra.com),1,0,True,15,name_key,True,low
+name:shibata|t,Takehiko Shibata,1,Takehiko Shibata,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,33,name_key,False,medium
+name:shida|y,Yuma Shida,1,Yuma Shida,,0,1,2025.0,2025.0,豊田中央研究所,1,1,True,0,name_key,False,medium
+name:shiga|t,Takahiro Shiga,1,Takahiro Shiga,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,11,name_key,False,medium
+name:shimaoka|k,Keiichi Shimaoka,1,Keiichi Shimaoka,,0,1,2021.0,2021.0,豊田中央研究所,1,1,True,8,name_key,False,medium
+name:shima|k,Kohei Shima,1,Kohei Shima,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,37,name_key,False,medium
+name:shima|r,Ryotaro Shima,1,Ryotaro Shima,,0,1,2025.0,2025.0,豊田中央研究所,1,1,True,0,name_key,False,medium
+name:shimizu|r,Rio Shimizu,1,Rio Shimizu,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:shimizu|t,Tsukasa Shimizu,1,Tsukasa Shimizu,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,17,name_key,False,medium
+name:shimomura|k,Koichiro Shimomura,1,Koichiro Shimomura,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:shimoyama|j,Jun-ichi Shimoyama,1,Jun-ichi Shimoyama,,0,1,2019.0,2019.0,AISIN IMRA(日本・aisin.com),1,0,False,66,name_key,False,medium
+name:shinoda|t,T. Shinoda,1,T. Shinoda,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,1,True,14,name_key,True,low
+name:shioda|r,R. Shioda,1,R. Shioda,,0,1,2002.0,2002.0,AISIN IMRA(米国・imra.com),1,0,False,37,name_key,True,low
+name:shiozawa|d,D. Shiozawa,1,D. Shiozawa,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,12,name_key,True,low
+name:shiraishi|k,Koichi Shiraishi,1,Koichi Shiraishi,,0,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,1,True,9,name_key,False,medium
+name:shitaoka|k,Kazuya Shitaoka,1,Kazuya Shitaoka,,0,1,2022.0,2022.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:shokuhfar|t,Tolou Shokuhfar,1,Tolou Shokuhfar,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:singh|s,Surya Prakash Singh,1,Surya Prakash Singh,,0,1,2013.0,2013.0,AISIN IMRA(日本・aisin.com),1,0,False,18,name_key,False,medium
+name:snaith|h,Henry J. Snaith,1,Henry J. Snaith,,0,1,2006.0,2006.0,AISIN IMRA(日本・aisin.com),1,0,False,331,name_key,False,medium
+name:snure|m,M. Snure,1,M. Snure,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,74,name_key,True,low
+name:sobue|s,Susumu Sobue,1,Susumu Sobue,,0,1,2019.0,2019.0,豊田中央研究所,1,0,True,10,name_key,False,medium
+name:soejima|n,Narumasa Soejima,1,Narumasa Soejima,,0,1,2018.0,2018.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:soga|m,Mineki Soga,1,Mineki Soga,,0,1,2019.0,2019.0,豊田中央研究所,1,1,True,6,name_key,False,medium
+name:schunemann|p,Peter G. Schunemann,1,Peter G. Schunemann,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,283,name_key,False,medium
+name:schmidt|t,Thomas J. Schmidt,1,Thomas J. Schmidt,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,9,name_key,False,medium
+name:schaffer|c,Chris B. Schaffer,1,Chris B. Schaffer,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,5,name_key,False,medium
+name:ricken|r,R. Ricken,1,R. Ricken,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,37,name_key,True,low
+name:perlin|v,V. Perlin,1,V. Perlin,,0,1,2000.0,2000.0,AISIN IMRA(米国・imra.com),1,0,True,268,name_key,True,low
+name:pessot|m,M. Pessot,1,M. Pessot,,0,1,1988.0,1988.0,AISIN IMRA(米国・imra.com),1,0,False,12,name_key,True,low
+name:phillips|c,C. R. Phillips,1,C. R. Phillips,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,74,name_key,True,low
+name:pirrami|l,Lorenzo Pirrami,1,Lorenzo Pirrami,,0,1,2022.0,2022.0,豊田中央研究所,1,0,True,42,name_key,False,medium
+name:proctor|m,M. Proctor,1,M. Proctor,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,False,59,name_key,True,low
+name:radic|s,S. Radic,1,S. Radic,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:raghavender|m,M RAGHAVENDER,1,M RAGHAVENDER,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,26,name_key,True,low
+name:rajan|k,Krishna Rajan,1,Krishna Rajan,,0,1,2022.0,2022.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:raksi|f,F. Raksi,1,F. Raksi,,0,1,2000.0,2000.0,AISIN IMRA(米国・imra.com),1,0,False,4,name_key,True,low
+name:raymond|r,Rudy Raymond,1,Rudy Raymond,,0,1,2025.0,2025.0,豊田中央研究所,1,0,True,9,name_key,False,medium
+name:reddy|m,M ANIL REDDY,1,M ANIL REDDY,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,26,name_key,False,medium
+name:reitze|d,D.H. Reitze,1,D.H. Reitze,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,1,name_key,True,low
+name:rochhausen|k,K. Rochhausen,1,K. Rochhausen,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,37,name_key,True,low
+name:abate|a,A. Abate,1,A. Abate,,0,1,2016.0,2016.0,AISIN IMRA(日本・aisin.com),1,0,True,38,name_key,True,low
+name:saeki|s,Shu Saeki,1,Shu Saeki,,0,1,2025.0,2025.0,豊田中央研究所,1,1,True,1,name_key,False,medium
+name:saeki|t,Tooru Saeki,1,Tooru Saeki,,0,1,2024.0,2024.0,豊田中央研究所,1,1,True,12,name_key,False,medium
+name:saito|t,Tomo Saito,1,Tomo Saito,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:saito|y,Yoshiki Saito,1,Yoshiki Saito,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,20,name_key,False,medium
+name:sakagami|t,T. Sakagami,1,T. Sakagami,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,12,name_key,True,low
+name:sallam|k,Khalid Ibrahim Sallam,1,Khalid Ibrahim Sallam,,0,1,2006.0,2006.0,AISIN IMRA(日本・aisin.com),1,0,False,8,name_key,False,medium
+name:sano|t,Toshinari Sano,1,Toshinari Sano,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:sasai|t,Takeyuki Sasai,1,Takeyuki Sasai,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:sasaki|k,Kengo Sasaki,1,Kengo Sasaki,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,0,name_key,False,medium
+name:sato|t,Takashi Sato,1,Takashi Sato,,0,1,2024.0,2024.0,豊田中央研究所,1,0,True,11,name_key,False,medium
+name:sawai|h,Hiroko Sawai,1,Hiroko Sawai,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,2,name_key,False,medium
+name:sayed|m,Md. Abu Sayed,1,Md. Abu Sayed,,0,1,2008.0,2008.0,AISIN IMRA(日本・aisin.com),1,0,False,3,name_key,False,medium
+name:soga|n,Naoki Soga,1,Naoki Soga,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:sohler|w,W. Sohler,1,W. Sohler,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,37,name_key,True,low
+name:song|f,Fangzhou Song,1,Fangzhou Song,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,2,name_key,False,medium
+name:tomota|t,Tatsunori Tomota,1,Tatsunori Tomota,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,11,name_key,False,medium
+name:takeyama|k,Kojiro Takeyama,1,Kojiro Takeyama,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,1,name_key,False,medium
+name:taki|m,Masahiro Taki,1,Masahiro Taki,,0,1,2019.0,2019.0,豊田中央研究所,1,1,True,10,name_key,False,medium
+name:tampo|m,Motonobu Tampo,1,Motonobu Tampo,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,43,name_key,False,medium
+name:tanaka|d,Daisuke Tanaka,1,Daisuke Tanaka,,0,1,2018.0,2018.0,トヨタ自動車未来創成センター,1,0,False,12,name_key,False,medium
+name:tanno|k,Kozo Tanno,1,Kozo Tanno,,0,1,2022.0,2022.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:tatematsu|k,Koji Tatematsu,1,Koji Tatematsu,,0,1,2018.0,2018.0,豊田中央研究所,1,1,True,26,name_key,False,medium
+name:terazawa|t,Toshihisa Terazawa,1,Toshihisa Terazawa,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,1,True,12,name_key,False,medium
+name:terlier|t,Tanguy Terlier,1,Tanguy Terlier,,0,1,2025.0,2025.0,AISIN IMRA(米国・imra.com),1,0,False,7,name_key,False,medium
+name:tero|r,Ryugo Tero,1,Ryugo Tero,,0,1,2008.0,2008.0,AISIN IMRA(日本・aisin.com),1,0,False,3,name_key,False,medium
+name:thirolf|p,Peter G. Thirolf,1,Peter G. Thirolf,,0,1,2024.0,2024.0,AISIN IMRA(米国・imra.com),1,0,False,181,name_key,False,medium
+name:thomsen|b,B.C. Thomsen,1,B.C. Thomsen,,0,1,2000.0,2000.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:todoroki|n,Naoto Todoroki,1,Naoto Todoroki,,0,1,2025.0,2025.0,豊田中央研究所,1,0,True,7,name_key,False,medium
+name:toriyabe|t,Tetsutya Toriyabe,1,Tetsutya Toriyabe,,0,1,2006.0,2006.0,AISIN IMRA(日本・aisin.com),1,0,False,8,name_key,False,medium
+name:takeuchi|h,Hisato Takeuchi,1,Hisato Takeuchi,,0,1,2024.0,2024.0,豊田中央研究所,1,1,True,7,name_key,False,medium
+name:toshima|k,Kazuhiko Toshima,1,Kazuhiko Toshima,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,name_key,False,medium
+name:toyoda|h,Haruyoshi Toyoda,1,Haruyoshi Toyoda,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,34,name_key,False,medium
+name:toyoda|t,Tatsuo Toyoda,1,Tatsuo Toyoda,,0,1,2018.0,2018.0,豊田中央研究所,1,1,True,26,name_key,False,medium
+name:trebino|r,R. Trebino,1,R. Trebino,,0,1,2001.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:tsuchikawa|y,Yusuke Tsuchikawa,1,Yusuke Tsuchikawa,,0,1,2021.0,2021.0,豊田中央研究所,1,0,True,22,name_key,False,medium
+name:tsuchiya|e,Eiji Tsuchiya,1,Eiji Tsuchiya,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,2,name_key,False,medium
+name:tsuchiya|k,Kimihiro Tsuchiya,1,Kimihiro Tsuchiya,,0,1,2024.0,2024.0,豊田中央研究所,1,1,True,35,name_key,False,medium
+name:tsuchiya|y,Yoshinori Tsuchiya,1,Yoshinori Tsuchiya,,0,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,12,name_key,False,medium
+name:tsujie|t,Takeshi Tsujie,1,Takeshi Tsujie,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:tsujiko|a,Akira Tsujiko,1,Akira Tsujiko,,0,1,2022.0,2022.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:tsujimura|s,Seiya Tsujimura,1,Seiya Tsujimura,,0,1,2015.0,2015.0,AISIN IMRA(日本・aisin.com),1,0,True,3,name_key,False,medium
+name:tsukigase|a,Azusa Tsukigase,1,Azusa Tsukigase,,0,1,2024.0,2024.0,豊田中央研究所,1,1,True,12,name_key,False,medium
+name:takeuchi|y,Yoshitaka Takeuchi,1,Yoshitaka Takeuchi,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:takeshima|h,Hisaaki Takeshima,1,Hisaaki Takeshima,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,22,name_key,False,medium
+name:sosnowski|t,Thomas S Sosnowski,1,Thomas S Sosnowski,,0,1,1996.0,1996.0,AISIN IMRA(米国・imra.com),1,0,False,3,name_key,False,medium
+name:sugawara|t,Tomoko Sugawara,1,Tomoko Sugawara,,0,1,2019.0,2019.0,豊田中央研究所,1,1,True,7,name_key,False,medium
+name:soujnya|y,Y SOUJNYA,1,Y SOUJNYA,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,18,name_key,True,low
+name:sreenivasu|m,Mareedu Sreenivasu,1,Mareedu Sreenivasu,,0,1,2018.0,2018.0,豊田中央研究所,1,1,True,26,name_key,False,medium
+name:srinivasa rao|c,Chikkam Srinivasa Rao,1,Chikkam Srinivasa Rao,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,26,name_key,False,medium
+name:srinivasarao|c,C SRINIVASARAO,1,C SRINIVASARAO,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,26,name_key,True,low
+name:srivasu|m,M. Srivasu,1,M. Srivasu,,0,1,2016.0,2016.0,AISIN IMRA(日本・aisin.com),1,1,True,38,name_key,True,low
+name:stauff|j,Jenelle Stauff,1,Jenelle Stauff,,0,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,name_key,False,medium
+name:stein|s,Sebastian Stein,1,Sebastian Stein,,0,1,2022.0,2022.0,豊田中央研究所,1,0,True,3,name_key,False,medium
+name:stock|h,Hideyuki Ohtake Stock,1,Hideyuki Ohtake Stock,,0,1,2001.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:suche|h,H. Suche,1,H. Suche,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,37,name_key,True,low
+name:suda|k,Kazuki Suda,1,Kazuki Suda,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,33,name_key,False,medium
+name:sudo|e,Eiichi Sudo,1,Eiichi Sudo,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:sugai|m,Masaru Sugai,1,Masaru Sugai,,0,1,2025.0,2025.0,豊田中央研究所,1,1,True,0,name_key,False,medium
+name:sugiyama|t,Takahide Sugiyama,1,Takahide Sugiyama,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,30,name_key,False,medium
+name:takeru|b,B. Takeru,1,B. Takeru,,0,1,2011.0,2011.0,AISIN IMRA(日本・aisin.com),1,0,False,26,name_key,True,low
+name:sun|l,L. Sun,1,L. Sun,,0,1,2007.0,2007.0,AISIN IMRA(米国・imra.com),1,0,True,21,name_key,True,low
+name:suwa|s,Sotaro Suwa,1,Sotaro Suwa,,0,1,2024.0,2024.0,トヨタ自動車未来創成センター,1,0,True,2,name_key,False,medium
+name:suzuki|k,Katsuhisa Suzuki,1,Katsuhisa Suzuki,,0,1,2006.0,2006.0,AISIN IMRA(日本・aisin.com),1,0,False,6,name_key,False,medium
+name:suzuki|y,Y. Suzuki,1,Y. Suzuki,,0,1,2001.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:swann|w,W. C. Swann,1,W. C. Swann,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,102,name_key,True,low
+name:tachikawa|t,Takashi Tachikawa,1,Takashi Tachikawa,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,7,name_key,False,medium
+name:taira|m,Makiko Taira,1,Makiko Taira,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:takagi|y,Yasumasa Takagi,1,Yasumasa Takagi,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,name_key,False,medium
+name:takahashi|h,Hidetomo Takahashi,1,Hidetomo Takahashi,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,34,name_key,False,medium
+name:takamatsu|h,Hideki Takamatsu,1,Hideki Takamatsu,,0,1,2022.0,2022.0,豊田中央研究所,1,1,True,14,name_key,False,medium
+name:takashima|s,Shin-ya Takashima,1,Shin-ya Takashima,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,37,name_key,False,medium
+name:takatani|y,Yasuhiro Takatani,1,Yasuhiro Takatani,,0,1,2024.0,2024.0,豊田中央研究所,1,1,True,6,name_key,False,medium
+name:payne|d,D. N. Payne,1,D. N. Payne,,0,1,1995.0,1995.0,AISIN IMRA(米国・imra.com),1,0,False,29,name_key,True,low
+name:parker|j,Joseph Don Parker,1,Joseph Don Parker,,0,1,2021.0,2021.0,豊田中央研究所,1,0,True,22,name_key,False,medium
+name:papavasiliou|g,Georgia Papavasiliou,1,Georgia Papavasiliou,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:mori|y,Yuki Mori,1,Yuki Mori,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,49,name_key,False,medium
+name:miyagawa|h,Hiroshi Miyagawa,1,Hiroshi Miyagawa,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:miyake|r,Rika Miyake,1,Rika Miyake,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,19,name_key,False,medium
+name:miyake|y,Yasuhiro Miyake,1,Yasuhiro Miyake,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,43,name_key,False,medium
+name:mizumoto|k,Katsuyoshi Mizumoto,1,Katsuyoshi Mizumoto,,0,1,2018.0,2018.0,豊田中央研究所,1,1,True,26,name_key,False,medium
+name:mizuno|y,Yoshihiro Mizuno,1,Yoshihiro Mizuno,,0,1,2025.0,2025.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:montrosset|i,I. Montrosset,1,I. Montrosset,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,37,name_key,True,low
+name:morikawa|a,Akira Morikawa,1,Akira Morikawa,,0,1,2019.0,2019.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:morita|y,Yoshiyuki Morita,1,Yoshiyuki Morita,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,name_key,False,medium
+name:moriya|y,Yusuke Moriya,1,Yusuke Moriya,,0,1,2018.0,2018.0,トヨタ自動車未来創成センター,1,0,False,12,name_key,False,medium
+name:mori|h,Hiroyuki Mori,1,Hiroyuki Mori,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:mori|n,Naoko Mori,1,Naoko Mori,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:mori|t,Takuya Mori,1,Takuya Mori,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,name_key,False,medium
+name:morris|s,Sean C. Morris,1,Sean C. Morris,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:mitsuoka|t,Takuya Mitsuoka,1,Takuya Mitsuoka,,0,1,2022.0,2022.0,豊田中央研究所,1,1,True,29,name_key,False,medium
+name:motoike|i,Ikuko N. Motoike,1,Ikuko N. Motoike,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:mourou|g,G.A. Mourou,1,G.A. Mourou,,0,1,1988.0,1988.0,AISIN IMRA(米国・imra.com),1,0,False,12,name_key,True,low
+name:mugikura|s,Shunji Mugikura,1,Shunji Mugikura,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:mukouyama|y,Yoshiharu Mukouyama,1,Yoshiharu Mukouyama,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,19,name_key,False,medium
+name:munakata|k,Koji Munakata,1,Koji Munakata,,0,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,True,17,name_key,False,medium
+name:munekata|t,Toshihisa Munekata,1,Toshihisa Munekata,,0,1,2024.0,2024.0,豊田中央研究所,1,1,True,12,name_key,False,medium
+name:murakami|m,Makoto Murakami,1,Makoto Murakami,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,False,medium
+name:muramatsu|m,Masayoshi Muramatsu,1,Masayoshi Muramatsu,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:murase|a,Atsushi Murase,1,Atsushi Murase,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:murase|e,Eiji Murase,1,Eiji Murase,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:murase|r,Ryuichi Murase,1,Ryuichi Murase,,0,1,2024.0,2024.0,豊田中央研究所,1,1,True,35,name_key,False,medium
+name:murata|k,Kazuki Murata,1,Kazuki Murata,,0,1,2015.0,2015.0,AISIN IMRA(日本・aisin.com),1,0,True,3,name_key,False,medium
+name:miura|a,Atsushi Miura,1,Atsushi Miura,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,8,name_key,False,medium
+name:minato|t,Taketoshi Minato,1,Taketoshi Minato,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,name_key,False,medium
+name:nabeya|t,Tomohiro Nabeya,1,Tomohiro Nabeya,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,1,name_key,False,medium
+name:marcinkeivicius|a,Andrius Marcinkeivicius,1,Andrius Marcinkeivicius,,0,1,2011.0,2011.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,False,medium
+name:lee|c,C.-C. Lee,1,C.-C. Lee,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,104,name_key,False,medium
+name:lee|g,G. Lee,1,G. Lee,,0,1,2002.0,2002.0,AISIN IMRA(米国・imra.com),1,0,False,37,name_key,True,low
+name:leindecker|n,Nick Leindecker,1,Nick Leindecker,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,283,name_key,False,medium
+name:lin|a,A. C. Lin,1,A. C. Lin,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,74,name_key,True,low
+name:li|x,Xuan Li,1,Xuan Li,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:luo|a,A. Luo,1,A. Luo,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,1,True,14,name_key,True,low
+name:lynch|c,C. Lynch,1,C. Lynch,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,71,name_key,True,low
+name:lyness|c,Christopher Lyness,1,Christopher Lyness,,0,1,2006.0,2006.0,AISIN IMRA(日本・aisin.com),1,0,False,331,name_key,False,medium
+name:makido|s,Satoshi Makido,1,Satoshi Makido,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,0,name_key,False,medium
+name:makoto yoshida|m,Makoto Yoshida Makoto Yoshida,1,Makoto Yoshida Makoto Yoshida,,0,1,2001.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,14,name_key,False,medium
+name:manaka|t,Takaaki Manaka,1,Takaaki Manaka,,0,1,2018.0,2018.0,豊田中央研究所,1,0,True,5,name_key,False,medium
+name:marandi|a,Alireza Marandi,1,Alireza Marandi,,0,1,2012.0,2012.0,AISIN IMRA(米国・imra.com),1,0,False,283,name_key,False,medium
+name:marcinkevi ius|a,A. Marcinkevičius,1,A. Marcinkevičius,,0,1,2008.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,237,name_key,True,low
+name:min jiang|,Min Jiang,1,Min Jiang,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:marone|f,Federica Marone,1,Federica Marone,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,168,name_key,False,medium
+name:martin|m,M. J. Martin,1,M. J. Martin,,0,1,2008.0,2008.0,AISIN IMRA(米国・imra.com),1,0,False,237,name_key,True,low
+name:masuda|r,Ryo Masuda,1,Ryo Masuda,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,11,name_key,False,medium
+name:matsubara|m,Masato Matsubara,1,Masato Matsubara,,0,1,2018.0,2018.0,豊田中央研究所,1,0,False,53,name_key,False,medium
+name:matsugami|a,Akimasa Matsugami,1,Akimasa Matsugami,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,37,name_key,False,medium
+name:matsuhara|s,Shinsuke Matsuhara,1,Shinsuke Matsuhara,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,5,name_key,False,medium
+name:matsuki|k,Kenjiro Matsuki,1,Kenjiro Matsuki,,0,1,2023.0,2023.0,AISIN IMRA(日本・aisin.com),1,0,True,12,name_key,False,medium
+name:matsunaga|a,Akio Matsunaga,1,Akio Matsunaga,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,27,name_key,False,medium
+name:mcferran|j,J. J. McFerran,1,J. J. McFerran,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,102,name_key,True,low
+name:mclaughlin|j,Joseph M. McLaughlin,1,Joseph M. McLaughlin,,0,1,2005.0,2005.0,AISIN IMRA(米国・imra.com),1,0,False,158,name_key,False,medium
+name:mclean|r,Ryan McLean,1,Ryan McLean,,0,1,2021.0,2021.0,AISIN IMRA(米国・imra.com),1,0,True,11,name_key,False,medium
+name:mhanna|k,Karim Mhanna,1,Karim Mhanna,,0,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,name_key,False,medium
+name:murayama|y,Yuko Murayama,1,Yuko Murayama,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,20,name_key,False,medium
+name:nagai|y,Yasutaka Nagai,1,Yasutaka Nagai,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,15,name_key,False,medium
+name:papachristou|m,Maria Papachristou,1,Maria Papachristou,,0,1,2023.0,2023.0,AISIN IMRA(米国・imra.com),1,0,True,0,name_key,False,medium
+name:okada|t,Takao Okada,1,Takao Okada,,0,1,2004.0,2004.0,AISIN IMRA(日本・aisin.com),1,0,False,6,name_key,False,medium
+name:nunoshita|k,Keita Nunoshita,1,Keita Nunoshita,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,49,name_key,False,medium
+name:o shea|p,P. O'Shea,1,P. O'Shea,,0,1,2001.0,2001.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low
+name:obata|k,Kainosuke Obata,1,Kainosuke Obata,,0,1,2021.0,2021.0,豊田中央研究所,1,0,True,3,name_key,False,medium
+name:oesselke|t,T. Oesselke,1,T. Oesselke,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,37,name_key,True,low
+name:ogasawara|k,Kazuto Ogasawara,1,Kazuto Ogasawara,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:ogawa|m,Masaru Ogawa,1,Masaru Ogawa,,0,1,2019.0,2019.0,豊田中央研究所,1,1,True,6,name_key,False,medium
+name:ogawa|y,Yuta Ogawa,1,Yuta Ogawa,,0,1,2021.0,2021.0,AISIN IMRA(日本・aisin.com),1,0,False,40,name_key,False,medium
+name:ogumi|z,Zempachi Ogumi,1,Zempachi Ogumi,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,name_key,False,medium
+name:ogura|n,Natsuki Ogura,1,Natsuki Ogura,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,8,name_key,False,medium
+name:ohno|y,Yutaka Ohno,1,Yutaka Ohno,,0,1,2021.0,2021.0,豊田中央研究所,1,0,True,8,name_key,False,medium
+name:ohta|m,Michiharu Ohta,1,Michiharu Ohta,,0,1,2011.0,2011.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,False,medium
+name:okada|a,Akihisa Okada,1,Akihisa Okada,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,97,name_key,False,medium
+name:okamoto|h,Hirotaka Okamoto,1,Hirotaka Okamoto,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,9,name_key,False,medium
+name:nobukawa|t,Takeshi Nobukawa,1,Takeshi Nobukawa,,0,1,2024.0,2024.0,豊田中央研究所,1,1,True,35,name_key,False,medium
+name:okamoto|k,Kazuo Okamoto,1,Kazuo Okamoto,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,16,name_key,False,medium
+name:okayama|s,Shinobu Okayama,1,Shinobu Okayama,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,102,name_key,False,medium
+name:oka|n,Nodoka Oka,1,Nodoka Oka,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,4,name_key,False,medium
+name:okumura|b,Bunyo Okumura,1,Bunyo Okumura,,0,1,2025.0,2025.0,豊田中央研究所,1,0,False,17,name_key,False,medium
+name:orikasa|y,Yuki Orikasa,1,Yuki Orikasa,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,name_key,False,medium
+name:ota|e,Eiichi Ota,1,Eiichi Ota,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,16,name_key,False,medium
+name:otomo|k,Kohei Otomo,1,Kohei Otomo,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,15,name_key,False,medium
+name:owaki|t,Takashi Owaki,1,Takashi Owaki,,0,1,2022.0,2022.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:paek|e,E.G. Paek,1,E.G. Paek,,0,1,,,AISIN IMRA(米国・imra.com),1,0,False,1,name_key,True,low
+name:pal|p,Parama Pal,1,Parama Pal,,0,1,2007.0,2007.0,AISIN IMRA(米国・imra.com),1,0,False,26,name_key,False,medium
+name:pandarakone|s,Shrinathan Esakimuthu Pandarakone,1,Shrinathan Esakimuthu Pandarakone,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,9,name_key,False,medium
+name:pandavenes|j,J. Pandavenes,1,J. Pandavenes,,0,1,1998.0,1998.0,AISIN IMRA(米国・imra.com),1,0,True,37,name_key,True,low
+name:nojiri|s,Sayaka Nojiri,1,Sayaka Nojiri,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,27,name_key,False,medium
+name:nitta|s,Shugo Nitta,1,Shugo Nitta,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,3,name_key,False,medium
+name:nagaoka|m,Makoto Nagaoka,1,Makoto Nagaoka,,0,1,2020.0,2020.0,豊田中央研究所,1,1,True,3,name_key,False,medium
+name:nakashima|n,Nobutaka Nakashima,1,Nobutaka Nakashima,,0,1,2006.0,2006.0,AISIN IMRA(日本・aisin.com),1,0,False,8,name_key,False,medium
+name:nagatsuka|k,Kengo Nagatsuka,1,Kengo Nagatsuka,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,6,name_key,False,medium
+name:nagaya|k,Katsuhiko Nagaya,1,Katsuhiko Nagaya,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,102,name_key,False,medium
+name:nagura|r,Risa Nagura,1,Risa Nagura,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:nakagawa|i,Ichiro Nakagawa,1,Ichiro Nakagawa,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:nakagawa|t,Toshiaki Nakagawa,1,Toshiaki Nakagawa,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,34,name_key,False,medium
+name:nakajima|j,Junji Nakajima,1,Junji Nakajima,,0,1,2023.0,2023.0,豊田中央研究所,1,1,True,5,name_key,False,medium
+name:nakajima|k,Kenji Nakajima,1,Kenji Nakajima,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,15,name_key,False,medium
+name:nakajima|s,Saeko Nakajima,1,Saeko Nakajima,,0,1,2021.0,2021.0,豊田中央研究所,1,0,False,26,name_key,False,medium
+name:nakamura|m,Masaya Nakamura,1,Masaya Nakamura,,0,1,2020.0,2020.0,豊田中央研究所,1,0,False,29,name_key,False,medium
+name:nakane|h,Hideo Nakane,1,Hideo Nakane,,0,1,2022.0,2022.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:nakanishi|k,Koji Nakanishi,1,Koji Nakanishi,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,63,name_key,False,medium
+name:nakano|s,Sachito Nakano,1,Sachito Nakano,,0,1,2022.0,2022.0,豊田中央研究所,1,0,False,15,name_key,False,medium
+name:nakashima|y,Yasuo Nakashima,1,Yasuo Nakashima,,0,1,2016.0,2016.0,AISIN IMRA(日本・aisin.com),1,1,True,7,name_key,False,medium
+name:nishioka|k,Kiho Nishioka,1,Kiho Nishioka,,0,1,2020.0,2020.0,豊田中央研究所,1,0,True,5,name_key,False,medium
+name:nakatani|n,Norinosuke Nakatani,1,Norinosuke Nakatani,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,3,name_key,False,medium
+name:nakayama|h,Hiroshi Nakayama,1,Hiroshi Nakayama,,0,1,2020.0,2020.0,AISIN IMRA(米国・imra.com),1,0,False,15,name_key,False,medium
+name:nakaya|k,Kumi Nakaya,1,Kumi Nakaya,,0,1,2024.0,2024.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:nambiar|t,Tanay Nambiar,1,Tanay Nambiar,,0,1,2026.0,2026.0,AISIN IMRA(米国・imra.com),1,0,True,1,name_key,False,medium
+name:narita|h,Hiroyuki Narita,1,Hiroyuki Narita,,0,1,2023.0,2023.0,豊田中央研究所,1,0,False,7,name_key,False,medium
+name:narita|m,Mamiko Narita,1,Mamiko Narita,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,22,name_key,False,medium
+name:nati|s,S. Nati,1,S. Nati,,0,1,1997.0,1997.0,AISIN IMRA(米国・imra.com),1,0,False,3,name_key,True,low
+name:newbury|n,N. R. Newbury,1,N. R. Newbury,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,102,name_key,True,low
+name:nihei|y,Y. Nihei,1,Y. Nihei,,0,1,2002.0,2002.0,AISIN IMRA(米国・imra.com),1,0,False,37,name_key,True,low
+name:niimi|t,T. Niimi,1,T. Niimi,,0,1,2019.0,2019.0,豊田中央研究所,1,0,False,25,name_key,True,low
+name:nishijima|h,Hiroaki Nishijima,1,Hiroaki Nishijima,,0,1,2023.0,2023.0,豊田中央研究所,1,0,True,19,name_key,False,medium
+name:nishimura|t,Takuya Nishimura,1,Takuya Nishimura,,0,1,2022.0,2022.0,豊田中央研究所,1,0,False,15,name_key,False,medium
+name:schaar|j,J. Schaar,1,J. Schaar,,0,1,2006.0,2006.0,AISIN IMRA(米国・imra.com),1,0,False,0,name_key,True,low

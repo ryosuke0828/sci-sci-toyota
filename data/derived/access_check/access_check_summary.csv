@@ -1,0 +1,7 @@
+source,attempted,http_status,ok,duration_ms,note,doi,title,year,citation_count,result_count
+Crossref,True,200.0,True,826,JSON を取得できた。,10.1126/science.aaf5239,Quantifying the evolution of individual scientific impact,2016.0,499.0,1.0
+Semantic Scholar,True,429.0,False,255,HTTP 429: レート制限。時間を置くか、発行済みの API キーを使う。,10.1126/science.aaf5239,,,,
+Scopus Web UI（大阪大学学外アクセス）,True,302.0,True,385,認証前の入口に到達。リダイレクト先ホスト: ou-idp.auth.osaka-u.ac.jp（SAML認証は実行しない）。,10.1126/science.aaf5239,,,,
+Web of Science Web UI（大阪大学学外アクセス）,True,302.0,True,384,認証前の入口に到達。リダイレクト先ホスト: ou-idp.auth.osaka-u.ac.jp（SAML認証は実行しない）。,10.1126/science.aaf5239,,,,
+Scopus,False,,False,0,SCOPUS_API_KEY が未設定のため、API を照会していない。,10.1126/science.aaf5239,,,,
+Web of Science Starter API,False,,False,0,WOS_API_KEY が未設定のため、API を照会していない。,10.1126/science.aaf5239,,,,

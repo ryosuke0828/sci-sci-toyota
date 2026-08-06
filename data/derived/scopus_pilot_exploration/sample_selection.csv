@@ -1,0 +1,9 @@
+sample_group,openalex_id,name,orcid,is_currently_affiliated,matched_entities,works_count,cited_by_count,first_pub_year,n_affiliations
+known_noise,A5112713997,Tetsuo Yazawa,,False,Toyota Motor Corporation (Japan),266,3587,1936,20
+known_noise,A5010897098,Masatoshi Ishikawa,0000-0002-6096-830X,False,Toyota Motor Corporation (Japan),1211,11429,1942,77
+known_noise,A5108227345,Shin Yamamoto,,False,Toyota Motor Corporation (Switzerland),462,5267,1935,69
+known_noise,A5112074015,Minoru KAWAMOTO,,False,Toyota Motor Corporation (Switzerland),202,260,1936,12
+currently_affiliated,A5074188384,Tomohiro MIYABE,,True,Toyota Motor Corporation (Switzerland),10,61,2002,3
+currently_affiliated,A5059263401,Dorothée Lahaussois,,True,Toyota Motor Corporation (Belgium),1,5,2022,1
+currently_affiliated,A5087868824,Masaki Nobuhiro,,True,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),2,2,2022,3
+currently_affiliated,A5123709876,Masahiro Doi,,True,Toyota Motor Corporation (Japan),1,1,2026,1

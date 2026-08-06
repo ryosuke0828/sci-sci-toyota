@@ -1,0 +1,45 @@
+{
+  "seed": 20260803,
+  "n_sampled": 100,
+  "verdict_counts": {
+    "confirmed_one": 40,
+    "contradicted": 26,
+    "confirmed_both": 20,
+    "not_found": 10,
+    "group_only": 4
+  },
+  "verdict_by_group": {
+    "current_other": {
+      "confirmed_both": 11,
+      "confirmed_one": 13,
+      "contradicted": 6,
+      "group_only": 0,
+      "not_found": 5
+    },
+    "current_swiss": {
+      "confirmed_both": 6,
+      "confirmed_one": 13,
+      "contradicted": 11,
+      "group_only": 0,
+      "not_found": 5
+    },
+    "known_noise": {
+      "confirmed_both": 3,
+      "confirmed_one": 14,
+      "contradicted": 9,
+      "group_only": 4,
+      "not_found": 0
+    }
+  },
+  "scopus_toyota_hit_rate_pct": 48.0,
+  "wos_motor_hit_rate_pct": 32.0,
+  "api_calls": {
+    "scopus": 211,
+    "wos": 300
+  },
+  "api_errors": 0,
+  "median_ms": {
+    "scopus": 392.0,
+    "wos": 230.0
+  }
+}

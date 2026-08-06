@@ -1,0 +1,41 @@
+{
+  "input_author_records": 3206,
+  "researchers": 1249,
+  "by_id_source": {
+    "name_key": 866,
+    "orcid": 383
+  },
+  "by_confidence": {
+    "medium": 712,
+    "high": 383,
+    "low": 154
+  },
+  "researchers_with_multiple_name_variants": 165,
+  "initials_only_researchers": 160,
+  "cross_org_researchers": 21,
+  "researchers_with_toyota_affiliation_evidence": 345,
+  "namekey_validation": {
+    "labeled_records": 779,
+    "distinct_orcids": 383,
+    "name_key": {
+      "distinct_keys": 369,
+      "over_merged_keys": 16,
+      "over_merged_pct": 4.3,
+      "over_split_orcids": 4,
+      "over_split_pct": 1.0,
+      "examples_over_merged": {
+        "hatanaka|t": 2,
+        "inoue|d": 2,
+        "ishigaki|m": 2,
+        "mizuno|h": 2,
+        "nagai|y": 2
+      }
+    },
+    "full_key": {
+      "distinct_keys": 393,
+      "over_merged_keys": 4,
+      "over_split_orcids": 14,
+      "over_split_pct": 3.7
+    }
+  }
+}

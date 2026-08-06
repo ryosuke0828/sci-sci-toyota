@@ -1,0 +1,47 @@
+{
+  "analysis_executed_at_utc": "2026-07-16T00:42:27.299856+00:00",
+  "input_cache": {
+    "path": "data/cache/openalex_random_impact_rule.json",
+    "sha256": "48e6476e5cb2e0f5e7587422f59367bac3ee91dc03f6ec39ff3ff64f491a0628",
+    "modified_at_utc": "2026-06-13T03:28:00.828530+00:00"
+  },
+  "parameters": {
+    "field_filter_at_cache_creation": "concepts.id:C121332964",
+    "sample_works": 50000,
+    "candidate_limit": 1400,
+    "n_researchers": 500,
+    "type_filter": "article",
+    "cutoff_year": 2015,
+    "c10_window": 10,
+    "career_span_years": [
+      20,
+      60
+    ],
+    "minimum_eligible_papers": 10
+  },
+  "summary": {
+    "source_paper_doi": "10.1126/science.aaf5239",
+    "analysis_type": "external replication of the random-impact-rule timing test",
+    "n_researchers": 500,
+    "n_candidates_evaluated": 1074,
+    "max_career_age": 60,
+    "ks_distance_observed_vs_conditional_null": 0.13310642314804122,
+    "pearson_observed_vs_conditional_null": 0.7527366766432347,
+    "mean_t_star_observed": 24.88400000000001,
+    "mean_t_star_conditional_null": 21.28046862087212,
+    "mean_difference_years": 3.6035313791278902,
+    "monte_carlo_repetitions": 10000,
+    "monte_carlo_p_value": 9.999000099990002e-05,
+    "null_ks_mean": 0.030516677979163905,
+    "null_ks_95pct": 0.04800402477454496,
+    "null_ks_99pct": 0.05715503373333808,
+    "seed": 20260716,
+    "cutoff_year": 2015,
+    "c10_window_years": 10
+  },
+  "outputs": {
+    "records.csv_sha256": "d1f7504d48e3258644584055cc06296cd800784626e8bdfe94f70decd9547fad",
+    "distribution.csv_sha256": "15474cc5e3a05e89f0526f70db892843a5c0d7671016055c774187eb62b19caa",
+    "random_impact_rule_external.svg_sha256": "af70fcd34975675bb020753acfd082e4e4f5982106a1e78b3367f1c0e3b75f5b"
+  }
+}

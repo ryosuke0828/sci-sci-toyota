@@ -1,0 +1,24 @@
+{
+  "labeled_records": 779,
+  "distinct_orcids": 383,
+  "name_key": {
+    "distinct_keys": 369,
+    "over_merged_keys": 16,
+    "over_merged_pct": 4.3,
+    "over_split_orcids": 4,
+    "over_split_pct": 1.0,
+    "examples_over_merged": {
+      "hatanaka|t": 2,
+      "inoue|d": 2,
+      "ishigaki|m": 2,
+      "mizuno|h": 2,
+      "nagai|y": 2
+    }
+  },
+  "full_key": {
+    "distinct_keys": 393,
+    "over_merged_keys": 4,
+    "over_split_orcids": 14,
+    "over_split_pct": 3.7
+  }
+}

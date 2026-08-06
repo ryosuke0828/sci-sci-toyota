@@ -1,0 +1,27 @@
+{
+  "total_papers": 833,
+  "total_author_records": 4845,
+  "authors_with_researcher_id": 4839,
+  "unique_researcher_ids": 2269,
+  "by_org": {
+    "Aisin Seiki": {
+      "papers": 392,
+      "with_doi": 310,
+      "already_scraped": 26,
+      "median_year": 2009.0
+    },
+    "IMRA America Inc": {
+      "papers": 416,
+      "with_doi": 298,
+      "already_scraped": 124,
+      "median_year": 2012.0
+    },
+    "IMRA Europe": {
+      "papers": 25,
+      "with_doi": 21,
+      "already_scraped": 0,
+      "median_year": 2007.0
+    }
+  },
+  "new_papers_not_in_scrape": 683
+}

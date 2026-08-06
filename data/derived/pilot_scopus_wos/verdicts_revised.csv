@@ -1,0 +1,101 @@
+openalex_id,name,sample_group,openalex_is_currently_affiliated,openalex_matched_entities,openalex_works_count,openalex_first_pub_year,openalex_career_years,n_scopus_candidates,scopus_toyota_hit,scopus_best_affiliation,scopus_affil_query_total,wos_hits_name_only,wos_hits_toyota_motor,wos_hits_toyota_group,verdict,revised_verdict,common_name_flag
+A5016998231,Hidenori Kimura,known_noise,False,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),438,1964,62,5,False,Waseda University,75,86,7,7,confirmed_one,ambiguous_common_name,True
+A5070627622,Keisuke Hata,known_noise,True,Toyota Motor Corporation (Switzerland),459,1948,78,5,False,The University of Tokyo Hospital,3,241,0,0,contradicted,contradicted,True
+A5111480516,Yukito Hagihara,known_noise,False,Toyota Motor Corporation (Switzerland),104,1927,93,1,False,Sophia University,0,38,0,0,contradicted,contradicted,False
+A5105820724,Tadashi Nakagawa,known_noise,False,Toyota Motor Corporation (Japan),282,1936,89,5,False,Electrotechnical Laboratory,25,78,0,0,contradicted,contradicted,True
+A5110340820,Kiyokazu Imai,known_noise,False,Toyota Motor Corporation (Switzerland),130,1955,53,3,False,Nagaoka University of Technology,33,1,0,0,contradicted,contradicted,False
+A5101954007,Yasuhiro Ito,known_noise,False,Toyota Motor Corporation (Switzerland),719,1950,76,5,True,Toyota Memorial Hospital,186,479,0,0,confirmed_one,scopus_support,True
+A5025020143,Norio Yoshida,known_noise,False,Toyota Motor Corporation (Switzerland),430,1938,88,5,True,Kariya Toyota General Hospital,86,167,0,0,confirmed_one,scopus_support,True
+A5021520217,Kenji Iida,known_noise,False,Toyota Motor Corporation (Japan),89,1952,73,5,False,Hokkaido University,15,58,0,1,group_only,contradicted,True
+A5006225110,Masashi Kato,known_noise,False,Toyota Motor Corporation (Japan),499,1957,69,5,False,Nagoya University,185,681,0,4,group_only,contradicted,True
+A5055007427,Madoka Ito,known_noise,False,Toyota Motor Corporation (Switzerland),42,1960,65,5,False,Fujita Health University,186,13,0,0,contradicted,contradicted,False
+A5101111238,Yasuhiro Ota,known_noise,False,Toyota Motor Corporation (Switzerland); Toyota Motor North America (United States); Toyota Motor Corporation (Japan),31,1956,69,5,True,Toyota Motor Corporation,23,12,2,2,confirmed_both,strong_support,False
+A5025381766,Tohru Shiga,known_noise,False,Toyota Motor Corporation (Switzerland),95,1932,90,4,True,"Toyota Central R&D Labs., Inc.",8,303,7,36,confirmed_both,strong_support,True
+A5073395104,Hideki Tsuji,known_noise,False,Toyota Motor Corporation (Switzerland),177,1965,61,5,True,Toyota Memorial Hospital,20,63,0,0,confirmed_one,scopus_support,True
+A5016073476,Kwong Ming Fock,known_noise,False,Toyota Motor Corporation (Switzerland),217,1932,94,2,False,Duke-NUS Medical School,0,174,0,0,contradicted,contradicted,True
+A5015525814,Nobuo Kamiya,known_noise,False,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),359,1954,72,5,True,"Toyota Central R&D Labs., Inc.",49,85,0,5,confirmed_one,scopus_support,True
+A5102918815,T. Hattori,known_noise,False,Toyota Motor Corporation (Switzerland),74,1955,70,5,False,Chiba University School of Medicine,56,6228,15,25,confirmed_one,ambiguous_common_name,True
+A5040200387,S. Nakamura,known_noise,False,Toyota Motor Corporation (Japan),137,1951,74,5,False,"University of California, Santa Barbara",122,19785,13,14,confirmed_one,ambiguous_common_name,True
+A5110280118,Yoshihiro Nagai,known_noise,False,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Germany); Toyota Motor Corporation (Japan),15,1957,69,5,True,Toyota Motor Corporation,23,6,0,0,confirmed_one,scopus_support,False
+A5053579945,Shozo Yoshida,known_noise,False,Toyota Motor Corporation (Japan),182,1960,66,5,True,Toyota Motor Corporation,86,112,5,5,confirmed_both,strong_support,True
+A5067083029,Tomohiro Yokoyama,known_noise,False,Toyota Motor Corporation (Japan),137,1936,90,5,True,Toyota Motor Corporation,20,41,0,0,confirmed_one,scopus_support,False
+A5101805578,Shigeru Suzuki,known_noise,False,Toyota Motor Corporation (Switzerland),95,1962,62,5,False,Tohoku University,273,323,0,7,group_only,contradicted,True
+A5101458160,Hiroshi Harada,known_noise,False,Toyota Motor Corporation (Japan),208,1965,61,5,False,Graduate School of Informatics,29,944,2,2,confirmed_one,ambiguous_common_name,True
+A5025625340,Kenji Tanaka,known_noise,False,Toyota Motor Corporation (Switzerland),269,1939,86,5,False,National Institutes of Natural Sciences - National Institute for Fusion Science,140,676,1,1,confirmed_one,ambiguous_common_name,True
+A5000602137,Yusuke Tanaka,known_noise,False,Toyota Motor Corporation (Switzerland),102,1915,111,5,False,Osaka Rosai Hospital,140,479,4,4,confirmed_one,ambiguous_common_name,True
+A5007157113,Hiroshi Inoue,known_noise,False,Toyota Motor Corporation (Japan),434,1958,66,5,False,Saiseikai Toyama Hospital,70,856,0,0,contradicted,contradicted,True
+A5100654015,Takashi Matsuura,known_noise,False,Toyota Motor Corporation (Japan),123,1932,93,5,False,University of Ottawa,14,66,0,0,contradicted,contradicted,True
+A5113461930,Toshio Takiguchi,known_noise,False,Toyota Motor Corporation (Japan),74,1955,57,5,False,Gunma University,2,0,0,0,contradicted,contradicted,False
+A5036535606,Shinji Inagaki,known_noise,False,Toyota Motor Corporation (Switzerland),387,1965,61,5,False,National Institute of Advanced Industrial Science and Technology,39,142,0,133,group_only,contradicted,True
+A5101648993,Hiroaki Tanaka,known_noise,False,Toyota Motor Corporation (Japan),73,1960,65,5,False,Fukuoka University,140,1084,1,1,confirmed_one,ambiguous_common_name,True
+A5087391386,Hiroaki Takahashi,known_noise,False,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Belgium); Toyota Motor Corporation (Japan),550,1954,72,5,False,Osaka Medical and Pharmaceutical University,89,338,2,2,confirmed_one,ambiguous_common_name,True
+A5027564757,Ercan Dede,current_swiss,True,Toyota Motor Corporation (Switzerland),8,2017,9,2,True,Toyota Research Institute of North America,1,152,143,143,confirmed_both,strong_support,True
+A5071881576,Katsumi Samada,current_swiss,True,Toyota Motor Corporation (Switzerland),1,1989,0,1,True,"Toyota Central R&D Labs., Inc.",1,0,0,0,confirmed_one,scopus_support,False
+A5004593705,Noboru KOMATU,current_swiss,True,Toyota Motor Corporation (Switzerland),1,1964,0,1,False,,0,0,0,0,contradicted,contradicted,False
+A5078309456,Naoya Ishizaki,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),5,1996,17,3,True,Toyota Motor Corporation,5,2,0,0,confirmed_one,scopus_support,False
+A5025089356,Satoshi Nagahama,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor North America (United States); Toyota Motor Corporation (Germany),4,2001,13,4,True,Toyota Motor Corporation,1,0,0,0,confirmed_one,scopus_support,False
+A5088418509,Mark Jakstis,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor North America (United States); Toyota Motor Corporation (Germany); Toyota Motor Corporation (Japan),4,2000,14,1,False,GITAI USA Inc.,1,0,0,0,contradicted,contradicted,False
+A5095884693,Chiaki Ohkuma,current_swiss,True,Toyota Motor Corporation (Switzerland),2,2018,3,0,False,,1,0,0,0,not_found,no_evidence,False
+A5087641978,Yoshio Tazima,current_swiss,True,Toyota Motor Corporation (Switzerland),4,1960,6,1,False,The University of Tokyo,0,0,0,0,contradicted,contradicted,False
+A5050188757,Shin-ichi Ishivama,current_swiss,True,Toyota Motor Corporation (Switzerland),1,1990,0,1,True,"Toyota Central R&D Labs., Inc.",1,0,0,0,confirmed_one,scopus_support,False
+A5059456518,H. Okamoto,current_swiss,True,Toyota Motor Corporation (Switzerland),4,1989,14,5,False,Jichi Medical University,55,7212,5,41,confirmed_one,ambiguous_common_name,True
+A5021463311,Keiko Shimazaki,current_swiss,True,Toyota Motor Corporation (Switzerland),4,1997,16,4,True,Toyota InfoTechnology Center,5,1,0,0,confirmed_one,scopus_support,False
+A5049708411,Hirohisa Takeuchi,current_swiss,True,Toyota Motor Corporation (Switzerland),19,2009,16,4,True,"Toyota Central R&D Labs., Inc.",54,37,1,6,confirmed_both,strong_support,False
+A5046537576,Makoto Kusakabe,current_swiss,True,Toyota Motor Corporation (Switzerland),9,1988,35,3,True,"Toyota Central R&D Labs., Inc.",3,36,0,3,confirmed_one,scopus_support,False
+A5112217155,Yuichi Miyake,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),10,1991,33,5,True,Toyota Motor Corporation,21,69,1,1,confirmed_both,strong_support,True
+A5027018237,Masaaki Uechi,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),5,2004,3,4,True,Toyota Motor Corporation,2,4,3,3,confirmed_both,strong_support,False
+A5098549672,Nishibe,current_swiss,True,Toyota Motor Corporation (Switzerland),1,2004,0,5,False,Health Sciences University of Hokkaido,1,780,3,15,confirmed_one,ambiguous_common_name,True
+A5049509329,Kazuya Nakauji,current_swiss,True,Toyota Motor Corporation (Switzerland),1,2005,0,0,False,,0,0,0,0,not_found,no_evidence,False
+A5057944268,Keiko Toi,current_swiss,True,Toyota Motor Corporation (Switzerland),1,2010,0,1,False,ESPEC Corp.,0,0,0,0,contradicted,contradicted,False
+A5078870532,Reina Kai,current_swiss,True,Toyota Motor Corporation (Switzerland),4,2010,8,0,False,,1,0,0,0,not_found,no_evidence,False
+A5101118700,Miura Shinichi,current_swiss,True,Toyota Motor Corporation (Switzerland),4,2008,11,5,False,Kanazawa University,3,0,0,0,contradicted,contradicted,False
+A5119766622,Teoman Tilki,current_swiss,True,Toyota Motor Corporation (Switzerland),1,2025,0,0,False,,0,0,0,0,not_found,no_evidence,False
+A5052989433,Y. Hiei,current_swiss,True,Toyota Motor Corporation (Switzerland),1,2003,0,5,True,Toyota Technological Institute,2,47,0,0,confirmed_one,scopus_support,False
+A5028192997,Yoshiaki Miyazaki,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Germany); Toyota Motor Corporation (Japan),4,1999,8,5,False,The Jikei University School of Medicine,17,4,0,0,contradicted,contradicted,False
+A5092326820,Yoshio TAKAEDA,current_swiss,True,Toyota Motor Corporation (Switzerland),1,2021,0,1,False,"Mitsubishi Research Institute, Inc.",0,0,0,0,contradicted,contradicted,False
+A5000002339,Naohisa Nishino,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),9,1986,26,2,True,"Toyota Central R&D Labs., Inc.",14,1,1,1,confirmed_both,strong_support,False
+A5071253144,Shigenobu Miyachi,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),1,2003,0,1,True,Toyota Motor Corporation,5,0,0,0,confirmed_one,scopus_support,False
+A5016404455,Claudia Brasse,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),2,2014,0,1,False,Arrhenius Laboratory,0,0,0,0,contradicted,contradicted,False
+A5040907279,Katsutoshi Abiko,current_swiss,True,Toyota Motor Corporation (Switzerland),10,2007,18,2,True,"Toyota Central R&D Labs., Inc.",1,5,0,4,confirmed_one,scopus_support,False
+A5110350793,Shozo Wada,current_swiss,True,Toyota Motor Corporation (Switzerland),13,1961,13,3,False,Ashikaga University,20,2,0,0,contradicted,contradicted,False
+A5125728080,Gris Iscomeback,current_swiss,True,Toyota Motor Corporation (Switzerland),1,2025,0,0,False,,0,0,0,0,not_found,no_evidence,False
+A5008505743,Scott Gordon,current_swiss,True,Toyota Motor Corporation (Switzerland),2,1974,44,5,False,QIMR Berghofer Medical Research Institute,1,383,0,0,contradicted,contradicted,True
+A5009485582,Madhan Ramaswami,current_swiss,True,Toyota Motor Corporation (Switzerland),1,2013,0,1,True,Toyota Motor Engineering and Mfg NA Inc,1,0,0,0,confirmed_one,scopus_support,False
+A5017431821,Aya Fukumoto,current_swiss,True,Toyota Motor Corporation (Switzerland),6,2006,6,3,True,Toyota Housing Corporation,10,3,0,0,confirmed_one,scopus_support,False
+A5130904368,İftihar KÖKSAL,current_swiss,True,Toyota Motor Corporation (Switzerland),1,1999,0,1,False,Karadeniz Technical University,0,104,0,0,contradicted,contradicted,True
+A5114020528,Ken Laberteaux,current_swiss,True,Toyota Motor Corporation (Switzerland); Toyota Motor North America (United States); Toyota Motor Corporation (Japan),22,2004,18,2,True,"Toyota Motor North America, Inc.",1,10,5,5,confirmed_both,strong_support,False
+A5101836797,Kazuya Okada,current_other,True,Toyota Motor Corporation (Japan),56,1988,35,5,True,Toyota Motor Corporation,42,121,1,1,confirmed_both,strong_support,True
+A5102424311,Cinzia De Marco,current_other,True,Toyota Motor Corporation (Belgium),1,2021,0,1,False,"Fondazione IRCCS Istituto Nazionale dei Tumori, Milan",2,0,0,0,contradicted,contradicted,False
+A5102240028,Jun Sato,current_other,True,Toyota Motor Corporation (Japan),1,2016,0,5,False,Nagoya Institute of Technology,113,667,1,1,confirmed_one,ambiguous_common_name,True
+A5072708018,Nobutaka Hanai,current_other,True,Toyota Motor Corporation (Japan),1,2002,0,0,False,,3,0,0,0,not_found,no_evidence,False
+A5086929006,Rihito Kaneko,current_other,True,Toyota Motor Corporation (Japan),1,2019,0,1,True,Toyota Motor Corporation,32,0,0,0,confirmed_one,scopus_support,False
+A5017402300,Seiji HIROSHIMA,current_other,True,Toyota Motor Corporation (Japan),1,2015,0,1,False,Mitutoyo Corporation,1,0,0,0,contradicted,contradicted,False
+A5111378384,Amane Shimura,current_other,True,Toyota Motor Corporation (Japan),2,2002,22,1,True,Toyota Motor Corporation,5,0,0,0,confirmed_one,scopus_support,False
+A5012622882,Nagisa Shimasaki,current_other,True,Toyota Motor Corporation (Japan),4,2016,2,1,True,Toyota Motor Corporation,3,3,1,1,confirmed_both,strong_support,False
+A5088432765,Atsushi Tanida,current_other,True,Toyota Motor Corporation (Japan),2,2016,0,3,True,Toyota Motor Corporation,1,16,0,0,confirmed_one,scopus_support,False
+A5058669715,Hiroshi Abe,current_other,True,Toyota Motor Corporation (Japan),5,1984,40,5,False,The University of Osaka Faculty of Medicine,33,947,2,2,confirmed_one,ambiguous_common_name,True
+A5042314825,Fumiaki Kawaii,current_other,True,Toyota Motor Corporation (Japan),2,2018,1,1,True,Toyota Motor Corporation,1,1,1,1,confirmed_both,strong_support,False
+A5014142958,Toshihiko Yanagisawa,current_other,True,Toyota Motor Corporation (Japan),5,2003,11,1,False,Tsumura and Co.,5,0,0,0,contradicted,contradicted,False
+A5063518740,Tomoyoshi Ishimaru,current_other,True,Toyota Motor Corporation (Japan),1,2016,0,1,True,Toyota Motor Corporation,4,0,0,0,confirmed_one,scopus_support,False
+A5000986211,Yuji Nagasaka,current_other,True,Toyota Motor Corporation (Japan),44,1985,37,5,True,Toyota Motor Corporation,10,57,1,1,confirmed_both,strong_support,True
+A5023910965,Takahiro Kitamura,current_other,True,Toyota Motor Corporation (Japan),2,1984,32,5,False,Yao Municipal Hospital,16,40,0,0,contradicted,contradicted,False
+A5097735635,Takahiko Kozuka,current_other,True,Toyota Motor Corporation (Japan),2,2016,3,0,False,,5,0,0,0,not_found,no_evidence,False
+A5135957788,Masahiro Kuwahara,current_other,True,Toyota Motor Corporation (Japan),1,2026,0,4,True,Toyota Motor Corporation,5,13,8,8,confirmed_both,strong_support,False
+A5067949786,Kenichi Anmi,current_other,True,Toyota Motor Corporation (Japan),1,2020,0,1,False,Manufacturing Study Department,0,1,0,0,contradicted,contradicted,False
+A5000205888,Kimi Kaneko,current_other,True,Toyota Motor Corporation (Japan),5,2013,8,2,True,Toyota Motor Corporation,32,0,0,0,confirmed_one,scopus_support,False
+A5010499198,Junichi Yoshimi,current_other,True,Toyota Motor Corporation (Japan),1,1987,0,1,True,Toyota Motor Corporation,3,0,0,0,confirmed_one,scopus_support,False
+A5101004421,Yu Hoshino,current_other,True,Toyota Motor Corporation (Japan),26,2005,20,5,True,Toyota Motor Corporation,16,177,0,0,confirmed_one,scopus_support,True
+A5058977244,Shogo Tsuge,current_other,True,Toyota Motor Corporation (Japan),3,2009,12,2,True,Toyota Motor Corpolation,5,4,0,0,confirmed_one,scopus_support,False
+A5044495339,Yasuhiro Nonobe,current_other,True,Toyota Motor Corporation (Germany); Toyota Motor Corporation (Japan),12,2007,9,1,True,Toyota Motor Corporation,1,1,1,1,confirmed_both,strong_support,False
+A5076312844,Ai Yatsuhashi,current_other,True,Toyota Motor Corporation (Japan),4,2009,12,1,True,Toyota Motor Corporation,1,3,1,1,confirmed_both,strong_support,False
+A5039163419,Shigeki OTSUKA,current_other,True,Toyota Motor Corporation (Japan),1,2000,0,0,False,,13,0,0,0,not_found,no_evidence,False
+A5103576829,Nobuyuki Ishihara,current_other,True,Toyota Motor Corporation (Japan),1,2011,0,1,True,Toyota Motor Corporation,31,1,1,1,confirmed_both,strong_support,False
+A5050136292,Shunsuke Iwamatsu,current_other,True,Toyota Motor Corporation (Germany),5,2007,11,1,False,Chiba University,0,0,0,0,contradicted,contradicted,False
+A5068309376,Ryohji Matsubara,current_other,True,Toyota Motor Corporation (Japan),1,1995,0,1,True,"Toyota Central R&D Labs., Inc.",17,0,0,0,confirmed_one,scopus_support,False
+A5070735718,Isamu Hachisuwa,current_other,True,Toyota Motor Corporation (Japan),1,2017,0,1,True,Toyota Motor Corporation,1,0,0,0,confirmed_one,scopus_support,False
+A5025591364,Takuya Suganuma,current_other,True,Toyota Motor Corporation (Japan),6,2009,9,5,True,Toyota Motor Corporation,8,9,2,2,confirmed_both,strong_support,False
+A5019469541,Shigeki Kinomura,current_other,True,Toyota Motor Corporation (Japan),4,2005,12,1,True,Toyota Motor Corporation,1,0,0,0,confirmed_one,scopus_support,False
+A5032312045,Takeshi Maekawa,current_other,True,Toyota Motor Corporation (Japan),2,2009,1,5,True,Toyota Motor Corporation,7,7,1,1,confirmed_both,strong_support,False
+A5090588189,Yoshihiro KAWARAZAKI,current_other,True,Toyota Motor Corporation (Japan),1,2008,0,0,False,,0,0,0,0,not_found,no_evidence,False
+A5084677352,Toru Furusawa,current_other,True,Toyota Motor Corporation (Japan),8,2008,16,4,True,Toyota Motor Corporation,3,9,6,6,confirmed_both,strong_support,False
+A5031162331,Keisuke Sugaz,current_other,True,Toyota Motor Corporation (Japan),1,2010,0,0,False,,0,0,0,0,not_found,no_evidence,False

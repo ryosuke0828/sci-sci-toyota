@@ -1,0 +1,6 @@
+{
+  "run_at_utc": "2026-07-27T01:35:01.188931+00:00",
+  "n_api_calls": 35,
+  "n_errors": 0,
+  "note": "Scopus単独でのパイロット探索。WoS Starter APIはClarivate承認待ちのため未実施。"
+}

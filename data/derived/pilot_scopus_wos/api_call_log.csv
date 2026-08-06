@@ -1,0 +1,512 @@
+api,label,query,status,ms
+scopus,author_search_order0,AUTHLASTNAME(Kimura) AND AUTHFIRST(Hidenori),200,529
+scopus,author_search_affil,AUTHLASTNAME(Kimura) AND AFFIL(Toyota),200,434
+wos,au_only,"AU=""Kimura, Hidenori""",200,239
+wos,au_x_motor,"AU=""Kimura, Hidenori"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,199
+wos,au_x_group,"AU=""Kimura, Hidenori"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,454
+scopus,author_search_order0,AUTHLASTNAME(Hata) AND AUTHFIRST(Keisuke),200,588
+scopus,author_search_affil,AUTHLASTNAME(Hata) AND AFFIL(Toyota),200,439
+wos,au_only,"AU=""Hata, Keisuke""",200,287
+wos,au_x_motor,"AU=""Hata, Keisuke"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,194
+wos,au_x_group,"AU=""Hata, Keisuke"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,401
+scopus,author_search_order0,AUTHLASTNAME(Hagihara) AND AUTHFIRST(Yukito),200,397
+scopus,author_search_affil,AUTHLASTNAME(Hagihara) AND AFFIL(Toyota),200,343
+wos,au_only,"AU=""Hagihara, Yukito""",200,200
+wos,au_x_motor,"AU=""Hagihara, Yukito"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,192
+wos,au_x_group,"AU=""Hagihara, Yukito"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,230
+scopus,author_search_order0,AUTHLASTNAME(Nakagawa) AND AUTHFIRST(Tadashi),200,454
+scopus,author_search_affil,AUTHLASTNAME(Nakagawa) AND AFFIL(Toyota),200,388
+wos,au_only,"AU=""Nakagawa, Tadashi""",200,306
+wos,au_x_motor,"AU=""Nakagawa, Tadashi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,224
+wos,au_x_group,"AU=""Nakagawa, Tadashi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,199
+scopus,author_search_order0,AUTHLASTNAME(Imai) AND AUTHFIRST(Kiyokazu),200,429
+scopus,author_search_affil,AUTHLASTNAME(Imai) AND AFFIL(Toyota),200,408
+wos,au_only,"AU=""Imai, Kiyokazu""",200,199
+wos,au_x_motor,"AU=""Imai, Kiyokazu"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,269
+wos,au_x_group,"AU=""Imai, Kiyokazu"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,203
+scopus,author_search_order0,AUTHLASTNAME(Ito) AND AUTHFIRST(Yasuhiro),200,358
+scopus,author_search_affil,AUTHLASTNAME(Ito) AND AFFIL(Toyota),200,400
+wos,au_only,"AU=""Ito, Yasuhiro""",200,241
+wos,au_x_motor,"AU=""Ito, Yasuhiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,268
+wos,au_x_group,"AU=""Ito, Yasuhiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,210
+scopus,author_search_order0,AUTHLASTNAME(Yoshida) AND AUTHFIRST(Norio),200,402
+scopus,author_search_affil,AUTHLASTNAME(Yoshida) AND AFFIL(Toyota),200,367
+wos,au_only,"AU=""Yoshida, Norio""",200,193
+wos,au_x_motor,"AU=""Yoshida, Norio"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,672
+wos,au_x_group,"AU=""Yoshida, Norio"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,314
+scopus,author_search_order0,AUTHLASTNAME(Iida) AND AUTHFIRST(Kenji),200,373
+scopus,author_search_affil,AUTHLASTNAME(Iida) AND AFFIL(Toyota),200,360
+wos,au_only,"AU=""Iida, Kenji""",200,213
+wos,au_x_motor,"AU=""Iida, Kenji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,3667
+wos,au_x_group,"AU=""Iida, Kenji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,210
+scopus,author_search_order0,AUTHLASTNAME(Kato) AND AUTHFIRST(Masashi),200,355
+scopus,author_search_affil,AUTHLASTNAME(Kato) AND AFFIL(Toyota),200,407
+wos,au_only,"AU=""Kato, Masashi""",200,249
+wos,au_x_motor,"AU=""Kato, Masashi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,1190
+wos,au_x_group,"AU=""Kato, Masashi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,206
+scopus,author_search_order0,AUTHLASTNAME(Ito) AND AUTHFIRST(Madoka),200,467
+scopus,author_search_affil,AUTHLASTNAME(Ito) AND AFFIL(Toyota),200,458
+wos,au_only,"AU=""Ito, Madoka""",200,231
+wos,au_x_motor,"AU=""Ito, Madoka"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,197
+wos,au_x_group,"AU=""Ito, Madoka"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,251
+scopus,author_search_order0,AUTHLASTNAME(Ota) AND AUTHFIRST(Yasuhiro),200,499
+scopus,author_search_affil,AUTHLASTNAME(Ota) AND AFFIL(Toyota),200,335
+wos,au_only,"AU=""Ota, Yasuhiro""",200,257
+wos,au_x_motor,"AU=""Ota, Yasuhiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,219
+wos,au_x_group,"AU=""Ota, Yasuhiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,442
+scopus,author_search_order0,AUTHLASTNAME(Shiga) AND AUTHFIRST(Tohru),200,480
+scopus,author_search_affil,AUTHLASTNAME(Shiga) AND AFFIL(Toyota),200,417
+wos,au_only,"AU=""Shiga, Tohru""",200,214
+wos,au_x_motor,"AU=""Shiga, Tohru"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,505
+wos,au_x_group,"AU=""Shiga, Tohru"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,277
+scopus,author_search_order0,AUTHLASTNAME(Tsuji) AND AUTHFIRST(Hideki),200,407
+scopus,author_search_affil,AUTHLASTNAME(Tsuji) AND AFFIL(Toyota),200,376
+wos,au_only,"AU=""Tsuji, Hideki""",200,299
+wos,au_x_motor,"AU=""Tsuji, Hideki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,257
+wos,au_x_group,"AU=""Tsuji, Hideki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,344
+scopus,author_search_order0,AUTHLASTNAME(Fock) AND AUTHFIRST(Kwong Ming),200,486
+scopus,author_search_affil,AUTHLASTNAME(Fock) AND AFFIL(Toyota),200,443
+wos,au_only,"AU=""Fock, Kwong Ming""",200,321
+wos,au_x_motor,"AU=""Fock, Kwong Ming"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,202
+wos,au_x_group,"AU=""Fock, Kwong Ming"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,218
+scopus,author_search_order0,AUTHLASTNAME(Kamiya) AND AUTHFIRST(Nobuo),200,386
+scopus,author_search_affil,AUTHLASTNAME(Kamiya) AND AFFIL(Toyota),200,362
+wos,au_only,"AU=""Kamiya, Nobuo""",200,267
+wos,au_x_motor,"AU=""Kamiya, Nobuo"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,216
+wos,au_x_group,"AU=""Kamiya, Nobuo"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,505
+scopus,author_search_order0,AUTHLASTNAME(Hattori) AND AUTHFIRST(T.),200,436
+scopus,author_search_affil,AUTHLASTNAME(Hattori) AND AFFIL(Toyota),200,404
+wos,au_only,"AU=""Hattori, T.""",200,211
+wos,au_x_motor,"AU=""Hattori, T."" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,233
+wos,au_x_group,"AU=""Hattori, T."" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,499
+scopus,author_search_order0,AUTHLASTNAME(Nakamura) AND AUTHFIRST(S.),200,393
+scopus,author_search_affil,AUTHLASTNAME(Nakamura) AND AFFIL(Toyota),200,463
+wos,au_only,"AU=""Nakamura, S.""",200,270
+wos,au_x_motor,"AU=""Nakamura, S."" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,237
+wos,au_x_group,"AU=""Nakamura, S."" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,305
+scopus,author_search_order0,AUTHLASTNAME(Nagai) AND AUTHFIRST(Yoshihiro),200,368
+scopus,author_search_affil,AUTHLASTNAME(Nagai) AND AFFIL(Toyota),200,355
+wos,au_only,"AU=""Nagai, Yoshihiro""",200,238
+wos,au_x_motor,"AU=""Nagai, Yoshihiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,223
+wos,au_x_group,"AU=""Nagai, Yoshihiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,292
+scopus,author_search_order0,AUTHLASTNAME(Yoshida) AND AUTHFIRST(Shozo),200,1067
+scopus,author_search_affil,AUTHLASTNAME(Yoshida) AND AFFIL(Toyota),200,474
+wos,au_only,"AU=""Yoshida, Shozo""",200,225
+wos,au_x_motor,"AU=""Yoshida, Shozo"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,296
+wos,au_x_group,"AU=""Yoshida, Shozo"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,246
+scopus,author_search_order0,AUTHLASTNAME(Yokoyama) AND AUTHFIRST(Tomohiro),200,380
+scopus,author_search_affil,AUTHLASTNAME(Yokoyama) AND AFFIL(Toyota),200,423
+wos,au_only,"AU=""Yokoyama, Tomohiro""",200,337
+wos,au_x_motor,"AU=""Yokoyama, Tomohiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,275
+wos,au_x_group,"AU=""Yokoyama, Tomohiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,287
+scopus,author_search_order0,AUTHLASTNAME(Suzuki) AND AUTHFIRST(Shigeru),200,396
+scopus,author_search_affil,AUTHLASTNAME(Suzuki) AND AFFIL(Toyota),200,401
+wos,au_only,"AU=""Suzuki, Shigeru""",200,597
+wos,au_x_motor,"AU=""Suzuki, Shigeru"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,228
+wos,au_x_group,"AU=""Suzuki, Shigeru"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,245
+scopus,author_search_order0,AUTHLASTNAME(Harada) AND AUTHFIRST(Hiroshi),200,534
+scopus,author_search_affil,AUTHLASTNAME(Harada) AND AFFIL(Toyota),200,352
+wos,au_only,"AU=""Harada, Hiroshi""",200,246
+wos,au_x_motor,"AU=""Harada, Hiroshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,307
+wos,au_x_group,"AU=""Harada, Hiroshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,282
+scopus,author_search_order0,AUTHLASTNAME(Tanaka) AND AUTHFIRST(Kenji),200,392
+scopus,author_search_affil,AUTHLASTNAME(Tanaka) AND AFFIL(Toyota),200,368
+wos,au_only,"AU=""Tanaka, Kenji""",200,219
+wos,au_x_motor,"AU=""Tanaka, Kenji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,235
+wos,au_x_group,"AU=""Tanaka, Kenji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,690
+scopus,author_search_order0,AUTHLASTNAME(Tanaka) AND AUTHFIRST(Yusuke),200,476
+scopus,author_search_affil,AUTHLASTNAME(Tanaka) AND AFFIL(Toyota),200,488
+wos,au_only,"AU=""Tanaka, Yusuke""",200,219
+wos,au_x_motor,"AU=""Tanaka, Yusuke"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,255
+wos,au_x_group,"AU=""Tanaka, Yusuke"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,321
+scopus,author_search_order0,AUTHLASTNAME(Inoue) AND AUTHFIRST(Hiroshi),200,562
+scopus,author_search_affil,AUTHLASTNAME(Inoue) AND AFFIL(Toyota),200,455
+wos,au_only,"AU=""Inoue, Hiroshi""",200,219
+wos,au_x_motor,"AU=""Inoue, Hiroshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,254
+wos,au_x_group,"AU=""Inoue, Hiroshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,230
+scopus,author_search_order0,AUTHLASTNAME(Matsuura) AND AUTHFIRST(Takashi),200,354
+scopus,author_search_affil,AUTHLASTNAME(Matsuura) AND AFFIL(Toyota),200,585
+wos,au_only,"AU=""Matsuura, Takashi""",200,228
+wos,au_x_motor,"AU=""Matsuura, Takashi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,408
+wos,au_x_group,"AU=""Matsuura, Takashi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,346
+scopus,author_search_order0,AUTHLASTNAME(Takiguchi) AND AUTHFIRST(Toshio),200,341
+scopus,author_search_affil,AUTHLASTNAME(Takiguchi) AND AFFIL(Toyota),200,397
+wos,au_only,"AU=""Takiguchi, Toshio""",200,230
+wos,au_x_motor,"AU=""Takiguchi, Toshio"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,423
+wos,au_x_group,"AU=""Takiguchi, Toshio"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,208
+scopus,author_search_order0,AUTHLASTNAME(Inagaki) AND AUTHFIRST(Shinji),200,384
+scopus,author_search_affil,AUTHLASTNAME(Inagaki) AND AFFIL(Toyota),200,440
+wos,au_only,"AU=""Inagaki, Shinji""",200,212
+wos,au_x_motor,"AU=""Inagaki, Shinji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,452
+wos,au_x_group,"AU=""Inagaki, Shinji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,252
+scopus,author_search_order0,AUTHLASTNAME(Tanaka) AND AUTHFIRST(Hiroaki),200,1200
+scopus,author_search_affil,AUTHLASTNAME(Tanaka) AND AFFIL(Toyota),200,362
+wos,au_only,"AU=""Tanaka, Hiroaki""",200,421
+wos,au_x_motor,"AU=""Tanaka, Hiroaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,530
+wos,au_x_group,"AU=""Tanaka, Hiroaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,331
+scopus,author_search_order0,AUTHLASTNAME(Takahashi) AND AUTHFIRST(Hiroaki),200,394
+scopus,author_search_affil,AUTHLASTNAME(Takahashi) AND AFFIL(Toyota),200,578
+wos,au_only,"AU=""Takahashi, Hiroaki""",200,281
+wos,au_x_motor,"AU=""Takahashi, Hiroaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,478
+wos,au_x_group,"AU=""Takahashi, Hiroaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,365
+scopus,author_search_order0,AUTHLASTNAME(Dede) AND AUTHFIRST(Ercan),200,354
+scopus,author_search_affil,AUTHLASTNAME(Dede) AND AFFIL(Toyota),200,416
+wos,au_only,"AU=""Dede, Ercan""",200,207
+wos,au_x_motor,"AU=""Dede, Ercan"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,371
+wos,au_x_group,"AU=""Dede, Ercan"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,244
+scopus,author_search_order0,AUTHLASTNAME(Samada) AND AUTHFIRST(Katsumi),200,630
+scopus,author_search_affil,AUTHLASTNAME(Samada) AND AFFIL(Toyota),200,367
+wos,au_only,"AU=""Samada, Katsumi""",200,225
+wos,au_x_motor,"AU=""Samada, Katsumi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,232
+wos,au_x_group,"AU=""Samada, Katsumi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,214
+scopus,author_search_order0,AUTHLASTNAME(KOMATU) AND AUTHFIRST(Noboru),200,347
+scopus,author_search_affil,AUTHLASTNAME(KOMATU) AND AFFIL(Toyota),200,357
+wos,au_only,"AU=""KOMATU, Noboru""",200,204
+wos,au_x_motor,"AU=""KOMATU, Noboru"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,200
+wos,au_x_group,"AU=""KOMATU, Noboru"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,198
+scopus,author_search_order0,AUTHLASTNAME(Ishizaki) AND AUTHFIRST(Naoya),200,401
+scopus,author_search_affil,AUTHLASTNAME(Ishizaki) AND AFFIL(Toyota),200,410
+wos,au_only,"AU=""Ishizaki, Naoya""",200,236
+wos,au_x_motor,"AU=""Ishizaki, Naoya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,280
+wos,au_x_group,"AU=""Ishizaki, Naoya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,389
+scopus,author_search_order0,AUTHLASTNAME(Nagahama) AND AUTHFIRST(Satoshi),200,922
+scopus,author_search_affil,AUTHLASTNAME(Nagahama) AND AFFIL(Toyota),200,523
+wos,au_only,"AU=""Nagahama, Satoshi""",200,421
+wos,au_x_motor,"AU=""Nagahama, Satoshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,212
+wos,au_x_group,"AU=""Nagahama, Satoshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,882
+scopus,author_search_order0,AUTHLASTNAME(Jakstis) AND AUTHFIRST(Mark),200,634
+scopus,author_search_affil,AUTHLASTNAME(Jakstis) AND AFFIL(Toyota),200,470
+wos,au_only,"AU=""Jakstis, Mark""",200,205
+wos,au_x_motor,"AU=""Jakstis, Mark"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,197
+wos,au_x_group,"AU=""Jakstis, Mark"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,216
+scopus,author_search_order0,AUTHLASTNAME(Ohkuma) AND AUTHFIRST(Chiaki),200,404
+scopus,author_search_order1,AUTHLASTNAME(Chiaki) AND AUTHFIRST(Ohkuma),200,377
+scopus,author_search_affil,AUTHLASTNAME(Ohkuma) AND AFFIL(Toyota),200,361
+wos,au_only,"AU=""Ohkuma, Chiaki""",200,361
+wos,au_x_motor,"AU=""Ohkuma, Chiaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,201
+wos,au_x_group,"AU=""Ohkuma, Chiaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,326
+scopus,author_search_order0,AUTHLASTNAME(Tazima) AND AUTHFIRST(Yoshio),200,391
+scopus,author_search_affil,AUTHLASTNAME(Tazima) AND AFFIL(Toyota),200,354
+wos,au_only,"AU=""Tazima, Yoshio""",200,233
+wos,au_x_motor,"AU=""Tazima, Yoshio"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,234
+wos,au_x_group,"AU=""Tazima, Yoshio"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,198
+scopus,author_search_order0,AUTHLASTNAME(Ishivama) AND AUTHFIRST(Shin-ichi),200,388
+scopus,author_search_affil,AUTHLASTNAME(Ishivama) AND AFFIL(Toyota),200,374
+wos,au_only,"AU=""Ishivama, Shin-ichi""",200,206
+wos,au_x_motor,"AU=""Ishivama, Shin-ichi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,570
+wos,au_x_group,"AU=""Ishivama, Shin-ichi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,319
+scopus,author_search_order0,AUTHLASTNAME(Okamoto) AND AUTHFIRST(H.),200,430
+scopus,author_search_affil,AUTHLASTNAME(Okamoto) AND AFFIL(Toyota),200,1009
+wos,au_only,"AU=""Okamoto, H.""",200,370
+wos,au_x_motor,"AU=""Okamoto, H."" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,201
+wos,au_x_group,"AU=""Okamoto, H."" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,264
+scopus,author_search_order0,AUTHLASTNAME(Shimazaki) AND AUTHFIRST(Keiko),200,463
+scopus,author_search_affil,AUTHLASTNAME(Shimazaki) AND AFFIL(Toyota),200,383
+wos,au_only,"AU=""Shimazaki, Keiko""",200,212
+wos,au_x_motor,"AU=""Shimazaki, Keiko"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,266
+wos,au_x_group,"AU=""Shimazaki, Keiko"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,261
+scopus,author_search_order0,AUTHLASTNAME(Takeuchi) AND AUTHFIRST(Hirohisa),200,342
+scopus,author_search_affil,AUTHLASTNAME(Takeuchi) AND AFFIL(Toyota),200,366
+wos,au_only,"AU=""Takeuchi, Hirohisa""",200,199
+wos,au_x_motor,"AU=""Takeuchi, Hirohisa"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,210
+wos,au_x_group,"AU=""Takeuchi, Hirohisa"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,214
+scopus,author_search_order0,AUTHLASTNAME(Kusakabe) AND AUTHFIRST(Makoto),200,389
+scopus,author_search_affil,AUTHLASTNAME(Kusakabe) AND AFFIL(Toyota),200,469
+wos,au_only,"AU=""Kusakabe, Makoto""",200,223
+wos,au_x_motor,"AU=""Kusakabe, Makoto"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,484
+wos,au_x_group,"AU=""Kusakabe, Makoto"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,328
+scopus,author_search_order0,AUTHLASTNAME(Miyake) AND AUTHFIRST(Yuichi),200,357
+scopus,author_search_affil,AUTHLASTNAME(Miyake) AND AFFIL(Toyota),200,488
+wos,au_only,"AU=""Miyake, Yuichi""",200,332
+wos,au_x_motor,"AU=""Miyake, Yuichi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,1066
+wos,au_x_group,"AU=""Miyake, Yuichi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,274
+scopus,author_search_order0,AUTHLASTNAME(Uechi) AND AUTHFIRST(Masaaki),200,453
+scopus,author_search_affil,AUTHLASTNAME(Uechi) AND AFFIL(Toyota),200,344
+wos,au_only,"AU=""Uechi, Masaaki""",200,247
+wos,au_x_motor,"AU=""Uechi, Masaaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,200
+wos,au_x_group,"AU=""Uechi, Masaaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,206
+scopus,author_search_order0,AUTHLASTNAME(Nishibe),200,419
+scopus,author_search_affil,AUTHLASTNAME(Nishibe) AND AFFIL(Toyota),200,375
+wos,au_only,"AU=""Nishibe""",200,236
+wos,au_x_motor,"AU=""Nishibe"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,194
+wos,au_x_group,"AU=""Nishibe"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,203
+scopus,author_search_order0,AUTHLASTNAME(Nakauji) AND AUTHFIRST(Kazuya),200,331
+scopus,author_search_order1,AUTHLASTNAME(Kazuya) AND AUTHFIRST(Nakauji),200,344
+scopus,author_search_affil,AUTHLASTNAME(Nakauji) AND AFFIL(Toyota),200,365
+wos,au_only,"AU=""Nakauji, Kazuya""",200,488
+wos,au_x_motor,"AU=""Nakauji, Kazuya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,191
+wos,au_x_group,"AU=""Nakauji, Kazuya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,229
+scopus,author_search_order0,AUTHLASTNAME(Toi) AND AUTHFIRST(Keiko),200,359
+scopus,author_search_affil,AUTHLASTNAME(Toi) AND AFFIL(Toyota),200,343
+wos,au_only,"AU=""Toi, Keiko""",200,198
+wos,au_x_motor,"AU=""Toi, Keiko"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,243
+wos,au_x_group,"AU=""Toi, Keiko"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,204
+scopus,author_search_order0,AUTHLASTNAME(Kai) AND AUTHFIRST(Reina),200,324
+scopus,author_search_order1,AUTHLASTNAME(Reina) AND AUTHFIRST(Kai),200,366
+scopus,author_search_affil,AUTHLASTNAME(Kai) AND AFFIL(Toyota),200,409
+wos,au_only,"AU=""Kai, Reina""",200,199
+wos,au_x_motor,"AU=""Kai, Reina"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,528
+wos,au_x_group,"AU=""Kai, Reina"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,210
+scopus,author_search_order0,AUTHLASTNAME(Shinichi) AND AUTHFIRST(Miura),200,450
+scopus,author_search_order1,AUTHLASTNAME(Miura) AND AUTHFIRST(Shinichi),200,411
+scopus,author_search_affil,AUTHLASTNAME(Shinichi) AND AFFIL(Toyota),200,418
+wos,au_only,"AU=""Shinichi, Miura""",200,376
+wos,au_x_motor,"AU=""Shinichi, Miura"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,553
+wos,au_x_group,"AU=""Shinichi, Miura"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,200
+scopus,author_search_order0,AUTHLASTNAME(Tilki) AND AUTHFIRST(Teoman),200,491
+scopus,author_search_order1,AUTHLASTNAME(Teoman) AND AUTHFIRST(Tilki),200,441
+scopus,author_search_affil,AUTHLASTNAME(Tilki) AND AFFIL(Toyota),200,364
+wos,au_only,"AU=""Tilki, Teoman""",200,190
+wos,au_x_motor,"AU=""Tilki, Teoman"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,284
+wos,au_x_group,"AU=""Tilki, Teoman"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,253
+scopus,author_search_order0,AUTHLASTNAME(Hiei) AND AUTHFIRST(Y.),200,417
+scopus,author_search_affil,AUTHLASTNAME(Hiei) AND AFFIL(Toyota),200,368
+wos,au_only,"AU=""Hiei, Y.""",200,208
+wos,au_x_motor,"AU=""Hiei, Y."" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,221
+wos,au_x_group,"AU=""Hiei, Y."" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,209
+scopus,author_search_order0,AUTHLASTNAME(Miyazaki) AND AUTHFIRST(Yoshiaki),200,417
+scopus,author_search_affil,AUTHLASTNAME(Miyazaki) AND AFFIL(Toyota),200,349
+wos,au_only,"AU=""Miyazaki, Yoshiaki""",200,225
+wos,au_x_motor,"AU=""Miyazaki, Yoshiaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,201
+wos,au_x_group,"AU=""Miyazaki, Yoshiaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,217
+scopus,author_search_order0,AUTHLASTNAME(TAKAEDA) AND AUTHFIRST(Yoshio),200,421
+scopus,author_search_affil,AUTHLASTNAME(TAKAEDA) AND AFFIL(Toyota),200,380
+wos,au_only,"AU=""TAKAEDA, Yoshio""",200,494
+wos,au_x_motor,"AU=""TAKAEDA, Yoshio"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,423
+wos,au_x_group,"AU=""TAKAEDA, Yoshio"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,354
+scopus,author_search_order0,AUTHLASTNAME(Nishino) AND AUTHFIRST(Naohisa),200,357
+scopus,author_search_affil,AUTHLASTNAME(Nishino) AND AFFIL(Toyota),200,392
+wos,au_only,"AU=""Nishino, Naohisa""",200,206
+wos,au_x_motor,"AU=""Nishino, Naohisa"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,536
+wos,au_x_group,"AU=""Nishino, Naohisa"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,447
+scopus,author_search_order0,AUTHLASTNAME(Miyachi) AND AUTHFIRST(Shigenobu),200,394
+scopus,author_search_affil,AUTHLASTNAME(Miyachi) AND AFFIL(Toyota),200,442
+wos,au_only,"AU=""Miyachi, Shigenobu""",200,281
+wos,au_x_motor,"AU=""Miyachi, Shigenobu"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,219
+wos,au_x_group,"AU=""Miyachi, Shigenobu"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,206
+scopus,author_search_order0,AUTHLASTNAME(Brasse) AND AUTHFIRST(Claudia),200,358
+scopus,author_search_affil,AUTHLASTNAME(Brasse) AND AFFIL(Toyota),200,426
+wos,au_only,"AU=""Brasse, Claudia""",200,216
+wos,au_x_motor,"AU=""Brasse, Claudia"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,216
+wos,au_x_group,"AU=""Brasse, Claudia"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,263
+scopus,author_search_order0,AUTHLASTNAME(Abiko) AND AUTHFIRST(Katsutoshi),200,414
+scopus,author_search_affil,AUTHLASTNAME(Abiko) AND AFFIL(Toyota),200,376
+wos,au_only,"AU=""Abiko, Katsutoshi""",200,208
+wos,au_x_motor,"AU=""Abiko, Katsutoshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,267
+wos,au_x_group,"AU=""Abiko, Katsutoshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,390
+scopus,author_search_order0,AUTHLASTNAME(Wada) AND AUTHFIRST(Shozo),200,353
+scopus,author_search_affil,AUTHLASTNAME(Wada) AND AFFIL(Toyota),200,381
+wos,au_only,"AU=""Wada, Shozo""",200,275
+wos,au_x_motor,"AU=""Wada, Shozo"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,236
+wos,au_x_group,"AU=""Wada, Shozo"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,206
+scopus,author_search_order0,AUTHLASTNAME(Iscomeback) AND AUTHFIRST(Gris),200,346
+scopus,author_search_order1,AUTHLASTNAME(Gris) AND AUTHFIRST(Iscomeback),200,340
+scopus,author_search_affil,AUTHLASTNAME(Iscomeback) AND AFFIL(Toyota),200,396
+wos,au_only,"AU=""Iscomeback, Gris""",200,265
+wos,au_x_motor,"AU=""Iscomeback, Gris"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,206
+wos,au_x_group,"AU=""Iscomeback, Gris"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,307
+scopus,author_search_order0,AUTHLASTNAME(Gordon) AND AUTHFIRST(Scott),200,819
+scopus,author_search_affil,AUTHLASTNAME(Gordon) AND AFFIL(Toyota),200,401
+wos,au_only,"AU=""Gordon, Scott""",200,336
+wos,au_x_motor,"AU=""Gordon, Scott"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,196
+wos,au_x_group,"AU=""Gordon, Scott"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,442
+scopus,author_search_order0,AUTHLASTNAME(Ramaswami) AND AUTHFIRST(Madhan),200,347
+scopus,author_search_affil,AUTHLASTNAME(Ramaswami) AND AFFIL(Toyota),200,333
+wos,au_only,"AU=""Ramaswami, Madhan""",200,236
+wos,au_x_motor,"AU=""Ramaswami, Madhan"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,305
+wos,au_x_group,"AU=""Ramaswami, Madhan"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,197
+scopus,author_search_order0,AUTHLASTNAME(Fukumoto) AND AUTHFIRST(Aya),200,357
+scopus,author_search_affil,AUTHLASTNAME(Fukumoto) AND AFFIL(Toyota),200,394
+wos,au_only,"AU=""Fukumoto, Aya""",200,276
+wos,au_x_motor,"AU=""Fukumoto, Aya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,194
+wos,au_x_group,"AU=""Fukumoto, Aya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,207
+scopus,author_search_order0,AUTHLASTNAME(KÖKSAL) AND AUTHFIRST(İftihar),200,486
+scopus,author_search_affil,AUTHLASTNAME(KÖKSAL) AND AFFIL(Toyota),200,407
+wos,au_only,"AU=""KÖKSAL, İftihar""",200,220
+wos,au_x_motor,"AU=""KÖKSAL, İftihar"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,407
+wos,au_x_group,"AU=""KÖKSAL, İftihar"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,456
+scopus,author_search_order0,AUTHLASTNAME(Laberteaux) AND AUTHFIRST(Ken),200,336
+scopus,author_search_affil,AUTHLASTNAME(Laberteaux) AND AFFIL(Toyota),200,889
+wos,au_only,"AU=""Laberteaux, Ken""",200,469
+wos,au_x_motor,"AU=""Laberteaux, Ken"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,215
+wos,au_x_group,"AU=""Laberteaux, Ken"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,225
+scopus,author_search_order0,AUTHLASTNAME(Okada) AND AUTHFIRST(Kazuya),200,407
+scopus,author_search_affil,AUTHLASTNAME(Okada) AND AFFIL(Toyota),200,403
+wos,au_only,"AU=""Okada, Kazuya""",200,265
+wos,au_x_motor,"AU=""Okada, Kazuya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,266
+wos,au_x_group,"AU=""Okada, Kazuya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,635
+scopus,author_search_order0,AUTHLASTNAME(Marco) AND AUTHFIRST(Cinzia De),200,478
+scopus,author_search_affil,AUTHLASTNAME(Marco) AND AFFIL(Toyota),200,370
+wos,au_only,"AU=""Marco, Cinzia De""",200,402
+wos,au_x_motor,"AU=""Marco, Cinzia De"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,208
+wos,au_x_group,"AU=""Marco, Cinzia De"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,196
+scopus,author_search_order0,AUTHLASTNAME(Sato) AND AUTHFIRST(Jun),200,357
+scopus,author_search_affil,AUTHLASTNAME(Sato) AND AFFIL(Toyota),200,352
+wos,au_only,"AU=""Sato, Jun""",200,217
+wos,au_x_motor,"AU=""Sato, Jun"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,291
+wos,au_x_group,"AU=""Sato, Jun"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,528
+scopus,author_search_order0,AUTHLASTNAME(Hanai) AND AUTHFIRST(Nobutaka),200,339
+scopus,author_search_order1,AUTHLASTNAME(Nobutaka) AND AUTHFIRST(Hanai),200,339
+scopus,author_search_affil,AUTHLASTNAME(Hanai) AND AFFIL(Toyota),200,348
+wos,au_only,"AU=""Hanai, Nobutaka""",200,194
+wos,au_x_motor,"AU=""Hanai, Nobutaka"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,457
+wos,au_x_group,"AU=""Hanai, Nobutaka"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,211
+scopus,author_search_order0,AUTHLASTNAME(Kaneko) AND AUTHFIRST(Rihito),200,381
+scopus,author_search_affil,AUTHLASTNAME(Kaneko) AND AFFIL(Toyota),200,376
+wos,au_only,"AU=""Kaneko, Rihito""",200,266
+wos,au_x_motor,"AU=""Kaneko, Rihito"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,199
+wos,au_x_group,"AU=""Kaneko, Rihito"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,238
+scopus,author_search_order0,AUTHLASTNAME(HIROSHIMA) AND AUTHFIRST(Seiji),200,327
+scopus,author_search_affil,AUTHLASTNAME(HIROSHIMA) AND AFFIL(Toyota),200,342
+wos,au_only,"AU=""HIROSHIMA, Seiji""",200,198
+wos,au_x_motor,"AU=""HIROSHIMA, Seiji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,191
+wos,au_x_group,"AU=""HIROSHIMA, Seiji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,193
+scopus,author_search_order0,AUTHLASTNAME(Shimura) AND AUTHFIRST(Amane),200,377
+scopus,author_search_affil,AUTHLASTNAME(Shimura) AND AFFIL(Toyota),200,448
+wos,au_only,"AU=""Shimura, Amane""",200,191
+wos,au_x_motor,"AU=""Shimura, Amane"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,198
+wos,au_x_group,"AU=""Shimura, Amane"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,212
+scopus,author_search_order0,AUTHLASTNAME(Shimasaki) AND AUTHFIRST(Nagisa),200,362
+scopus,author_search_affil,AUTHLASTNAME(Shimasaki) AND AFFIL(Toyota),200,366
+wos,au_only,"AU=""Shimasaki, Nagisa""",200,196
+wos,au_x_motor,"AU=""Shimasaki, Nagisa"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,201
+wos,au_x_group,"AU=""Shimasaki, Nagisa"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,214
+scopus,author_search_order0,AUTHLASTNAME(Tanida) AND AUTHFIRST(Atsushi),200,352
+scopus,author_search_affil,AUTHLASTNAME(Tanida) AND AFFIL(Toyota),200,461
+wos,au_only,"AU=""Tanida, Atsushi""",200,209
+wos,au_x_motor,"AU=""Tanida, Atsushi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,256
+wos,au_x_group,"AU=""Tanida, Atsushi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,238
+scopus,author_search_order0,AUTHLASTNAME(Abe) AND AUTHFIRST(Hiroshi),200,389
+scopus,author_search_affil,AUTHLASTNAME(Abe) AND AFFIL(Toyota),200,397
+wos,au_only,"AU=""Abe, Hiroshi""",200,384
+wos,au_x_motor,"AU=""Abe, Hiroshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,382
+wos,au_x_group,"AU=""Abe, Hiroshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,206
+scopus,author_search_order0,AUTHLASTNAME(Kawaii) AND AUTHFIRST(Fumiaki),200,402
+scopus,author_search_affil,AUTHLASTNAME(Kawaii) AND AFFIL(Toyota),200,383
+wos,au_only,"AU=""Kawaii, Fumiaki""",200,210
+wos,au_x_motor,"AU=""Kawaii, Fumiaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,221
+wos,au_x_group,"AU=""Kawaii, Fumiaki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,233
+scopus,author_search_order0,AUTHLASTNAME(Yanagisawa) AND AUTHFIRST(Toshihiko),200,384
+scopus,author_search_affil,AUTHLASTNAME(Yanagisawa) AND AFFIL(Toyota),200,464
+wos,au_only,"AU=""Yanagisawa, Toshihiko""",200,227
+wos,au_x_motor,"AU=""Yanagisawa, Toshihiko"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,218
+wos,au_x_group,"AU=""Yanagisawa, Toshihiko"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,207
+scopus,author_search_order0,AUTHLASTNAME(Ishimaru) AND AUTHFIRST(Tomoyoshi),200,507
+scopus,author_search_affil,AUTHLASTNAME(Ishimaru) AND AFFIL(Toyota),200,379
+wos,au_only,"AU=""Ishimaru, Tomoyoshi""",200,209
+wos,au_x_motor,"AU=""Ishimaru, Tomoyoshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,318
+wos,au_x_group,"AU=""Ishimaru, Tomoyoshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,206
+scopus,author_search_order0,AUTHLASTNAME(Nagasaka) AND AUTHFIRST(Yuji),200,441
+scopus,author_search_affil,AUTHLASTNAME(Nagasaka) AND AFFIL(Toyota),200,356
+wos,au_only,"AU=""Nagasaka, Yuji""",200,212
+wos,au_x_motor,"AU=""Nagasaka, Yuji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,198
+wos,au_x_group,"AU=""Nagasaka, Yuji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,219
+scopus,author_search_order0,AUTHLASTNAME(Kitamura) AND AUTHFIRST(Takahiro),200,394
+scopus,author_search_affil,AUTHLASTNAME(Kitamura) AND AFFIL(Toyota),200,418
+wos,au_only,"AU=""Kitamura, Takahiro""",200,367
+wos,au_x_motor,"AU=""Kitamura, Takahiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,206
+wos,au_x_group,"AU=""Kitamura, Takahiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,203
+scopus,author_search_order0,AUTHLASTNAME(Kozuka) AND AUTHFIRST(Takahiko),200,404
+scopus,author_search_order1,AUTHLASTNAME(Takahiko) AND AUTHFIRST(Kozuka),200,430
+scopus,author_search_affil,AUTHLASTNAME(Kozuka) AND AFFIL(Toyota),200,326
+wos,au_only,"AU=""Kozuka, Takahiko""",200,226
+wos,au_x_motor,"AU=""Kozuka, Takahiko"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,521
+wos,au_x_group,"AU=""Kozuka, Takahiko"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,205
+scopus,author_search_order0,AUTHLASTNAME(Kuwahara) AND AUTHFIRST(Masahiro),200,393
+scopus,author_search_affil,AUTHLASTNAME(Kuwahara) AND AFFIL(Toyota),200,467
+wos,au_only,"AU=""Kuwahara, Masahiro""",200,290
+wos,au_x_motor,"AU=""Kuwahara, Masahiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,204
+wos,au_x_group,"AU=""Kuwahara, Masahiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,234
+scopus,author_search_order0,AUTHLASTNAME(Anmi) AND AUTHFIRST(Kenichi),200,381
+scopus,author_search_affil,AUTHLASTNAME(Anmi) AND AFFIL(Toyota),200,875
+wos,au_only,"AU=""Anmi, Kenichi""",200,205
+wos,au_x_motor,"AU=""Anmi, Kenichi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,261
+wos,au_x_group,"AU=""Anmi, Kenichi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,240
+scopus,author_search_order0,AUTHLASTNAME(Kaneko) AND AUTHFIRST(Kimi),200,417
+scopus,author_search_affil,AUTHLASTNAME(Kaneko) AND AFFIL(Toyota),200,422
+wos,au_only,"AU=""Kaneko, Kimi""",200,381
+wos,au_x_motor,"AU=""Kaneko, Kimi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,198
+wos,au_x_group,"AU=""Kaneko, Kimi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,214
+scopus,author_search_order0,AUTHLASTNAME(Yoshimi) AND AUTHFIRST(Junichi),200,357
+scopus,author_search_affil,AUTHLASTNAME(Yoshimi) AND AFFIL(Toyota),200,338
+wos,au_only,"AU=""Yoshimi, Junichi""",200,212
+wos,au_x_motor,"AU=""Yoshimi, Junichi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,4936
+wos,au_x_group,"AU=""Yoshimi, Junichi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,1368
+scopus,author_search_order0,AUTHLASTNAME(Hoshino) AND AUTHFIRST(Yu),200,564
+scopus,author_search_affil,AUTHLASTNAME(Hoshino) AND AFFIL(Toyota),200,390
+wos,au_only,"AU=""Hoshino, Yu""",200,330
+wos,au_x_motor,"AU=""Hoshino, Yu"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,217
+wos,au_x_group,"AU=""Hoshino, Yu"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,208
+scopus,author_search_order0,AUTHLASTNAME(Tsuge) AND AUTHFIRST(Shogo),200,348
+scopus,author_search_affil,AUTHLASTNAME(Tsuge) AND AFFIL(Toyota),200,388
+wos,au_only,"AU=""Tsuge, Shogo""",200,443
+wos,au_x_motor,"AU=""Tsuge, Shogo"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,208
+wos,au_x_group,"AU=""Tsuge, Shogo"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,207
+scopus,author_search_order0,AUTHLASTNAME(Nonobe) AND AUTHFIRST(Yasuhiro),200,417
+scopus,author_search_affil,AUTHLASTNAME(Nonobe) AND AFFIL(Toyota),200,325
+wos,au_only,"AU=""Nonobe, Yasuhiro""",200,387
+wos,au_x_motor,"AU=""Nonobe, Yasuhiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,394
+wos,au_x_group,"AU=""Nonobe, Yasuhiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,204
+scopus,author_search_order0,AUTHLASTNAME(Yatsuhashi) AND AUTHFIRST(Ai),200,325
+scopus,author_search_affil,AUTHLASTNAME(Yatsuhashi) AND AFFIL(Toyota),200,326
+wos,au_only,"AU=""Yatsuhashi, Ai""",200,211
+wos,au_x_motor,"AU=""Yatsuhashi, Ai"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,218
+wos,au_x_group,"AU=""Yatsuhashi, Ai"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,202
+scopus,author_search_order0,AUTHLASTNAME(OTSUKA) AND AUTHFIRST(Shigeki),200,371
+scopus,author_search_order1,AUTHLASTNAME(Shigeki) AND AUTHFIRST(OTSUKA),200,358
+scopus,author_search_affil,AUTHLASTNAME(OTSUKA) AND AFFIL(Toyota),200,349
+wos,au_only,"AU=""OTSUKA, Shigeki""",200,199
+wos,au_x_motor,"AU=""OTSUKA, Shigeki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,256
+wos,au_x_group,"AU=""OTSUKA, Shigeki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,218
+scopus,author_search_order0,AUTHLASTNAME(Ishihara) AND AUTHFIRST(Nobuyuki),200,401
+scopus,author_search_affil,AUTHLASTNAME(Ishihara) AND AFFIL(Toyota),200,395
+wos,au_only,"AU=""Ishihara, Nobuyuki""",200,238
+wos,au_x_motor,"AU=""Ishihara, Nobuyuki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,211
+wos,au_x_group,"AU=""Ishihara, Nobuyuki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,225
+scopus,author_search_order0,AUTHLASTNAME(Iwamatsu) AND AUTHFIRST(Shunsuke),200,361
+scopus,author_search_affil,AUTHLASTNAME(Iwamatsu) AND AFFIL(Toyota),200,343
+wos,au_only,"AU=""Iwamatsu, Shunsuke""",200,276
+wos,au_x_motor,"AU=""Iwamatsu, Shunsuke"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,201
+wos,au_x_group,"AU=""Iwamatsu, Shunsuke"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,239
+scopus,author_search_order0,AUTHLASTNAME(Matsubara) AND AUTHFIRST(Ryohji),200,377
+scopus,author_search_affil,AUTHLASTNAME(Matsubara) AND AFFIL(Toyota),200,347
+wos,au_only,"AU=""Matsubara, Ryohji""",200,334
+wos,au_x_motor,"AU=""Matsubara, Ryohji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,227
+wos,au_x_group,"AU=""Matsubara, Ryohji"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,200
+scopus,author_search_order0,AUTHLASTNAME(Hachisuwa) AND AUTHFIRST(Isamu),200,460
+scopus,author_search_affil,AUTHLASTNAME(Hachisuwa) AND AFFIL(Toyota),200,429
+wos,au_only,"AU=""Hachisuwa, Isamu""",200,203
+wos,au_x_motor,"AU=""Hachisuwa, Isamu"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,206
+wos,au_x_group,"AU=""Hachisuwa, Isamu"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,202
+scopus,author_search_order0,AUTHLASTNAME(Suganuma) AND AUTHFIRST(Takuya),200,602
+scopus,author_search_affil,AUTHLASTNAME(Suganuma) AND AFFIL(Toyota),200,507
+wos,au_only,"AU=""Suganuma, Takuya""",200,295
+wos,au_x_motor,"AU=""Suganuma, Takuya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,207
+wos,au_x_group,"AU=""Suganuma, Takuya"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,217
+scopus,author_search_order0,AUTHLASTNAME(Kinomura) AND AUTHFIRST(Shigeki),200,379
+scopus,author_search_affil,AUTHLASTNAME(Kinomura) AND AFFIL(Toyota),200,366
+wos,au_only,"AU=""Kinomura, Shigeki""",200,215
+wos,au_x_motor,"AU=""Kinomura, Shigeki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,202
+wos,au_x_group,"AU=""Kinomura, Shigeki"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,599
+scopus,author_search_order0,AUTHLASTNAME(Maekawa) AND AUTHFIRST(Takeshi),200,389
+scopus,author_search_affil,AUTHLASTNAME(Maekawa) AND AFFIL(Toyota),200,459
+wos,au_only,"AU=""Maekawa, Takeshi""",200,210
+wos,au_x_motor,"AU=""Maekawa, Takeshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,295
+wos,au_x_group,"AU=""Maekawa, Takeshi"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,214
+scopus,author_search_order0,AUTHLASTNAME(KAWARAZAKI) AND AUTHFIRST(Yoshihiro),200,369
+scopus,author_search_order1,AUTHLASTNAME(Yoshihiro) AND AUTHFIRST(KAWARAZAKI),200,566
+scopus,author_search_affil,AUTHLASTNAME(KAWARAZAKI) AND AFFIL(Toyota),200,311
+wos,au_only,"AU=""KAWARAZAKI, Yoshihiro""",200,192
+wos,au_x_motor,"AU=""KAWARAZAKI, Yoshihiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,237
+wos,au_x_group,"AU=""KAWARAZAKI, Yoshihiro"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,204
+scopus,author_search_order0,AUTHLASTNAME(Furusawa) AND AUTHFIRST(Toru),200,371
+scopus,author_search_affil,AUTHLASTNAME(Furusawa) AND AFFIL(Toyota),200,336
+wos,au_only,"AU=""Furusawa, Toru""",200,204
+wos,au_x_motor,"AU=""Furusawa, Toru"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,245
+wos,au_x_group,"AU=""Furusawa, Toru"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,205
+scopus,author_search_order0,AUTHLASTNAME(Sugaz) AND AUTHFIRST(Keisuke),200,385
+scopus,author_search_order1,AUTHLASTNAME(Keisuke) AND AUTHFIRST(Sugaz),200,351
+scopus,author_search_affil,AUTHLASTNAME(Sugaz) AND AFFIL(Toyota),200,351
+wos,au_only,"AU=""Sugaz, Keisuke""",200,198
+wos,au_x_motor,"AU=""Sugaz, Keisuke"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"")",200,206
+wos,au_x_group,"AU=""Sugaz, Keisuke"" AND (OG=""Toyota Motor Corporation"" OR OG=""Toyota Motor Co Ltd"" OR OG=""Toyota Central R&D Labs Inc"" OR OG=""IMRA America Inc"" OR OG=""IMRA Europe"" OR OG=""Aisin Seiki"")",200,210

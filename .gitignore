@@ -1,0 +1,26 @@
+# APIキャッシュ。再取得できるうえ巨大（最大143MB）でGitHubの100MB制限を超える。
+# 実体は ~/scisci-auto/cache/ と ~/scisci-backup/ にある。
+data/cache/
+
+# 自動取得の実行ログ
+logs/
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# エディタ
+.vscode/
+.idea/
+
+# Claude Code のローカル設定（権限設定など、環境固有）
+.claude/settings.local.json

@@ -1,0 +1,9 @@
+sample_group,name,openalex_first_pub_year,openalex_is_currently_affiliated,openalex_matched_entities,scopus_author_search_hit,scopus_current_affiliation,scopus_current_affiliation_is_toyota,scopus_broad_affil_hits,scopus_narrow_af_id_hits
+known_noise,Tetsuo Yazawa,1936,False,Toyota Motor Corporation (Japan),True,University of Hyogo,False,0,0
+known_noise,Masatoshi Ishikawa,1942,False,Toyota Motor Corporation (Japan),False,,,0,0
+known_noise,Shin Yamamoto,1935,False,Toyota Motor Corporation (Switzerland),True,Aichi Prefectural University,False,10,0
+known_noise,Minoru KAWAMOTO,1936,False,Toyota Motor Corporation (Switzerland),False,,,0,0
+currently_affiliated,Tomohiro MIYABE,2002,True,Toyota Motor Corporation (Switzerland),True,"Toyota Central R&D Labs., Inc.",True,0,0
+currently_affiliated,Dorothée Lahaussois,2022,True,Toyota Motor Corporation (Belgium),True,Toyota Motor Europe NV/SA,True,0,0
+currently_affiliated,Masaki Nobuhiro,2022,True,Toyota Motor Corporation (Switzerland); Toyota Motor Corporation (Japan),True,IDEC Corporation,False,4,0
+currently_affiliated,Masahiro Doi,2026,True,Toyota Motor Corporation (Japan),True,Toyota Motor Corporation,True,4,0

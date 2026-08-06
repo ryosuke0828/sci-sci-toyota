@@ -1,0 +1,41 @@
+{
+  "unique_dois_queried": 641,
+  "crossref_found": 638,
+  "crossref_not_found": 3,
+  "not_found_examples": [
+    "10.1021/acscatal.5c04074%e2%80%8b",
+    "10.1049/el:1999501",
+    "10.4230/lipics.wads.2025.41"
+  ],
+  "total_author_records": 3206,
+  "unique_author_names": 1437,
+  "authors_with_orcid": 779,
+  "toyota_affiliated_author_records": 680,
+  "papers_with_affiliation_data": 220,
+  "by_source_org": {
+    "AISIN IMRA(日本・aisin.com)": {
+      "papers": 74,
+      "with_affil": 30,
+      "authors": 495,
+      "toyota_authors": 50
+    },
+    "AISIN IMRA(米国・imra.com)": {
+      "papers": 221,
+      "with_affil": 45,
+      "authors": 1104,
+      "toyota_authors": 91
+    },
+    "トヨタ自動車未来創成センター": {
+      "papers": 9,
+      "with_affil": 4,
+      "authors": 26,
+      "toyota_authors": 6
+    },
+    "豊田中央研究所": {
+      "papers": 334,
+      "with_affil": 141,
+      "authors": 1581,
+      "toyota_authors": 533
+    }
+  }
+}

@@ -1,0 +1,36 @@
+source,http_status,duration_ms,rate_limit_remaining,rate_limit_limit,url
+Affiliation Search: Toyota Motor,200,698,4999,5000,https://api.elsevier.com/content/search/affiliation
+"Author Search: Yazawa,Tetsuo+Toyota",200,360,4996,5000,https://api.elsevier.com/content/search/author
+"Author Search: Ishikawa,Masatoshi+Toyota",200,505,4995,5000,https://api.elsevier.com/content/search/author
+"Author Search: Masatoshi,Ishikawa+Toyota",200,497,4994,5000,https://api.elsevier.com/content/search/author
+"Author Search: Yamamoto,Shin+Toyota",200,487,4993,5000,https://api.elsevier.com/content/search/author
+"Author Search: KAWAMOTO,Minoru+Toyota",200,353,4992,5000,https://api.elsevier.com/content/search/author
+"Author Search: Minoru,KAWAMOTO+Toyota",200,396,4991,5000,https://api.elsevier.com/content/search/author
+"Author Search: MIYABE,Tomohiro+Toyota",200,370,4990,5000,https://api.elsevier.com/content/search/author
+"Author Search: Lahaussois,Dorothée+Toyota",200,472,4989,5000,https://api.elsevier.com/content/search/author
+"Author Search: Nobuhiro,Masaki+Toyota",200,377,4988,5000,https://api.elsevier.com/content/search/author
+"Author Search: Doi,Masahiro+Toyota",200,370,4987,5000,https://api.elsevier.com/content/search/author
+Author Retrieval: 7101659401,200,540,5000,5000,https://api.elsevier.com/content/author/author_id/7101659401
+Author Retrieval: 7408532252,200,762,4999,5000,https://api.elsevier.com/content/author/author_id/7408532252
+Author Retrieval: 57200241226,200,455,4998,5000,https://api.elsevier.com/content/author/author_id/57200241226
+Author Retrieval: 57463625400,200,485,4997,5000,https://api.elsevier.com/content/author/author_id/57463625400
+Author Retrieval: 24335892200,200,478,4996,5000,https://api.elsevier.com/content/author/author_id/24335892200
+Author Retrieval: 7201918691,200,483,4995,5000,https://api.elsevier.com/content/author/author_id/7201918691
+Scopus Search narrow(AF-ID): Tetsuo Yazawa,200,491,19987,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search broad(AFFIL): Tetsuo Yazawa,200,483,19986,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search narrow(AF-ID): Masatoshi Ishikawa,200,397,19985,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search broad(AFFIL): Masatoshi Ishikawa,200,489,19984,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search narrow(AF-ID): Shin Yamamoto,200,465,19983,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search broad(AFFIL): Shin Yamamoto,200,509,19982,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search narrow(AF-ID): Minoru KAWAMOTO,200,506,19981,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search broad(AFFIL): Minoru KAWAMOTO,200,517,19980,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search narrow(AF-ID): Tomohiro MIYABE,200,418,19979,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search broad(AFFIL): Tomohiro MIYABE,200,467,19978,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search narrow(AF-ID): Dorothée Lahaussois,200,409,19977,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search broad(AFFIL): Dorothée Lahaussois,200,391,19976,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search narrow(AF-ID): Masaki Nobuhiro,200,415,19975,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search broad(AFFIL): Masaki Nobuhiro,200,549,19974,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search narrow(AF-ID): Masahiro Doi,200,459,19973,20000,https://api.elsevier.com/content/search/scopus
+Scopus Search broad(AFFIL): Masahiro Doi,200,524,19972,20000,https://api.elsevier.com/content/search/scopus
+Abstract Retrieval: A5112713997,200,771,9997,10000,https://api.elsevier.com/content/abstract/doi/10.1021%2Fjp9828179
+Abstract Retrieval: A5010897098,200,716,9996,10000,https://api.elsevier.com/content/abstract/doi/10.1109%2Fjsen.2004.833152

@@ -1,0 +1,38 @@
+{
+  "complete": false,
+  "input_rows": 919,
+  "matched": 813,
+  "match_rate_pct": 88.5,
+  "by_method": {
+    "doi_exact": 637,
+    "title_fuzzy": 176
+  },
+  "by_review_status": {
+    "auto": 808,
+    "review": 5
+  },
+  "by_source_org": {
+    "AISIN IMRA(日本・aisin.com)": {
+      "total": 97,
+      "matched": 77,
+      "rate_pct": 79.4
+    },
+    "AISIN IMRA(米国・imra.com)": {
+      "total": 313,
+      "matched": 253,
+      "rate_pct": 80.8
+    },
+    "トヨタ自動車未来創成センター": {
+      "total": 154,
+      "matched": 131,
+      "rate_pct": 85.1
+    },
+    "豊田中央研究所": {
+      "total": 355,
+      "matched": 352,
+      "rate_pct": 99.2
+    }
+  },
+  "unique_openalex_works": 806,
+  "duplicate_openalex_ids": 7
+}

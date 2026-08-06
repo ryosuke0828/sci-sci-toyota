@@ -1,0 +1,49 @@
+{
+  "common_name_threshold": 50,
+  "revised_verdict_counts": {
+    "contradicted": 30,
+    "scopus_support": 28,
+    "strong_support": 20,
+    "ambiguous_common_name": 12,
+    "no_evidence": 10
+  },
+  "revised_by_group": {
+    "current_other": {
+      "ambiguous_common_name": 2,
+      "contradicted": 6,
+      "no_evidence": 5,
+      "scopus_support": 11,
+      "strong_support": 11
+    },
+    "current_swiss": {
+      "ambiguous_common_name": 2,
+      "contradicted": 11,
+      "no_evidence": 5,
+      "scopus_support": 11,
+      "strong_support": 6
+    },
+    "known_noise": {
+      "ambiguous_common_name": 8,
+      "contradicted": 13,
+      "no_evidence": 0,
+      "scopus_support": 6,
+      "strong_support": 3
+    }
+  },
+  "support_rate_pct_by_group": {
+    "current_other": 62.9,
+    "current_swiss": 48.6,
+    "known_noise": 30.0
+  },
+  "common_name_pct_by_group": {
+    "current_other": 14.3,
+    "current_swiss": 17.1,
+    "known_noise": 76.7
+  },
+  "why_initial_verdict_was_wrong": {
+    "wos_only_confirmed_n": 12,
+    "wos_only_median_name_only_hits": 862.0,
+    "both_db_confirmed_n": 20,
+    "both_db_median_name_only_hits": 9.5
+  }
+}
