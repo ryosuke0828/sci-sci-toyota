@@ -48,7 +48,16 @@ Scopus・WoSなど、大阪大学の契約や個人申請が絡む外部APIの�
 
 2026-08-06、Google Drive.app の更新(v128→v129)と再起動をきっかけに、**リポジトリのフォルダが 2026-07-27 の状態へ巻き戻り、8/3 に作成した成果物を失った**。Drive の中で `git init` しても、Drive ごと巻き戻れば `.git` も一緒に消えるため対策にならない。
 
-**作業を終える前に必ず `scripts/backup_repo.sh snapshot` を実行する**（Drive 外の `~/scisci-backup/` にミラーと日付つき世代を残す）。恒久対策は GitHub リモートへの push。それが済むまではこのスクリプトが唯一の防御である。
+**作業を終える前に、以下の2つを必ず実行する。**
+
+1. `git add -A && git commit` して **`git push`**（リモート: `git@github.com:ryosuke0828/sci-sci-toyota.git`、private）。これが第一の防御であり、Drive が巻き戻っても `git clone` で完全に復旧できる。
+2. `scripts/backup_repo.sh snapshot`（Drive 外の `~/scisci-backup/` にミラーと日付つき世代を残す）。`.gitignore` で除外している大容量キャッシュはこちらにしか残らない。
+
+**SSH 鍵の注意**: このマシンには GitHub アカウントが2つある（`ryosuke0828` と `luida-ikura`）。既定の鍵では認証できないため、リポジトリ単位で `core.sshCommand` に `~/.ssh/id_ed25519_ryosukee0828` を指定してある。`git clone` し直した場合は再設定が必要:
+
+```
+git config core.sshCommand "ssh -i ~/.ssh/id_ed25519_ryosukee0828 -o IdentitiesOnly=yes"
+```
 
 ## Scopus API 利用上の注意（2026-07-21 阪大図書館回答・エルゼビア公式資料に基づく）
 
