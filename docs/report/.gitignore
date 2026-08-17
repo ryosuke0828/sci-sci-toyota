@@ -1,4 +1,7 @@
 *.aux
 *.log
 *.out
-compile.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+compile*.log

@@ -1,5 +1,19 @@
+% !TEX program = lualatex
+% !TEX encoding = UTF-8 Unicode
+%
 % トヨタ関連企業 研究者データベース構築の進捗報告（今井泰介先生宛）
-% 組版: lualatex -interaction=nonstopmode report_2026-08-17.tex
+%
+% **必ず LuaLaTeX で組版すること。** ltjsarticle は LuaLaTeX 専用で、
+% pdflatex や platex では `luatexja-core Error: This package requires Lua(HB)(La)TeX`
+% で失敗する。エディタが pdflatex を既定にしている場合は上の magic comment か
+% 同ディレクトリの .latexmkrc が効くようにしておくこと。
+%
+%   手動:     lualatex -interaction=nonstopmode report_2026-08-17.tex
+%   latexmk:  latexmk report_2026-08-17.tex   （.latexmkrc で lualatex に固定済み）
+%
+% 相互参照（表1）を解決するには2回以上通す必要がある。
+% pdflatex が混ざって .aux が壊れると `表??` のまま残るので、
+% その場合は *.aux を消してから3回通すこと。
 \documentclass[a4paper,10pt]{ltjsarticle}
 
 \usepackage{booktabs}
