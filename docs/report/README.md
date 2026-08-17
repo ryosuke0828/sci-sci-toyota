@@ -10,24 +10,24 @@ cd docs/report
 latexmk report_2026-08-17.tex
 ```
 
-`.latexmkrc` で `$pdf_mode = 4`（lualatex）に固定してあるので、latexmk を素で呼べばよい。
-`.tex` の先頭にも `% !TEX program = lualatex` を置いてあるため、
-LaTeX Workshop・TeXShop・TeXstudio から開いた場合もエンジンが選ばれる。
+`.latexmkrc` で `$pdf_mode = 4`（lualatex）に固定してある。`.tex` 先頭の
+`% !TEX program = lualatex` により、LaTeX Workshop・TeXShop・TeXstudio からも同じエンジンが選ばれる。
 
-手動で回す場合:
+## プリアンブルの方針
 
-```
-lualatex -interaction=nonstopmode report_2026-08-17.tex
-```
+**内容を削ってページ数を合わせる。組版で圧縮しない。**
 
-相互参照（表1）を解決するには2回以上通す必要がある。
+過去に2ページへ押し込むため `titlesec` の見出し詰め・`\linespread{0.95}`・余白17mm・
+負の `\vspace` を積み重ねた結果、可読性が落ちたうえ、`titlesec` が `ltjsarticle` の
+`\paragraph` と競合して**見出しが本文の後ろに出る不具合**まで起こした。
+現在のプリアンブルは `geometry` と `booktabs`、および `\paragraph` の
+見出し記号（■）を消す1行のみ。ここに組版上の細工を足さないこと。
+
+ページ数は目安であり、内容の正確さを優先する。
 
 ## うまくいかないとき
 
-- **`表??` のまま残る** … pdflatex が混ざって `.aux` が壊れている。
-  `latexmk -C` で全消ししてから組版し直す。
-- **`■` が本文に混ざる／`\paragraph` の見出しが本文の後ろに出る** …
-  `titlesec` と `ltjsarticle` の競合。プリアンブルの `\titleformat{\paragraph}[runin]` が
-  効いているか確認する。この定義を消すと再発する。
-- **エラーが出ていないか確認する** … `-interaction=nonstopmode` は組版を止めないため、
-  ページ数だけ見ても破損に気づけない。`.log` の `Error` と `Warning` を必ず見ること。
+- **`表??` のまま残る** … pdflatex が混ざって `.aux` が壊れている。`latexmk -C` で全消しして組版し直す。
+- **`■` が見出しに出る** … `\renewcommand{\jsParagraphMark}{}` が効いていない。
+- **`■` が本文に混ざる／`\paragraph` の見出しが本文の後ろに出る** … `titlesec` が読み込まれている。外すこと。
+- **エラーの見落とし** … `-interaction=nonstopmode` は組版を止めない。ページ数だけ見ても破損に気づけないので、`.log` の `Error` と `Warning` を必ず確認する。

@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1786934871.31543 "report_2026-08-17.tex" "report_2026-08-17.pdf" "report_2026-08-17" 1786934872.62098 0
+["lualatex"] 1786937310.33208 "report_2026-08-17.tex" "report_2026-08-17.pdf" "report_2026-08-17" 1786937311.40473 0
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/haranoajigothic-medium.luc" 1778301131.17277 1924615 e21c5ee4ca568cb907556e3bdf364263 ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/haranoajimincho-regular.luc" 1778301128.89171 2011213 7221fcdccf757c0b43375417e862a944 ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc" 1778301129.05344 81875 9c75b3a3df266c2970fc91fab8010b3b ""
@@ -9,6 +9,7 @@
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1778301129.74759 128921 377e865ddd736056c4287854050786c0 ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1778301129.42524 128146 24847e1bdc816aa64b7512cf34bb21cb ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc" 1778301129.27921 127960 6581edc0767e57a49e1974d1350623ff ""
+  "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc" 1778301131.33727 127646 1458898389ea22f66621717ac339a275 ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc" 1778301131.2822 128165 6d147bab5764034eddb4cff6d878d20f ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1778301126.66986 390152 ba5b2c3c8d5d322f6306d35a5231b041 ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatexja/extra_haranoajigothic-medium.luc" 1778301131.23843 321567 a406c2aab45fd125ebd757520c9de039 ""
@@ -20,13 +21,13 @@
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatexja/extra_lmroman17-regular.luc" 1778301129.75099 17367 e7d8a9a2300c48ed82564d47f120a4aa ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatexja/extra_lmroman8-regular.luc" 1778301129.42864 17367 5dc1fc3bf620389d7b934e4c2e13f7da ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatexja/extra_lmroman9-regular.luc" 1778301129.28307 17367 5dc1fc3bf620389d7b934e4c2e13f7da ""
+  "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatexja/extra_lmsans10-regular.luc" 1778301131.3404 17367 5dc1fc3bf620389d7b934e4c2e13f7da ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatexja/extra_lmsans12-regular.luc" 1778301131.28535 17367 5dc1fc3bf620389d7b934e4c2e13f7da ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatexja/ltj-cid-auto-adobe-japan1.luc" 1778301118.95229 1643739 1a0b2e72fa6ddb9c6038df79c66c2d05 ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatexja/ltj-jisx0208.luc" 1778301129.19407 93919 1f6dc76354e6e3b148c06f9f9254f22e ""
   "/Users/jinedinujidan/Library/texlive/2024/texmf-var/luatexja/ltj-kinsoku_default.luc" 1778301119.14413 17654 e3e3c85f63c77f4caa824d338e2428e0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf" 1696969431 4741344 4e2d7e002125f563344f42c58a36357b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf" 1696969431 6420628 688119813d53b7282d5209dbc0147746 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf" 1255129361 110400 d844cffffa1af59f9d2bb1bfdb6f1a2c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf" 1255129361 112680 8bab1cbacdfe2fe22ce627aaf5174f5d ""
@@ -80,7 +81,6 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/sttools/stfloats.sty" 1633983922 24057 ff20efb65b128d27c08eac20ec07f540 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/svn-prov/svn-prov.sty" 1272330018 6852 44ea8d7e58290cde708a34ebf3953571 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua" 1700513690 1021 ae37ae5e20605f170274bb33ea1a0e3d ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty" 1698436711 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1655411236 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/usr/local/texlive/2024/texmf-dist/tex/luatex/ctablestack/ctablestack.sty" 1443736950 1510 9c109bd1f6a9fc69b2f6096ee416d958 ""
   "/usr/local/texlive/2024/texmf-dist/tex/luatex/lua-uni-algos/lua-uni-case.lua" 1645915452 1921 020c660fdc1d4c83ffebb059fead7b51 ""
@@ -160,8 +160,8 @@
   "/usr/local/texlive/2024/texmf-dist/tex/platex/jsclasses/jslogo.sty" 1601931076 5585 8e4615c54073c390d14154b29cee89cb ""
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731410993.25849 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt" 1731410922 12256467 9d3ac2a8b36b7e04ba7d81713fa83dbb ""
-  "report_2026-08-17.aux" 1786934872.42113 1849 0d2197d5b059c2c8a1ce157710ab9a59 "lualatex"
-  "report_2026-08-17.tex" 1786934841.98487 11777 5628df49aa156c56b29a53da77154599 ""
+  "report_2026-08-17.aux" 1786937311.23177 1816 d7406cf81bad6536904d275d2ab9212e "lualatex"
+  "report_2026-08-17.tex" 1786937308.8709 8699 4c7d2892e471635e05eac795a005c4da ""
   (generated)
   "report_2026-08-17.aux"
   "report_2026-08-17.log"
