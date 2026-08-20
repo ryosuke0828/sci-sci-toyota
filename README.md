@@ -21,6 +21,8 @@
 
 ## 主な成果物
 
+- [スクレイピングから欠損値補完・ノイズ除去まで（全体像）](docs/reports/pipeline_overview.md)
+- [同（実装詳細）](docs/reports/pipeline_details.md)
 - [学術データベース調査・アクセス検証総合報告](docs/reports/scholarly_databases_master_report.md)
 - [データベース比較の詳細付録](docs/reports/academic_database_comparison.md)
 - [アクセス確認・利用計画の詳細付録](docs/reports/scholarly_database_access_plan.md)

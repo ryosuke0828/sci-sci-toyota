@@ -6,6 +6,8 @@
 
 | 文書 | 内容 |
 |---|---|
+| [reports/pipeline_overview.md](reports/pipeline_overview.md) | スクレイピングから欠損値補完・ノイズ除去までの全体像（第1段階）。処理の流れと設計判断を一読で掴むためのもの |
+| [reports/pipeline_details.md](reports/pipeline_details.md) | 同（第2段階）。実装・しきい値・実測値・落とし穴を残した詳細版 |
 | [reports/scholarly_databases_master_report.md](reports/scholarly_databases_master_report.md) | OpenAlex、Crossref、Semantic Scholar、Scopus、WoSの比較、アクセス検証、研究用データ設計を統合した総合報告 |
 
 ## 補足資料
@@ -14,6 +16,7 @@
 |---|---|
 | [reports/academic_database_comparison.md](reports/academic_database_comparison.md) | 付録A: OpenAlex、Semantic Scholar、WoSの比較詳細 |
 | [reports/scholarly_database_access_plan.md](reports/scholarly_database_access_plan.md) | 付録B: Crossref、Semantic Scholar、Scopus、WoSのアクセス確認と利用計画 |
+| [reports/pilot_scopus_wos_verification.md](reports/pilot_scopus_wos_verification.md) | 受領した著者リスト（9,429名）の精度をScopus・WoSで照合したパイロット検証 |
 | [reports/random_impact_rule_reproduction.md](reports/random_impact_rule_reproduction.md) | Random Impact Ruleの外的再現 |
 | [reports/h_index_prediction.md](reports/h_index_prediction.md) | h指数予測力の再現 |
 | [notes/openalex_exploration.md](notes/openalex_exploration.md) | OpenAlex探索メモ |
