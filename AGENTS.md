@@ -79,3 +79,6 @@ git config core.sshCommand "ssh -i ~/.ssh/id_ed25519_ryosukee0828 -o IdentitiesO
 - レート制限（2023年1月時点・阪大図書館提供資料）: Freeプラン=1req/秒・50req/日・年5万件・1req最大50件。Institutional（阪大契約構成員向け）=5req/秒・1000req/日・1req最大50件。
 - 個人でWeb of Science IDを作成し、Clarivate Developer Portalで**本人が**API利用申請する（Application ID/Application Nameは任意文字列でよい）。承認後にプラン（Free Trial / Free Institutional Member / Free Institutional Integration）を選択する。この申請作業は伊倉涼介本人にしかできない。
 - 出典: 阪大図書館回答メール本文、添付 `Web of Science API_Field_JPN.xlsx`（フィールド一覧・レート制限表）。詳細は[アクセス確認と利用計画](docs/reports/scholarly_database_access_plan.md)参照。
+
+
+報告をわかりづらくするな．簡単なことをしているなら簡単な報告書を書け．
