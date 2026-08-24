@@ -1,0 +1,920 @@
+row_id,paper_uid,source_org,title,doi,openalex_id
+0,c340f7ef84db,トヨタ自動車未来創成センター,"Towards the Development of a Robot for Well-Being: Applying the Motivation, Engagement, and Thriving in User Experience (METUX) Model",,https://openalex.org/W7135085313
+1,e7ff5f0334e9,トヨタ自動車未来創成センター,Surface vs. Structural Similarity: Aligning Computational Metrics with Human Judgments,,https://openalex.org/W7135206505
+2,e8d6029e1261,トヨタ自動車未来創成センター,VDoF-MPC: Variable Degrees-of-Freedom Whole-Body Model Predictive Control,,https://openalex.org/W7125525066
+3,5fcff8ee5f8b,トヨタ自動車未来創成センター,A Graph-Based Heuristic for Bus Route Planning Using Taxi Origin-Destination Data,,https://openalex.org/W7123352096
+4,a82b698f36f6,トヨタ自動車未来創成センター,Jump Amplification of a Legged Jumping Robot with a Series Driven Catapult,,
+5,c724de77db6a,トヨタ自動車未来創成センター,Black-Box Optimization of the Storage Location Assignment Problem in Logistics Centers Using an Annealing Algorithm,,https://openalex.org/W7116337312
+6,ae19ca349314,トヨタ自動車未来創成センター,Visual robot navigation adaptive to directional cues using vision-language models and conditional diffusion models,,https://openalex.org/W4417305426
+7,6bb9b41a2203,トヨタ自動車未来創成センター,"Taxonomic Distribution of Alkane Synthesizing Aldehyde Dehydrogenases across Bacteria, Fungi, Plants, and Animals",,https://openalex.org/W4417262316
+8,d126688dd88d,トヨタ自動車未来創成センター,Identification and Characterization of Aldehyde-Producing Acyl-CoA Reductase Derived from Klebsiella Pneumoniae,,https://openalex.org/W4415950387
+9,1236ecb7abe5,トヨタ自動車未来創成センター,A Class-E Direct AC–AC Converter with a Novel Pulse Modulation Strategy for Induction Heating,,https://openalex.org/W7125615368
+10,04c22be2cf28,トヨタ自動車未来創成センター,A Zero-Voltage Switching Approach for Low-Voltage Fully Gan-Based DC-Link Inverters in Robotic Brushless Motor Applications,,https://openalex.org/W7125595837
+11,66fe0f391d63,トヨタ自動車未来創成センター,A Multi-Input High-Gain DC-DC Converter with Hybrid Fuel Cell/Battery Generation for DC-MGs,,https://openalex.org/W7117101126
+12,a375d473c249,トヨタ自動車未来創成センター,D-CLING: Prior-Preserving Depth-Conditioned Fine-Tuning for Navigation Foundation Models,,https://openalex.org/W7161842997
+13,80c9850e8d43,トヨタ自動車未来創成センター,Self-Supervised Geometry-Guided Initialization for Robust Monocular Visual Odometry,,https://openalex.org/W4416749291
+14,c8cfb619c632,トヨタ自動車未来創成センター,Development of the Leg Structure with Concentrated Liquid-Cooling Actuators for Long-Term Operation,,https://openalex.org/W4415524702
+15,e7af2ba3b1f0,トヨタ自動車未来創成センター,Where Do We Look When We Teach? Analyzing Human Gaze Behavior Across Demonstration Devices in Robot Imitation Learning,,
+16,d0a2d74628b6,トヨタ自動車未来創成センター,Determinants of Users' Chance-Seeking Behavior in Search-Based Recommendation,,https://openalex.org/W4414034847
+17,4e5fb6363e9c,トヨタ自動車未来創成センター,Scalable Multi-Agent Path Finding for Delivery Robot Systems with Temporal and Edge Capacity Constraints on Weighted Graphs,,https://openalex.org/W4414432703
+18,49652640086d,トヨタ自動車未来創成センター,Scheduling on Identical Machines with Setup Time and Unknown Execution Time,10.4230/lipics.wads.2025.41,https://openalex.org/W7110066572
+19,0932fa7b708e,トヨタ自動車未来創成センター,Metropolis-Hastings Sampling of Individual Schedules,,
+20,49cf5402c65b,トヨタ自動車未来創成センター,Probability-Raising Causality for Uncertain Parametric Markov Decision Processes with PAC Guarantees,,https://openalex.org/W4416284250
+21,6c87b7ec0310,トヨタ自動車未来創成センター,A Forecasting Method Based on a Dynamical Approach and Time Series Data for Vehicle Service Parts Demand,,https://openalex.org/W4412593189
+22,fc9dc63c94e0,トヨタ自動車未来創成センター,Hiding Structure of Reconstructed Network from Subgraphs Using Evolutionary Multi-Objective Optimization,,https://openalex.org/W4413209185
+23,4426304a2135,トヨタ自動車未来創成センター,Robot Local Planner: A Periodic Sampling-Based Motion Planner with Minimal Waypoints for Home Environments,,https://openalex.org/W4413926074
+24,c9484bfeba2f,トヨタ自動車未来創成センター,Sketch-MoMa: Teleoperation for Mobile Manipulator via Interpretation of Hand-Drawn Sketches,,https://openalex.org/W4413945050
+25,e11964103855,トヨタ自動車未来創成センター,Improving Orb-Slam3 Performance in Textureless Environments: Mapping and Localization in Hospital Corridors,,https://openalex.org/W4412082050
+26,c566a40894d3,トヨタ自動車未来創成センター,Performance or Governance? Serious Game and Workshop as a Tool for Fostering Awareness of Responsible AI,,https://openalex.org/W4409720314
+27,98aa059c2fbc,トヨタ自動車未来創成センター,Wasserstein Non-Negative Matrix Factorization for Multi-Layered Graphs and its Application to Mobility Data,,https://openalex.org/W4406353904
+28,0db34d8fe1ea,トヨタ自動車未来創成センター,Simultaneous Control of Cost Dynamics and Transport in Network Systems,,https://openalex.org/W4408520350
+29,9f7f1f0e2493,トヨタ自動車未来創成センター,Subjective mapping of indoor plants based on leaf shape measurements to select suitable plants for indoor landscapes,,https://openalex.org/W4408200231
+30,70f068cc68c2,トヨタ自動車未来創成センター,Comprehensive Modeling of Energy Transport Systems for Mooring-less Offshore Wind Power Considering Seasonal Oceanic Variations,,https://openalex.org/W4415223957
+31,3e3b6ac4b4a6,トヨタ自動車未来創成センター,A Comparative Analysis of Offshore Wind Power Generation System Design Methods Based on Various Evaluation Metrics,,https://openalex.org/W4415223551
+32,cb3b3c84ea49,トヨタ自動車未来創成センター,Sketch Interface for Teleoperation of Mobile Manipulator to Enable Intuitive and Intended Operation: A Proof of Concept,,https://openalex.org/W4410297873
+33,c2efdbc8a0db,トヨタ自動車未来創成センター,Imitation-Regularized Optimal Transport on Networks: Provable Robustness and Application to Logistics Planning,,https://openalex.org/W4408016760
+34,945604727437,トヨタ自動車未来創成センター,Reinforcement Learning of Multi-robot Task Allocation for Multi-object Transportation with Infeasible Tasks,,https://openalex.org/W4407404757
+35,ca4ef11efdb1,トヨタ自動車未来創成センター,Task-priority Intermediated Hierarchical Distributed Policies: Reinforcement Learning of Adaptive Multi-robot Cooperative Transport,,https://openalex.org/W4407403439
+36,133cd681dac3,トヨタ自動車未来創成センター,Warped matrix-variate Gaussian processes with structured kernels for multi-step-ahead driving behaviour prediction,,https://openalex.org/W4406794742
+37,82adc0294157,トヨタ自動車未来創成センター,Task and Motion Planning of Fetch-and-Carry Including Push-Aside Action Using Mixed Integer Linear Programming,,https://openalex.org/W4407403400
+38,98aa059c2fbc,トヨタ自動車未来創成センター,Wasserstein Non-Negative Matrix Factorization for Multi-Layered Graphs and Its Application to Mobility Data,,https://openalex.org/W4406353904
+39,ce3eb15d2d36,トヨタ自動車未来創成センター,Using Relational and Causality Context for Tasks with Specialized Vocabularies that are Challenging for LLMs,,
+40,d26d834e314a,トヨタ自動車未来創成センター,Real-time Detailed Self-collision Avoidance in Whole-body Model Predictive Control,,https://openalex.org/W4404953370
+41,3e9ad226a275,トヨタ自動車未来創成センター,CHG-DAgger: Interactive Imitation Learning with Human-Policy Cooperative Control,,
+42,90eba77dfc0b,トヨタ自動車未来創成センター,Dirichlet Logistic Gaussian Process for Evaluation of Black-Box Stochastic Systems under Complex Specifications,,
+43,004fc8c307f3,トヨタ自動車未来創成センター,Robust Imitation Learning for Mobile Manipulator Focusing on Task-Related Viewpoints and Regions,,https://openalex.org/W4405786648
+44,08a982566c37,トヨタ自動車未来創成センター,User Clustering for Pairwise Comparison with Missing Values Using Bradley-Terry Model and Consensus Clustering,,https://openalex.org/W4406612196
+45,f936923f9e6a,トヨタ自動車未来創成センター,CLIP-Clique: Graph-Based Correspondence Matching Augmented by Vision Language Models for Object-Based Global Localization,,https://openalex.org/W4403094391
+46,d0d6ae494d25,トヨタ自動車未来創成センター,Proposal for a Series-driven Catapult Using Soft Actuators to Increase the Jumping Height of Hyper Jumping Humanoid Robots,,https://openalex.org/W4402827546
+47,88e8125ccb6f,トヨタ自動車未来創成センター,Visual Properties and Perceived Restorativeness in Green Offices: A Photographic Evaluation of Office Environments with Varying Degrees of Greening,,https://openalex.org/W4402529802
+48,80f26be997e2,トヨタ自動車未来創成センター,Online Motion Modification for Mobile Manipulators Based on Sequential Quadratic Programming,,https://openalex.org/W4403676890
+49,a66d07deebd1,トヨタ自動車未来創成センター,Matrix-variate Gaussian Processes with Structured Kernels for Multi-step-ahead Driving Behavior Prediction,,
+50,84a58934cd79,トヨタ自動車未来創成センター,Task and motion planning using mixed integer linear programming for solving fetch-and-carry tasks by a mobile manipulator,10.1080/01691864.2024.2391831,https://openalex.org/W4401726313
+51,d602b7ddd952,トヨタ自動車未来創成センター,Simple Tape-stripping Method for Highly Reliable and Quantitative Analysis of Skin Microbiome,,https://openalex.org/W4401183681
+52,5b59f728a257,トヨタ自動車未来創成センター,Exploration of Factors for Over-dependence on AI and Crisis Scenarios,,
+53,e88e930525d2,トヨタ自動車未来創成センター,Whole-body inverse kinematics robust to base position control error in mobile manipulators,10.1080/01691864.2024.2369816,https://openalex.org/W4400411437
+54,df06e45580a6,トヨタ自動車未来創成センター,CLIP-Loc: Multi-modal Landmark Association for Global Localization in Object-based Maps,,https://openalex.org/W4401416219
+55,4c76d4a8cf71,トヨタ自動車未来創成センター,Robust Self-Supervised Extrinsic Self-Calibration,,https://openalex.org/W4389665366
+56,3768be6ac837,トヨタ自動車未来創成センター,Ultra-Low Inertia 6-DOF Manipulator Arm for Touching the World,,https://openalex.org/W4389665495
+57,3974689d81db,トヨタ自動車未来創成センター,Study on Reduced-Order Modeling Technique of Three-Phase Voltage Imbalance Model,,https://openalex.org/W4389946236
+58,cca034884936,トヨタ自動車未来創成センター,Checkmate: Fault Timing Localization for Multi-Robot Scenarios,,https://openalex.org/W4387143405
+59,a2886ae8b620,トヨタ自動車未来創成センター,"MVA2023 Small Object Detection Challenge for Spotting Birds: Dataset, Methods, and Results",,https://openalex.org/W4386072498
+60,824f1914626e,トヨタ自動車未来創成センター,"Learning Locally, Communicating Globally: Reinforcement Learning of Multi-Robot Task Allocation for Cooperative Transport",,https://openalex.org/W4388918005
+61,1c7dfd97967b,トヨタ自動車未来創成センター,Decentralized Control for Heterogeneous Battery Energy Storage System,,https://openalex.org/W4394906268
+62,5f8ac6858045,トヨタ自動車未来創成センター,Resilience Evaluation of Entropy Regularized Logistic Networks with Probabilistic Cost,,https://openalex.org/W4388919076
+63,3c0c02f98e81,トヨタ自動車未来創成センター,Online motion planning based on swept volume search with replanning using sequential quadratic programming,,https://openalex.org/W4377287537
+64,5d24803d1222,トヨタ自動車未来創成センター,Diversity and Compositional Differences of the Airborne Microbiome in a Biophilic Indoor Environment,,https://openalex.org/W4377137320
+65,6433436a43c6,トヨタ自動車未来創成センター,Alkane Production from Fatty Alcohols by the Combined Reactions Catalyzed by an Alcohol Dehydrogenase and an Aldehyde-deformylating Oxygenase,,https://openalex.org/W4375851753
+66,7394b8f9c395,トヨタ自動車未来創成センター,Substitute Tool Select Method using Contact Force Data Trained Neural Network Model,,https://openalex.org/W4321020306
+67,ea4ca184af7a,トヨタ自動車未来創成センター,Mobile Manipulation System with Cyclic Whole-body Trajectory Planning,,
+68,ea1b251c1dd7,トヨタ自動車未来創成センター,A Continuous Integration Based Simulation Environment for Home Support Robot and its Application to RoboCup Competition,,https://openalex.org/W4321020362
+69,bd5ec03bcf0b,トヨタ自動車未来創成センター,Towards general-purpose service robots: World Robot Summit – Partner Robot Challenge,,https://openalex.org/W4290964347
+70,b482e43eb89f,トヨタ自動車未来創成センター,Utilizing Alcohol for Alkane Biosynthesis by Introducing a Fatty Alcohol Dehydrogenase,,https://openalex.org/W4309836407
+71,fe9a2b28cf0e,トヨタ自動車未来創成センター,Development of Low-inertia Backdrivable Arm Focusing on Learning-based Control,,https://openalex.org/W4312786806
+72,01e1e998335f,トヨタ自動車未来創成センター,Software Development Environment for Collaborative Research Workflow in Robotic System Integration,,https://openalex.org/W4281627546
+73,c62d92671467,トヨタ自動車未来創成センター,Effect of Indoor Forest Bathing on Reducing Feelings of Fatigue Using Cerebral Activity as an Indicator,,https://openalex.org/W4281728106
+74,6d757339e104,トヨタ自動車未来創成センター,Cooperative Transportation using Multiple Single-Rotor Robots and Decentralized Control for Unknown Payloads,10.1109/icra46639.2022.9811768,https://openalex.org/W4285102542
+75,0ba80a2292fc,トヨタ自動車未来創成センター,Edge Sampling of Graphs Based on Edge Smoothness,,https://openalex.org/W4225305103
+76,d90ba3638783,トヨタ自動車未来創成センター,Fair and Truthful Mechanism with Limited Subsidy,,https://openalex.org/W3158729705
+77,b79cf70d8255,トヨタ自動車未来創成センター,Online Scheduling on Identical Machines with a Metric State Space,,
+78,70ce2b43703e,トヨタ自動車未来創成センター,Maximally Satisfying Lower Quotas in the Hospitals/Residents Problem with Ties,,https://openalex.org/W3162327319
+79,d4f0d6c91116,トヨタ自動車未来創成センター,Stress Isolation Suspension for Silicon-on-Insulator 3-Axis Accelerometer Designed by Topology Optimization Method,,https://openalex.org/W4206116909
+80,db19d8fe035f,トヨタ自動車未来創成センター,Light Management for Enhancing Optical Gain in a Solar‐Pumped Fiber Laser Employing a Solid‐State Luminescent Solar Concentrator,,https://openalex.org/W4200326678
+81,79e0a326627a,トヨタ自動車未来創成センター,実用/社会インフラ (モビリティコネ～クティッド・シティ),,
+82,2e3443dcdd7b,トヨタ自動車未来創成センター,Analysis of average consensus of multi-agent systems with time delay using packet selection and synchronization protocol,,https://openalex.org/W3216575798
+83,438325c7829e,トヨタ自動車未来創成センター,Energy Yield Enhancement by Switched Capacitor Converter-Based Differential Power Processing Converter Utilizing Diffusion Capacitance of Curved Photovoltaic Panels,,https://openalex.org/W3203648144
+84,fc7a8f94e639,トヨタ自動車未来創成センター,Analysis of temperature coefficients and their effect on efficiency of solar cell modules for photovoltaics-powered vehicles,,https://openalex.org/W3194751264
+85,11c482ec99af,トヨタ自動車未来創成センター,Static Low-concentrator Photovoltaic Combined with Luminescent Solar Concentrator,,
+86,b64d72588d55,トヨタ自動車未来創成センター,An In Vitro Mixed Infection Model With Commensal and Pathogenic Staphylococci for the Exploration of Interspecific Interactions and Their Impacts on Skin Physiology,,https://openalex.org/W3201035186
+87,fd2ed23244e2,トヨタ自動車未来創成センター,Characteristics of Ammonia Spray Injected by Pressure-Swirl Atomizers,,https://openalex.org/W3196328491
+88,077ef6b6c8ed,トヨタ自動車未来創成センター,Environmentally friendly thermoelectric sulphide Cu2ZnSnS4 single crystals achieving a 1.6 dimensionless figure of merit ZT,,
+89,140342bb6f20,トヨタ自動車未来創成センター,Solar Pumping of Fiber Lasers with Solid‐State Luminescent Concentrators: Design Optimization by Ray Tracing,,https://openalex.org/W3157392895
+90,9524370a5bc7,トヨタ自動車未来創成センター,Well-being を目指した Genki 空間® 研究の取り組み,,
+91,c31927fcf95a,トヨタ自動車未来創成センター,光吸収膜による干渉効果を活用した着色太陽電池,,
+92,2c5a4b7fddcc,トヨタ自動車未来創成センター,Stretchable micro-scale concentrator photovoltaic module with 15.4% efficiency for three-dimensional curved surfaces,,https://openalex.org/W3128828800
+93,eb2ae282030f,トヨタ自動車未来創成センター,Online motion generation using accumulated swept volumes,10.1080/01691864.2020.1863260,https://openalex.org/W3114570494
+94,892c666b2a34,トヨタ自動車未来創成センター,Traffic Impact Analysis of a Deep Reinforcement Learning-Based Multi-Lane Freeway Vehicle Control,,https://openalex.org/W3115649690
+95,c5373839c4d0,トヨタ自動車未来創成センター,Development of High-efficiency and Low-cost Solar Cells for PV-Powered Vehicles Applications,,https://openalex.org/W3088294940
+96,f7f4b5d535ff,トヨタ自動車未来創成センター,Application of Simulation-Based Methods on Autonomous Vehicle Control with Deep Neural Network,,https://openalex.org/W3105419158
+97,cbf5d331aa1a,トヨタ自動車未来創成センター,Well-beingを目指したバイオフィリア空間の研究,,
+98,666645c0e7a2,トヨタ自動車未来創成センター,Binary Classification from Positive Data with Skewed Confidence,,https://openalex.org/W3034332915
+99,d9e378213490,トヨタ自動車未来創成センター,All-inorganic cesium lead halide perovskite nanocrystals for solar-pumped laser application,,https://openalex.org/W3037447001
+100,f5787515b5af,トヨタ自動車未来創成センター,群体数理技術検討会―新しい産学連携の試み,,https://openalex.org/W3100322150
+101,d492ca90aab5,トヨタ自動車未来創成センター,Evaluation of impression difference of a domestic mobile manipulator with autonomous and/or remote control in fetch-and-carry tasks,,https://openalex.org/W3036480421
+102,d034a66bf244,トヨタ自動車未来創成センター,Deep Merging: Vehicle Merging Controller Based on Deep Reinforcement Learning with Embedding Network,,https://openalex.org/W3090303220
+103,d00b67385d55,トヨタ自動車未来創成センター,Surface-modified graphene oxide/lead sulfide hybrid film-forming ink for high efficiency bulk nano-heterojunction colloidal quantum dot solar cells,,https://openalex.org/W3024709002
+104,2b3bda66c720,トヨタ自動車未来創成センター,Field-Based Assist-As-Needed Control Schemes for Rehabilitation Robots,,https://openalex.org/W3020990750
+105,40c3900e414c,トヨタ自動車未来創成センター,Li-ion transport at the interface between a graphite anode and Li2CO3 solid electrolyte interphase: ab initio molecular dynamics study,,https://openalex.org/W3012111352
+106,d59ef6856782,トヨタ自動車未来創成センター,A fully planar solar pumped laser based on a luminescent solar collector,,https://openalex.org/W3013780659
+107,5a01f3e256ff,トヨタ自動車未来創成センター,Friction Modelling of Strain Wave Gear by Deep Learning with Multi Sampling Data for Torque Sensor-less Impedance Control,,
+108,eeccf9ce9089,トヨタ自動車未来創成センター,Evaluation of the Physiological Effects of Fragrances in a Visual Search Task,,https://openalex.org/W3023856510
+109,fe74947aa34c,トヨタ自動車未来創成センター,Formation of periodic ribbed or lattice structures in topology optimization assisted by biological pattern formation,10.1007/s00158-019-02418-0,https://openalex.org/W2990929481
+110,23e2740de448,トヨタ自動車未来創成センター,Support-free robust topology optimization based on pseudo-inverse stiffness matrix and eigenvalue analysis,10.1007/s00158-019-02345-0,https://openalex.org/W2962692363
+111,789dbbedb440,トヨタ自動車未来創成センター,Human support robot as research platform of domestic mobile manipulator,,https://openalex.org/W2992250360
+112,28772b2ede0a,トヨタ自動車未来創成センター,A data-driven approach to probabilistic impedance control for humanoid robots,,https://openalex.org/W2985193180
+113,870dc004e061,トヨタ自動車未来創成センター,A Synchronizing Approach for Non-Uniform Time-Varying Communication Delays on the Average Consensus of Multi Agent System,,https://openalex.org/W2998892609
+114,e77902c832f5,トヨタ自動車未来創成センター,Towards multi-person motion forecasting: IMU based motion capture approach,,
+115,9f2b54a78c3a,トヨタ自動車未来創成センター,An Assist-as-Needed Impedance Controller for Rehabilitation Robots,,https://openalex.org/W2968182053
+116,fbaee1973bfa,トヨタ自動車未来創成センター,Daytime Sleepiness Level Prediction Using Respiratory Information,,https://openalex.org/W2965709049
+117,bf5747d045e5,トヨタ自動車未来創成センター,A Method of Online Motion Generation Using Swept Volumes Collected in Advance,,https://openalex.org/W2970776047
+118,691b574f30ae,トヨタ自動車未来創成センター,Multiplexed CRISPR-Cas9 genome editing of Rhodosporidium toruloides,,https://openalex.org/W2951461412
+119,e1cb6802c070,トヨタ自動車未来創成センター,Cloning of a novel gene involved in alkane biosynthesis from Klebsiella sp,,https://openalex.org/W2946484354
+120,304d77bab749,トヨタ自動車未来創成センター,Monoterpene production by the carotenogenic yeast Rhodosporidium toruloides,,https://openalex.org/W2937027327
+121,8528eb8cdf26,トヨタ自動車未来創成センター,Development of Human Support Robot as the research platform of a domestic mobile manipulator,,https://openalex.org/W2947311533
+122,35d2d9a2ab36,トヨタ自動車未来創成センター,Binary Classification Only from Unlabeled Data by Iterative Unlabeled-unlabeled Classification,,https://openalex.org/W2938556542
+123,a92b5154ce47,トヨタ自動車未来創成センター,Design of low‐concentration static III‐V/Si partial CPV module with 27.3% annual efficiency for car‐roof application,,
+124,9defcdf411af,トヨタ自動車未来創成センター,Mathematical Modeling of Septic Shock based on Clinical Data,,https://openalex.org/W2931696084
+125,0d5c667dd1af,トヨタ自動車未来創成センター,Two-mass DOB Robust to Elastic Coefficient Variation for Collaborative Robot Joint Using Joint Torque Sensor and Encoders,,
+126,62bebd280b1b,トヨタ自動車未来創成センター,Vivid-colored silicon solar panels with high efficiency and non-iridescent appearance,,https://openalex.org/W2919099715
+127,0293eaf1e4ec,トヨタ自動車未来創成センター,Application of Abstract Interpretation to the Automotive Electronic Control System,,https://openalex.org/W2909870687
+128,27d68fbe666c,トヨタ自動車未来創成センター,Selection of Transcripts Affecting Initial Growth Rate of Rice Backcrossed Inbred Lines Using RNA Sequencing Data,,https://openalex.org/W2903947135
+129,61198cf88bd5,トヨタ自動車未来創成センター,Picking up One of the Folded and Stacked Towels by a Single Arm Robot,,https://openalex.org/W2922432177
+130,7498f7eaab3f,トヨタ自動車未来創成センター,Recurrent Visual Relationship Recognition with Triplet Unit for Diversity,,https://openalex.org/W2903952466
+131,625b126a686e,トヨタ自動車未来創成センター,Filtered Disturbance Observer for High Backdrivable Robot Joint,,https://openalex.org/W2907797934
+132,22c563fee328,トヨタ自動車未来創成センター,Sequential Monte Carlo controller that integrates physical consistency and motion knowledge,,https://openalex.org/W2897652053
+133,584944f8b64b,トヨタ自動車未来創成センター,Wearable respiration sensor platform using ultrasound transducer,,https://openalex.org/W2899304514
+134,cbb6c5b8c8b3,トヨタ自動車未来創成センター,Predicting Signs of Drowsiness from Driver's Blinking and Driving Behavior,,
+135,bc182cf274aa,トヨタ自動車未来創成センター, Estimating Door Shape and Manipulation Model for Daily Assistive Robots based on the Integration of Visual and Touch Information,,https://openalex.org/W2910595675
+136,dc63217997cb,トヨタ自動車未来創成センター,Development of the research platform of a domestic mobile manipulator utilized for international competition and field test,,https://openalex.org/W2911082410
+137,b93796e1efb7,トヨタ自動車未来創成センター,Response of shape optimization of thin-walled curved beam and rib formation from unstable structure growth in optimization,10.1007/s00158-018-1999-y,https://openalex.org/W2804891162
+138,6152a9ae67b2,トヨタ自動車未来創成センター,Nonlinear model predictive control for systems with state-dependent switches and state jumps using a penalty function method,,https://openalex.org/W2898902231
+139,e58fc908d349,トヨタ自動車未来創成センター,A Learning Method for a Daily Assistive Robot for Opening and Closing Doors Based on Simple Instructions,,https://openalex.org/W2905358616
+140,b569a0b0b052,トヨタ自動車未来創成センター,Visually Attractive and High-Power-Retention Solar Modules by Coloring with Automotive Paints,,https://openalex.org/W2886179568
+141,2067c9562882,トヨタ自動車未来創成センター,Human support robot (HSR),,https://openalex.org/W2885365305
+142,70f57cd31612,トヨタ自動車未来創成センター,"Colorful, Flexible, and Lightweight Cu(In,Ga)Se2Solar Cell by Lift-Off Process With Automotive Painting",,
+143,295dd1f33ebb,トヨタ自動車未来創成センター,A Mathematical Model of Type 1 Diabetes involving Leptin Effects on Glucose Metabolism,,https://openalex.org/W2885862219
+144,1edf950142dc,トヨタ自動車未来創成センター,Design and fabrication technology of low profile tactile sensor with digital interface for whole body robot skin,,https://openalex.org/W2884249193
+145,a2a7d8abd373,トヨタ自動車未来創成センター,Phenotypic diversification by enhanced genome restructuring after induction of multiple DNA double-strand breaks,,https://openalex.org/W2803927834
+146,f50c46f2229e,トヨタ自動車未来創成センター,ECG-Based Concentration Recognition With Multi-Task Regression,,https://openalex.org/W2907678173
+147,6e8e782da858,トヨタ自動車未来創成センター,"Characterization of sugar metabolism in the stem of Tachisuzuka, a whole-crop silage rice cultivar with high sugar content in the stem",,https://openalex.org/W2802674238
+148,0dc9d7e18842,トヨタ自動車未来創成センター,Multi task learning with positive and unlabeled data and its application to mental state prediction,,https://openalex.org/W2891196798
+149,16c675fefb5b,トヨタ自動車未来創成センター,Functional genomics of lipid metabolism in the oleaginous yeast Rhodosporidium toruloides,,https://openalex.org/W2951505038
+150,8c13c9905eb2,トヨタ自動車未来創成センター,生きた植物から可溶性糖を取り出す：糖輸送体SWEETと排水液による採取方法の検討,,
+151,bbd5871c0e12,トヨタ自動車未来創成センター,Structural deterioration of curved thin-walled structure and recovery by rib installation: Verification with structural optimization algorithm,10.1016/j.tws.2017.10.052,https://openalex.org/W2774494190
+152,461bd60b5c38,トヨタ自動車未来創成センター,A method of picking up a folded fabric product by a single-armed robot,10.1186/s40648-017-0098-y,https://openalex.org/W2782089919
+153,1bcaa3c25be8,トヨタ自動車未来創成センター,A search for microorganisms producing medium-chain alkanes from aldehydes,,https://openalex.org/W2751052747
+154,50756fd69794,豊田中央研究所,High-Solid-Content Kneading Degrades Carboxymethyl Cellulose as a Dispersant and Destabilises Graphite Anode Slurries,10.1016/j.jcis.2025.139769,https://openalex.org/W7117714905
+155,be54de9b6914,豊田中央研究所,Electrostatic Dry Coating Strategies for Through-Plane Control of Electronic Pathways in Lithium-Ion Electrodes,10.1002/smtd.202502213,https://openalex.org/W7146976621
+156,fcaf1a5dfe25,豊田中央研究所,Photocatalytic CO2 reduction with a semiconductor/metal complex hybrid system: Toward visible light and water utilization,10.1016/j.jphotochemrev.2025.100735,https://openalex.org/W7118242120
+157,4a2bc06b8999,豊田中央研究所,Electrically Reconfigurable Topological RF Filter Utilizing a Synthetic Frequency Dimension in a Single Mechanical Resonator,10.1038/s42005-026-02621-8,https://openalex.org/W7152467586
+158,2eacbcd221af,豊田中央研究所,Water Generation in the Mesoporous Catalyst Layers of Automotive Fuel Cells: Insights from Operando Small-Angle Neutron Scattering,10.1016/j.cej.2025.170753,https://openalex.org/W4416510342
+159,d27bbef63358,豊田中央研究所,Fluorene-Based Capacity Recovery Reagent for LiFePO₄ Batteries,10.1021/acssusresmgt.5c00405,https://openalex.org/W4416747400
+160,47cb301e989b,豊田中央研究所,Exploring Variance Reduction in Importance Sampling for Efficient DNN Training,10.1137/25m1726339,https://openalex.org/W4406785368
+161,9ec37d20e883,豊田中央研究所,Effect of Graphite Shape on Tortuosity and Rate Capability of Electrodes,10.1016/j.jpowsour.2026.239533,https://openalex.org/W7128527556
+162,342fc79a2dc2,豊田中央研究所,MAPF-HD: Multi-Agent Path Finding in High-Density Environments,,https://openalex.org/W7125631927
+163,8a0d1a9a2d33,豊田中央研究所,Non-invasive Reconstruction of Complete Mitochondrial Genomes from Aquatic Environmental DNA Using PCR-free Long-read Sequencing,10.1111/2041-210x.70209,https://openalex.org/W4416825401
+164,28a060b82abe,豊田中央研究所,Bridging the Gap in Workplace Charging Requirements between Demand and Supply Sides,10.1016/j.trd.2025.105136,https://openalex.org/W4416823778
+165,718d01bdc986,豊田中央研究所,"Smart Inflatable Radiator for Autonomous, Temperature-driven Heat Dissipation",10.1016/j.applthermaleng.2025.128860,https://openalex.org/W4415681280
+166,67679445ded6,豊田中央研究所,Improved Stability and Selectivity of CuFe₂O₄-based Catalysts for Photoelectrochemical CO₂-to-acetate Conversion,10.1039/d5ta06122a,https://openalex.org/W4415754194
+167,79513bb2cec1,豊田中央研究所,Mechanism of CO₂ Electrolysis with Heterogenized Molecular Iridium Catalysts Deciphered Using Operando Spectroscopy,10.1021/jacs.5c19250,https://openalex.org/W4417183631
+168,cf8efd0fc9a2,豊田中央研究所,Sampled-Data Primal-Dual Gradient Dynamics in Model Predictive Control,10.1016/j.automatica.2025.112621,https://openalex.org/W4414400888
+169,ff2d17396f3b,豊田中央研究所,Inverse Design of Dual-band Valley-Hall Topological Photonic Crystals with Arbitrary Pseudospin States,10.1002/adom.202500994,https://openalex.org/W4413366379
+170,7602a18bd8a6,豊田中央研究所,How to Improve PHEV Electric Mileage Ratios? Factor Decomposition with Explainable,10.1016/j.trd.2025.104876,https://openalex.org/W4412434013
+171,d72d70819bab,豊田中央研究所,In Situ Observation of Water Evaporation in Gas Diffusion Layers of Polymer Electrolyte Fuel Cells,10.1016/j.jpowsour.2025.237896,https://openalex.org/W4412534086
+172,19082825a66a,豊田中央研究所,Effects of External Body Vibrations on Cognitive Performance Through Brain–cardio–respiratory Dynamics,10.1038/s41598-025-21639-6,https://openalex.org/W4415621050
+173,8f51aae43a25,豊田中央研究所,Direct Observation of An Ionic Cobalt Complex Electron Mediator via Operando X-ray Absorption Spectroscopy in Photocatalytic Z-scheme CO2 reduction with (CuGa)0.3Zn1.4S2 and BiVO4,10.1039/d5cc05617a,https://openalex.org/W4416392187
+174,a799d2983af7,豊田中央研究所,Influence of Electrolyte Conductivity on the Performance of Lithium-ion Batteries: An Electrochemical Impedance Analysis Using Symmetric Cells,10.1016/j.jpowsour.2025.238103,https://openalex.org/W4413472837
+175,8087abb57c9a,豊田中央研究所,Sustainable Recovery of Lithium from Contaminated Soil through Halophyte Salt Excretion,10.1021/acs.est.5c03574,https://openalex.org/W4410162232
+176,dd4f7d4b20f2,豊田中央研究所,Effect of the Pore Size of Mesoporous Carbon Supports for Cathode Catalysts on the Cell Performance of Polymer Electrolyte Fuel Cells ​,10.1021/acscatal.5c04074%e2%80%8b,https://openalex.org/W4412571034
+177,9204ee776330,豊田中央研究所,Theoretical Analysis of Heteroscedastic Gaussian Processes with Posterior Distributions,10.23919/acc63710.2025.11107679,https://openalex.org/W4413392867
+178,4780234b333d,豊田中央研究所,Adaptive Passification of Unknown Input-Affine Nonlinear Systems​,,https://openalex.org/W4405520571
+179,65654a7013e9,豊田中央研究所,Discrete Distributionally Robust Optimal Control with Explicitly Constrained Optimization​,10.23919/acc63710.2025.11107818,https://openalex.org/W4413393785
+180,cfdbb8a4e6ae,豊田中央研究所,Continuation Method for Nonsmooth Model Predictive Control Using Proximal Technique,10.23919/acc63710.2025.11107938,https://openalex.org/W4413393327
+181,ed5cf7c6c731,豊田中央研究所,Contraction Analysis of Continuation Method for Suboptimal Model Predictive Control,,https://openalex.org/W4403706142
+182,8ae19878c33c,豊田中央研究所,Role of Chloride Ions in the Heat Treatment of β-FeOOH(Cl) Catalysts to Enhance the Oxygen Evolution Reaction Activity,10.1021/acs.chemmater.5c00128,https://openalex.org/W4409626778
+183,024332c0c1e0,豊田中央研究所,Machine Learning Force Fields in Electrochemistry: From Fundamentals to Applications,,https://openalex.org/W4411424580
+184,a93f0450309b,豊田中央研究所,Flexible Lattice Structure Using Curved Struts Based on Body-centered Cubic Structure,,https://openalex.org/W4408857766
+185,bfc1d9f2bd50,豊田中央研究所,Carbon Fibre Production Using an Ecofriendly Water-soluble Precursor,,https://openalex.org/W4410457737
+186,c3a3370af041,豊田中央研究所,Ultrasonic Separation of Electrode Scrap in Water: A Sustainable Method for Li-ion Battery Recycling,10.1016/j.wasman.2025.114969,https://openalex.org/W4411506359
+187,dcf8cef46b88,豊田中央研究所,Destruction of Virus Particles via Mechanical and Chemical Virucidal Activity of Nanocolumnar Copper Thin Films,,https://openalex.org/W4409760602
+188,c4011f0156bb,豊田中央研究所,Quantum Valley Hall Effect-Based Coupler with Continuously Tunable Transmission for Topological Information Communication,,https://openalex.org/W4411778676
+189,584df97ed868,豊田中央研究所,Real-time Simulator Exploiting Micro-Service Architecture for Mission-Critical Service with Multiple Mobile Networks​,,https://openalex.org/W4413018280
+190,3494280969a4,豊田中央研究所,Minimal Sufficient Views: A DNN Model Making Predictions with More Evidence Has Higher Accuracy,,https://openalex.org/W4410767797
+191,7dee2542e5e3,豊田中央研究所,Friction and Wear Characteristics of Acidic Phosphate Ester Boundary Layers Analyzed by Near-edge X-ray Absorption Fine Structure,,https://openalex.org/W4405122390
+192,33b2e1bb70e6,豊田中央研究所,Do Expressions Change Decisions? Exploring the Impact of AI's Explanation Tone on Decision-Making,10.1145/3706598.3713744,https://openalex.org/W4409749456
+193,7f0f69cb60f5,豊田中央研究所,Changing Role of Battery Electric Vehicle Charging Strategies in Decarbonizing Japanese Power Systems,10.1016/j.energy.2025.136413,https://openalex.org/W4410065017
+194,fee21d31f697,豊田中央研究所,Extended Shunt-through Method for High-frequency Battery Impedance Measurement,10.1109/tim.2025.3558744,https://openalex.org/W4409310601
+195,f59b11f8bac6,豊田中央研究所,Subjective Mapping of Indoor Plants Based on Leaf Shape Measurements to Select Suitable Plants for Indoor Landscapes,10.1016/j.buildenv.2025.112828,https://openalex.org/W4408200231
+196,718c2c1bad06,豊田中央研究所,Submillisecond Measurement with High Synchronism of Changes in Practical DC Microgrids,10.1109/tii.2025.3538109,https://openalex.org/W4407735868
+197,d14ed01e2220,豊田中央研究所,Quantum sensing with duplex qubits of silicon vacancy centers in SiC at room temperature,10.1038/s41534-025-01011-2,https://openalex.org/W4409151202
+198,99b85795b407,豊田中央研究所,Effect of individual spinal muscle activities on upright posture using a human body finite element model,10.1038/s41598-025-86788-0,https://openalex.org/W4406855854
+199,d4601430f98c,豊田中央研究所,Travel Itinerary Recommendation Using Interaction-based Augmented Data,10.1016/j.eswa.2024.126294,https://openalex.org/W4405905265
+200,559452b7343d,豊田中央研究所,"An Uncertainty-aware, Mesh-free Numerical Method for Kolmogorov PDEs",10.1007/s10915-025-02846-9,https://openalex.org/W4408856364
+201,9316f378d92f,豊田中央研究所,A Comprehensive and Quantitative SEM?EDS Analytical Process Applied to Lithium-ion Battery Electrodes,10.1038/s41598-025-89362-w,https://openalex.org/W4407447174
+202,8ce9d7bd1921,豊田中央研究所,Progress in Experimental Methods Using Model Electrodes for the Development of Noble-metal-based Oxygen Electrocatalysts in Fuel Cells and Water Electrolyzers,10.1002/smtd.202401851,https://openalex.org/W4407049795
+203,a267290acb36,豊田中央研究所,Visual-based Forklift Learning System Enabling Zero-shot Sim2Real without Real-world Data,,https://openalex.org/W4413917670
+204,91a243024f15,豊田中央研究所,Dynamic Operation of Two-stage CO2 Methanation Reactor: Start-up by H2 Combustion and Load Change by Independent Control of Heat-carrier Flow Rate,10.1016/j.renene.2025.122548,https://openalex.org/W4407056427
+205,e3bce6b850ba,豊田中央研究所,Electrochemical CO2 Fixation and Release Cycle Featuring a Trinuclear Zinc Complex for Direct Air Capture,10.1002/anie.202420703,https://openalex.org/W4404868334
+206,027a54e73daa,豊田中央研究所,Recursive Quantum Relaxation for Combinatorial Optimization Problems,10.22331/q-2025-01-15-1594,https://openalex.org/W4406403640
+207,e128f7cc0549,豊田中央研究所,Robust Vehicle State Estimation from Urban Driving to the Limits of Handling,10.1109/tits.2024.3487117,https://openalex.org/W4404411354
+208,3bf7b9ad3d7b,豊田中央研究所,Preparation of Uniaxially Aligned Nanoporous Polymer Films via Photopolymerization Using Self-assembling Molecular Templates,10.1021/acs.chemmater.4c03295,https://openalex.org/W4406475895
+209,96e051c7e4f4,豊田中央研究所,Self-rerouting Sensor Network for Electronic Skin Resilient to Severe Damage,10.1038/s41467-025-56596-1,https://openalex.org/W4406984582
+210,2894e0bfa304,豊田中央研究所,Absolute Standard Hydrogen Electrode Potential and Redox Potentials of Atoms and Molecules: Machine Learning Aided First Principles Calculations,10.1039/d4sc03378g,https://openalex.org/W4405724769
+211,45d2de2795e0,豊田中央研究所,Stiff Deployable Structures via Coupling of Thick Miura-ori Tubes along Creases,10.1016/j.mechmachtheory.2024.105851,https://openalex.org/W4404581249
+212,7cfad49db475,豊田中央研究所,Weighted Stochastic Riccati Equations for Generalization of Linear Optimal Control,10.1016/j.automatica.2024.111901,https://openalex.org/W4402574122
+213,fb8db110b12d,豊田中央研究所,Molecular Simulations of Amine-based Organic Additives at a Steel Surface: Effect of the Internal Molecular Structure on Adsorption,10.1016/j.triboint.2024.110258,https://openalex.org/W4402638249
+214,117fa6c79e15,豊田中央研究所,Effect of H/N Ratio Control in a Multibed Ammonia Synthesis System with Ru-based Catalysts,10.1016/j.ijhydene.2024.11.178,https://openalex.org/W4404442401
+215,3f9a312a8d6c,豊田中央研究所,Effect of Support Morphology on the Ammonia Synthesis Activity of Ru/CeO2-based Catalysts,10.1016/j.ijhydene.2024.11.053,https://openalex.org/W4404311215
+216,1bddc29450af,豊田中央研究所,Life Cycle Assessment Integrating the Effects of Recycling and Reuse for Battery Circulation,10.1016/j.jpowsour.2024.235544,https://openalex.org/W4403155160
+217,f9809bf7d1f6,豊田中央研究所,Quantum Valley Hall Effect-based Topological Boundaries for Frequency-dependent and -independent Mode Energy Profiles,10.1038/s42005-024-01899-w,https://openalex.org/W4405591787
+218,7d73fb679c9e,豊田中央研究所,AND/OR Graph Generation for Disassembly Analysis: Deeply-nested Subassemblies Represented by a Hypergraph,10.1080/00207543.2024.2416560,https://openalex.org/W4404067400
+219,ce686dd841f8,豊田中央研究所,Gas Adsorption Analysis for Quantifying the Edge Sites of Graphite,10.1016/j.carbon.2024.119664,https://openalex.org/W4402829246
+220,ebba26c7a70a,豊田中央研究所,Reduction of Cold-start Emissions from an Ammonia Mono-fueled Spark Ignition Engine,10.1016/j.ijhydene.2024.10.062,https://openalex.org/W4403528386
+221,daae6a5ceea7,豊田中央研究所,MARPF: Multi-Agent and Multi-Rack Path Finding,10.1109/iros58592.2024.10803053,https://openalex.org/W4405785341
+222,f796cd0e0eff,豊田中央研究所,Online Multi-Agent Pickup and Delivery with Task Deadlines,10.1109/iros58592.2024.10802597,https://openalex.org/W4405778933
+223,2407f4665bf6,豊田中央研究所,Impact of Local Water Uptake on Proton Conduction in Covalent Organic Framework Revealed by Machine-learning Potentials,10.1021/acs.chemmater.4c01351,https://openalex.org/W4403011843
+224,861ea269ddac,豊田中央研究所,CO2-to-CO Conversion with Over 10 % Efficiency Using Earth Abundant System in a Single-compartment Reactor with Oxygen Tolerant Mn Complex Catalyst,10.1002/cssc.202401082,https://openalex.org/W4400789469
+225,80bd51cfae93,豊田中央研究所,Second Moment Polytopic Systems: Generalization of Uncertain Stochastic Linear Dynamics,10.1109/tac.2024.3462532,https://openalex.org/W4402591370
+226,920b9183f217,豊田中央研究所,Fabric Soft Pneumatic Actuators with Programmable Turing Pattern Textures,10.1038/s41598-024-69450-z,https://openalex.org/W4401701958
+227,dfe6285a2ec4,豊田中央研究所,Construction of Antisymmetric Variational Quantum States with Real Space Representation,10.1021/acs.jctc.4c00167,https://openalex.org/W4401684147
+228,aa1250500a72,豊田中央研究所,Association of Olfactory and Cognitive Function Test Scores with Hippocampal and Amygdalar Grey Matter Volume: a Cross-sectional Study,10.1038/s41598-024-69726-4,https://openalex.org/W4401710732
+229,4c9bf19b87e0,豊田中央研究所,Computational Synthesis of Locomotive Soft Robots by Topology Optimization,10.1126/sciadv.adn6129,https://openalex.org/W4400945001
+230,33f950f1f37b,豊田中央研究所,Estimation Method to Achieve Desired Mechanical Properties with Minimum Virgin Polymer in Plastics Recycling,10.1016/j.resconrec.2024.107856,https://openalex.org/W4401837940
+231,60eec938a61c,豊田中央研究所,Comprehensive Analysis of Wettability in Waterproofed Gas Diffusion Layers for Polymer Electrolyte Fuel Cells,10.1021/acsami.4c07867,https://openalex.org/W4400341557
+232,009318edcf81,豊田中央研究所,Accuracy-preserving Calibration via Statistical Modeling on Probability Simplex,,https://openalex.org/W4392090033
+233,069cc50ec449,豊田中央研究所,Takeoff of a 2.1g Fully Untethered Tailless Flapping-Wing Micro Aerial Vehicle with Integrated Battery,,
+234,434004e38ac6,豊田中央研究所,Language to Map: Topological Map Generation from Natural Language Path Instructions,,https://openalex.org/W4392929750
+235,02aab106bc82,豊田中央研究所,Enhancement of Mechanical Properties of High-thermal-conductivity Composites Comprising Boron Nitride and Poly(methyl methacrylate) Resin through Material Design Utilizing Hansen Solubility Parameters,10.1021/acsami.4c00626,https://openalex.org/W4396759936
+236,08c88d3d6aca,豊田中央研究所,Self-Assembled Molecular Fibers Aligned by Compression in Water,10.1002/smll.202402570,https://openalex.org/W4396220655
+237,2281572086af,豊田中央研究所,Scalable Synthesis of Porous Silicon Electrodes for Lithium-ion Batteries via Acid Etching of Atomized Al-Si Alloy Powders,10.1016/j.jpowsour.2024.234739,https://openalex.org/W4399009285
+238,beadab5078f1,豊田中央研究所,Machine Learning-aided First-principles Calculations of Redox Potentials,10.1038/s41524-024-01295-6,https://openalex.org/W4398143044
+239,61d6bc9bd0ea,豊田中央研究所,Scale Separation of Shear-induced Criticality in Glasses,10.1103/physrevlett.132.148201,https://openalex.org/W4393899631
+240,a15173de925e,豊田中央研究所,Effects of Molecular Structure on the Grafting of Diaminobenzene Sulfonic Acid onto Graphene Oxide,10.1016/j.carbon.2024.119120,https://openalex.org/W4394719443
+241,d2b6efef2403,豊田中央研究所,Adhesion and Structure of Lubricant Films: Molecular Simulations of Amine-based Organic Additives in Base Oil at a Model of Steel Surface,10.1016/j.triboint.2024.109449,https://openalex.org/W4392095754
+242,41a5039f67b9,豊田中央研究所,High-throughput Screening and Characterization of Novel Zeolitic Imidazolate Framework Gels,10.1039/d3ta06719j,https://openalex.org/W4393107765
+243,cbb4826fbe11,豊田中央研究所,Dinuclear Cu(I) Molecular Electrocatalyst for CO2-to-C3 Product Conversion,10.1038/s41929-024-01147-y,https://openalex.org/W4394813132
+244,8c99fa9c2405,豊田中央研究所,Three-dimensional Electrode Characteristics and Size/Shape Flexibility of Coaxial-fibers Bundled Batteries,10.1039/d4ee00283k,https://openalex.org/W4393170608
+245,697c470ad7e9,豊田中央研究所,Direct Capacity Regeneration for Spent Li-ion Batteries,10.1016/j.joule.2024.02.010,https://openalex.org/W4392584750
+246,8ebce782e65d,豊田中央研究所,Polypropylene-rendered Antiviral by Three-dimensionally Surface-grafted Poly(N-benzyl-4-vinylpyridinium bromide),10.1021/acsami.3c15125,https://openalex.org/W4391752092
+247,6868015b5fd4,豊田中央研究所,Synthesis of a Mesoporous SnO2 Catalyst Support and the Effect of Its Pore Size on the Performance of Polymer Electrolyte Fuel Cells,10.1021/acsami.4c01794,https://openalex.org/W4392018595
+248,e9cf2137cf5d,豊田中央研究所,Does BEV Always Help to Reduce CO2 Emission? Impact of Charging Strategy,10.1016/j.trd.2024.104124,https://openalex.org/W4392261795
+249,b887c1331218,豊田中央研究所,Facile Synthesis of Electrocatalytically Active Cu/Graphite Using the Negative Electrode of Spent Li-ion Batteries,10.1039/d3gc04472f,https://openalex.org/W4390750551
+250,9c589dc07196,豊田中央研究所,Experimental Visualization of Water/Ice Phase Distribution at Cold Start for Practical-sized Polymer Electrolyte Fuel Cells,10.1038/s44172-024-00176-6,https://openalex.org/W4391927821
+251,e0e14d9230bf,豊田中央研究所,Battery Deactivation with Redox Shuttles for Safe and Efficient Recycling,10.1038/s41598-024-53895-3,https://openalex.org/W4391734674
+252,b5ce9968101b,豊田中央研究所,Migration of Binder and Conductive Agent during Drying Process of Li-ion Battery Cathodes,10.1016/j.jpowsour.2023.233883,https://openalex.org/W4389215125
+253,7335c131b803,豊田中央研究所,Redox Reaction Mechanism of Graphite Fluoride (CF)n in Fluoride-ion Batteries,10.1021/acs.chemmater.3c02217,https://openalex.org/W4389666658
+254,a741b6125efa,豊田中央研究所,Selectable Diffusion Direction with Topologically Protected Edge Modes,10.1038/s42005-023-01490-9,https://openalex.org/W4390036065
+255,ce3127e45bf1,豊田中央研究所,Activation and Stabilization of Mn-Based Positive Electrode Materials by Doping Nonmetallic Elements,10.1002/aenm.202301843,https://openalex.org/W4387741619
+256,f9298abe7a2b,豊田中央研究所,Enhanced Performance of Molecular Electrocatalysts for CO2 Reduction in a Flow Cell Following K+ Addition,10.1126/sciadv.adh9986,https://openalex.org/W4388507706
+257,3ecc54161003,豊田中央研究所,Solid-state Optical Scanning Device Using a Beam Combiner and Switch Array,10.1364/optica.498402,https://openalex.org/W4386844921
+258,6fa1f8208709,豊田中央研究所,Enhanced Robot Navigation with Human Geometric Instruction,10.1109/iros55552.2023.10342107,https://openalex.org/W4389665733
+259,2e553763fd60,豊田中央研究所,Construction of an Autocatalytic Reaction Cycle in Neutral Medium for Synthesis of Life-sustaining Sugars,10.1039/d3sc03377e,https://openalex.org/W4387448120
+260,1bdf12171b37,豊田中央研究所,Operando Li Metal Plating Diagnostics via MHz Band Electromagnetics,10.1038/s41467-023-43138-w,https://openalex.org/W4388574316
+261,4893c5cc197b,豊田中央研究所,Highly Selective CO2 Electrolysis in Aqueous Media by a Water-soluble Cobalt Dimethyl-bipyridine Complex,10.1039/d3cc03940d,https://openalex.org/W4386870144
+262,1d454f14594b,豊田中央研究所,Effects of Dry Powder Mixing on Electrochemical Performance of Lithium-ion Battery Electrode Using Solvent-free Dry Forming Process,10.1016/j.jpowsour.2023.233466,https://openalex.org/W4385502773
+263,2daf5908a8e8,豊田中央研究所,Equation Elucidating the Catalyst-layer Proton Conductivity in a Polymer Electrolyte Fuel Cell Based on the Ionomer Distribution Determined Using Small-angle Neutron Scattering,10.1021/acsami.3c08432,https://openalex.org/W4386305445
+264,18f2851796a0,豊田中央研究所,The Role of Phosphate Functionalization on the Oxygen Evolution Reaction Activity of Cobalt-based Oxides at Different pH Values,10.1002/sstr.202300106,https://openalex.org/W4386328706
+265,5a7d0bb7c38b,豊田中央研究所,Reversible CO2 Fixation and Release by a Trinuclear Zn(II) Cryptate Complex and Operando Analysis of the Complex Structure,10.1002/cssc.202300679,https://openalex.org/W4384924962
+266,d88090b1aef1,豊田中央研究所,Creation of Crystal Structure Reproducing X-ray Diffraction Pattern without Using Database,10.1038/s41524-023-01096-3,https://openalex.org/W4385607595
+267,95ac08bdc27e,豊田中央研究所,Transition of Deformation Modes from Bending to Auxetic Compression in Origami-based Metamaterials for Head Protection from Impact,10.1038/s41598-023-39200-8,https://openalex.org/W4385323395
+268,c34d0399d40e,豊田中央研究所,3D Water Management in Polymer Electrolyte Fuel Cells toward Fuel Cell Electric Vehicles,10.1021/acsenergylett.3c01096,https://openalex.org/W4384927159
+269,571992758989,豊田中央研究所,Scalable Synthesis of Porous Silicon by Acid Etching of Atomized Al-Si Alloy Powder for Lithium-ion Batteries,10.1021/acsami.3c05521,https://openalex.org/W4384296509
+270,a54e71c6c535,豊田中央研究所,Globally Optimal Assignment Algorithm for Collective Object Transport Using Air-ground Multirobot Teams,10.1109/tcst.2023.3291880,https://openalex.org/W4384159685
+271,8e8c8c512240,豊田中央研究所,Accelerating Anhydrous Proton Conduction via Anion Rotation and Hydrogen Bond Recombination: A Machine-learning Molecular Dynamics,10.1039/d3ta03164k,https://openalex.org/W4384076641
+272,68b17ed89811,豊田中央研究所,Construction of a Reduced-order Model Based on Tensor Decomposition and its Application to Airbag Deployment Simulations,10.1038/s41598-023-38393-2,https://openalex.org/W4383875406
+273,2720738ce536,豊田中央研究所,Quantification of Side Reactions in Lithium-ion Batteries during Overcharging at Elevated Temperatures,10.1016/j.jpowsour.2023.233387,https://openalex.org/W4383213525
+274,633f9e3621b3,豊田中央研究所,4D Topology Optimization: Integrated Optimization of the Structure and Self-actuation of Soft Bodies for Dynamic Motions,10.1016/j.cma.2023.116187,https://openalex.org/W4382360343
+275,8cba5682b348,豊田中央研究所,Improving the Adsorption Strength of Amine-based Organic Additives for Reducing Wear,10.1016/j.triboint.2023.108675,https://openalex.org/W4379879593
+276,be2c7d15b528,豊田中央研究所,Deep Generative Model Super-resolves Spatially Correlated Multiregional Climate Data,10.1038/s41598-023-32947-0,https://openalex.org/W4366991492
+277,5e0365d1b9b2,豊田中央研究所,Respiratory Entrainment of the Locus Coeruleus Modulates Arousal Level to Avoid Physical Risks from External Vibration,10.1038/s41598-023-32995-6,https://openalex.org/W4367597931
+278,e5082d83466d,豊田中央研究所,The Neural Substrates Responsible for Food Odor Processing: an Activation Likelihood Estimation Meta-analysis,10.3389/fnins.2023.1191617,https://openalex.org/W4381929853
+279,6c8a55a54b45,豊田中央研究所,Low-energy-consumption CO2 Recovery by Combining H2 Sweeping and Methanation with the Conventional VTSA Approach,10.1016/j.jcou.2023.102482,https://openalex.org/W4376277740
+280,796b6591e65e,豊田中央研究所,Higher-order Topological Corner State in a Reconfigurable Breathing Kagome Lattice Consisting of Magnetically Coupled LC Resonators,10.1038/s41598-023-35509-6,https://openalex.org/W4377939938
+281,88099efca158,豊田中央研究所,Scalable Thermochromic Composite Based on a Ternary Polymer Blend for Temperature-adaptive Solar Heat Management,10.1021/acsami.3c00397,https://openalex.org/W4362657767
+282,6888cae6908f,豊田中央研究所,Data-driven Optimization of 3D Battery Design,10.1016/j.jpowsour.2022.231473,https://openalex.org/W4224991239
+283,90d902dc51ec,豊田中央研究所,Effect of Varying Stiffness and Functionalization on the Interfacial Failure Behavior of Isotactic Polypropylene on Hydroxylated γ-Al2O3 by MD Simulation,10.1021/acsami.2c19593,https://openalex.org/W4317538561
+284,3301cbb6232e,豊田中央研究所,Turing Pattern-based Design and Fabrication of Inflatable Shape-morphing Structures,10.1126/sciadv.ade4381,https://openalex.org/W4320032965
+285,30f2b9606c0f,豊田中央研究所,Sintering Metal-organic Framework Gels for Application as Structural Adhesives,10.1002/smll.202300298,https://openalex.org/W4327679238
+286,25fd989cb588,豊田中央研究所,Heterogeneous Intercalated Metal-organic Framework Active Materials for Fast-charging Non-aqueous Li-ion Capacitors,10.1038/s41467-023-37120-9,https://openalex.org/W4327550258
+287,a1f086f4885f,豊田中央研究所,Durability and Surface Oxidation States of Antiviral Nano-columnar Copper Thin Films,10.1021/acsami.3c01400,https://openalex.org/W4353020325
+288,7dcf92bf8b48,豊田中央研究所,Demonstration of 12 Years Outdoor Working of Highly Durable Dye-sensitized Solar Cell Modules Employing Hydrophobic Surface Passivation and Suppression of Biased Distribution of Iodine Ions,10.1021/acssuschemeng.2c06665,https://openalex.org/W4360849771
+289,a8111a316d03,豊田中央研究所,Stochastic Optimal Linear Control for Generalized Cost Functions With Time-Invariant Stochastic Parameters,10.1109/tcyb.2023.3252673,https://openalex.org/W4352977395
+290,a0b900a7c2c5,豊田中央研究所,Investigation of Gas Transport Resistance in Fuel Cell Catalyst Layers via Hydrogen Limiting Current Measurements of CO-covered Catalyst Surfaces,10.1016/j.jpowsour.2023.232909,https://openalex.org/W4323438480
+291,fd5af67ca365,豊田中央研究所,Modeling the Impact of E-hailing Services on Regional Public Transit Considering Transit-dependent People,10.1016/j.trb.2023.02.009,https://openalex.org/W4321442155
+292,099f28065ed7,豊田中央研究所,Anomalous Behavior of Liquid Molecules Near Solid Nanoparticles: Novel Interpretation on Thermal Conductivity Enhancement in Nanofluids,10.1016/j.jcis.2023.01.101,https://openalex.org/W4318939461
+293,781c6f821e73,豊田中央研究所,NH3 Decomposition over Ru/CeO2-PrOx Catalyst under High Space Velocity Conditions for an On-site H2 Fueling Station,10.1016/j.apcatb.2022.122352,https://openalex.org/W4313530481
+294,830446678bba,豊田中央研究所,Origami-inspired Metamaterials with Switchable Energy Absorption Based on Bifurcated Motions of a Tachi-Miura Polyhedron,10.1016/j.matdes.2022.111497,https://openalex.org/W4313379526
+295,e0706176dca4,豊田中央研究所,Impact of Ridehailing Platforms’ Strategic Partnership with Charging Station Operators on Consumer Surplus and Electric Vehicle Driver Surplus,,
+296,adc8ac843935,豊田中央研究所,Ultralight Conductive IrO2 Nanostructured Textile Enables Highly Efficient Hydrogen and Oxygen Evolution Reaction: Importance of Catalyst Layer Sheet Resistance,10.1016/j.apcatb.2022.122030,https://openalex.org/W4300772321
+297,e768b5a29265,豊田中央研究所,X-ray Absorption Spectroscopy without the Self-absorption Effect by Detecting L-line Fluorescence at the K-edge,10.1016/j.apsusc.2022.155198,https://openalex.org/W4302009602
+298,00ffd7a0d41d,豊田中央研究所,Spatio-temporal Graph Localization Networks for Image-based Navigation,10.1109/iros47612.2022.9981958,https://openalex.org/W4312239647
+299,a5af353e60d8,豊田中央研究所,Unsupervised Simultaneous Learning for Camera Re-localization and Depth Estimation from Video,10.1109/iros47612.2022.9982213,https://openalex.org/W4312364162
+300,3681a81ae703,豊田中央研究所,Interfacial Distribution of Nafion Ionomer Thin Films on Nitrogen-modified Carbon Surfaces,10.1021/acsami.2c14574,https://openalex.org/W4309728406
+301,286de4654671,豊田中央研究所,Sustaining Self-restraint Until the Middle of the COVID-19 Pandemic in Tokyo,10.1038/s41598-022-25489-4,https://openalex.org/W4311109694
+302,58efc627e18e,豊田中央研究所,Unveiling Scale Differences in the Two-phase Transformation of Li4Ti5O12 via Operando X-ray Absorption and Diffraction Studies,10.1016/j.ensm.2021.11.013,https://openalex.org/W3214235559
+303,107e1cb7d44d,豊田中央研究所,Computationally Efficient Quantum Expectation with Extended Bell Measurements,10.22331/q-2022-04-13-688,https://openalex.org/W3205670890
+304,e8e2ae16d950,豊田中央研究所,Effects of Lithium Bis(oxalate)borate Electrolyte Additive on the Formation of a Solid Electrolyte Interphase on Amorphous Carbon Electrodes by Operando Time-slicing Neutron Reflectometry,10.1021/acsami.2c06471,https://openalex.org/W4280544807
+305,da52c0e0b2a1,豊田中央研究所,"How Fluorine Introduction Solves the Spinel Transition, a Fundamental Problem of Mn-based Positive Electrodes",10.1021/acsami.2c02868,https://openalex.org/W4280608607
+306,ccfc3ebd75d1,豊田中央研究所,Visualizing Invisible Phase Transitions in Blue Phase Liquid Crystals Using Early Warning Indicators,10.1002/smll.202200113,https://openalex.org/W4280511325
+307,9f023d213053,豊田中央研究所,In Situ Small-angle Neutron Scattering Analysis of Water Evaporation from Porous Exhaust-gas-catalyst Supports,10.1021/acsami.2c01594,https://openalex.org/W4224045071
+308,9e2145e4bb1b,豊田中央研究所,"Photocatalytic CO2 Reduction by a Z-scheme Mechanism in an Aqueous Suspension of Particulate (CuGa)0.3Zn1.4S2, BiVO4 and a Co Complex Operating Dual-functionally as an Electron Mediator and as a Cocatalyst",10.1016/j.apcatb.2022.121600,https://openalex.org/W4281737137
+309,5b588890d274,豊田中央研究所,Finding a Novel Electrolyte Solution of Lithium-ion Batteries Using an Autonomous Search System Based on Ensemble Optimization,10.1016/j.jpowsour.2022.231698,https://openalex.org/W4281617945
+310,ae6e7f082b1b,豊田中央研究所,Cooperative Transportation using Multiple Single-rotor Robots and Decentralized Control for Unknown Payloads,10.1109/icra46639.2022.9811768,https://openalex.org/W4285102542
+311,81fea8954ac5,豊田中央研究所,Observation of Bulk-edge Correspondence in Topological Pumping Based on a Tunable Electric Circuit,10.1038/s42005-022-00957-5,https://openalex.org/W4284976711
+312,cda29d0f498b,豊田中央研究所,Ex-DoF: Expansion of Action Degree-of-Freedom with Virtual Camera Rotation for Omnidirectional Image,10.1109/icra46639.2022.9812301,https://openalex.org/W3217183240
+313,aa8666a45b6a,豊田中央研究所,Effect of Amorphous Carbon Coating on the Formation of Solid Electrolyte Interphase and Electrochemical Properties of a Graphite Electrode,10.1016/j.jpowsour.2022.231850,https://openalex.org/W4285725551
+314,782fef87cdf1,豊田中央研究所,Wirelessly Powered 3D Printed Hierarchical Biohybrid Robots with Multiscale Mechanical Properties,10.1002/adfm.202202674,https://openalex.org/W4225407872
+315,5f8f0b88d1fd,豊田中央研究所,Rapid Solar Heating of Antimicrobial Ag and Cu2O Nanostructured Plasmonic Textile for Clean Water Production,10.1021/acsami.2c09298,https://openalex.org/W4292809811
+316,8b0f90d28408,豊田中央研究所,A Polynomial-time Decentralised Algorithm for Coordinated Management of Multiple Intersections,10.24963/ijcai.2022/534,https://openalex.org/W4285601357
+317,5abede2611b7,豊田中央研究所,A 6-kW Thermally Self-sustained Two-stage CO2 Methanation Reactor: Design and Experimental Evaluation of Steady-state Performance Under Full-load Conditions,10.1016/j.apenergy.2022.119773,https://openalex.org/W4294611869
+318,8e1cca9218d0,豊田中央研究所,Elastic Metamaterial Composite Made of Molded Pulp and Steel for Suppression of Low-frequency Vibration in Thin-plate Structures,10.1016/j.matdes.2022.111200,https://openalex.org/W4297181329
+319,18d086e044b5,豊田中央研究所,Improved Kinetics in Spinel-related 5 V Positive Electrode Materials by Changing Lithium Insertion Schemes for Lithium-ion Batteries,10.1021/acsaem.2c01721,https://openalex.org/W4297225042
+320,7a7ad7b9725d,豊田中央研究所,High Density Automated Valet Parking via Multi-agent Path Finding,10.1109/itsc55140.2022.9922035,https://openalex.org/W4308068833
+321,eb213b555142,豊田中央研究所,Road Network Generation with City Block Attributes Using Link Attribute Aggregation,10.1109/itsc55140.2022.9921784,https://openalex.org/W4308081105
+322,c0a5f14be1a4,豊田中央研究所,Visualization of Estimated Prevalence of CES-D Positivity Accounting for Background Factors and AIS Scores,10.1038/s41598-022-22266-1,https://openalex.org/W4307047914
+323,e7dd86304107,豊田中央研究所,Insight for Designing Mass-efficient Metal-oxide-supported Heterogeneous Catalyst from the Identification of the Catalytically Active Edge Sites Using Isotopically Labeled 13CO and 18O2,10.1021/acscatal.1c03948,https://openalex.org/W4205675201
+324,eb1807302f31,豊田中央研究所,Solar-Driven CO2 Reduction Using a Semiconductor/Molecule Hybrid Photosystem: From Photocatalysts to a Monolithic Artificial Leaf,10.1021/acs.accounts.1c00564,https://openalex.org/W3215150760
+325,0cd754b72582,豊田中央研究所,Solar Fuel Production from CO2 Using a 1 m-Square-Sized Reactor with a Solar-to-Formate Conversion Efficiency of 10.5%,10.1021/acssuschemeng.1c06390,https://openalex.org/W3214045451
+326,eb1d1e40510a,豊田中央研究所,Carbon Nanotube-based Nanomechanical Receiver for Digital Data Transfer,10.1021/acsanm.1c02563,https://openalex.org/W3208005496
+327,2468c6cb6d58,豊田中央研究所,Polarization Splitting Grating Coupler for Optical Antenna of LiDARs Consisting of Two Gratings Coupling Light in a Perfectly Vertical Direction,10.1109/jphot.2021.3079933,https://openalex.org/W3163436309
+328,a50a9d26ea49,豊田中央研究所,Improvements in Perpendicular Reverse Parking by Directing Drivers' Preliminary Behavior,10.1109/access.2021.3091757,https://openalex.org/W3173143252
+329,36a88704a84b,豊田中央研究所,PLG-IN: Pluggable Geometric Consistency Loss with Wasserstein Distance in Monocular Depth Estimation,10.1109/icra48506.2021.9560776,https://openalex.org/W3206074207
+330,ef8dc54a432c,豊田中央研究所,Deep Reinforcement Learning of Event-triggered Communication and Control for Multi-agent Cooperative Transport,10.1109/icra48506.2021.9561274,https://openalex.org/W3205685096
+331,1207ea357f89,豊田中央研究所,Design of an Isolated Bidirectional DC-DC Converter with Built-in Filters for High Power Density,10.1109/tpel.2020.3003618,https://openalex.org/W3036147805
+332,aab54922c525,豊田中央研究所,Dependence of Short-circuit Withstand Capability of SiC MOSFETs on Short-circuit Failure Time,10.1109/tpel.2021.3073991,https://openalex.org/W3155606610
+333,aae8e51eeeb8,豊田中央研究所,Fabrication and Evaluation of Magnetically Coupled EMI Filter Designed with Topology Optimization,10.1109/tpel.2021.3081121,https://openalex.org/W3163948835
+334,d1611c0113d3,豊田中央研究所,Ringing Suppression of SiC MOSFET Using a Strongly Coupled External Resonator through Analogy with Passive PT-symmetry,10.1109/tpel.2020.3013399,https://openalex.org/W3047501426
+335,5b5d15d42d8b,豊田中央研究所,Appearance of the 4V Signal without Transformation to Spinel-related Oxides from Loose-crystalline Rock-salt LiMnO2,10.1016/j.jpowsour.2021.229788,https://openalex.org/W3155397888
+336,924f917944e7,豊田中央研究所,Fluoride-ion Shuttle Battey with High Volumetric Energy Density,10.1021/acs.chemmater.0c04570,https://openalex.org/W3113400144
+337,026001f353bd,豊田中央研究所,Low-resistance Mechanism of Nanoflake Crystalline Aromatic Dicarboxylates with Selective Defects for Safe and Fast Charging Negative Electrodes,10.1021/acsnano.0c08290,https://openalex.org/W3127744242
+338,c1b40c48d343,豊田中央研究所,Spontaneous Formation of a Core-shell Structure by a Lithium Ion Conductive Garnet-type Oxide Electrolyte for Co-sintering with the Cathode,10.1039/d0ta10215f,https://openalex.org/W3118291135
+339,15b165947742,豊田中央研究所,Changes in the Stage Structure of Li-intercalated Graphite Electrode at Elevated Temperatures,10.1016/j.jpowsour.2020.228926,https://openalex.org/W3087452068
+340,f98c15486acf,豊田中央研究所,Continuous Decomposition of Cobalt Oxides by Lodine-trimethyl Phosphate Complex during Electrochemical Charge toward Cobalt Recovery,10.1021/acssuschemeng.1c01151,https://openalex.org/W3174556937
+341,768082aac403,豊田中央研究所,Nondestructive Measurement Method for Binder Content and Performance of Lithium-ion Battery Based on Electrode Deflection under Bending Deformation,10.1016/j.jpowsour.2021.229800,https://openalex.org/W3141566799
+342,a4f1361ca8da,豊田中央研究所,Complexation of Conductive Agents to Cathode Active Materials of Lithium-ion Batteries Using Poly-ion Complex Formation Reaction,10.1021/acsaem.0c02971,https://openalex.org/W3138966673
+343,194945adb4d3,豊田中央研究所,Eliminating the Need for Craftsmanship: Facile and Precise Determination of Oxygen Reduction Reaction Activity by Spraying Catalyst Ink on Rotating Disk Electrode,10.1016/j.jelechem.2021.115115,https://openalex.org/W3134139808
+344,bcff240f9eed,豊田中央研究所,The Role of Oxygen-permeable Ionomer for Polymer Electrolyte Fuel Cells,10.1038/s41467-021-25301-3,https://openalex.org/W3195792810
+345,8b4556132a74,豊田中央研究所,Challenges in Applying Highly Active Pt-based Nanostructured Catalysts for Oxygen Reduction Reaction to Fuel Cell Vehicles,10.1038/s41565-020-00824-w,https://openalex.org/W3123461434
+346,1925ac4fe1eb,豊田中央研究所,Effects of the Composition and the Particle Size of Octahedral Pt-Ni Nanoparticles on Their Durability,10.1149/1945-7111/abe34b,https://openalex.org/W3127136564
+347,1a579881105c,豊田中央研究所,Managing the Pore Morphologies of Microporous Layers for Polymer Electrolyte Fuel Cells with a Solvent-free Coating Technique,10.1021/acssuschemeng.1c02105,https://openalex.org/W3171479198
+348,6044a8508221,豊田中央研究所,Distinguishing Adsorbed and Deposited Ionomers in the Catalyst Layer of Polymer Electrolyte Fuel Cells Using Contrast-variation Small-angle Neutron Scattering,10.1021/acsomega.1c01535,https://openalex.org/W3171250805
+349,9a26fdb832dd,豊田中央研究所,Visualization of Dynamic Behavior of Liquid Water in the Microporous Layer of Polymer Electrolyte Fuel Cell During Water Injection by Time-resolved X-ray Computed Tomography,10.1016/j.elecom.2021.107059,https://openalex.org/W3168669779
+350,ed377f142b71,豊田中央研究所,Light-harvesting Photocatalysis for H2 Evolution by Methylacridone-bridged Periodic Mesoporous Organosilica,10.1016/j.apcatb.2021.119965,https://openalex.org/W3126620624
+351,8fdeb70de0e5,豊田中央研究所,Bubble Growth and Departure Modes on Wettable/Non-wettable Porous Foams in Alkaline Water Splitting,10.1016/j.joule.2021.02.015,https://openalex.org/W3148969157
+352,2676674cf3fa,豊田中央研究所,A Large-sized Cell for Solar-driven CO2 Conversion with a Solar-to-formate Conversion Efficiency of 7.2%,10.1016/j.joule.2021.01.002,https://openalex.org/W3126417102
+353,91915a5261d7,豊田中央研究所,Hydrogen Production from Methanol-water Mixture over Immobilized Iridium Complex Catalysts in Vapor-phase Flow Reaction,10.1002/cssc.202002557,https://openalex.org/W3128507998
+354,6b3c5fd5ef28,豊田中央研究所,Superior Hygrothermal Resistance and Interfacial Adhesion by Ternary Thermoplastic Polymer Blend Matrix for Carbon Fiber Composite,10.1016/j.compositesa.2021.106338,https://openalex.org/W3135752247
+355,bba9a9c60e94,豊田中央研究所,Molecular Dynamics Simulation of Fracture at a Polymer and Metal Oxide Joining Interface,10.1246/bcsj.20200387,https://openalex.org/W3144412032
+356,189f5c2c8316,豊田中央研究所,Development of a Sensor for Dielectric Constant Measurements Utilizing Time-domain Measurement with a Vector Network Analyzer,10.1016/j.measurement.2020.108530,https://openalex.org/W3090569407
+357,409870da2c10,豊田中央研究所,Mathematical Design and Graphical Solution of the Multiple Bifurcation Equations of a 4-DoF Benchmark Model,10.1016/j.tws.2021.108010,https://openalex.org/W3166736434
+358,144b89d5eaf0,豊田中央研究所,The Pt-Pd Alloy Catalyst and Enhanced Catalytic Activity for Diesel Oxidation,10.1016/j.cattod.2020.08.019,https://openalex.org/W3080513741
+359,f3e11bf7d10e,豊田中央研究所,Modeling Solid Contact between Rough Surfaces with Various Roughness Parameters,10.1080/10402004.2020.1820123,https://openalex.org/W3088156800
+360,e053f4e24d79,豊田中央研究所,Online Estimation and Prediction for Large-scale Network Traffic from Sparse Probe Veihcle Data,10.1109/tits.2021.3067603,https://openalex.org/W3140898540
+361,582ffd86f677,豊田中央研究所,Traffic Signal Optimization on a Square Lattice with Quantum Annealing,10.1038/s41598-021-82740-0,https://openalex.org/W3127384664
+362,fc2ab5b81e32,豊田中央研究所,Multi-agent Path Finding with Destination Choice,10.1007/978-3-030-69322-0_26,https://openalex.org/W3132139265
+363,1f97ce569773,豊田中央研究所,Distance-based Heuristic Solvers for Cooperative Path Planning with Heterogeneous Agents,10.1007/978-3-030-69322-0_8,https://openalex.org/W3131655998
+364,f0fb901e4d31,豊田中央研究所,Mechano-neurophysiological Model of the Fingertip for Spatiotemporal Firing Pattern Prediction of SA1 Mechanoreceptors during Embossed Letter Scanning,10.1177/1687814020984651,https://openalex.org/W3131695008
+365,13b111cc27fa,豊田中央研究所,Computational Approach to Understand Temporal and Spatial Tactile Transmission Processes from Mechanical Stimuli of the Index Fingertip to the Primary Somatosensory Cortex,10.1016/j.jneumeth.2021.109215,https://openalex.org/W3158982304
+366,654c8be729a9,豊田中央研究所,Efficient Actor-critic Reinforcement Learning with Embodiment of Muscle Tone for Posture Stabilization of the Human Arm,10.1162/neco_a_01333,https://openalex.org/W3094602391
+367,fb60971e4891,豊田中央研究所,3D Bioprinted Human iPSC-derived Somatosensory Constructs with Functional and Highly Purified Sensory Neuron Networks,10.1088/1758-5090/abff11,https://openalex.org/W3159866022
+368,f17ee3b0314c,豊田中央研究所,An In Vitro Mixed Infection Model With Commensal and Pathogenic Staphylococci for the Exploration of Interspecific Interactions and Their Impacts on Skin Physiology,10.3389/fcimb.2021.712360,https://openalex.org/W3201035186
+369,fdd8a9a5bf43,豊田中央研究所,Three-dimensional Topology Optimization Model to Simulate the External Shapes of Bone,10.1371/journal.pcbi.1009043,https://openalex.org/W3172903980
+370,fb7ca8fb5298,豊田中央研究所,Genetic Dissection of Complex Traits Using Hierarchical Biological Knowledge,10.1371/journal.pcbi.1009373,https://openalex.org/W3199405447
+371,8e431102a190,豊田中央研究所,Temperature-induced Shear-thinning in Catalyst Inks,10.1016/j.elecom.2021.107099,https://openalex.org/W3184131807
+372,ecd3e5253c09,豊田中央研究所,A Wireless Radiofrequency-powered Insect-scale Flapping-wing Aerial Vehicle,10.1038/s41928-021-00669-8,https://openalex.org/W3216776138
+373,643d81b0f2e7,豊田中央研究所,Simultaneous Estimation of Vehicle Position and Data Delay Using Gaussian Process Based Moving Horizon Estimation,10.1109/iros45743.2020.9341184,https://openalex.org/W3129490521
+374,37d065c45103,豊田中央研究所,3D Reconstruction of Edge Line by ICP-based Matching with Geometric Constraints,10.1109/dicta51227.2020.9363373,https://openalex.org/W3134290768
+375,1891031071b0,豊田中央研究所,Nitrogen-functionalized Graphene Quantum Dots: A Versatile Platform for Integrated Optoelectronic Devices,10.1002/tcr.201900063,https://openalex.org/W2979592207
+376,6008737b26b3,豊田中央研究所,Robust Shape Estimation with False-positive Contact Detection,10.1016/j.robot.2020.103527,https://openalex.org/W3016760652
+377,ec00b36d914f,豊田中央研究所,Electronic Degeneracy Conduction in Highly Si-doped Al0.6Ga0.4N Layers Based on the Carrier Compensation Effect,10.1063/5.0030825,https://openalex.org/W3115171496
+378,739cc3e7a4c4,豊田中央研究所,Growth of High-quality GaN by Halogen-free Vapor Phase Epitaxy,10.35848/1882-0786/aba494,https://openalex.org/W3041236441
+379,d608d5ab506d,豊田中央研究所,Tungsten Carbide Layers Deposited on Graphite Substrates via Wet Powder Process as Anti-parasitic-reaction Coating for Reactor Components in GaN Growth,10.1039/c9ce01971e,https://openalex.org/W3009050857
+380,e5ccfdc37bf7,豊田中央研究所,Effect of Bismuth-tin Composition on Bonding Strength of Zinc Particle-mixed Copper Nanoparticle/bismuth-tin Solder Hybrid Joint,10.1007/s10854-020-03211-2,https://openalex.org/W3011651006
+381,d3fad117f121,豊田中央研究所,Synergistic Effect of Binary Electrolyte on Enhancement of the Energy Density in Li-O2 Batteries,10.1021/acs.jpclett.0c01877,https://openalex.org/W3080420415
+382,6f916e51d266,豊田中央研究所,Optimization of Material Composition of Li-intercalated Metal-organic Framework Electrodes Using a Combination of Experiments and Machine Learning of X-ray Diffraction Patterns,10.1002/admt.202000254,https://openalex.org/W3037526837
+383,b867068a797e,豊田中央研究所,Model Validation and Simulation Study on the Thermal Abuse Behavior of LiNi0.8Co0.15Al0.05O2-based Batteries,10.1016/j.jpowsour.2019.227464,https://openalex.org/W2990811730
+384,8745baba9eb7,豊田中央研究所,Phase Transition Mechanism for Crystalline Aromatic Dicarboxylate in Li+ Intercalation,10.1021/acs.chemmater.9b04984,https://openalex.org/W3014500671
+385,b3f4bf80e66b,豊田中央研究所,In Situ X-ray Raman Spectroscopy and Magnetic Susceptibility Study on Li[Li0.15Mn1.85]O4  Oxygen Anion Redox Reaction,10.1039/c9cc09051g,https://openalex.org/W2998526596
+386,a564ffe029cb,豊田中央研究所,Influence of Ionomer Adsorption on Agglomerate Structures in High-solid Catalyst Inks,10.1016/j.carbon.2020.07.047,https://openalex.org/W3046435354
+387,b974472df54a,豊田中央研究所,A Theoretical and Experimental Study on Electrochemical Impedance Spectra of Polymer Electrolyte Membrane Fuel Cells for Cation Content Estimation,10.1149/1945-7111/abb7e6,https://openalex.org/W3084742387
+388,a32287fa690e,豊田中央研究所,Evaluation of Ionomer Coverage on Pt Catalysts in Polymer Electrolyte Membrane Fuel Cells by CO Stripping Voltammetry and its Effect on Oxygen Reduction Reaction Activity,10.1016/j.jelechem.2020.114250,https://openalex.org/W3029501683
+389,71c35125510f,豊田中央研究所,Cell Performance and Durability of Pt/C Cathode Catalyst Covered by Dopamine Derived Carbon Thin Layer for Polymer Electrolyte Fuel Cells,10.1149/1945-7111/ab8b97,https://openalex.org/W3019511690
+390,27c195fa72d9,豊田中央研究所,Fabrication of Catalyst Layer with Ionomer Nanofiber Scaffolding for Polymer Electrolyte Fuel Cells,10.1016/j.jpowsour.2020.228584,https://openalex.org/W3067846212
+391,8854217ccfed,豊田中央研究所,Pulsed Neutron Imaging for Differentiation of Ice and Liquid Water Towards Fuel Cell Vehicle Applications,10.1039/d0cp03887c,https://openalex.org/W33346285
+392,b8c4e453c17b,豊田中央研究所,Ex-situ Visualization of the Wet Domain in the Microporous Layer in a Polymer Electrolyte Fuel Cell by X-ray Computed Tomography Under Water Vaper Supply,10.1016/j.elecom.2019.106644,https://openalex.org/W2997410131
+393,70e545fca1e3,豊田中央研究所,Freestanding Interconnected Nanocluster Textiles for Efficient Oxygen Evolution Reaction,10.1039/d0ta07707k,https://openalex.org/W3088090278
+394,fd6f17d55ed0,豊田中央研究所,Self-assembled Cuprous Coordination Polymer as a Catalyst for CO2 Electrochemical Reduction into C2 Products,10.1021/acscatal.0c01593,https://openalex.org/W3083229727
+395,1132359b512f,豊田中央研究所,CO Oxidation Activity of Non-reducible Oxide-supported Mass-selected Few-atom Pt Single-clusters,10.1038/s41467-020-15850-4,https://openalex.org/W3017185512
+396,9920fa812ab7,豊田中央研究所,Energy Dissipation Measurement in Improved Spatial Resolution Under Fatigue Loading,10.1007/s11340-019-00552-w,https://openalex.org/W2982081936
+397,1d43bf8758de,豊田中央研究所,Multifaceted Property Tailoring of Polyamide 6 by Blending Miscible and Immiscible Components: Ternary Blends of Polyamide 6/Polyehylene Terephthalate/Phenol Novolac,10.1039/d0ra02344b,https://openalex.org/W3016590251
+398,61ddd223a0b4,豊田中央研究所,In Situ Reactive Compatibilization of Polyamide 6 and Polycarbonate Blend by the Catalytic Effect of Phenol Novolac,10.1021/acs.iecr.9b05970,https://openalex.org/W2999832125
+399,595e09614da9,豊田中央研究所,Enhanced Dielectric Properties of Polyvinylidene Fluoride-based Composite Films with Layered Perovskite KCa2Na3Nb6O19-derived Fillers,10.1007/s10853-020-05169-2,https://openalex.org/W3082305404
+400,ee7b59b50794,豊田中央研究所,Numerical Material Testing for Discontinuous Fiber Composites Using Statistically Similar Representative Volume Elements,10.1038/s41598-020-66963-1,https://openalex.org/W32606427
+401,5a21732a5b83,豊田中央研究所,Particle-level Simulation for the Prediction of Short Fiber Orientation in Injection Molding,10.1016/j.compositesa.2020.106115,https://openalex.org/W3085574276
+402,a598563f6426,豊田中央研究所,Hill-top Branching: Its Asymptotically Expanded and Visually Solved Bifurcation Equations,10.1016/j.cma.2019.112763,https://openalex.org/W3003851191
+403,68eb53081212,豊田中央研究所,Development of Free Piston Engine Linear Generator System and a Resonant Pendulum Type Control Method,10.1177%2f1468087420931247,https://openalex.org/W3036195468
+404,8766c1c7499a,豊田中央研究所,A Predictive Combustion Model for One-dimensional Gasoline Engine Simulation,10.1177%2f1468087420945905,https://openalex.org/W3048665232
+405,4cd5da3f8b8e,豊田中央研究所,Formulation of Intervibrator Motion and Development of a Controller for a Pulse-drive Transmission,10.1016/j.mechmachtheory.2020.103880,https://openalex.org/W3015629277
+406,e7dd77198c20,豊田中央研究所,Neural Time Warping for Multiple Sequences Alignment,10.1109/icassp40776.2020.9054121,https://openalex.org/W3015963521
+407,76ef1c151dbc,豊田中央研究所,Fast Subtrajectory Similarity Search in Road  Networks under Weighted Edit Distance Constraints,10.14778/3407790.3407818,https://openalex.org/W3082761471
+408,2322e40dc6bc,豊田中央研究所,Test Coverage Index for ADAS/ADS Assessment Based on Various Real-world Information Points,10.1109/tits.2020.3026679,https://openalex.org/W3092475698
+409,2c3d42bcf54c,豊田中央研究所,Pseudo-perturbation-based Broadcast Control of Multi-agent Systems,10.1016/j.automatica.2019.108769,https://openalex.org/W2998246714
+410,842346c1157b,豊田中央研究所,Continuous-time Optimization Dynamics Mirroring ADMM Architecture and Passivity-based Robustification Against Delays,10.1109/tcns.2020.2972590,https://openalex.org/W3005696980
+411,0506b29523e0,豊田中央研究所,On-the-fly Active Learning of Interatomic Potentials for Large-scale Atomistic Simulations,10.1021/acs.jpclett.0c01061,https://openalex.org/W3046503435
+412,951a88b7dad8,豊田中央研究所,Autonomous Molecular Design by Monte-calo-tree Search and Rapid Evaluations Using Molecular Dynamics Simulations,10.1038/s42005-020-0338-y,https://openalex.org/W3026536569
+413,e412e60bed4c,豊田中央研究所,Discovery of Superionic Conductors by Ensemble-scope Descriptor,10.1038/s41427-020-0211-1,https://openalex.org/W3017826127
+414,ebbae55688d7,豊田中央研究所,Design Rules for High Oxygen-ion Conductivity in Garnet-type Oxides,10.1021/acs.chemmater.9b02044,https://openalex.org/W2999702058
+415,1f5dbacce0f0,豊田中央研究所,Training Data Augmentation: An Empirical Study Using Generative Adversarial Net-based Approach with Normalizing Flow Models for Materials Informatics,10.1016/j.asoc.2019.105932,https://openalex.org/W2984271195
+416,70199f67b6cd,豊田中央研究所,Self-learning Molecular Design for High Lithium-ion Conductive Ionic Liquids Using Maze Game,10.1021/acs.jcim.0c00692,https://openalex.org/W3088320917
+417,d302e98b589f,豊田中央研究所,Model Predictive Control for Finite Input Systems Using D-wave Quantum Annealer,10.1038/s41598-020-58081-9,https://openalex.org/W3004136046
+418,e62ab6049d3f,豊田中央研究所,Cooperative Routing Problem between Customers and Vehicles for On-demand Mobile Facility Services,10.1109/itsc45102.2020.9294281,https://openalex.org/W3115770109
+419,eac5f0a591c1,豊田中央研究所,Battery as a Service for Electric Vehicles: Design and Optimization of Partially Swappable and Shareable Battery System,10.1109/itsc45102.2020.9294582,https://openalex.org/W3116072028
+420,e8d00ca7dc08,豊田中央研究所,Investigation of Dynamic Deformation of the Midbrain in Rear-end Collision Using Human Brain FE Model,10.1080/10255842.2020.1795142,https://openalex.org/W3044114636
+421,bf633aca41b0,豊田中央研究所,Vestibulo-ocular Reflex Characteristics during Unidirectional Translational Whole-body Vibration without Head Restriction,10.1080/00140139.2019.1683616,https://openalex.org/W2986021936
+422,9378c80aa06e,豊田中央研究所,The Effect of Posterior Tethers on the Biomechanics of Proximal Junctional Kyphosis: The Whole Human Finite Element Model Analysis,10.1038/s41598-020-59179-w,https://openalex.org/W3007851985
+423,fdcffd044b77,豊田中央研究所,The Origins of Binding Specificity of a Lanthanide Ion Binding Peptide,10.1038/s41598-020-76527-y,https://openalex.org/W3099034975
+424,0a4f67d7efa2,豊田中央研究所,Direct Recovery of the Rare Earth Elements Using a Silk Displaying a Metal-recognizing Peptide,10.3390/molecules25030761,https://openalex.org/W3005426019
+425,91362cf0491b,豊田中央研究所,Reduction of the Cytotoxicity of Copper (II) Oxide Nanoparticles by Coating with a Surface-binding Peptide,10.1007/s12010-019-03108-9,https://openalex.org/W2968112904
+426,4315f6ee6cc0,豊田中央研究所,Improved Lift Force of a Resonant-driven Flapping-wing Micro Aerial Vehicle by Suppressing Wing-body and Wing-wing Vibration coupling,10.1016/j.eml.2020.100867,https://openalex.org/W3043041792
+427,5bb3bccedf53,豊田中央研究所,Plastid-targeted Forms of Restriction Endonucleases Enhance the Plastid Genome Rearrangement Rate and Trigger the Reorganization of Its Genomic Architecture,10.1111/tpj.14687,https://openalex.org/W2998843146
+428,5e8c0cf41e6b,豊田中央研究所,Extended TAQing System for Large-scale Plant Genome Reorganization,10.1111/tpj.14888,https://openalex.org/W3037607497
+429,62a89ae4a68d,豊田中央研究所,Materials and Technical Innovations in 3D Printing in Biomedical Applications,10.1039/d0tb00034e,https://openalex.org/W3010647897
+430,7331f3e8995a,豊田中央研究所,Enhancement Mechanism of Convective Heat Transfer via Nanofluid: An Analysis by Means of Synchrotron Radiation Imaging,10.1016/j.ijheatmasstransfer.2020.120081,https://openalex.org/W3039586424
+431,1ae39310f94e,豊田中央研究所,Local Atomic Structure of the GaN-side of the Al2O3/GaN Interface Revealed by X-ray Absorption Spectroscopy,10.1016/j.apsusc.2020.146058,https://openalex.org/W3011304249
+432,97acc8adcdff,豊田中央研究所,Operando Time-slicing Neutron Reflectometry Measurements of Solid Electrolyte Interphase Formation on Amorphous Carbon Surfaces of a Li-ion Battery,10.1246/bcsj.20200044,https://openalex.org/W3019268428
+433,8afae8fb5634,豊田中央研究所,Quantification of Organic Additives on Polymer Surfaces by Time-f-flight Secondary Ion Mass spectrometry with Gold Deposition,10.1016/j.apsusc.2019.144813,https://openalex.org/W2990975554
+434,506a1080ada9,豊田中央研究所,Direct Silanol Analysis of Tribological Surfaces Using Synchrotron Radiation,10.1016/j.triboint.2020.106304,https://openalex.org/W3012047476
+435,faf402990b3c,豊田中央研究所,Estimation of the Average Oxidation Number of Nickel in a Nickel Oxide Based on Local Structural Information,10.1016/j.jpowsour.2019.227351,https://openalex.org/W2982092939
+436,a3a98f9f1c8f,豊田中央研究所,Nondestructive High-sensitivity Detections of Metallic Lithium Deposited on a Battery Anode Using Muonic X-rays,10.1021/acs.analchem.0c00370,https://openalex.org/W3031709455
+437,c409bfe590bc,豊田中央研究所,Demonstration of a New Optical Scanner by Using Silicon Photonics Integrated Circuit,10.1364/oe.27.002499,https://openalex.org/W2914472749
+438,9d17add0c18a,豊田中央研究所,Silicon Optical Modulator Using a Low-loss Phase Shifter Based on Multimode Interference Waveguide,10.3390/mi10070482,https://openalex.org/W2958576510
+439,5b11303e20ac,豊田中央研究所,Coordination of Connected Vehicles on Merging Roads Using  Pseudo-perturbation-based Broadcast Control,10.1109/tits.2018.2876905,https://openalex.org/W2901077201
+440,a6088a4177d0,豊田中央研究所,Edge eXchange:  eNB with Wireless Backhaul Communication among Carriers,10.1109/globecom38437.2019.9013198,https://openalex.org/W3010195231
+441,d91a49dff2bf,豊田中央研究所,Quality Index of Supervised Data for Convolutional Neural Network-based Localization,10.3390/app9101983,https://openalex.org/W2945002376
+442,b8db44443d66,豊田中央研究所,Room-temperature Photoluminescence Lifetime for the Near-band-edge Emission of Epitaxial and Ion-implanted GaN on GaN Structures,10.7567/1347-4065/ab0d06,https://openalex.org/W2945673139
+443,bd61ad81dc0b,豊田中央研究所,"Multi-port, Bi-directional Contactless Connector for the Interface of Modular Portable Battery System",10.1109/ecce.2019.8911846,https://openalex.org/W2990615184
+444,c2a9ceb6c91e,豊田中央研究所,Self-assembled Single-crystalline GaN Having a Bimodal Meso/Macropore Structure to Enhance Photoabsorption and Photocatalytic Reactions,10.1021/acsami.8b18088,https://openalex.org/W2908299407
+445,aabc78be0164,豊田中央研究所,Topology Optimization of Conductors in Electrical Circuit,10.1007/s00158-018-02187-2,https://openalex.org/W2910711584
+446,55380b96f4d2,豊田中央研究所,Brass Bonding Using Copper Nanoparticles and Zinc Powder for Packaging of Power Electronic Devices,10.1016/j.jallcom.2019.02.249,https://openalex.org/W2918540092
+447,907a94c73649,豊田中央研究所,Negative Differential Resistance as a Critical Indicator for the Discharge Capacity of Lithium-oxygen Batteries,10.1038/s41467-019-08536-z,https://openalex.org/W2914890781
+448,f23efac3ac9c,豊田中央研究所,Ion Transport in Porous Electrodes Obtained by Impedance Using a Symmetric Cell with Predictable Low-temperature Battery Performance,10.1021/acs.jpclett.9b01670,https://openalex.org/W2962758216
+449,20bac751660f,豊田中央研究所,Controlling Cracking Formation in Fuel Cell Catalyst Layers,10.1016/j.jpowsour.2019.02.058,https://openalex.org/W2921091441
+450,3425e5e11a32,豊田中央研究所,Improving Water Management in Fuel Cells Through Microporous Layer Modifications: Fast Operando Tomographic Imaging of Liquid Water,10.1016/j.jpowsour.2019.226809,https://openalex.org/W2955742561
+451,f9574c4ea78c,豊田中央研究所,"CO2 Conversion by High-dose Rate Electron Beam Irradiation: One-step, Metal-free and Simultaneous Production of H2, CO, CH4, C2H6 and Organic Acids from an Acid-decomposed CaCO3/Additive EtOH Mixture",10.1039/c9gc00525k,https://openalex.org/W2945544002
+452,f8e7fa4fef81,豊田中央研究所,Design and Demonstration of Knudsen Heat Pump without Moving Parts Free from Electricity,10.1016/j.apenergy.2019.05.065,https://openalex.org/W2946590662
+453,2072206cf1cb,豊田中央研究所,Enhanced Electrochemical CO2 Reduction Selectivity by Application of Self-assembled Polymer Microparticles to a Silver Electrode,10.1039/c9cc05921k,https://openalex.org/W2971745035
+454,efbd8be53d77,豊田中央研究所,Intermediate-band Effect in Hot-carrier Solar Cells,10.1002/pip.3129,https://openalex.org/W2929595970
+455,082c4c8c3162,豊田中央研究所,Towards Dense Single-atom Catalysts for Future Automotive Applications,10.1038/s41929-019-0282-y,https://openalex.org/W2957974712
+456,4c238eac194e,豊田中央研究所,Fully Bio-based Polymer Blend of Polyamide 11 and Poly(vinylcatechol) Showing Thermodynamic Miscibility and Excellent  Engineering Properties,10.1016/j.polymer.2019.121667,https://openalex.org/W2971693987
+457,dd7bb73849f9,豊田中央研究所,CAE-based Process Design for Improving Formability in Hot Stamping with Partial Cooling,10.1016/j.jmatprotec.2018.08.021,https://openalex.org/W2886911841
+458,8b18c26f5781,豊田中央研究所,Direct Simulation of Glass Fiber Breakage in Simple Shear Flow Considering Fiber-fiber Interaction,10.1016/j.compositesa.2019.105514,https://openalex.org/W2953827410
+459,8532fbe50387,豊田中央研究所,Inverse Design of Structure and Fiber Orientaion by Means of Topology Optimization with Tensor Field Variables,10.1016/j.compositesb.2019.107187,https://openalex.org/W2958768244
+460,fc21db55464c,豊田中央研究所,Investigation of the Effective Oxygen Storage and Release Performances on the Pt/CeO2-ZrO2 Catalysts by Breakthrough Method,10.1016/j.cattod.2018.07.046,https://openalex.org/W2883650730
+461,fa69d608af2b,豊田中央研究所,Noise-canceling Spike between Pilot and Main-pressure-rise Peaks of Multiple-injection Diesel Combustion,10.1177%2f1468087419848236,https://openalex.org/W2952996180
+462,3a72fab5f46c,豊田中央研究所,Silver Sulfate Catalyst for Soot Oxidation with High Resistance to Sulfur Poisoning,10.1016/j.apcata.2019.02.033,https://openalex.org/W2917930200
+463,e1db59ff2223,豊田中央研究所,In-line Adsorption System for Reducing Cold-start Ammonia Emissions from Engines Fueled with Ammonia and Hydrogen,10.1016/j.ijhydene.2019.10.105,https://openalex.org/W2984868618
+464,e060b98a7df3,豊田中央研究所,Diesel Engine Air Path Control Based on Neural Approximation of Nonlinear MPC,10.1016/j.conengprac.2019.104114,https://openalex.org/W2968241482
+465,24d8666c37ef,豊田中央研究所,Improving High-temperature NOx Conversion in the Combined NSR-SCR System with an SCR Catalyst Mixed with an NH3 Adsorbent,10.1016/j.apcata.2019.06.003,https://openalex.org/W2948636765
+466,177ea6b960cc,豊田中央研究所,Demonstrating the Potential of Chemiluminescence as a Tool to Characterize Heterogeneous Catalysis Using CO Oxidation on Copper-based Catalysts as an Example,10.1002/cctc.201900264,https://openalex.org/W2936324948
+467,07706fdeeba6,豊田中央研究所,Mechanistic Insights into a NOx Storage-reduction (NSR) Catalyst by Spatiotemporal Operando X-ray Absorption Spectroscopy,10.1039/c9cy00176j,https://openalex.org/W2912795073
+468,172f74f3d172,豊田中央研究所,Risk-sensitive Linear Control for Systems with Stochastic Parameters,10.1109/tac.2018.2876793,https://openalex.org/W2901381232
+469,94f03262b23f,豊田中央研究所,Topology Optimization for Thermal Stress Reduction in Power Semiconductor Module,10.1007/s00158-019-02341-4,https://openalex.org/W2965735194
+470,648a01917ce3,豊田中央研究所,Early-warning Signals Using Dynamical Network Markers Selected by Covariance,10.1103/physreve.100.052303,https://openalex.org/W2985489019
+471,3c78286b82cc,豊田中央研究所,Online Map Matching with Route Prediction,10.1109/tits.2018.2812147,https://openalex.org/W2789406905
+472,b0cc27e28ca4,豊田中央研究所,First Principle Determination of Dielectric Constant of Polar Liquids by the Extended RISM Theory with the Bridge Diagrams Concerning Dipole-dipole Interactions,10.1016/j.molliq.2019.111567,https://openalex.org/W2971258406
+473,4d81d895acf6,豊田中央研究所,Phosphorescent Material Search Using a Combination of High Throughput Evaluation and Machine Learning,10.1021/acs.inorgchem.9b01370,https://openalex.org/W2965269258
+474,69ad9829dc95,豊田中央研究所,Flow-based Image-to-image Translation with Feature Disentanglement,,https://openalex.org/W2970855822
+475,e60ed3dfaed8,豊田中央研究所,First-principles Prediction of High Oxygen-ion Conductivity in Trilanthanide Gallates Ln3GaO6,10.1080/14686996.2019.1578183,https://openalex.org/W2913880202
+476,0e54be0b9a1d,豊田中央研究所,Correlation between Thermal-vibration-induced Large Displacement of Cu Atoms and Phase Transition in Cu4SnS4: First-principles Investigation,10.1016/j.actamat.2018.11.058,https://openalex.org/W2903097311
+477,74d1d9aa4eb7,豊田中央研究所,Neural Network-based Transductive Regression Model,10.1016/j.asoc.2019.105682,https://openalex.org/W2965720469
+478,4be4d8d9a2e3,豊田中央研究所,Direct Wireless Link to Out-of-range Node with Assistance of Surrounding Nodes,10.1109/tvt.2019.2934502,https://openalex.org/W2973091745
+479,8dbb4da58f57,豊田中央研究所,Water Facilitated Electrochemical Reduction of CO2 on Cobalt-porphyrin Catalyst,10.1021/acs.jpcc.9b01195,https://openalex.org/W2923062096
+480,d27884da0de9,豊田中央研究所,Simplified Analysis of the Relationships between the Prices and Optimal Capacities of PV systems and Batteries,,
+481,3c0408528e38,豊田中央研究所,Generating Pedestrian Walking Behavior Considering Detour and Pause in the Path Under Space-time Constraints,10.1016/j.trc.2019.09.005,https://openalex.org/W2975230390
+482,462954d6c690,豊田中央研究所,Cooperative Routing with Heterogeneous Vehicles,,https://openalex.org/W2946204911
+483,d325ef8f3824,豊田中央研究所,"Emotion, Respiration, and Heart Rate Variability: A Mathematical Model and Simulation Analyses",10.3390/app9235008,https://openalex.org/W2991521698
+484,4bf9bc666b75,豊田中央研究所,The Effect of Temporal Adaptation to Different Temperatures and Osmolarities on Heat Response of TRPV4 in Cultured Cells,10.1016/j.jtherbio.2019.102424,https://openalex.org/W2975988526
+485,819730a30c79,豊田中央研究所,A Novel Approach to Sensorimotor Skill Acquisition Utilizing Sensory Substitution: A Driving Simulation Study,10.1038/s41598-019-54324-6,https://openalex.org/W2990767070
+486,f6526e5a6118,豊田中央研究所,Recent Developments in Terminator Technology in Saccharomyces Cerevisiae,10.1016/j.jbiosc.2019.06.006,https://openalex.org/W2958307540
+487,4d302e3f916b,豊田中央研究所,Intragranular Three-dimensional Stress Tensor Fields in Plastically Deformed Polycrystals,10.1126/science.aax9167,https://openalex.org/W2995428702
+488,87932aedc212,豊田中央研究所,Hard X-ray Spectroscopic Methods Using Emitted X-ray to Understand Charge Compensation in Positive Electrode Materials for Lithium-ion Batteries,10.1016/j.jpowsour.2019.226721,https://openalex.org/W2949048446
+489,64fbec506d1c,豊田中央研究所,In Situ X-ray Raman Scattering Spectroscopy of a Graphite Electrode for Lithium-ion Batteries,10.1016/j.jpowsour.2019.02.064,https://openalex.org/W2921737013
+490,bec34272fd43,豊田中央研究所,Multi-agent Path Finding with Priority for Cooperative Automated Valet Parking,10.1109/itsc.2019.8917112,https://openalex.org/W2989659372
+491,5dafa7d353d8,豊田中央研究所,Efficient Model of Photon-counting Laser Radar for Distance Error Calibration,10.1016/j.optcom.2018.02.029,https://openalex.org/W2810013368
+492,eecedac52fc4,豊田中央研究所,"Degradation Analysis of AlGaN/GaN High Electron Mobility Transistor by Electroluminescence, Electric Field-induced Optical Second-harmonic Generation, and Photoluminescence Imaging",10.1063/1.5019998,https://openalex.org/W2850279973
+493,e2f184676ee7,豊田中央研究所,Liquid-phase Exfoliation of Germanane Based on Hansen Solubility Parameters,10.1021/acs.chemmater.8b02153,https://openalex.org/W2883669953
+494,00daac7f1163,豊田中央研究所,Porosity-controlled Multilayer TaC Coatings Prepared via Wet Powder Process for Multi-functional Reactor Components in GaN Crystal Growth System,10.1016/j.ceramint.2018.08.177,https://openalex.org/W2887153291
+495,409fe09dac16,豊田中央研究所,Cylindrical Thermoelectric Generator with Water Heating System for High Solar Energy Conversion Efficiency,10.1016/j.apenergy.2018.06.015,https://openalex.org/W2806476106
+496,ea1a7d98c912,豊田中央研究所,A Heterogeneous Hydrogen-evolution Catalyst Based on a Mesoporous Organosilica with a Diiron Catalytic Center Modelling [FeFe]-hydrogenase,10.1002/cctc.201801257,https://openalex.org/W2890354229
+497,c5d3c12f90bc,豊田中央研究所,Improved Conversion Efficiency of 10% for Solid-state Dye Sensitized Solar Cells Utilizing P-type Semiconducting CuI and Multi-dye Consisting of Novel Porphyrin Dimer and Organic Dyes,10.1039/c8ta06418k,https://openalex.org/W2899245046
+498,27d7e2b65c8d,豊田中央研究所,Construction of Statistically Similar Representative Volume Elements for Discontinuous Fiber Composites,10.1016/j.compstruct.2018.06.014,https://openalex.org/W2809574832
+499,df50988911f4,豊田中央研究所,Measurement of Vibrational and Rotational Temperature in Spark-discharge Plasma by Optical Emission Spectroscopy: Change in Thermal Equilibrium Characteristics of Plasma under Air Flow,10.1177%2f1468087418791684,https://openalex.org/W2886173269
+500,fc84ee0d99af,豊田中央研究所,Reconstruction for Spatially Distributed Single-pixel Imaging Based on Pattern Filtering,10.1109/lsp.2018.2816579,https://openalex.org/W2789591649
+501,5c321ecf5f6b,豊田中央研究所,Dripplons as Localized and Superfast Ripples of Water Confined between Graphene Sheets,10.1038/s41467-018-03829-1,https://openalex.org/W2894533688
+502,d322f98677a3,豊田中央研究所,Mechanisms of Covalent Coupling Reaction of Dibromofluoranthene on Au(111),10.1021/acs.jpcc.8b03730,https://openalex.org/W2884157010
+503,0d830264daab,豊田中央研究所,Driven Nonlinear Nanomechanical Resonators as Digital Signal Detectors,10.1038/s41598-018-29572-7,https://openalex.org/W2963505665
+504,a1ab3f636a10,豊田中央研究所,Forecasting Travel Demand for New Mobility Services Employing Autonomous Vehicles,10.1016/j.trpro.2018.11.025,https://openalex.org/W2902990176
+505,0149cb4ccfc4,豊田中央研究所,Finite Element Analysis of Biological Soft Tissue Surrounded by a Deformable Membrane That Controls Transmembrane Flow,10.1186/s12976-018-0094-9,https://openalex.org/W2896347422
+506,797169e09f2b,豊田中央研究所,Ordered Silica Mineralization by Regulating Local Reaction Conditions,10.1039/c8bm00412a,https://openalex.org/W2825347181
+507,febbaa675cd6,豊田中央研究所,Phenotypic Diversification by Enhanced Genome Restructuring after Induction of Multiple DNA Double-strand Breaks,10.1038/s41467-018-04256-y,https://openalex.org/W2803927834
+508,7ec6007a8aff,豊田中央研究所,Nuclear Magnetic Field in Solids Detected with Negative-muon Spin Rotation and Relaxation,10.1103/physrevlett.121.087202,https://openalex.org/W2888313026
+509,4878d337b081,AISIN IMRA(日本・aisin.com),Exploiting broad incident angle ranges in diffraction grating SPR spectroscopy,10.1117/12.3075489,https://openalex.org/W7124437320
+510,955d72de2df6,AISIN IMRA(日本・aisin.com),Superconductivity in Ba5Ir7Ge4 derived from MgCu2-type Laves phase BaIr2,10.1016/j.intermet.2025.108748,https://openalex.org/W4408729027
+511,31784b84dcd9,AISIN IMRA(日本・aisin.com),100 K級の転移温度を有するカルシウムフリー二層構造銅酸化物超伝導体の高圧合成性,10.4131/jshpreview.35.85,https://openalex.org/W4412965160
+512,fe9a90b31b7e,AISIN IMRA(日本・aisin.com),Rapid and scalable synthesis of alkali metal-intercalated C60 superconductors,10.1088/1361-6668/adcc63,https://openalex.org/W4409423374
+513,e8fa643c1acd,AISIN IMRA(日本・aisin.com),Superconductivity of Sc20BC27 at ambient and under applied Pressure conditions,10.1103/3w8q-c26h,https://openalex.org/W4410851824
+514,54bf4613559e,AISIN IMRA(日本・aisin.com),Modifying interface properties for advanced self-powered refractory NIR plasmonic photodetection and broadband spectroscopy,10.1016/j.mssp.2025.109712,https://openalex.org/W4410798893
+515,a91e05d6544d,AISIN IMRA(日本・aisin.com),"In Silico Exfoliation of ReaxFF Graphite -Temperature, Speed, Angle Dependence, and the Effect of Gold Overlayer",10.3390/c11030059,https://openalex.org/W4413134122
+516,230c7d6c0e31,AISIN IMRA(日本・aisin.com),Advanced self-powered NIR plasmonic photodetection and photoelectron spectroscopy,10.1557/s43579-025-00812-y,https://openalex.org/W4414176555
+517,7d4d22b5226f,AISIN IMRA(日本・aisin.com),Optimizing geometry and metal-dependent performance of Si-based Schottky plasmonic photodetectors,10.1016/j.optmat.2024.115175,https://openalex.org/W4392644777
+518,848bce5662d4,AISIN IMRA(日本・aisin.com),Near-infrared gas spectroscopy based on plasmonic photodetector applied for multiple gas species,10.35848/1347-4065/ad1699,https://openalex.org/W4389886486
+519,ad90d790c9d8,AISIN IMRA(日本・aisin.com),Na-catalyzed rapid synthesis and characterization of intercalated graphite CaC6,10.1016/j.carbon.2023.118381,https://openalex.org/W4386003140
+520,931ba4a1bd27,AISIN IMRA(日本・aisin.com),Improved critical current properties and irreversibility lines by metal substitution in Ca-free Hg-based double-layered cuprates,,https://openalex.org/W4386761670
+521,74a274aea889,AISIN IMRA(日本・aisin.com),Flat band ferromagnetism in Pb2Sb2O7 via a self-doped mechanism,10.1038/s41598-023-31917-w,https://openalex.org/W4360619556
+522,a07af36ee29a,AISIN IMRA(日本・aisin.com),Electronic structure and anharmonic phonon mode in BaIr2Ge7 with two-dimensional Ba-Ge networks studied by photoemission Spectroscopy,10.1103/physrevb.107.045116,https://openalex.org/W4315705585
+523,12a9a39144c1,AISIN IMRA(日本・aisin.com),Development of 50-kW-Class High-Temperature Superconducting Induction/Synchronous Motor With Continuous Drive Characteristics from Room Temperature,10.1109/tasc.2023.3238293,https://openalex.org/W4320476346
+524,2389d6e7b9fe,AISIN IMRA(日本・aisin.com),Noncontact Evaluation of HTS Cylinder for Compact Cryogen-Free NMR,10.1109/tasc.2023.3244118,https://openalex.org/W4320018383
+525,d8d23728bf47,AISIN IMRA(日本・aisin.com),UNIQUE DISPERSION RELATION FOR PLASMONIC PHOTODETECTORS WITH SUBMICRON GRATING,,https://openalex.org/W4322731449
+526,7000e6cffc55,AISIN IMRA(日本・aisin.com),Electromechanically reconfigurable plasmonic photodetector with a distinct shift of resonant wavelength,10.1038/s41378-023-00504-4,https://openalex.org/W4323667716
+527,369182d11651,AISIN IMRA(日本・aisin.com),High-pressure synthesis and superconductivity of the novel Laves phase BaIr2,10.1016/j.intermet.2022.107643,https://openalex.org/W4283369536
+528,9b37f0f8cf85,AISIN IMRA(日本・aisin.com),Hidden structural and superconducting phase induced in antiperovskite arsenide SrPd3As,10.1021/acs.inorgchem.2c00960,https://openalex.org/W4288038407
+529,7b479afdf0c0,AISIN IMRA(日本・aisin.com),"High-Pressure Synthesis of Ca-Free Hg-Based Cuprate (Hg,M)(Sr,Ba)2SrCu2Oy",,
+530,414a5d107625,AISIN IMRA(日本・aisin.com),Unique interplay between local moments and vortices in the high-Tc magnetic superconductor EuRbFe4As4,,
+531,5f94728d5e80,AISIN IMRA(日本・aisin.com),Superconductivity in the Laves phase BaIr2 crystallized under high pressure,,
+532,e0579a300985,AISIN IMRA(日本・aisin.com),白色光源を用いた表面プラズモン共鳴式光検出器による分光の研究,,
+533,f838b8b4ff67,AISIN IMRA(日本・aisin.com),プラズモニック分光素子による連続スペクトルの分光の研究,,
+534,d4322b2e449b,AISIN IMRA(日本・aisin.com),"RECONFIGURABLE PLASMONIC PHOTODETECTOR INTEGRATED WITH ELECTROSTATIC ACTUATOR FOR SPECTROMETRY” Masaaki Oshita, Shiro Saito, and Tetsuo Kan",,
+535,0c33255366bc,AISIN IMRA(日本・aisin.com),プラズモニック光検出器を用いた分光法による複数種のガス計測,,
+536,a6302d08bc70,AISIN IMRA(日本・aisin.com),Superconductivity-driven ferromagnetism and spin manipulation using vortices in the magnetic superconductor EuRbFe4As4,10.1073/pnas.2101101118,https://openalex.org/W3197425957
+537,04e546cbea39,AISIN IMRA(日本・aisin.com),"Intrinsic defect structures of polycrystalline CaKFe4As4 superconductors” Pavan Kumar Naik Sugali, Shigeyuki Ishida, Koji Kimoto, Keiichi Yanagisawa, Yoshihisa Kamiya, Yoshinori Tsuchiya, Kenji Kawashima, Yoshiyuki Yoshida, Akira Iyo, Hiroshi Eisaki, Taichiro Nishio, and Hiraku Ogino",10.1039/d1cp02613e,https://openalex.org/W3193809359
+538,7ef408092989,AISIN IMRA(日本・aisin.com),"Antiperovskite Superconductor LaPd3P with Noncentrosymmetric Cubic Structure” Akira Iyo, Izumi Hase, Hiroshi Fujihisa, Yoshito Gotoh, Shigeyuki Ishida, Hiroki Ninomiya, Yoshiyuki Yoshida, Hiroshi Eisaki, Hishiro T. Hirose, Taichi Terashima, and Kenji Kawashima",10.1021/acs.inorgchem.1c02604,https://openalex.org/W3212287534
+539,621a5d922bd8,AISIN IMRA(日本・aisin.com),"Posttreatment Effects on the Crystal Structure and Superconductivity of Ca-Free Double-Layered Cuprate Sr2SrCu2O4+yF2–y” Hiroki Ninomiya, Kenji Kawashima, Hiroshi Fujihisa, Shigeyuki Ishida, Hiraku Ogino, Yoshiyuki Yoshida, Hiroshi Eisaki, Yoshito Gotoh, and Akira Iyo",10.1021/acs.chemmater.1c03343,https://openalex.org/W4200422723
+540,23c57ae38860,AISIN IMRA(日本・aisin.com),"A Fabry-Pérot cavity coupled surface plasmon photodiode for electrical biomolecular sensing” Giles Allison, Amrita Kumar Sana, Yuta Ogawa, Hidemi Kato, Kosei Ueno, Hiroaki Misawa, Koki Hayashi & Hironori Suzuki",10.1038/s41467-021-26652-7,https://openalex.org/W3155804136
+541,6f95911c900d,AISIN IMRA(日本・aisin.com),"Near-Infrared Spectroscopic Gas Detection Using a Surface Plasmon Resonance Photodetector with 20 nm Resolution” Yosuke Yamamoto, Masaaki Oshita, Shiro Saito, and Tetsuo Kan",,
+542,a498540d79a7,AISIN IMRA(日本・aisin.com),"Editing of DNA methylation using CRISPR/Cas9 and a ssDNA template in human cells” Shota Katayama, Masao Andou",10.1016/j.bbrc.2021.10.018,https://openalex.org/W34653674
+543,e5381a7149af,AISIN IMRA(日本・aisin.com),"Local reaction fields on a CMOS sensor array utilizing a magneto-Archimedes levitation based magnetic particle-arrangement method”  E. Ushijima, S. Fujimoto, and K. Nakazato",10.1016/j.sna.2021.112655,https://openalex.org/W3134665544
+544,111cf47c2732,AISIN IMRA(日本・aisin.com),"A CRISPR/Cas9-based method for targeted DNA methylation enables cancer initiation in B lymphocytes.”  Shota Katayama, Koichi Shiraishi, Naoki Gorai, Masao Andou.",10.1002/ggn2.10040,https://openalex.org/W3139329743
+545,49663d0e9aa0,AISIN IMRA(日本・aisin.com),"Superconductivity of centrosymmetric and non-centrosymmetric phases in antiperovskite (Ca,Sr)Pd3P”  Akira Iyo, Izumi Hase, Hiroshi Fujihisa, Yoshito Gotoh, Nao Takeshita, Shigeyuki Ishida, Hiroki Ninomiya, Yoshiyuki Yoshida, Hiroshi Eisaki, Hishiro T. Hirose, Taichi Terashima, Kenji Kawashima,",10.1016/j.jallcom.2021.160733,https://openalex.org/W3166887568
+546,aee38d88aea6,AISIN IMRA(日本・aisin.com),"Calcium-free double-layered cuprate superconductors with critical temperature above 100 K” Hiroki Ninomiya, Kenji Kawashima, Akira Iyo, Hiroshi Fujihisa, Shigeyuki Ishida, Hiraku Ogino, Yoshiyuki Yoshida, Yoshito Gotoh, and Hiroshi Eisaki,",10.1038/s43246-020-00116-9,https://openalex.org/W3126686073
+547,94d1deb11fac,AISIN IMRA(日本・aisin.com),"Experimental and Computational Determination of Optimal Boron Content in Layered Superconductor Sc20C8–xBxC20” Hiroki Ninomiya, Terunari Koshinuma, Taichiro Nishio, Hiroshi Fujihisa, Kenji Kawashima, Izumi Hase, Shigeyuki Ishida, Hiraku Ogino, Akira Iyo, Yoshiyuki Yoshida, Yoshito Gotoh, and Hiroshi Eisaki,",10.1021/acs.inorgchem.0c02090,https://openalex.org/W3081863494
+548,7eb77ae759d8,AISIN IMRA(日本・aisin.com),"Arranging Diamagnetic Particles in a Modulated Magnetic Field Originating in Microelectromechanical Systems Compatible with an Integrated Circuit upon Halbach Array Magnet”  E. Ushijima, S. Fujimoto, and K. Nakazato,",10.1021/acsomega.0c02933,https://openalex.org/W3082783730
+549,b291fb0c3ee1,AISIN IMRA(日本・aisin.com),"Structural Phase Transitions and Superconductivity Induced in Antiperovskite Phosphide CaPd3P” Akira Iyo, Hiroshi Fujihisa, Yoshito Gotoh, Shigeyuki Ishida, Hiroki Ninomiya, Yoshiyuki Yoshida, Hiroshi Eisaki, Hishiro T. Hirose, Taichi Terashima, and Kenji Kawashima,",10.1021/acs.inorgchem.0c01482,https://openalex.org/W3080715543
+550,f32af6060974,AISIN IMRA(日本・aisin.com),"酵素トランスデューサーと酵素技術展開―酵素センサ&バイオ電池,そして酵素処理応用(食品,医薬,修復)(Enzyme Transducers and Evolutions of Enzymatic Technology―Enzyme Sensors, Bio Batteries and Novel Enzymatic Approaches (Food, Medicine, Restoring) ―s)” 監修： 三林浩二,シーエムシー出版(2020/03/11) ISBN 978-4-7813-1488-4",,
+551,c7a8ffe5a5fa,AISIN IMRA(日本・aisin.com),"Superconductivity in New 122- and 1144-type Fe-based Compounds” Kenji Kawashima, Hiroshi Fujihisa, Yoshito Gotoh, Izumi Hase, Shigeyuki Ishida, Hiraku Ogino, Hiroki Ninomiya, Yoshiyuki Yoshida, Hiroshi Eisaki, and Akira Iyo,",,
+552,27b3bf3722b7,AISIN IMRA(日本・aisin.com),"High-performance enzymatic biofuel cell based on flexible carbon cloth modified with MgO-templated porous carbon.” Niiyama, A., Murata, K., Shigemori, Y., Zebda, A., & Tsujimura, S.",,
+553,4c639cf8b25d,AISIN IMRA(日本・aisin.com),"Superconductivity in Uncollapsed Tetragonal LaFe2As2” Akira Iyo, Hiroshi Fujihisa, Yoshito Gotoh, Shigeyuki Ishida, Yoshiyuki Yoshida, Hiroshi Eisaki, and Kenji Kawashima,",10.1021/acs.jpclett.9b00321,https://openalex.org/W2914551589
+554,15550ffb7727,AISIN IMRA(日本・aisin.com),"Superconductivity induced by Mg deficiency in noncentrosymmetric phosphide Mg2Rh3P” Akira Iyo, Izumi Hase, Hiroshi Fujihisa, Yoshito Gotoh, Nao Takeshita, Shigeyuki Ishida, Hiroki Ninomiya, Yoshiyuki Yoshida, Hiroshi Eisaki, and Kenji Kawashima,",10.1103/physrevmaterials.3.124802,https://openalex.org/W2980988643
+555,fe447df3c374,AISIN IMRA(日本・aisin.com),"Superconductivity in a Scandium Borocarbide with a Layered Crystal Structure” Hiroki Ninomiya, Kunihiko Oka, Izumi Hase, Kenji Kawashima, Hiroshi Fujihisa, Yoshito Gotoh, Shigeyuki Ishida, HIraku Ogino, Akira Iyo, Yoshiyuki Yoshida, and Hiroshi Eisaki,",10.1021/acs.inorgchem.9b02709,https://openalex.org/W2982535948
+556,e9e3528a5fc9,AISIN IMRA(日本・aisin.com),"Superconducting state in (La,Na,K)Fe2As2 and (La,Na)AFe4As4 (A=Rb,Cs)” Kenji Kawashima, Shigeyuki Ishida, Hiroshi Fujihisa, Yoshito Gotoh, Hiraku Ogino, Hiroshi Eisaki, Yoshiyuki Yoshida, Akira Iyo,",,
+557,201797b8fc9e,AISIN IMRA(日本・aisin.com),"Unique defect structure and advantageous vortex pinning properties in superconducting CaKFe4As4” Shigeyuki Ishida, Akira Iyo, Hiraku Ogino, Hiroshi Eisaki, Nao Takeshita, Kenji Kawashima, Keiichi Yanagisawa, Yuuga Kobayashi, Koji Kimoto, Hideki Abe, Motoharu Imai, Jun-ichi Shimoyama, and Michael Eisterer,",10.1038/s41535-019-0165-0,https://openalex.org/W2948147767
+558,3523b9bf067b,AISIN IMRA(日本・aisin.com),"Conversion of Cellulose and Amino Acids to High-Value-Added Chemicals Using Saturated Steam” Seiichiro Yoshida, Keiichiro Matsushima, Tohru Joboji. 2019",,
+559,66640bfaa5c2,AISIN IMRA(日本・aisin.com),Improved Conversion Efficiency of 10% for Solid-State Dye-Sensitized Solar Cells Utilizing P-type Semiconducting CuI and Multi-Dye Consisting of Novel Porphyrin Dimer and Organic Dyes,,https://openalex.org/W2899245046
+560,49266db76c2f,AISIN IMRA(日本・aisin.com),"Superconductivity in a 122-type Fe-based compound (La,Na,K)Fe2As2” Kenji Kawashima, Shigeyuki Ishida, Hiroshi Fujihisa, Yoshito Gotoh, Yoshiyuki Yoshida, Hiroshi Eisaki, Hiraku Ogino, and Akira Iyo,",10.1038/s41598-018-34265-2,https://openalex.org/W2900239400
+561,4f3833bbf61f,AISIN IMRA(日本・aisin.com),"Fe-based Superconductors of (Ln0.5-xNa0.5+x)Fe2As2 (Ln = Ce, Pr)”. Akira Iyo, Kenji Kawashima, Shigeyuki Ishida, Hiroshi Fujihisa, Yoshito Gotoh, Yoshiyuki Yoshida and Hiroshi Eisaki,",10.1021/acs.inorgchem.8b01247,https://openalex.org/W2883411115
+562,ee9c6b2ad4ce,AISIN IMRA(日本・aisin.com),"Superconductivity in a New 1144-Type Family of (La,Na)AFe4As4 (A = Rb or Cs)” Kenji Kawashima, Shigeyuki Ishida, Hiroshi Fujihisa, Yoshito Gotoh, Kunihiro Kihou, Yoshiyuki Yoshida, Hiroshi Eisaki, Hiraku Ogino, and Akira Iyo,",10.1021/acs.jpclett.8b00162,https://openalex.org/W2787139622
+563,36acc0281da6,AISIN IMRA(日本・aisin.com),"Superconductivity on Hole-Doping Side of (La0.5–xNa0.5+x)Fe2As2”. Akira Iyo, Kenji Kawashima, Shigeyuki Ishida, Hiroshi Fujihisa, Yoshito Gotoh, Hiroshi Eisaki, and Yoshiyuki Yoshida,",,
+564,d95b5dab2a63,AISIN IMRA(日本・aisin.com),"鉄系超電導体EuAFe4As4(A = Rb, Cs)の超電導状態”, 川島健司, 石田茂之, 竹下直, 鬼頭聖, 岡邦彦, 木方邦宏, 後藤義人, 藤久裕司, 永崎洋, 吉田良行, 伊豫彰, 第78回応用物理学会秋季学術講演会, 6a-PB1-36 (2017年9月6日).",,
+565,f7b8ee7ef03f,AISIN IMRA(日本・aisin.com),"Synthesis and Superconductivity of a New Strontium Digermanide SrGe2 with the ThSi2　structure” Akira Iyo, Izumi Hase, Kenji Kawashima, Shigeyuki Ishida, Hijiri Kito, Nao Takeshita, Kunihiko Oka, Hiroshi Fujihisa, Yoshito Gotoh, Yoshiyuki Yoshida, and  Hiroshi Eisaki,",10.1021/acs.inorgchem.7b01446,https://openalex.org/W2727620014
+566,06d86a0a09f4,AISIN IMRA(日本・aisin.com),"Interplay of hot electrons from localized and propagating plasmons” Chung V. Hoang, Koki Hayashi, Yasuo Ito, Naoki Gorai, Giles Allison, Xu Shi, Quan Sun, Zhenzhou Cheng, Kosei Ueno, Keisuke Goda and Hiroaki Misawa.",10.1038/s41467-017-00815-x,https://openalex.org/W2760496482
+567,e1cf143b1ae0,AISIN IMRA(日本・aisin.com),"An efficient perovskite solar cell with symmetrical Zn(II) phthalocyanine infiltrated buffering porous Al2O3 as the hyblid interfacial hole-transporting layer,” P. Gao, K. T. Cho, A. Abate, G. Grancini, P. Y. Redd, M. Srinivas, M. Adachi, A. Suzuki, K. Tsuchimoto, M. Gratzel and Mohammed Khaja Nazeeruddin,",10.1039/c6cp03396b,https://openalex.org/W2462662853
+568,07ee79e8769b,AISIN IMRA(日本・aisin.com),"Amphiphilic polymer mediators promoting electron transfer on bioanodes with PQQ-dependent glucose dehydrogenase. “Nakashima Y, Mizoshita N, Tanaka H, Nakaoki Y.",10.1021/acs.langmuir.6b03145,https://openalex.org/W2553892836
+569,1c083c3149bf,AISIN IMRA(日本・aisin.com),"Superconductivity in Fe-Based Compound EuAFe4As4 (A = Rb and Cs)” Kenji Kawashima, Tatsuya Kinjo, Taichiro Nishio, Shigeyuki Ishida, Hiroshi Fujihisa, Yoshito Gotoh,  Kunihiro Kihou, Hiroshi Eisaki, Yoshiyuki Yoshida, and Akira Iyo,",10.7566/jpsj.85.064710,https://openalex.org/W2407850561
+570,7dadeb82002e,AISIN IMRA(日本・aisin.com),"New-Structure-Type Fe-Based Superconductors: CaAFe4As4 (A = K, Rb, Cs) and SrAFe4As4 (A = Rb, Cs)” Akira Iyo, Kenji Kawashima, Tatsuya Kinjo, Taichiro Nishio, Shigeyuki Ishida, Hiroshi Fujihisa, Yoshito Gotoh, Kunihiro Kihou, Hiroshi Eisaki, and Yoshiyuki Yoshida,",10.1021/jacs.5b12571,https://openalex.org/W2290799182
+571,a82812b2e8ec,AISIN IMRA(日本・aisin.com),"Electrochemical activation of a novel laccase, MELAC, isolated from compost.” Murata K, Shigemori Y, Tsujimura",10.1246/cl.150057,https://openalex.org/W2051723858
+572,3b478c68eb06,AISIN IMRA(日本・aisin.com),"Recovery and separation of rare earth elements using salmon milt.” Takahashi Y, Kondo K, Miyaji A, Watanabe Y, Fan Q, Honma T, Tanaka",10.1371/journal.pone.0114858,https://openalex.org/W2046750153
+573,4a6eac7a3f63,AISIN IMRA(日本・aisin.com),"Novel ruthenium sensitizer with multiple butadiene equivalent thienyls as conjugation on ancillary ligand for dye-sensitized solar cells,” Thogiti Suresh, Ganugula Rajkumar, Surya Prakash Singh, Paidi Yella Reddy, Ashraful Islam, Liyuan Han, Malapaka Chandrasekharam",10.1016/j.orgel.2013.04.048,https://openalex.org/W2087759536
+574,d14f65a02159,AISIN IMRA(日本・aisin.com),"Substitution of ethynyl-Thiophene chromophores on Ruthenium sensitzers: Influence on thermal and photovoltaic performance of dye sensitized solar cells”. Malapaka chendrasekharam, Gangula Raj Kumar, Thogoti Suresh, Paidi Yella Reddy.",10.1155/2012/482074,https://openalex.org/W1975938606
+575,3ef40770e448,AISIN IMRA(日本・aisin.com),"A Glucose / O2 Biofuel Cell Using Recombinant Thermophilic Enzymes.” Wang X, Li D, Watanabe T, Shigemori Y, Mikawa T, Okajima T, Mao L, Ohsaka T",,
+576,20ac5077b07b,AISIN IMRA(日本・aisin.com)," Recovery and separation of rare earth elements using columns loaded with DNA-filter hybrid.” Takahashi Y, Kondo K, Miyaji A, Umeo M, Honma T., Asaoka S.",10.2116/analsci.28.985,https://openalex.org/W2099003491
+577,64d7941aaf4a,AISIN IMRA(日本・aisin.com),"High spectral response heteroleptic ruthenium(II) complexes as sensitizers for dye sensitized solar cells,” Rajkumar G, Reddy PY, Srinivasa Rao C, Reddy MA, Raghavender M, Sreenivasu M, Suresh T and , Malapaka Chandrasekharam",10.1007/s12039-011-0066-7,https://openalex.org/W2072590192
+578,b6d219d145a9,AISIN IMRA(日本・aisin.com),"Ruthenium(II) bipyridyl with extended Pi system: Improved thermo-stable sensitizer for efficient and long term durable dye-sensitized solar cells,” Rajkumar G, Paidi Yella Reddy, Rao CS, Soujanya Y and , Malapaka Chandrasekharam",,
+579,56c5b1b21ba2,AISIN IMRA(日本・aisin.com),"Polypyridyl Ru(II)-sensitizers with extended -system enhances the performance of dye sensitized solar cells” Malapaka Chandrasekharam, Ganugula Rajkumar, Chikkam Srinivasa Rao, Thogiti Suresh, Marri Anil Reddy, Paidi Yella Reddy, Yarasi Soujanya, B. Takeru, Yum Jun-Ho, Mahammad Khaja Nazeeruddin, Michael Graetzel.",10.1016/j.synthmet.2011.03.022,https://openalex.org/W2109198249
+580,070b47e118ec,AISIN IMRA(日本・aisin.com),"Change of Dye Bath for Sensitization of Nano crystalline TiO2 Films Enhances Performance of Dye-Sensitized Solar Cells:   Malapaka Chandrasekharam, Ganugula Rajkumar, Chikkam Srinivasa Rao, Paidi Yella Reddy, Mannepalli Lakshmi Kantam",10.1155/2011/376369,https://openalex.org/W2134395847
+581,a220fb7b10a5,AISIN IMRA(日本・aisin.com),"Phenothiazine conjugated bipyridine as ancillary ligand in Ru(II) -complexes for application in dye sensitized solar cell”.  Malapaka Chandrasekharam, Ganugula Rajkumar, Chikkam Srinivasa Rao, Thogiti Suresh, Paidi Yella Reddy",10.1016/j.synthmet.2011.04.001,https://openalex.org/W1969521002
+582,3bfbe6bf1db9,AISIN IMRA(日本・aisin.com),"Substitution of Carbazole Modified Fluorenes as π-Extension in Ru(II) Complex-Influence on Performance of Dye-Sensitized Solar Cells”. Malapaka chendrasekharam, Gangula Raj Kumar, Thogoti Suresh, Chikkam srinivasa Rao, Paidi Yella Reddy, Jun-Ho Yum, Mohammad Khaja Nazeeruddin and Michael Graetzel.",10.1155/2011/963068,https://openalex.org/W2132560043
+583,a830d09a9040,AISIN IMRA(日本・aisin.com),"A molecularly engineered fluorene-substituted Ru-complex for efficient mesoscopic dye sensitized solar cells:”   Malapaka Chandrasekharam, Ganugula Rajkumar, Chikkam Srinivasa Rao, Thogiti Suresh, Paidi Yella Reddy, Jun-Ho Yum, Mahammad Khaja Nazeeruddin, Michael Graetzel Advances in Natural Sciences:",,
+584,4ce768439b48,AISIN IMRA(日本・aisin.com),"Synthesis and Photoelectrochemical Characterization of a High Molar Extinction Coefficient Heteroleptic Ruthenium(II) complex,” Giribabu, L.; Singh, V. K.; Sreenivasu, M.; Kumar, Ch. V.; Soujanya, Y.; Reddy, P. Y.;",10.1007/s12039-011-0096-1,https://openalex.org/W2027919758
+585,e3c60396384b,AISIN IMRA(日本・aisin.com),"Organic-Ruthenium(II) Polypyridyl Complex Based Sensitizer for Dye-Sensitized Solar cells Applications,” Giribabu, L.; Singh, V. K.; Kumar, Ch. V.; Soujanya, Y.; Reddy, V. G.; Reddy, P. Y. Adv.",10.1155/2011/294353,https://openalex.org/W2078827253
+586,63c1cbbb50e0,AISIN IMRA(日本・aisin.com),"Triphenylamine-Phthalocyanine Based Sensitizer for Sensitization of Nanocrystalline TiO2 Films,” Giribabu, L.; Singh, V. K.; Kumar, Ch. V.; Soujanya, Y.; Reddy, P. Y.; Kantam, M. L.",10.1016/j.solener.2011.02.027,https://openalex.org/W2088283543
+587,48c4ed2f95ce,AISIN IMRA(日本・aisin.com),"A New Family of Heteroleptic Ruthenium(II) Polypyridyl complexes for Sensitization of Nanocrystalline TiO2 Films,” Giribabu, L.; Bessho, T.; Srinivasu, M.; VijayKumar, Ch.; Soujanya, Y.; Reddy, V. G.; Reddy, P. Y.; Yum, J. –H.; Gratzel, M.; Nazeeruddin, M.",10.1039/c0dt01417f,https://openalex.org/W1999608536
+588,b1506bc64963,AISIN IMRA(日本・aisin.com),"Enhancement of thermal stabilization of formaldehyde dehydrogenase from Pseudomonas putida by directed evolution.” Imamura C, Shigemori Y.",10.1271/bbb.100026 ,https://openalex.org/W2167837504
+589,366e0ec2833c,AISIN IMRA(日本・aisin.com),"Single-stranded DNA binding protein facilitates specific enrichment of circular DNA molecules using rolling circle amplification.” Mikawa T, Inoue J, Shigemori Y.",10.1016/j.ab.2009.05.013,https://openalex.org/W2095437783
+590,ae0d524ac8bb,AISIN IMRA(日本・aisin.com),"Alkali-tolerant high-activity catalase from a thermophilic bacterium and its overexpression in Escherichia coli.” Ebara S, Shigemori Y.",10.1016/j.pep.2007.09.015,https://openalex.org/W2026694947
+591,c2ffa64a3079,AISIN IMRA(日本・aisin.com),"New Infrared reflection absorption spectroscopy (IRRAS) system for observation of solid-solution interface biomaterials “Sayed M A, Uno H, Harada K, Tanaka K, Kim Y-H, Nakaoki Y, Okumura K, Tero R, Urisu T.",10.1016/j.cplett.2008.10.039,https://openalex.org/W2091242066
+592,5cd04cd81b3f,AISIN IMRA(日本・aisin.com),"Specific terminal labeling of DNA molecules.”Shigemori Y, Oishi　M.",,
+593,b20acd403ddd,AISIN IMRA(日本・aisin.com),"Identification of strain specific genes in Rhodococcus erythropolis using a modified HiCEP method.” Mitani Y, Watanabe T, Kondo K, Tamura T.",10.2174/1874070700701010066,https://openalex.org/W2053537346
+594,929ae1ea8159,AISIN IMRA(日本・aisin.com),"Efficient Sensitization of Nanocrystalline TiO2 Films by a Near Infrared Absorbing Unsymmetrical Zinc Phthalocyanine,” Reddy, P.Y.; Giribabu, L.; Lyness, C.; Snaith, H.J.; Vijaykumar, Ch.; Chendrasekheram, M.; Lakshmikantam, M.; Hum, J.;, Kalyanasundaram, K.; Gratzel M.; Nazeeruddin, M.K. Angew.",10.1002/anie.200603098,https://openalex.org/W2053222609
+595,50ff891dd633,AISIN IMRA(日本・aisin.com),"Advances in the development of genetic tools for the genus Rhodococcus.“Mitani Y, Nakashima N, Sallam K I, Toriyabe T, Kondo K, Tamura T.",10.3209/saj.20.55,https://openalex.org/W2402011585
+596,b7faee554a90,AISIN IMRA(日本・aisin.com),"Gene expression analysis using a modified HiCEP method applicable to prokaryotes: a study of the response of Rhodococcus to isoniazid and ethambutol. “Mitani Y, Suzuki K, Kondo K, Okumura K, Tamura T.",10.1016/j.jbiotec.2005.11.004,https://openalex.org/W2004321806
+597,9597312bdbec,AISIN IMRA(日本・aisin.com),"Improvements of rolling circle amplification (RCA) efficiency and accuracy using Thermus thermophilus SSB mutant protein.” Inoue J, Shigemori Y, Mikawa T.",10.1093/nar/gkl350,https://openalex.org/W2156865345
+598,e1e7f0cc68b4,AISIN IMRA(日本・aisin.com),"Functionalized Porphyrins for Dye Sensitized Solar Cells,” Giribabu, L.; Vijaykumar, Ch.; Reddy, P.Y.",10.1142/s1088424606000351,https://openalex.org/W2149614387
+599,6c6855e42d51,AISIN IMRA(日本・aisin.com),"Conjugated Organic Dyes for Dye-Sensitized Solar Cells,” Giribabu, L.; Chandrasekharam, M.; Lakshmikantam, M.; Reddy, V.G.; Satyanaraya, D.; Rao, O.S.; Reddy, P.Y. Ind.",,
+600,f4b52d2c1a12,AISIN IMRA(日本・aisin.com)," Stable triple-stranded DNA formation and its application to the SNP detection.” Shigemori Y, Oishi M.",10.1093/dnares/dsi022,https://openalex.org/W2136372718
+601,9331f314bcde,AISIN IMRA(日本・aisin.com),"Multiplex PCR: use of heat-stable Thermus thermophilus RecA protein to minimize non-specific PCR products.” Shigemori Y, Mikawa T, Shibata T, Oishi M.Nucleic",10.1093/nar/gni111,https://openalex.org/W2048703965
+602,7115b529d2e8,AISIN IMRA(日本・aisin.com),RecA-mediated multistrand formation for cloning PCR products into vectors: simplified process for 5'-rapid amplification of cDNA ends. Shigemori Y.,10.1016/j.ab.2005.03.016,https://openalex.org/W2027382113
+603,46de8cd4a6be,AISIN IMRA(日本・aisin.com),A novel means of asymmetric linker attachment to DNA molecule by RecA-mediated multistranded DNA formation. Shigemori Y.,10.1016/j.ab.2004.10.045 ,https://openalex.org/W2064854978
+604,85c173ab9c53,AISIN IMRA(日本・aisin.com),"Specific cleavage of DNA molecules at RecA-mediated triple-strand structure.” Shigemori Y, Oishi M. Nucl.",10.1093/nar/gnh004,https://openalex.org/W2106629363
+605,245f99d7ec82,AISIN IMRA(日本・aisin.com),"Marking of specific sequences in double-stranded DNA molecules—SNP detection and direct observation.” Shigemori Y, Haruta H, Okada T, Oishi",10.1101/gr.2789604 ,https://openalex.org/W2095530163
+606,cb9ae91b7a06,AISIN IMRA(米国・imra.com),Low noise resonant amplification by optical injection locking and residual phase noise cancellation,10.1364/ol.603468,https://openalex.org/W7164835530
+607,623cb5503b04,AISIN IMRA(米国・imra.com),"Long-wave mid-infrared cavity-enhanced frequency comb spectroscopy of cold, complex molecules",10.1364/oe.585687,https://openalex.org/W7128159679
+608,f4fa752d3ebd,AISIN IMRA(米国・imra.com),Terahertz amplification by injection locking of waveguide resonant tunneling diode,10.1109/jqe.2026.3652530,https://openalex.org/W7123341240
+609,582833eb0bb5,AISIN IMRA(米国・imra.com),Dual-wavelength Brillouin lasers as compact opto-terahertz references for low-noise microwave synthesis,10.1364/oe.569127,https://openalex.org/W4414256506
+610,a3fb4b00b493,AISIN IMRA(米国・imra.com),Fully stabilized Er fiber comb at 1 GHz by harmonic modelocking,10.1364/optica.568460,https://openalex.org/W4413326909
+611,318428835ed8,AISIN IMRA(米国・imra.com),Terahertz Molecular Frequency References: Theoretical Analysis of Optimal Instability,10.1109/tthz.2025.3592353,https://openalex.org/W4412623484
+612,864d5deb19dc,AISIN IMRA(米国・imra.com),Dual wavelength Brillouin laser terahertz source stabilized to carbonyl sulfide rotational transition,10.1038/s41467-025-57826-2,https://openalex.org/W4408307363
+613,fd12c0ddcd2e,AISIN IMRA(米国・imra.com),Pulsed Laser Ablation-synthesized FePt Nanoparticles Have Enhanced Catalytic Nitrite Reduction Activity,10.1016/j.cattod.2025.115254,https://openalex.org/W4408050483
+614,3a19c34d35e3,AISIN IMRA(米国・imra.com),Green picosecond pulse over 10 µJ directly amplified by diode-pumped Pr3+:LiYF4 crystal,10.1364/optcon.543988,https://openalex.org/W4406602598
+615,fdac5daf6da0,AISIN IMRA(米国・imra.com),The impact of femtosecond fiber lasers in technology and science,10.1016/j.optcom.2024.131197,https://openalex.org/W4403316693
+616,0497ac6b974f,AISIN IMRA(米国・imra.com),Green pulse regenerative amplification using a Pr3+:LiYF4 crystal pumped by GaN blue laser diodes,10.1364/oe.541513,https://openalex.org/W4403472971
+617,2caafd6d935d,AISIN IMRA(米国・imra.com),Multimodal photoacoustic microscopy and optical coherence tomography ocular biomarker imaging in Alzheimer’s disease in mice,10.1364/boe.532042,https://openalex.org/W4402444801
+618,3d136358ea7a,AISIN IMRA(米国・imra.com),First fluoride ceramics lasing at 605 nm at ambient temperature fabricated from chemically synthesized powders,10.1038/s41598-024-73172-7,https://openalex.org/W4403071452
+619,34cee59bdcd0,AISIN IMRA(米国・imra.com),Brillouin laser-driven terahertz oscillator up to 3 THz with femtosecond-level timing jitter,10.1038/s41566-024-01513-z,https://openalex.org/W4402521660
+620,9402d0146f24,AISIN IMRA(米国・imra.com),Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock,10.1038/s41586-024-07839-6,https://openalex.org/W4402221022
+621,62c9b2b2cc62,AISIN IMRA(米国・imra.com),Multimodal Imaging-Guided Stem Cell Ocular Treatment,,https://openalex.org/W4399041614
+622,27d541dbdac6,AISIN IMRA(米国・imra.com),Supercontinuum neural network and analog computing evaluation,10.1103/physreva.109.033521,https://openalex.org/W4393026435
+623,75de016dc403,AISIN IMRA(米国・imra.com),Two rings to rule them all,10.1126/science.ado0078,https://openalex.org/W4392544676
+624,7e082b22cb62,AISIN IMRA(米国・imra.com),Single-channel 240-Gbit/s sub-THz wireless communications using ultra-low phase noise receive,10.1587/elex.20.20230584,https://openalex.org/W4390171143
+625,331e86c52bd7,AISIN IMRA(米国・imra.com),Terahertz microcomb oscillator stabilized by molecular rotation,10.1063/5.0175547,https://openalex.org/W4390990741
+626,2c9a350e970a,AISIN IMRA(米国・imra.com),300 GHz Wireless Link Based on Whole Comb Modulation of Integrated Kerr Soliton Combs,10.1109/jphot.2023.3325088,https://openalex.org/W4387717705
+627,f0a5307b776a,AISIN IMRA(米国・imra.com),Flexible Synthesis Scheme and Application of AuNP Surface-Conjugatable Metaiodobenzylguanidine Derivatives for Enhanced Cellular Internalization,,https://openalex.org/W4387451379
+628,88f4dfffc486,AISIN IMRA(米国・imra.com),60 Gbps real-time wireless communications at 300 GHz carrier using a Kerr microcomb-based source,10.1063/5.0146957,https://openalex.org/W4380986089
+629,8e3772120e45,AISIN IMRA(米国・imra.com),Renally Clearable Ultraminiature Chain-Like Gold Nanoparticle Clusters for Multimodal Molecular Imaging of Choroidal Neovascularization,10.1002/adma.202302069,https://openalex.org/W4379599762
+630,067b01848054,AISIN IMRA(米国・imra.com),Computation using shaped supercontinuum generation within a neural network,10.1117/12.2659759,https://openalex.org/W4324131127
+631,0c5a9f4def54,AISIN IMRA(米国・imra.com),300-GHz-band Wireless Link Using Photonics-based Ultralow-noise Transmitter and Receiver,10.1364/ofc.2023.th1i.4,https://openalex.org/W4377082751
+632,b07c3c3610d2,AISIN IMRA(米国・imra.com),Compact Yb fiber few-cycle pulse source based on precision pulse compression and shaping with an adaptive fiber Bragg grating,10.1364/oe.483277,https://openalex.org/W4319788841
+633,95c595888652,AISIN IMRA(米国・imra.com),Preparation and Evaluation of 64Cu-Radiolabled Dual-Ligand Multifunctional Gold Nanoparticles for Tumor Theragnosis,10.3390/ph16010071,https://openalex.org/W4313402110
+634,34968a6178b0,AISIN IMRA(米国・imra.com),Temporal Self-Compression and Self-Frequency Shift of Submicrojoule Pulses at a Repetition Rate of 8 MHz,10.1103/physrevapplied.18.064069,https://openalex.org/W4312191635
+635,834eb990d026,AISIN IMRA(米国・imra.com),Precision frequency transfer with fiber frequency combs,10.3389/fphy.2022.1005074,https://openalex.org/W4306861683
+636,e6c714afd89b,AISIN IMRA(米国・imra.com),Age differential response to bevacizumab therapy in choroidal neovascularization in rabbits,10.1016/j.exer.2022.109215,https://openalex.org/W4291710943
+637,c3c8ba653e72,AISIN IMRA(米国・imra.com),Coherent frequency transfer with < 5*10−21 stability via a multi-branch comb with noise cancellation,10.1364/oe.461440,https://openalex.org/W4286643433
+638,421eba866a45,AISIN IMRA(米国・imra.com),Substrate patterning of organic light-emitting diodes for the simultaneous enhancement of the outcoupling efficiency and reduction of spectral shifting,,
+639,fe42adf66fde,AISIN IMRA(米国・imra.com),Direct Comb Vernier Spectroscopy for Fractional Isotopic Ratio Determinations,10.3390/s21175883,https://openalex.org/W3197436840
+640,74417f7270c2,AISIN IMRA(米国・imra.com),"Long-Term, Noninvasive In Vivo Tracking of Progenitor Cells Using Multimodality Photoacoustic, Optical Coherence Tomography, and Fluorescence Imaging",10.1021/acsnano.1c03035,https://openalex.org/W3188421958
+641,c5c8173ea712,AISIN IMRA(米国・imra.com),"Functionalized contrast agents for multimodality photoacoustic microscopy, optical coherence tomography, and fluorescence microscopy molecular retinal imaging",10.1016/bs.mie.2021.06.038,https://openalex.org/W3187090840
+642,99212c83a3d7,AISIN IMRA(米国・imra.com),Surpassing soliton compression limits in anomalous dispersion high-power erbium fiber comb,10.1364/optica.427977,https://openalex.org/W3160050504
+643,f4965e1283d7,AISIN IMRA(米国・imra.com),Optically referenced 300 GHz millimetre-wave oscillator,10.1038/s41566-021-00790-2,https://openalex.org/W3159267410
+644,db1c5b1d0988,AISIN IMRA(米国・imra.com),Effects of a quiet point on a Kerr microresonator frequency comb,10.1364/osac.422925,https://openalex.org/W3131225192
+645,0bfb72a23530,AISIN IMRA(米国・imra.com),"Au Nanobead Chains with Tunable Plasmon Resonance and Intense Optical Scattering: Scalable Green Synthesis, Monte Carlo Assembly Kinetics, Discrete Dipole Approximation Modeling, and Nano-Biophotonic Application",10.1021/acs.chemmater.1c00336,https://openalex.org/W3143062591
+646,c1d89067941e,AISIN IMRA(米国・imra.com),Megawatt single mode femtosecond erbium fiber laser,10.1117/12.2577649,https://openalex.org/W3134077180
+647,055660bec4db,AISIN IMRA(米国・imra.com),Optimized femtosecond laser patterning of organic light-emitting diode substrates for the extraction of substrate guided modes,10.35848/1347-4065/abd539,https://openalex.org/W3115891827
+648,333dd0a7d26d,AISIN IMRA(米国・imra.com),Chain-like gold nanoparticle clusters for multimodal photoacoustic microscopy and optical coherence tomography enhanced molecular imaging,10.1038/s41467-020-20276-z,https://openalex.org/W3118676914
+649,d97d2f5454d9,AISIN IMRA(米国・imra.com),Etoposide-Bound Magnetic Nanoparticles Designed for Remote Targeting of Cancer Cells Disseminated Within Cerebrospinal Fluid Pathways,10.3389/fneur.2020.596632,https://openalex.org/W3110328839
+650,fcf84c530275,AISIN IMRA(米国・imra.com),Enhanced ablation using GHz-pulsed fs laser,,https://openalex.org/W3010570349
+651,b7a9fb0e4f38,AISIN IMRA(米国・imra.com),Milliwatt midinfrared from intrapulse difference frequency with a single erbium fiber laser,,https://openalex.org/W3009069210
+652,b2a807d42b60,AISIN IMRA(米国・imra.com),"Continuous scanning of a dissipative Kerr-microresonator soliton comb for broadband, high-resolution spectroscopy",10.1364/ol.383036,https://openalex.org/W2999387408
+653,67639a157887,AISIN IMRA(米国・imra.com),High-peak-power 918-nm laser light source based two-photon spinning-disk microscopy for green fluorophores,10.1016/j.bbrc.2020.05.213,https://openalex.org/W3037085313
+654,948ef8d751d5,AISIN IMRA(米国・imra.com),300 GHz wave generation based on a Kerr microresonator frequency comb stabilized to a low noise microwave reference,10.1364/ol.398345,https://openalex.org/W3038269138
+655,e520c37a5e2c,AISIN IMRA(米国・imra.com),In-system optimization of a hologram for high-stability parallel laser processing,10.1364/ol.392578,https://openalex.org/W3026658737
+656,c0d1e3041863,AISIN IMRA(米国・imra.com),Rovibrational quantum state resolution of the C60fullerene,,
+657,f4cf8a1751a1,AISIN IMRA(米国・imra.com),Frequency-modulated comb LIDAR,10.1063/1.5120321,https://openalex.org/W2974284352
+658,7130a2dc7a3c,AISIN IMRA(米国・imra.com),300-GHz-band wireless communication using a low phase noise photonic source,10.23919/eumc.2019.8910724,https://openalex.org/W4245135841
+659,afbe9ef51e41,AISIN IMRA(米国・imra.com),High accuracy line positions of the ν1fundamental band of14N216O,,
+660,64cc82e127a3,AISIN IMRA(米国・imra.com),Phase-stabilized 100 mW frequency comb near 10 μm,,https://openalex.org/W2789405793
+661,551ce6a805ff,AISIN IMRA(米国・imra.com),Ultra-broadband dual-branch optical frequency comb with 10−18instability,,
+662,236e80a16dd5,AISIN IMRA(米国・imra.com),Fast ultra-wideband microwave spectral scanning utilizing photonic wavelength- and time-division multiplexing,,https://openalex.org/W2736424045
+663,330c974be7cd,AISIN IMRA(米国・imra.com),"Low noise, self-referenced all polarization maintaining Ytterbium fiber laser frequency comb",,https://openalex.org/W2736461642
+664,81b853e4c154,AISIN IMRA(米国・imra.com),Laser-fabricated Gold Nanoparticles for Lateral Flow Immunoassays,,https://openalex.org/W2535357380
+665,1d9ade0397cb,AISIN IMRA(米国・imra.com),Broadly Tunable Difference Frequency Generation in Orientation -Patterned Gallium Phosphide,,https://openalex.org/W2327227342
+666,86077d096a6b,AISIN IMRA(米国・imra.com),"Self-referenced, accurate and sensitive optical frequency comb spectroscopy with a virtually imaged phased array spectrometer",,https://openalex.org/W2273928293
+667,24b429e39b96,AISIN IMRA(米国・imra.com),Label-free imaging of gold nanoparticles in single live cells by photoacoustic microscopy,,https://openalex.org/W2299386588
+668,e4974ff91c47,AISIN IMRA(米国・imra.com),Optical Frequency Comb Fourier Transform Spectroscopy with Resolution beyond the Path Difference Limit,,https://openalex.org/W2560568556
+669,537dd12c9e19,AISIN IMRA(米国・imra.com),Difference Frequency Generation in Orientation-Patterned Gallium Phosphide,,https://openalex.org/W2560457738
+670,35361fb4b6a1,AISIN IMRA(米国・imra.com),Optical Frequency Comb Spectroscopy at 3.3 and 5.2 μm by a TM:fiber-Laser-Pumped Optical Parametric Oscillator,,
+671,ac6f50ee5acb,AISIN IMRA(米国・imra.com),VIPA Spectrometer for Accurate and Sensitive Self-Referenced Frequency Comb Spectroscopy,,https://openalex.org/W2560434915
+672,6d14350cd432,AISIN IMRA(米国・imra.com),Surpassing the path-limited resolution of Fourier-transform spectrometry with frequency combs,,https://openalex.org/W1574368976
+673,4a3ce8b7082c,AISIN IMRA(米国・imra.com),Narrow Linewidth Midinfrared Frequency Combs from Doubly-Resonant OPOs,,https://openalex.org/W2316893392
+674,d22f851a67ba,AISIN IMRA(米国・imra.com),All polarization-maintaining ER fiber-based optical frequency combs with nonlinear amplifying loop mirror,,https://openalex.org/W2252398950
+675,8bb82813d63b,AISIN IMRA(米国・imra.com),Broadband midinfrared frequency comb with tooth scanning,,https://openalex.org/W2004258332
+676,12694fc1f57c,AISIN IMRA(米国・imra.com),Midinfrared frequency comb from self-stable degenerate GaAs optical parametric oscillator,,https://openalex.org/W1757198163
+677,42bfe10e2f8e,AISIN IMRA(米国・imra.com),Ultra-low noise all polarization-maintaining ER fiber-based optical frequency combs facilitated with a graphene modulator,,https://openalex.org/W2265314834
+678,60f91d8034a6,AISIN IMRA(米国・imra.com),ER comb fiber laser with fceo noise below 0.2 rad,,
+679,46954cfa4a96,AISIN IMRA(米国・imra.com),Developments of mid-infrared optical parametric oscillators for spectroscopic sensing: a review,,https://openalex.org/W2110264453
+680,c80dce232b51,AISIN IMRA(米国・imra.com),Midinfrared frequency combs from coherent supercontinuum in chalocogenide and optical parametric oscillation,,
+681,1109cf2a095d,AISIN IMRA(米国・imra.com),Phase Locked System for Dual Comb Molecular Spectroscopy at 2-6 &micro;m Based on Tm-fiber Laser,,
+682,19cc7a568be8,AISIN IMRA(米国・imra.com),"High Repetition-Rate, Pulse-Burst Assisted Desorption, Electrospray Post-Ionization Mass Spectrometry",,https://openalex.org/W2091494648
+683,ea3f5a6eab7c,AISIN IMRA(米国・imra.com),"Carrier Envelope Offset Frequency of Doubly-Resonant, Non-Degenerate, mid-infrared GaAs Optical Parametric Oscillator",,
+684,3b23bbdfa0b5,AISIN IMRA(米国・imra.com),Enantioselective Synthesis of Multisubstituted Biaryl Skeleton by Chiral Phosphoric Acid Catalyzed Desymmetrization/Kinetic Resolution Sequence,,https://openalex.org/W2315671501
+685,6c9c3b0305e0,AISIN IMRA(米国・imra.com),Intermetallic PtPb Nanoparticles Prepared by Pulsed Laser Ablation in Liquid,,https://openalex.org/W1983891857
+686,2d1632708d1a,AISIN IMRA(米国・imra.com),Mid-IR Frequency Combs from Coherent Supercontinuum Generation in Chalcogenide Nano-Spike Waveguides,,https://openalex.org/W2652592814
+687,1a43e7bf6810,AISIN IMRA(米国・imra.com),Mid-infrared Supercontinuum Generation in As2S3-silica “nano-spike” Step-index Waveguide,,
+688,863902ad4983,AISIN IMRA(米国・imra.com),Precision spectroscopy of NH3 at 9.1 μm by a comb-referenced quantum cascade laser,,
+689,4d6e53bf35e5,AISIN IMRA(米国・imra.com),Targeted delivery of peptide-conjugated Biocompatible Gold Nanoparticles into Cancer Cell Nucleus,,https://openalex.org/W2015601007
+690,4a3c6cd0a3b2,AISIN IMRA(米国・imra.com),Direct frequency comb spectroscopy in the extreme ultraviolet,10.1038/nature10711,https://openalex.org/W2011516454
+691,d2f304de6923,AISIN IMRA(米国・imra.com),Frequency comb metrology goes extreme UV,10.1117/2.1201206.004297,https://openalex.org/W2320122342
+692,5d14dbf3ddcb,AISIN IMRA(米国・imra.com),Frequency comb stabilization with bandwidth beyond the limit of gain lifetime by an intracavity graphene electro-optic modulator,10.1364/ol.37.003084,https://openalex.org/W22859093
+693,7d47f7f65c0b,AISIN IMRA(米国・imra.com),Octave-spanning ultrafast OPO with 2.6 – 6.1 μm instantaneous bandwidth pumped by femtosecond Tm-fiber laser,10.1364/oe.20.007046,https://openalex.org/W1989076549
+694,f14970c8cc66,AISIN IMRA(米国・imra.com),Stable Gold nanocolloids with controllable surface modification and functionalization,10.1117/12.906451,https://openalex.org/W2075674907
+695,55875b781991,AISIN IMRA(米国・imra.com),Widely tunable mid-infrared difference frequency generation in orientation-patterned GaAs pumped with a femtosecond Tm-fiber system,10.1364/ol.37.002928,https://openalex.org/W2030401892
+696,addf4b23a4fc,AISIN IMRA(米国・imra.com),Advanced specialty fiber designs for fiber lasers,10.1117/12.878831,https://openalex.org/W1989335707
+697,3974910d85ed,AISIN IMRA(米国・imra.com),Broadband phase noise suppression in a Yb-fiber frequency comb,,https://openalex.org/W1997795395
+698,2cead05d5a90,AISIN IMRA(米国・imra.com),Coherent Tm-fiber Raman-soliton amplifier,,https://openalex.org/W1992003477
+699,43856f52b845,AISIN IMRA(米国・imra.com),Coherent transfer over 1.1 spectral octave with a fiber frequency comb,,
+700,0dc9ee7a4fba,AISIN IMRA(米国・imra.com),Electrophoretic deposition of Cu-In composite nanoparticle thin films for fabrication of CuInSe2 solar cells,,
+701,4f9a58e500ea,AISIN IMRA(米国・imra.com),"Fully stabilized, self-referenced Thulium fiber frequency comb",,https://openalex.org/W2055163777
+702,e49d832d6174,AISIN IMRA(米国・imra.com),Highly efficient and controllable PEGylation of Gold nanoparticles prepared by femtosecond laser ablation in water,,https://openalex.org/W2314217080
+703,716911aa1cf4,AISIN IMRA(米国・imra.com),New developments in fiber-based frequency combs,,https://openalex.org/W2016710931
+704,721d06c6711b,AISIN IMRA(米国・imra.com),Power optimization of XUV frequency combs for spectroscopy applications,,https://openalex.org/W2091772759
+705,ce7d0376d004,AISIN IMRA(米国・imra.com),Pulse train amplitude modulation due to continuum resonances in GHz soliton fiber lasers,,https://openalex.org/W1983502017
+706,c207f10fff8c,AISIN IMRA(米国・imra.com),Self frequency shift near 2 μm in periodically poled Lithium Niobate waveguides,,https://openalex.org/W2107119851
+707,d43dd3c043cd,AISIN IMRA(米国・imra.com),Supercontinuum generation in quasi-phasematched waveguides,,https://openalex.org/W2068461541
+708,c078d88b1d7e,AISIN IMRA(米国・imra.com),Synthesis and electrophoretic deposition of composite metal nanoparticles and non-vacuum fabrication of CuInSe2 solar cells,,
+709,f07d611839ce,AISIN IMRA(米国・imra.com),Ultrabroadband coherent supercontinuum frequency comb,,https://openalex.org/W2007144249
+710,70618903a605,AISIN IMRA(米国・imra.com),"80 W, 120 fs Yb-fiber frequency comb",,https://openalex.org/W2074959060
+711,0d18f50d9e8f,AISIN IMRA(米国・imra.com),Epitaxial Zn1-xMGxO films grown on (1 1 1) Si by pulsed laser deposition,,https://openalex.org/W2064449433
+712,17def8b212e1,AISIN IMRA(米国・imra.com),Extending bandgap of air-core photonic bandgap fibers,,https://openalex.org/W2050356310
+713,eb6b3ca63f6c,AISIN IMRA(米国・imra.com),Mid-infrared Fourier transform spectroscopy with a broadband frequency comb,,https://openalex.org/W2053845346
+714,52bf401210dd,AISIN IMRA(米国・imra.com),Specialty fibers and their applications in fiber lasers,,https://openalex.org/W2001517073
+715,c8ae7905cba7,AISIN IMRA(米国・imra.com),Ultrafast pulsed laser micro-deposition printing on transparent media,,https://openalex.org/W2043476160
+716,925ac852ae06,AISIN IMRA(米国・imra.com),"200-fs, 2-mJ pulses from 1-kHz Yb3+ ,Na+ :CaF2 cryogenic amplifier",,
+717,aa8326c76602,AISIN IMRA(米国・imra.com),All-glass large-core leakage channel fibers,,https://openalex.org/W2120533354
+718,b56343abb0e7,AISIN IMRA(米国・imra.com),Diffraction-limited output from multi-core fibers using coherent beam combination and a diffractive optical element,,https://openalex.org/W2147932342
+719,b4fe1f56acd7,AISIN IMRA(米国・imra.com),Epitaxial ZnO films on (111) Si substrates with Sc2O3 buffer layers,,https://openalex.org/W1534298520
+720,2fdccb60f1e4,AISIN IMRA(米国・imra.com),Extending effective area of fundamental mode in optical fibers,,https://openalex.org/W2103328179
+721,8ccdd3e64603,AISIN IMRA(米国・imra.com),Extremely large mode area optical fibers formed by thermal stress,,https://openalex.org/W1983363485
+722,1fa415734e17,AISIN IMRA(米国・imra.com),Highly Ytterbium-doped Silica fibers with low photo-darkening,,https://openalex.org/W1972933050
+723,e8071b7e5a27,AISIN IMRA(米国・imra.com),Large effective mode area optical fibers for high-power lasers,,https://openalex.org/W2031147119
+724,49c236ca1b97,AISIN IMRA(米国・imra.com),Latest developments of ultrafast fiber laser and its material applications,,https://openalex.org/W2004665895
+725,b43c242d618e,AISIN IMRA(米国・imra.com),"Multi-mJ, 200-fs, cw-pumped, cryogenically cooled, Yb,Na:CaF2 amplifier",,https://openalex.org/W2042426995
+726,026339ad1b84,AISIN IMRA(米国・imra.com),"Phase-stabilized, 1.5 W frequency comb at 2.8 to 4.8 μm",,
+727,dcac46a11287,AISIN IMRA(米国・imra.com),"Rapidly scanning, high resolution Yb fiber based comb-Fourier transform spectrometer",,https://openalex.org/W2130312484
+728,162e8a1e81b2,AISIN IMRA(米国・imra.com),"Spectroscopy and lasing of cryogenically cooled Yb, Na:CaF2",,
+729,291f9a7a64b1,AISIN IMRA(米国・imra.com),Ultrafast fiber laser technology,,https://openalex.org/W2132781385
+730,cd6763c2f151,AISIN IMRA(米国・imra.com),Ultrashort pulse laser processing of transparent materials,,https://openalex.org/W2082039771
+731,8a2fdf6bfb57,AISIN IMRA(米国・imra.com),Ytterbium-doped all glass leakage fibers with highly Fluorine-doped silica pump cladding,,https://openalex.org/W2070421439
+732,20ae4348c56e,AISIN IMRA(米国・imra.com),All-glass endless single-mode photonic crystal fibers,,https://openalex.org/W1972132333
+733,5a58ad5b2708,AISIN IMRA(米国・imra.com),Analytical solution for nonlinear waveguide equation under Gaussian mode approximation,10.1117/12.774052,https://openalex.org/W1998144405
+734,7c48b8f9cb13,AISIN IMRA(米国・imra.com),Approximate treatment of the nonlinear waveguide equation in the regime of nonlinear self-focus,10.1109/jlt.2008.925685,https://openalex.org/W2136243903
+735,429f55f122a0,AISIN IMRA(米国・imra.com),Bend performance of leakage channel fibers,10.1364/oe.16.004278,https://openalex.org/W18542523
+736,d2ba4d05d1a8,AISIN IMRA(米国・imra.com),Efficient supercontinuum generations in silica suspended core fibers,10.1364/oe.16.019629,https://openalex.org/W2040400358
+737,36a623b61079,AISIN IMRA(米国・imra.com),Fiber laser based hyperspectral sources,10.1002/lapl.200810090,https://openalex.org/W1985661810
+738,b43f432fe548,AISIN IMRA(米国・imra.com),Growth of ZnO nanoparticles and nanorods with ultrafast pulsed laser deposition,10.1007/s00339-008-4754-1,https://openalex.org/W2080142255
+739,73651e78d378,AISIN IMRA(米国・imra.com),Highly nonlinear suspended core Silica fibers,10.1364/oe.16.016423,https://openalex.org/W1993638097
+740,ab88255df927,AISIN IMRA(米国・imra.com),Micromachining with a high repetition rate femtosecond fiber laser,10.2961/jlmn.2008.03.0006,https://openalex.org/W2162165717
+741,a69178a343f9,AISIN IMRA(米国・imra.com),Optical frequency comb with submilliHertz linewidth and more than 10 W average power,10.1038/nphoton.2008.79,https://openalex.org/W2009459426
+742,e95550409373,AISIN IMRA(米国・imra.com),Single-mode optical fibers with record core diameters,10.1109/ecoc.2008.4729557,https://openalex.org/W2128299024
+743,45cb8c58b080,AISIN IMRA(米国・imra.com),Structural modifications in Er-Yb doped phosphate glass induced by femtosecond laser waveguide writing,10.1117/12.763982,https://openalex.org/W1984871679
+744,b4b7ba2e16c8,AISIN IMRA(米国・imra.com),Temperature dependence of Ytterbium-doped fiber amplifiers,10.1364/josab.25.000126,https://openalex.org/W2042536027
+745,1e6905e54a71,AISIN IMRA(米国・imra.com),Terahertz near-field microscopy,,
+746,1d3310e699ac,AISIN IMRA(米国・imra.com),Amphoteric Phosphorus doping for stable p-type ZnO,,https://openalex.org/W2111899806
+747,c2ec918255f6,AISIN IMRA(米国・imra.com),Cavity-enhanced similariton Yb-fiber laser frequency comb: 3×1014 W/cm2 peak intensity at 136 MHz,,
+748,cac61616510d,AISIN IMRA(米国・imra.com),Compact 50W ultrashort pulse fiber laser for precision and high-speed material processing,10.1117/12.713437,https://openalex.org/W2013949488
+749,417e8c913f31,AISIN IMRA(米国・imra.com),Er- and Yb-doped fiber laser frequency combs and their applications,,https://openalex.org/W2131998476
+750,e22edc08944b,AISIN IMRA(米国・imra.com),Fabrication of Sb-doped p-type ZnO thin films by pulsed laser deposition,,https://openalex.org/W2019809725
+751,d390bf8bc04b,AISIN IMRA(米国・imra.com),Fabrication of p-type ZnMgO films via pulsed laser deposition method by using Li as dopant source,,https://openalex.org/W2084000053
+752,1e4ec0591b7c,AISIN IMRA(米国・imra.com),Fiber frequency combs,10.1117/12.717322,https://openalex.org/W2064608805
+753,06a94e525622,AISIN IMRA(米国・imra.com),Fundamental-mode operation in polarization-maintaining Ytterbium-doped fiber with an effective area of 1400 μm2,10.1364/ol.32.000358,https://openalex.org/W2150329833
+754,825e2e9fe14d,AISIN IMRA(米国・imra.com),Generation of octave-spanning spectra inside reverse-proton-exchanged periodically poled Lithium Niobate waveguides,10.1364/ol.32.002478,https://openalex.org/W2030658864
+755,0a4c5e96d285,AISIN IMRA(米国・imra.com),High-power ultrashort-pulse fiber amplifiers,10.1109/jstqe.2007.896096,https://openalex.org/W2104556863
+756,c786b0df039f,AISIN IMRA(米国・imra.com),Investigation on ultraviolet photoconductivity in p-type ZnO thin films,10.1016/j.cplett.2007.04.089,https://openalex.org/W2048362658
+757,96263eebccf9,AISIN IMRA(米国・imra.com),Leakage channel optical fibers with large effective area,10.1364/josab.24.001689,https://openalex.org/W2040848603
+758,4ecb63be2ce0,AISIN IMRA(米国・imra.com),Microstructure and properties of epitaxial antimony-doped p-type ZnO films fabricated by pulsed laser deposition,10.1063/1.2747669,https://openalex.org/W1998844945
+759,0c5047e5b1d5,AISIN IMRA(米国・imra.com),Nanoparticle generation in ultrafast pulsed laser ablation of Nickel,10.1063/1.2434168,https://openalex.org/W2082398020
+760,51146abb4b8e,AISIN IMRA(米国・imra.com),Octave-level spectral broadening in RPE PPLN waveguides,10.1109/cleo.2007.4453030,https://openalex.org/W2014251053
+761,434aa41ab793,AISIN IMRA(米国・imra.com),Robust single-mode operation in 50 μm Ytterbium-doped leakage channel fibers,10.1117/12.706121,https://openalex.org/W2000185564
+762,ea44d855708f,AISIN IMRA(米国・imra.com),Self referenced Yb-fiber-laser frequency comb using a dispersion micromanaged tapered holey fiber,10.1364/oe.15.012161,https://openalex.org/W1967310990
+763,f97079941223,AISIN IMRA(米国・imra.com),Synthesis and properties of p-type nitrogen-doped ZnO thin films by pulsed laser ablation of a Zn-rich Zn3N2 target,10.1557/jmr.2007.0294,https://openalex.org/W2035890327
+764,0b8be374c492,AISIN IMRA(米国・imra.com),Ultrafast pulsed laser ablation for synthesis of nanocrystals,10.1117/12.736522,https://openalex.org/W4235999840
+765,542cb02422fd,AISIN IMRA(米国・imra.com),ZnMgO quantum dots grown by low-pressure metal organic chemical vapor deposition,10.1063/1.2428853,https://openalex.org/W2071118350
+766,45a375f852d7,AISIN IMRA(米国・imra.com),"170 MHz spaced, self-referenced fiber-frequency-comb",10.1109/cleo.2006.4628210,https://openalex.org/W2135222747
+767,bd67deff48c0,AISIN IMRA(米国・imra.com),Bend-resistant fundamental mode operation in Ytterbium-doped leakage channel fibers with effective areas up to 3160 μm2,10.1364/oe.14.011512,https://openalex.org/W2048152194
+768,bd2ac7754a4f,AISIN IMRA(米国・imra.com),Fiber chirped pulse amplification system for micromachining,10.1117/12.707699,https://openalex.org/W1994827747
+769,9bcb2adab51f,AISIN IMRA(米国・imra.com),Fiber-laser frequency combs with subHertz relative linewidths,10.1364/ol.31.003046,https://openalex.org/W2039754168
+770,991dcfa921dc,AISIN IMRA(米国・imra.com),Fluorescence and Raman microscopy of waveguides fabricated using kHz and MHz repetition rate femtosecond lasers,10.1109/cleo.2006.4627715,https://openalex.org/W2172005828
+771,5b3130c55658,AISIN IMRA(米国・imra.com),High energy-high repetition rate fiber laser system for precision micromachining with fundamental and second harmonic wavelengths,10.2961/jlmn.2006.03.0021,https://openalex.org/W2105029094
+772,d93bb332a08f,AISIN IMRA(米国・imra.com),High power femtosecond fiber chirped pulse amplification system for high speed micromachining,10.2961/jlmn.2006.03.0005,https://openalex.org/W2147935803
+773,34e230bda3cf,AISIN IMRA(米国・imra.com),High power frequency upconversion of ultra-fast fiber amplifiers,10.1109/cleo.2006.4628179,https://openalex.org/W2111948174
+774,6395cfe9c4aa,AISIN IMRA(米国・imra.com),High-power source of THz radiation based on orientation-patterned GaAs pumped by a fiber laser,10.1364/oe.14.004439,https://openalex.org/W2003513174
+775,e6a1bbdf3be5,AISIN IMRA(米国・imra.com),High power ultra-fast fiber amplifiers,10.1109/cleo.2006.4627644,https://openalex.org/W2100810908
+776,a71ee3e836c2,AISIN IMRA(米国・imra.com),Integrated fiber-frequency comb using a PPLN waveguide for spectral broadening and CEO phase detection,10.1109/cleo.2006.4628211,https://openalex.org/W2109354777
+777,44ffaa074d12,AISIN IMRA(米国・imra.com),Large effective mode area fibers for high power lasers and amplifiers,10.1109/leosst.2006.1694008,https://openalex.org/W1660800187
+778,6bb04cc720e9,AISIN IMRA(米国・imra.com),Micromachining with a 50 W 50 μJ sub-picosecond fiber laser system,10.1364/oe.14.012546,https://openalex.org/W2019187822
+779,ae89330ff8f6,AISIN IMRA(米国・imra.com),"Optimized precision micromachining using commercially-available, high-repetition rate, microJoule, femtosecond fiber lasers",10.1117/12.659866,https://openalex.org/W2085288692
+780,39dcba207806,AISIN IMRA(米国・imra.com),P-type behavior in nominally undoped ZnO thin films by oxygen plasma,10.1063/1.2217165,https://openalex.org/W2024036368
+781,6ac6c722b8f0,AISIN IMRA(米国・imra.com),Self-assembled periodic sub-wavelength structures by femtosecond laser direct writing,10.1364/oe.14.010117,https://openalex.org/W2035122914
+782,b1c2d899cfc8,AISIN IMRA(米国・imra.com),Differential absorption spectroscopy for gas monitoring at sub-millimeter wavelengths,10.1109/icimw.2006.368520,https://openalex.org/W2545439742
+783,1d0ed5210dcd,AISIN IMRA(米国・imra.com),Study on the Hall-effect and photoluminescence of N-doped p-typed ZnO thin films,10.1016/j.matlet.2006.04.001,https://openalex.org/W2074723994
+784,98579172da13,AISIN IMRA(米国・imra.com),Three-dimensional micromachining inside transparent materials using femtosecond laser pulses: new applications,10.1109/cleo.2006.4627978,https://openalex.org/W2130614265
+785,64d2db71c1c2,AISIN IMRA(米国・imra.com),Tunable 0.8 – 3.5 THz source based on fiber-laser pumped orientation-patterned GaAs,10.1109/cleo.2006.4628204,https://openalex.org/W2122378421
+786,ff4beab700dc,AISIN IMRA(米国・imra.com),Ultrafast high energy amplifiers beyond the B-integral limit,10.1117/12.659365,https://openalex.org/W2082760172
+787,4b2482f108bc,AISIN IMRA(米国・imra.com),Ultrashort pulse micromachining with the 10-μJ FCPA fiber laser,10.1117/12.659451,https://openalex.org/W2081641338
+788,06e902a79421,AISIN IMRA(米国・imra.com),230-kW peak power femtosecond pulses from a high power tunable source based on amplification in Tm-doped fiber,10.1364/opex.13.007424,https://openalex.org/W2166224202
+789,0b1b7a2daac9,AISIN IMRA(米国・imra.com),"An optimized Er all-fiber chirped pulse amplification system producing 570-fs, 310-nJ pulses",10.1109/cleo.2005.202230,https://openalex.org/W2126579103
+790,9cd8815aa40f,AISIN IMRA(米国・imra.com),Apertureless Terahertz near-field microsopy,10.1088/0268-1242/20/7/020,https://openalex.org/W1970026623
+791,7d426362713f,AISIN IMRA(米国・imra.com),Breaking the limit of maximum effective area for robust guided single-mode propagation in optical fibres,10.1364/ol.30.002855,https://openalex.org/W2026472887
+792,aff3f68d4c82,AISIN IMRA(米国・imra.com),High energy femtosecond Yb cubicon fiber amplifier,10.1364/opex.13.004717,https://openalex.org/W1987159680
+793,d0fe578c8290,AISIN IMRA(米国・imra.com),High energy fiber chirped pulse amplification system based on cubicons,10.1109/cleo.2005.202229,https://openalex.org/W2128221248
+794,ad6ad92721f6,AISIN IMRA(米国・imra.com),High power tunable femtosecond pulse source based on amplification in Tm fiber,10.1109/cleo.2005.201888,https://openalex.org/W2101745748
+795,0a90cfe47e38,AISIN IMRA(米国・imra.com),Integrated self-referenced frequency-comb laser based on a combination of fiber and waveguide technology,10.1364/opex.13.006490,https://openalex.org/W2047596169
+796,3b39137bf1f5,AISIN IMRA(米国・imra.com),Long-term carrier envelope phase-locking of a PM giber frequency comb source,10.1109/ofc.2005.193129,https://openalex.org/W2094007458
+797,ac0cc6b1809f,AISIN IMRA(米国・imra.com),MHz-rate ultrafast fiber laser for writing of optical waveguides in Silica glasses,10.1117/12.590850,https://openalex.org/W2089066478
+798,af556361aae1,AISIN IMRA(米国・imra.com),"Reliable, high-repetition-rate, femtosecond, microJoule fiber lasers for precision applications",10.1117/12.598050,https://openalex.org/W2069310367
+799,b4b7ba2e16c8,AISIN IMRA(米国・imra.com),Temperature dependence of Ytterbium-doped fiber amplifiers,10.1364/josab.25.000126,https://openalex.org/W2042536027
+800,565a9b51b57d,AISIN IMRA(米国・imra.com),Terahertz microscopy with submicrometre resolution,10.1088/1464-4258/7/2/024,https://openalex.org/W2058066118
+801,fa6601ddce7b,AISIN IMRA(米国・imra.com),Thermal heating effects in writing optical waveguides with 0.1 – 5 MHz repetition rate,10.1117/12.591058,https://openalex.org/W2109299843
+802,f2294435c12b,AISIN IMRA(米国・imra.com),Ultra-compact dispersion compensated femtosecond fiber oscillators and amplifiers,10.1109/cleo.2005.202226,https://openalex.org/W2090033783
+803,8316ba19c3c6,AISIN IMRA(米国・imra.com),Writing optical waveguides with a 0.1 – 5 MHz repetition rate femtosecond fiber laser,10.1109/cleo.2005.202407,https://openalex.org/W1982819293
+804,75bb4f7d505a,AISIN IMRA(米国・imra.com),220 nJ 1.10 ps pulses from an Er fiber chirped pulse amplification system based on compression in photonic band gap fiber,10.1109/leos.2004.1363446,https://openalex.org/W1591513154
+805,b880ccda364f,AISIN IMRA(米国・imra.com),An optimized Er gain band all-fiber chirped pulse amplification system,10.1364/opex.12.006508,https://openalex.org/W2070382005
+806,9d7e9c821311,AISIN IMRA(米国・imra.com),Chirped pulse amplification using a nonlinearly chirped fiber Bragg grating matched to the Treacy compressor,10.1364/ol.29.000679,https://openalex.org/W2033726753
+807,c471018605a3,AISIN IMRA(米国・imra.com),Formulation of time-domain algorithm for fiber Bragg grating simulation and reconstruction,10.1109/jqe.2004.831633,https://openalex.org/W2005773820
+808,a9965af309ce,AISIN IMRA(米国・imra.com),Frequency metrology with a turnkey all-fiber system,10.1364/ol.29.002467,https://openalex.org/W2029807715
+809,be27986bcef2,AISIN IMRA(米国・imra.com),Identification of a resonant imaging process in apertureless near-field microscopy,10.1103/physrevlett.93.267401,https://openalex.org/W2083769613
+810,0a9c9daa822f,AISIN IMRA(米国・imra.com),Laser ablation threshold and etch rate comparison between the ultrafast Yb fiber-based FCPA laser and a Ti:Sapphire laser for various materials,10.1117/12.596573,https://openalex.org/W1979619452
+811,f26aef31c493,AISIN IMRA(米国・imra.com),Temporal pulse shaping using fiber laser technology: nano-scaling for flexible industrial laser material processing,10.1117/12.486528,https://openalex.org/W2057236784
+812,9d61dc292c19,AISIN IMRA(米国・imra.com),New fiber lasers with temporal pulse shaping of nanosecond pulses for tailoring flexible laser material processing for microelectronics production,10.1117/12.479230,https://openalex.org/W2077983614
+813,aa2f2e1c6565,AISIN IMRA(米国・imra.com),New versatile femtosecond fiber lasers,10.1117/12.501655,https://openalex.org/W1983013834
+814,ae0ef0b96600,AISIN IMRA(米国・imra.com),Terahertz imaging with nanometer resolution,10.1063/1.1616668,https://openalex.org/W2004986322
+815,cb26a8385e05,AISIN IMRA(米国・imra.com),Time-tailored laser pulses: a new approach for laser micromachining and microfabrication processing,10.1117/12.477843,https://openalex.org/W2030887500
+816,64a24b69ace0,AISIN IMRA(米国・imra.com),1-THz bandwidth C- and L-band optical sampling with a bit rate agile timebase,10.1109/lpt.2002.1021998,https://openalex.org/W2133204230
+817,b6e088bd7a43,AISIN IMRA(米国・imra.com),Novel ultrashort-pulse fiber lasers and their applications,10.1117/12.456810,https://openalex.org/W2021304718
+818,85340bb52070,AISIN IMRA(米国・imra.com),Novel ultrashort pulse fiber lasers for micromachining applications,,https://openalex.org/W2492181713
+819,531b7496f032,AISIN IMRA(米国・imra.com),"THz-radiation emitter and receiver system based on a 2T permanent magnet, 1040 nm compact fiber laser and pyroelectric thermal receiver",10.1143/jjap.40.l1223,https://openalex.org/W2015967960
+820,1f0abf73662a,AISIN IMRA(米国・imra.com),Generation of dual-wavelength pulses by frequency doubling with quasi-phase-matching gratings,10.1364/ol.26.000268,https://openalex.org/W2047050546
+821,ebb2cae0ca8c,AISIN IMRA(米国・imra.com),Generation of high-energy femtosecond pulses in multimode-core Yb-fiber chirped-pulse amplification systems,10.1364/ol.26.000935,https://openalex.org/W1982465938
+822,6dadbeed94c4,AISIN IMRA(米国・imra.com),Millijoule femtosecond all-fiber system,10.1109/cleo.2001.947386,https://openalex.org/W2107277110
+823,fb134c4bc485,AISIN IMRA(米国・imra.com),Mode-scalable fiber-based chirped pulse amplification systems,10.1109/2944.974221,https://openalex.org/W2115150018
+824,3a1314ed9858,AISIN IMRA(米国・imra.com),"Novel emitter and receiver system for THz radiation consisting of a 2-T permanent magnet, a 1040-nm compact fiber laser, and a room-temperature-operating thermal receiver",10.1109/cleo.2001.947543,https://openalex.org/W4240873150
+825,e7105e8bf2cc,AISIN IMRA(米国・imra.com),Pulse shaping by difference-frequency mixing with quasi-phase-matching gratings,10.1364/josab.18.000534,https://openalex.org/W2108343528
+826,1f69ed8351f9,AISIN IMRA(米国・imra.com),Tunable narrow-band Terahertz generation from periodically poled Lithium Niobate,10.1063/1.1373406,https://openalex.org/W1992740538
+827,7ead6788be80,AISIN IMRA(米国・imra.com),Ultra-broadband IR continuum generation and its phase measurement using cross-correlation FROG,10.1109/cleo.2001.947702,https://openalex.org/W2117958506
+828,335ce5a33604,AISIN IMRA(米国・imra.com),100 μJ and 5.5 W Yb-fiber femtosecond chirped pulse amplifier system,10.1109/cleo.2000.906801,https://openalex.org/W2000418445
+829,50f826f12bd5,AISIN IMRA(米国・imra.com),Bit error rate performance of ultrashort-pulse optical CDMA detection under multi-access interference,10.1049/el:20001259,https://openalex.org/W2065237229
+830,5b15247f6f4b,AISIN IMRA(米国・imra.com),"Compact THz-radiation source consisting of bulk semiconductor, a mode-locked fiber laser and a 2-T permanent magnet",10.1063/1.1150240,https://openalex.org/W2067840963
+831,546fc4ad4ff2,AISIN IMRA(米国・imra.com),Generation and propagation of high–power parabolic pulses in optical fibers,10.1109/cleo.2000.906678,https://openalex.org/W1964813904
+832,2f17cd2c50e0,AISIN IMRA(米国・imra.com),Generation of diffraction-limited femtosecond beams using spatially-multimode nanosecond pump sources in parametric chirped pulse amplification systems,10.1109/cleo.2000.907166,https://openalex.org/W2073594423
+833,887a6d40e7c3,AISIN IMRA(米国・imra.com),Generation of narrow-band Terahertz radiation via optical rectification of femtosecond pulses in periodically poled Lithium Niobate,10.1063/1.126390,https://openalex.org/W1998588863
+834,67c7926d1379,AISIN IMRA(米国・imra.com),"Highly efficient, low-noise Yb femtosecond fiber source",10.1109/cleo.2000.906754,https://openalex.org/W1989086709
+835,ab44ac2a9f76,AISIN IMRA(米国・imra.com),High-power compact ultrafast fiber laser,,https://openalex.org/W2093774538
+836,c4a48869c0d2,AISIN IMRA(米国・imra.com),Narrow-band THz waveforms from optical rectification of femtosecond optical pulses in periodically poled Lithium Niobate,,https://openalex.org/W2155366999
+837,5efc07dcd269,AISIN IMRA(米国・imra.com),Propagation and compression of high power parabolic pulses generating a high gain Yb:doped fiber amplifier,,
+838,b1e1391a57e1,AISIN IMRA(米国・imra.com),Self-similar propagation and amplification of Parabolic pulses in optical fibers,,https://openalex.org/W2067393704
+839,bdc4a84b1e1e,AISIN IMRA(米国・imra.com),Temperature dependence of narrow-band terahertz generation from periodically poled Lithium Niobate,,https://openalex.org/W1984592295
+840,6d75d5697d2e,AISIN IMRA(米国・imra.com),THz generation and detection using 1550-nm pulses from a fiber laser,,https://openalex.org/W1975961745
+841,a18a8d418359,AISIN IMRA(米国・imra.com),Ultrafast fiber lasers: alternative light sources for industrial material processing,,https://openalex.org/W2090834041
+842,a523b23976be,AISIN IMRA(米国・imra.com),Ultrafast pulse sources based on multi-mode optical fibers,,https://openalex.org/W2095185315
+843,5d3193ae4d37,AISIN IMRA(米国・imra.com),Ultrashort-pulse second-harmonic generation with longitudinally nonuniform quasi-phase-matching gratings: pulse compression and shaping,,https://openalex.org/W2127233141
+844,34313b274d3e,AISIN IMRA(米国・imra.com),1.5 μm pulse shaping by degenerate type II DFG with QPM gratings,10.1109/cleo.1999.834066,https://openalex.org/W1569384391
+845,95a79bd2c1c4,AISIN IMRA(米国・imra.com),Amplification in 1.2 – 1.7 μm communication window using OPA in PPLN waveguides,10.1049/el:1999501,
+846,9c9f7e0f19ec,AISIN IMRA(米国・imra.com),CW passive mode-locking evolved from Qswitch mode-locking in Erbium doped fiber lasers,10.1109/cleo.1999.834420,https://openalex.org/W1909861020
+847,860925e403d0,AISIN IMRA(米国・imra.com),Fiber lasers in ultrafast optics,10.1117/12.351836,https://openalex.org/W2052638921
+848,e4e4da87cad2,AISIN IMRA(米国・imra.com),Low-noise amplification of high-power pulses in multimode fibers,10.1109/68.766773,https://openalex.org/W2109399298
+849,2afc3a28bf38,AISIN IMRA(米国・imra.com),Nonlinearly limited saturable-absorber mode locking of an Erbium fiber laser,10.1364/ol.24.001074,https://openalex.org/W1995865384
+850,dd91b1b3b0b8,AISIN IMRA(米国・imra.com),Passively mode-locked multi-mode fiber laser,10.1109/cleo.1999.834109,https://openalex.org/W1490200371
+851,671428711dd5,AISIN IMRA(米国・imra.com),Portable THz system and its applications,10.1117/12.351830,https://openalex.org/W1992557950
+852,f753652b65dc,AISIN IMRA(米国・imra.com),Pulse-resolved measurements of subharmonic oscillations in a Kerr-lens mode-locked Ti:Sapphire laser,10.1364/josab.16.000339,https://openalex.org/W2278489885
+853,849e404910e1,AISIN IMRA(米国・imra.com),Sub-THz transmission spectroscopy in liquids using a stand-alone compact unit,10.1109/leos.1999.811858,https://openalex.org/W1891809532
+854,13445895d10e,AISIN IMRA(米国・imra.com),Tunable Er3+ fiber femtosecond source amplified to W-level average power at 1.03 – 1.06 μm in Yb3+ fiber,10.1109/cleo.1999.834610,https://openalex.org/W1508749335
+855,fa1e24a68b9f,AISIN IMRA(米国・imra.com),Ultra-wide tunable Er soliton fiber laser amplified in Yb-doped fiber,10.1364/ol.24.001428,https://openalex.org/W2028509015
+856,bb7e25b7e9d6,AISIN IMRA(米国・imra.com),A new Magnesium alloy for automotive powertrain applications,10.4271/980086,https://openalex.org/W1483439203
+857,f0d40601da9a,AISIN IMRA(米国・imra.com),"Chirped-pulse-amplification circuits for fiber amplifiers, based on chirped-period quasiphase-matching gratings",10.1364/ol.23.001695,https://openalex.org/W2160269414
+858,fae50c483648,AISIN IMRA(米国・imra.com),"Compact, reliable fiber laser systems for industrial applications",10.1117/12.580606,https://openalex.org/W2037231852
+859,f7c5908cd75e,AISIN IMRA(米国・imra.com),Effects of cavity topology on the nonlinear dynamics of additive-pulse mode-locked lasers,10.1364/josab.15.002847,https://openalex.org/W2106028934
+860,fae3d45cbbd9,AISIN IMRA(米国・imra.com),Effects of confinement on carrier dynamics in In0.47Ga0.53As heterostructures,10.1103/physrevb.58.16326,https://openalex.org/W2048408596
+861,f00a52fcfc6d,AISIN IMRA(米国・imra.com),Efficient Q-switched Ti:Er:LiNbO3 waveguide laser,10.1049/el:19980888,https://openalex.org/W2130336774
+862,abcfcc5657ab,AISIN IMRA(米国・imra.com),Engineerable femtosecond pulse shaping by second-harmonic generation with Fourier synthetic quasi-phase-matching gratings,10.1364/ol.23.000864,https://openalex.org/W1966640150
+863,a533db8375cb,AISIN IMRA(米国・imra.com),Frequency doubling of Er-doped multimode fiber compressor-amplifiers,10.1109/cleo.1998.676037,https://openalex.org/W2142955190
+864,20d2bc404bae,AISIN IMRA(米国・imra.com),High-energy femtosecond pulse amplification in a quasi-phase-matched parametric amplifier,10.1364/ol.23.000210,https://openalex.org/W2154329631
+865,0abe40d14a0b,AISIN IMRA(米国・imra.com),High-energy high-average-power femtosecond fiber system using a QPM-grating pulse compressor,10.1109/cleo.1998.676310,https://openalex.org/W2101984371
+866,d24955042507,AISIN IMRA(米国・imra.com),High-power 100-fs pulse generation by frequency doubling of an Erbium-Ytterbium-fiber master oscillator power amplifier,10.1364/ol.23.001840,https://openalex.org/W2077107834
+867,e431cbee321b,AISIN IMRA(米国・imra.com),High-power side-pumped passively mode-locked Er-Yb fiber laser,10.1109/68.705605,https://openalex.org/W2160732370
+868,1994ec9fb1ec,AISIN IMRA(米国・imra.com),High-power single-mode fiber amplifiers using multimode fibers,10.1109/ofc.1998.657185,https://openalex.org/W1507408601
+869,02f27c0dae41,AISIN IMRA(米国・imra.com),"Microlaser pumped, engineerable bandwidth parametric chirped-pulse amplifier using electric-field-poled LiNbO3",10.1109/cleo.1998.675801,https://openalex.org/W2134119508
+870,a0575bad75d6,AISIN IMRA(米国・imra.com),Noise considerations for ultrafast measurements,10.1109/leos.1998.737810,https://openalex.org/W1823200270
+871,a0a66cd8396b,AISIN IMRA(米国・imra.com),Robust high-power and wavelength-tunable femtosecond fiber system based on engineerable PPLN devices,10.1109/nlo.1998.710278,https://openalex.org/W1499742977
+872,ef6f0811e516,AISIN IMRA(米国・imra.com),Single-mode excitation of multimode optical fibers with ultrashort pulses,10.1364/ol.23.000052,https://openalex.org/W2034433651
+873,57ce57f87bb1,AISIN IMRA(米国・imra.com),Time-domain jitter measurement of ultrafast fiber lasers,10.1109/cleo.1998.676035,https://openalex.org/W2157715898
+874,a8ff8185c44c,AISIN IMRA(米国・imra.com),Use of volume chirped Bragg gratings for compact high-energy chirped pulse amplification circuits,10.1109/cleo.1998.676304,https://openalex.org/W2109501264
+875,92f8707a48fd,AISIN IMRA(米国・imra.com),A monolithic Gallium Arsenide interval timer IC with integrated PLL clock synthesis having 500-ps single shot resolution,10.1109/4.628738,https://openalex.org/W2122314201
+876,8354640bfbfd,AISIN IMRA(米国・imra.com),Cladding-pumped fiber laser amplifier system generating 100 μJ energy picosecond pulses,10.1109/cleo.1997.603463,https://openalex.org/W2083539450
+877,454a8d3c4ac4,AISIN IMRA(米国・imra.com),Effect of confinement on energy-dependent dephasing in heterostructures,10.1103/physrevb.55.15768,https://openalex.org/W1969737164
+878,6cf3aae8a205,AISIN IMRA(米国・imra.com),Engineerable compression of ultrashort pulses by use of second-harmonic generation in chirped-period-poled Lithium Niobate,10.1364/ol.22.001341,https://openalex.org/W2153139859
+879,7494bcf8d008,AISIN IMRA(米国・imra.com),Fiber-lasers for ultrafast optics,10.1007/s003400050272,https://openalex.org/W2648192908
+880,cedc01ec05ce,AISIN IMRA(米国・imra.com),Fiber-laser-based femtosecond parametric generator in bulk periodically poled LiNbO3,10.1364/ol.22.000105,https://openalex.org/W2138491308
+881,8a6b63a5911a,AISIN IMRA(米国・imra.com),Frequency doubling of femtosecond erbium-fiber soliton lasers in periodically poled Lithium Niobate,10.1364/ol.22.000013,https://openalex.org/W2117359167
+882,e2c046a681a8,AISIN IMRA(米国・imra.com),A new method for rapid temporal scanning of ultrafast lasers,10.1109/2944.571759,https://openalex.org/W2041087449
+883,e15a7ad239ac,AISIN IMRA(米国・imra.com),Alexandrite-pumped Alexandrite regenerative amplifier for femtosecond pulse amplification,10.1364/ol.21.000128,https://openalex.org/W2082510896
+884,8db278a25f1b,AISIN IMRA(米国・imra.com),Broad-area diode-pumped 1 W femtosecond fiber system,,https://openalex.org/W1619058044
+885,710485fa85eb,AISIN IMRA(米国・imra.com),Cladding pumped passive harmonically mode-locked fiber laser,10.1364/ol.21.000970,https://openalex.org/W2139903463
+886,d8b9e58387e7,AISIN IMRA(米国・imra.com),Cladding-pumped passively mode-locked fiber laser generating femtosecond and picosecond pulses,10.1364/ol.21.000967,https://openalex.org/W2045065732
+887,be953414fea7,AISIN IMRA(米国・imra.com),Femtosecond watt-level fiber amplification circuits,10.1109/leos.1996.565158,https://openalex.org/W1503378058
+888,f6047d930dcc,AISIN IMRA(米国・imra.com),Injection of ultrafast regenerative amplifiers with low energy femtosecond pulses from an Er-doped fiber laser,10.1016/0030-4018(96)00403-8,https://openalex.org/W2027273230
+889,53d49e998f84,AISIN IMRA(米国・imra.com),Monolithic polarization-insensitive passively mode-locked fiber laser,10.1109/ofc.1996.907589,https://openalex.org/W2130266943
+890,d6d7a0e80b5a,AISIN IMRA(米国・imra.com),Nanosecond-to-picosecond pulse compression with fiber gratings in a compact fiber-based chirped pulse amplification system,10.1364/ol.21.001049,https://openalex.org/W2077079774
+891,38da33768dca,AISIN IMRA(米国・imra.com),Nonlinear effects in femtosecond pulse amplification using chirped fiber gratings,10.1109/ofc.1996.908245,https://openalex.org/W1564112355
+892,0d97ca1f7ab2,AISIN IMRA(米国・imra.com),"Synchronization of environmentally coupled, passively mode-locked fiber lasers",10.1364/ol.21.001570,https://openalex.org/W1996091483
+893,9bb01239ff01,AISIN IMRA(米国・imra.com),All-fiber femtosecond pulse amplification circuit using chirped Bragg gratings,10.1063/1.113571,https://openalex.org/W2037841321
+894,7c9d374b2a2d,AISIN IMRA(米国・imra.com),Compact ultrahigh-power laser systems,10.1117/12.206403,https://openalex.org/W2074201033
+895,158cacadff8b,AISIN IMRA(米国・imra.com),Controllable dual-wavelength operation of a femtosecond Neodymium fiber laser,10.1364/ol.20.000195,https://openalex.org/W19859132
+896,e7fd6649d6c4,AISIN IMRA(米国・imra.com),Environmentally stable high-power soliton fiber lasers that use chirped fiber Bragg gratings,10.1364/ol.20.001625,https://openalex.org/W1991515492
+897,8aae5b4d3d57,AISIN IMRA(米国・imra.com),Femtosecond pulse amplification in cladding-pumped fibers,10.1364/ol.20.001797,https://openalex.org/W1965446579
+898,4bc01f68fac4,AISIN IMRA(米国・imra.com),Generation of 10 nJ picosecond pulses from a modelocked fiber laser,10.1049/el:19950147,https://openalex.org/W2021769171
+899,8858a9a4b37b,AISIN IMRA(米国・imra.com),High-power Neodymium soliton fiber laser that uses a chirped fiber grating,10.1364/ol.20.001701,https://openalex.org/W2019154054
+900,f6c6622bb8af,AISIN IMRA(米国・imra.com),Period-doubling and quasi-periodicity in additive-pulse mode-locked lasers,10.1364/ol.20.001794,https://openalex.org/W1964455003
+901,f00b5ce52224,AISIN IMRA(米国・imra.com),Widely tunable femtosecond Neodymium fiber laser,10.1364/ol.20.002303,https://openalex.org/W2104896075
+902,4f2527e82bc1,AISIN IMRA(米国・imra.com),All-fiber source of 100 nJ subpicosecond pulses,10.1063/1.111919,https://openalex.org/W1985967645
+903,f8ff4cd3ae9a,AISIN IMRA(米国・imra.com),Carrier relaxation in InGaAs heterostructures,10.1063/1.112020,https://openalex.org/W1964452859
+904,b914197df9a5,AISIN IMRA(米国・imra.com),Environmentally stable Kerr-type mode-locked Erbium fiber laser producing 360 fs pulses,10.1364/ol.19.000043,https://openalex.org/W2029675787
+905,9909878948b4,AISIN IMRA(米国・imra.com),High-power amplification of femtosecond optical pulses in a diode-pumped fiber system,10.1364/ol.19.001201,https://openalex.org/W2060611956
+906,3563aa99d4a4,AISIN IMRA(米国・imra.com),Hybrid diode-laser fiber-amplifier source of high-energy ultrashort pulses,10.1364/ol.19.001043,https://openalex.org/W1989448993
+907,a909976dd697,AISIN IMRA(米国・imra.com),Ultrafast dynamics of the optical mode of a 1.5 micron multiple quantum well optical amplifier,10.1063/1.111450,https://openalex.org/W1990551692
+908,cb244a16d359,AISIN IMRA(米国・imra.com),Ultrashort pulse sources based on single-mode rare-earth-doped fibers,10.1007/bf01081312,https://openalex.org/W2020287895
+909,a5b60c38ff5c,AISIN IMRA(米国・imra.com),42 fs pulse generation from a mode-locked fiber laser started with a moving mirror,10.1364/ol.18.000367,https://openalex.org/W2035418072
+910,1bba178fb9d5,AISIN IMRA(米国・imra.com),Generation of femtosecond optical pulses with nanoJoule energy from a diode laser and fiber based system,10.1063/1.110701,https://openalex.org/W2045257087
+911,b8824ac6926a,AISIN IMRA(米国・imra.com),Generation of pulses shorter than 200 fs from a passively mode-locked Er fiber laser,10.1364/ol.18.000048,https://openalex.org/W1970946056
+912,7c199c4f7eb1,AISIN IMRA(米国・imra.com),Passive mode locking in Erbium fiber laser with negative group delay,10.1063/1.108516,https://openalex.org/W2050067095
+913,b9b00cbdc4e4,AISIN IMRA(米国・imra.com),Shaping of ultrashort optical pulses by using an integrated acousto-optic tunable filter,10.1364/ol.18.001505,https://openalex.org/W1992001371
+914,b41b91cdaa98,AISIN IMRA(米国・imra.com),Synchronous mode locking using pump-induced phase modulation,10.1364/ol.18.001529,https://openalex.org/W2008417843
+915,5f3ff40000ba,AISIN IMRA(米国・imra.com),Characterization of ultrashort pulse formation in passively mode-locked fiber lasers,10.1109/3.124997,https://openalex.org/W2147793052
+916,1f5df93c67a1,AISIN IMRA(米国・imra.com),Real-time picosecond electro-optic oscilloscope technique using a tunable semiconductor laser,10.1063/1.107456,https://openalex.org/W2009487771
+917,b23eaa63a4d7,AISIN IMRA(米国・imra.com),Recent advances in ultrashort optical pulse shaping for high-speed communications,10.1109/leosst.1992.697422,https://openalex.org/W2532899216
+918,fe2ed783c920,AISIN IMRA(米国・imra.com),Regenerative amplification in Alexandrite of pulses from specialized oscillators,10.1109/3.239,https://openalex.org/W2079030380
