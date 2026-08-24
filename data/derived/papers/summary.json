@@ -1,0 +1,32 @@
+{
+  "papers": 917,
+  "collapsed_duplicate_listings": 2,
+  "matched_to_openalex": 850,
+  "distinct_works": 845,
+  "listings_sharing_a_work": 5,
+  "with_doi": 642,
+  "cited_by_total_work_level": 24786,
+  "references_total_work_level": 27052,
+  "by_source_org": {
+    "AISIN IMRA(日本・aisin.com)": {
+      "掲載": 97,
+      "対応づけ済": 77,
+      "DOIあり": 74
+    },
+    "AISIN IMRA(米国・imra.com)": {
+      "掲載": 312,
+      "対応づけ済": 291,
+      "DOIあり": 222
+    },
+    "トヨタ自動車未来創成センター": {
+      "掲載": 153,
+      "対応づけ済": 130,
+      "DOIあり": 10
+    },
+    "豊田中央研究所": {
+      "掲載": 355,
+      "対応づけ済": 352,
+      "DOIあり": 336
+    }
+  }
+}
