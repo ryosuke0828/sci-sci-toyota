@@ -10,6 +10,14 @@
   今井先生のご指示「文字列一致だけでは誤同定があるため目視確認が必要」への
   対応そのものであり、判断の履歴が残ることに意味がある。
 
+キーについて（2026-08-24 に変更）:
+  以前は `row_id`（入力CSVの行番号）で突き合わせていたが、これは**行の位置**
+  にすぎず、再スクレイピングや imra.eu の追加で行順が変われば
+  判断が別の論文に付いてしまう。そこで位置に依存しない `paper_uid`
+  （収集元＋正規化タイトル＋正規化DOI のハッシュ）に移行した。
+  さらに、判断表に記録したタイトルが実際の行と一致するかを毎回照合し、
+  ずれていれば適用せずに中断する。
+
 入力:
   data/derived/openalex_linking/openalex_links.csv   … 自動生成
   data/review/openalex_review_decisions.csv          … 人手で作る判断表
@@ -22,11 +30,15 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "src"))
+from build_paper_table import paper_uid  # noqa: E402  安定キーの定義を1箇所に保つ
+
 LINKS = ROOT / "data" / "derived" / "openalex_linking" / "openalex_links.csv"
 DECISIONS = ROOT / "data" / "review" / "openalex_review_decisions.csv"
 OUT_DIR = ROOT / "data" / "derived" / "openalex_linking"
@@ -34,16 +46,43 @@ OUT_DIR = ROOT / "data" / "derived" / "openalex_linking"
 
 def main() -> None:
     links = pd.read_csv(LINKS)
+    links["paper_uid"] = [paper_uid(s, t, d) for s, t, d
+                          in zip(links["source_org"], links["title"], links["doi"])]
+
     if not DECISIONS.exists():
         print("判断表がありません。自動判定のまま出力します。", flush=True)
-        dec = pd.DataFrame(columns=["row_id", "decision", "reason"])
+        dec = pd.DataFrame(columns=["paper_uid", "title", "decision", "reason"])
     else:
         dec = pd.read_csv(DECISIONS)
 
-    # row_id は入力CSVの行番号。自動生成側と判断表で同じものを指す
-    d = dec.set_index("row_id")
-    links["review_decision"] = links["row_id"].map(d["decision"])
-    links["review_reason"] = links["row_id"].map(d["reason"])
+    if len(dec):
+        if "paper_uid" not in dec.columns:
+            raise SystemExit(
+                "判断表に paper_uid 列がありません。row_id 方式の古い表と思われます。"
+                "data/derived/papers/rowid_map.csv で変換してください。")
+
+        # 判断表のキーが実在するか、記録したタイトルと一致するかを照合する。
+        # 上流の再生成でタイトルが変わっていれば、ここで気づける。
+        known = links.set_index("paper_uid")["title"]
+        missing = dec[~dec["paper_uid"].isin(known.index)]
+        if len(missing):
+            raise SystemExit(
+                f"判断表の {len(missing)}件が対応づけ結果に見つかりません。"
+                f"上流が変わった可能性があります: "
+                f"{missing[['paper_uid', 'title']].to_dict('records')}")
+        drift = [(u, t, known[u]) for u, t in zip(dec["paper_uid"], dec["title"])
+                 if str(known[u]) != str(t)]
+        if drift:
+            raise SystemExit(
+                f"判断表のタイトルが対応づけ結果と一致しません（{len(drift)}件）。"
+                f"判断が別の論文に付くおそれがあるため中断します: {drift}")
+        print(f"判断表 {len(dec)}件をキー照合・タイトル照合とも通過", flush=True)
+
+    d = dec.set_index("paper_uid") if len(dec) else dec
+    links["review_decision"] = links["paper_uid"].map(
+        d["decision"]) if len(dec) else None
+    links["review_reason"] = links["paper_uid"].map(
+        d["reason"]) if len(dec) else None
 
     # 誤対応と判断したものは対応づけを取り消す
     rejected = links["review_decision"] == "reject"
