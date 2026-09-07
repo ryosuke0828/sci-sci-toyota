@@ -1,16 +1,16 @@
 {
   "input_rows": 919,
-  "matched": 852,
-  "match_rate_pct": 92.7,
+  "matched": 859,
+  "match_rate_pct": 93.5,
   "reviewed": 10,
   "review_accepted": 9,
   "review_rejected": 1,
-  "unreviewed_needing_review": 0,
+  "unreviewed_needing_review": 1,
   "by_source_org": {
     "AISIN IMRA(日本・aisin.com)": {
       "total": 97,
-      "matched": 77,
-      "rate_pct": 79.4
+      "matched": 84,
+      "rate_pct": 86.6
     },
     "AISIN IMRA(米国・imra.com)": {
       "total": 313,
@@ -28,5 +28,5 @@
       "rate_pct": 99.2
     }
   },
-  "unique_openalex_works": 845
+  "unique_openalex_works": 852
 }

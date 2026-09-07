@@ -1,21 +1,21 @@
 {
   "complete": true,
   "input_rows": 919,
-  "matched": 853,
-  "match_rate_pct": 92.8,
+  "matched": 860,
+  "match_rate_pct": 93.6,
   "by_method": {
     "doi_exact": 637,
-    "title_fuzzy": 216
+    "title_fuzzy": 223
   },
   "by_review_status": {
-    "auto": 843,
-    "review": 10
+    "auto": 849,
+    "review": 11
   },
   "by_source_org": {
     "AISIN IMRA(日本・aisin.com)": {
       "total": 97,
-      "matched": 77,
-      "rate_pct": 79.4
+      "matched": 84,
+      "rate_pct": 86.6
     },
     "AISIN IMRA(米国・imra.com)": {
       "total": 313,
@@ -33,6 +33,6 @@
       "rate_pct": 99.2
     }
   },
-  "unique_openalex_works": 845,
+  "unique_openalex_works": 852,
   "duplicate_openalex_ids": 8
 }
