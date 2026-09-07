@@ -1,41 +1,48 @@
 {
-  "input_author_records": 3206,
-  "researchers": 1249,
+  "input_author_records": 4448,
+  "input_papers": 857,
+  "researchers": 1682,
   "by_id_source": {
-    "name_key": 866,
-    "orcid": 383
+    "name_key": 1181,
+    "orcid": 501
   },
   "by_confidence": {
-    "medium": 712,
-    "high": 383,
-    "low": 154
+    "medium": 1008,
+    "high": 501,
+    "low": 173
   },
-  "researchers_with_multiple_name_variants": 165,
-  "initials_only_researchers": 160,
-  "cross_org_researchers": 21,
-  "researchers_with_toyota_affiliation_evidence": 574,
+  "researchers_with_multiple_name_variants": 255,
+  "initials_only_researchers": 180,
+  "cross_org_researchers": 113,
+  "toyota_researchers": 773,
+  "n_papers_distribution": {
+    "median": 1.0,
+    "ge_5": 197,
+    "ge_10": 64,
+    "ge_20": 18
+  },
   "namekey_validation": {
-    "labeled_records": 779,
-    "distinct_orcids": 383,
+    "labeled_records": 950,
+    "distinct_orcids": 501,
     "name_key": {
-      "distinct_keys": 369,
-      "over_merged_keys": 16,
-      "over_merged_pct": 4.3,
+      "distinct_keys": 480,
+      "over_merged_keys": 23,
+      "over_merged_pct": 4.8,
       "over_split_orcids": 4,
-      "over_split_pct": 1.0,
+      "over_split_pct": 0.8,
       "examples_over_merged": {
         "hatanaka|t": 2,
         "inoue|d": 2,
         "ishigaki|m": 2,
-        "mizuno|h": 2,
-        "nagai|y": 2
+        "kobayashi|t": 2,
+        "makino|h": 2
       }
     },
     "full_key": {
-      "distinct_keys": 393,
-      "over_merged_keys": 4,
-      "over_split_orcids": 14,
-      "over_split_pct": 3.7
+      "distinct_keys": 511,
+      "over_merged_keys": 5,
+      "over_split_orcids": 15,
+      "over_split_pct": 3.0
     }
   }
 }
