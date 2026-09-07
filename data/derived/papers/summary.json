@@ -1,16 +1,16 @@
 {
   "papers": 917,
   "collapsed_duplicate_listings": 2,
-  "matched_to_openalex": 850,
-  "distinct_works": 845,
+  "matched_to_openalex": 857,
+  "distinct_works": 852,
   "listings_sharing_a_work": 5,
   "with_doi": 642,
-  "cited_by_total_work_level": 24786,
-  "references_total_work_level": 27052,
+  "cited_by_total_work_level": 25352,
+  "references_total_work_level": 27247,
   "by_source_org": {
     "AISIN IMRA(日本・aisin.com)": {
       "掲載": 97,
-      "対応づけ済": 77,
+      "対応づけ済": 84,
       "DOIあり": 74
     },
     "AISIN IMRA(米国・imra.com)": {
