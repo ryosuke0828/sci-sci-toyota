@@ -1,6 +1,6 @@
 # 文書
 
-`reports/` には、結論・方法・限界・出典をまとめた報告書を置く。`notes/` には探索時の作業メモを置く。
+`reports/` には、結論・方法・限界・出典をまとめた報告書を置く。`notes/` には探索時の作業メモを置く。`plans/` には作業計画を置き、決定が変わったら書き換える。
 
 ## 正本
 
@@ -20,6 +20,12 @@
 | [reports/random_impact_rule_reproduction.md](reports/random_impact_rule_reproduction.md) | Random Impact Ruleの外的再現 |
 | [reports/h_index_prediction.md](reports/h_index_prediction.md) | h指数予測力の再現 |
 | [notes/openalex_exploration.md](notes/openalex_exploration.md) | OpenAlex探索メモ |
+
+## 計画
+
+| 文書 | 内容 |
+|---|---|
+| [plans/novelty_hotstreak.md](plans/novelty_hotstreak.md) | novelty / hot streak 解析の作業計画。決定事項、実測した前提（OpenAlexスナップショットの規模・所要時間）、段階0〜3の作業内容とリスク |
 
 ## テンプレート
 
