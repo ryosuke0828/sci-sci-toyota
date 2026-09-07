@@ -1,26 +1,26 @@
 {
-  "authorship_records": 4407,
-  "papers_covered": 850,
+  "authorship_records": 4448,
+  "papers_covered": 857,
   "papers_total": 917,
-  "spine_openalex_papers": 850,
+  "spine_openalex_papers": 857,
   "spine_crossref_papers": 1,
   "affiliation_coverage_pct": 98.7,
   "affiliation_by_source": {
     "openalex": 98.2,
-    "scopus": 56.0,
-    "crossref": 25.7
+    "scopus": 55.5,
+    "crossref": 25.4
   },
-  "orcid_coverage_pct": 21.5,
-  "distinct_orcids": 499,
-  "toyota_affiliated_records": 2572,
-  "crossref_match_rate_pct": 71.7,
-  "scopus_match_rate_pct": 56.1,
+  "orcid_coverage_pct": 21.4,
+  "distinct_orcids": 501,
+  "toyota_affiliated_records": 2580,
+  "crossref_match_rate_pct": 71.0,
+  "scopus_match_rate_pct": 55.6,
   "by_source_org": {
     "AISIN IMRA(日本・aisin.com)": {
-      "著者レコード": 520,
-      "論文": 77,
-      "所属あり": 519,
-      "トヨタ系": 133
+      "著者レコード": 561,
+      "論文": 84,
+      "所属あり": 559,
+      "トヨタ系": 141
     },
     "AISIN IMRA(米国・imra.com)": {
       "著者レコード": 1515,
