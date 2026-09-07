@@ -82,3 +82,5 @@ git config core.sshCommand "ssh -i ~/.ssh/id_ed25519_ryosukee0828 -o IdentitiesO
 
 
 報告をわかりづらくするな．簡単なことをしているなら簡単な報告書を書け．
+
+「git commitして」やそれに準ずる命令があった場合には1ファイルずつ適切なメッセージをつけてcommitすること．pushは私が手動で行うので行わないこと．
