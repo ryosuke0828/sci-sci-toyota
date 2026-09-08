@@ -1,0 +1,13 @@
+doi_norm,label,seed_group,work_id,publication_year,cited_by_count,n_refs,rk
+10.1038/s41597-023-02198-9,"Lin et al. 2023 Sci Data, SciSciNet",data,4378980478,2023,116,124,1
+10.1287/mnsc.2015.2366,"Funk & Owen-Smith 2017 Manag Sci, Dynamic network measure",disruption,2303284028,2016,463,84,1
+10.1038/s41586-019-0941-9,"Wu, Wang & Evans 2019 Nature, Large teams develop small teams disrupt",disruption,2913773162,2019,1023,42,1
+10.1038/s41586-022-05543-x,"Park, Leahey & Funk 2023 Nature, Papers and patents less disruptive",disruption,4313545395,2023,829,72,1
+10.1126/science.aaf5239,"Sinatra et al. 2016 Science, Quantifying impact",hot_streak,2547045893,2016,638,50,1
+10.1038/s41586-018-0315-8,"Liu et al. 2018 Nature, Hot streaks",hot_streak,2808505390,2018,197,86,1
+10.1038/s41467-021-25477-8,"Liu et al. 2021 Nat Commun, Understanding hot streaks",hot_streak,3201257425,2021,79,76,1
+10.1126/science.1240474,"Uzzi et al. 2013 Science, Atypical combinations",novelty,2066752129,2013,1417,27,1
+10.1086/681257,"Foster, Rzhetsky & Evans 2015 ASR, Tradition and innovation",novelty,2072576647,2015,8,29,1
+10.1016/j.respol.2014.12.009,"Lee, Walsh & Wang 2015 Res Policy, Creativity in scientific teams",novelty,2059615831,2015,139,95,1
+10.1016/j.respol.2017.06.006,"Wang, Veugelers & Stephan 2017 Res Policy, Bias against novelty",novelty,3123050710,2017,517,67,1
+10.1126/science.aao0185,"Fortunato et al. 2018 Science, Science of science",review,2793071066,2018,1380,117,1

@@ -1,0 +1,18 @@
+{
+  "seeds_total": 12,
+  "seeds_resolved": 12,
+  "candidates": 5450,
+  "by_n_seeds": {
+    "9": 4,
+    "8": 7,
+    "7": 15,
+    "6": 27,
+    "5": 78,
+    "4": 132,
+    "3": 224,
+    "2": 699,
+    "1": 4264
+  },
+  "candidates_ge2_seeds": 1186,
+  "candidates_ge3_seeds": 487
+}
