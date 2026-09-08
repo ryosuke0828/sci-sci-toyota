@@ -204,7 +204,7 @@ def run_year(con: duckdb.DuckDBPyConnection, year: int, rng: np.random.Generator
         JOIN srcmap s ON s.src = e.src
         LEFT JOIN target_j t ON t.j = e.j
         ORDER BY cy
-    """).fetch_arrow_table()
+    """).to_arrow_table()
     si = arr.column("si").to_numpy(zero_copy_only=False)
     ji = arr.column("ji").to_numpy(zero_copy_only=False)
     cy = arr.column("cy").to_numpy(zero_copy_only=False)
@@ -217,7 +217,7 @@ def run_year(con: duckdb.DuckDBPyConnection, year: int, rng: np.random.Generator
     ti, tj = con.execute("""
         SELECT a.ji AS i1, b.ji AS i2 FROM target t
         JOIN target_j a ON a.j = t.j1 JOIN target_j b ON b.j = t.j2
-    """).fetch_arrow_table().to_pandas().values.T
+    """).to_arrow_table().to_pandas().values.T
     ti = ti.astype(np.int32)
     tj = tj.astype(np.int32)
 
