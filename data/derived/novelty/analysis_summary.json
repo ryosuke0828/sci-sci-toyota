@@ -1,0 +1,556 @@
+{
+  "n_papers": 718,
+  "years": [
+    2000,
+    2026
+  ],
+  "distribution": {
+    "median_z": {
+      "p10": -3.4,
+      "q1": 0.74,
+      "median": 8.49,
+      "q3": 23.74,
+      "p90": 48.86
+    },
+    "p10_z": {
+      "p10": -83.71,
+      "q1": -58.05,
+      "median": -31.07,
+      "q3": -9.45,
+      "p90": 1.9
+    },
+    "n_pairs": {
+      "p10": 10.0,
+      "q1": 36.0,
+      "median": 153.0,
+      "q3": 351.0,
+      "p90": 561.0
+    }
+  },
+  "correlation_with_citation": {
+    "median_z_vs_cite_rank": {
+      "n": 718,
+      "rho": -0.062,
+      "p": 0.09778
+    },
+    "p10_z_vs_cite_rank": {
+      "n": 718,
+      "rho": -0.207,
+      "p": 0.0
+    }
+  },
+  "uzzi_2x2": {
+    "定石低×踏み外し低": {
+      "n": 127,
+      "cite_rank_median": 0.441,
+      "cited_median": 8.0,
+      "top10pct_share": 0.087
+    },
+    "定石低×踏み外し高": {
+      "n": 232,
+      "cite_rank_median": 0.605,
+      "cited_median": 11.0,
+      "top10pct_share": 0.164
+    },
+    "定石高×踏み外し低": {
+      "n": 232,
+      "cite_rank_median": 0.44,
+      "cited_median": 8.0,
+      "top10pct_share": 0.082
+    },
+    "定石高×踏み外し高": {
+      "n": 127,
+      "cite_rank_median": 0.594,
+      "cited_median": 13.0,
+      "top10pct_share": 0.134
+    }
+  },
+  "confound_check": {
+    "n_pairs_vs_cite_rank": {
+      "n": 718,
+      "rho": 0.32,
+      "p": 0.0
+    },
+    "p10_z_vs_cite_rank_controlled": {
+      "n": 718,
+      "rho": -0.089,
+      "p": 0.01741
+    },
+    "median_z_vs_cite_rank_controlled": {
+      "n": 718,
+      "rho": 0.009,
+      "p": 0.81217
+    },
+    "by_pairs_quartile": [
+      {
+        "group": "少",
+        "n": 183,
+        "n_pairs_median": 15.0,
+        "rho": -0.039,
+        "p": 0.6004
+      },
+      {
+        "group": "やや少",
+        "n": 189,
+        "n_pairs_median": 91.0,
+        "rho": -0.121,
+        "p": 0.098
+      },
+      {
+        "group": "やや多",
+        "n": 177,
+        "n_pairs_median": 231.0,
+        "rho": -0.146,
+        "p": 0.0521
+      },
+      {
+        "group": "多",
+        "n": 169,
+        "n_pairs_median": 528.0,
+        "rho": 0.007,
+        "p": 0.923
+      }
+    ]
+  },
+  "correlation_with_conditions": {
+    "team_size_vs_median_z": {
+      "n": 718,
+      "rho": 0.005,
+      "p": 0.90179
+    },
+    "team_size_vs_p10_z": {
+      "n": 718,
+      "rho": -0.097,
+      "p": 0.00904
+    },
+    "institutions_vs_median_z": {
+      "n": 718,
+      "rho": -0.091,
+      "p": 0.01474
+    },
+    "institutions_vs_p10_z": {
+      "n": 718,
+      "rho": -0.02,
+      "p": 0.58694
+    },
+    "n_pairs_vs_p10_z": {
+      "n": 718,
+      "rho": -0.406,
+      "p": 0.0
+    }
+  },
+  "academia_industry": {
+    "なし": {
+      "n": 433,
+      "median_z_median": 10.36,
+      "p10_z_median": -33.95,
+      "cite_rank_median": 0.507
+    },
+    "あり": {
+      "n": 285,
+      "median_z_median": 7.15,
+      "p10_z_median": -27.08,
+      "cite_rank_median": 0.5
+    },
+    "p10_z の差の検定": {
+      "p": 0.19334
+    }
+  },
+  "cross_toyota_org": {
+    "なし": {
+      "n": 645,
+      "median_z_median": 9.01,
+      "p10_z_median": -31.06,
+      "cite_rank_median": 0.507
+    },
+    "あり": {
+      "n": 73,
+      "median_z_median": 4.64,
+      "p10_z_median": -33.63,
+      "cite_rank_median": 0.5
+    },
+    "p10_z の差の検定": {
+      "p": 0.76867
+    }
+  },
+  "by_source_org": [
+    {
+      "group": "豊田中央研究所",
+      "n": 340,
+      "median_z_median": 7.35,
+      "p10_z_median": -36.24,
+      "cited_median": 10.0
+    },
+    {
+      "group": "AISIN IMRA(米国・imra.com)",
+      "n": 175,
+      "median_z_median": 12.32,
+      "p10_z_median": -27.84,
+      "cited_median": 15.0
+    },
+    {
+      "group": "トヨタ自動車未来創成センター",
+      "n": 121,
+      "median_z_median": 5.3,
+      "p10_z_median": -12.04,
+      "cited_median": 4.0
+    },
+    {
+      "group": "AISIN IMRA(日本・aisin.com)",
+      "n": 82,
+      "median_z_median": 15.63,
+      "p10_z_median": -40.8,
+      "cited_median": 10.0
+    }
+  ],
+  "by_field": [
+    {
+      "group": "Engineering",
+      "n": 293,
+      "median_z_median": 6.68,
+      "p10_z_median": -29.78,
+      "cited_median": 10.0
+    },
+    {
+      "group": "Physics and Astronomy",
+      "n": 115,
+      "median_z_median": 16.5,
+      "p10_z_median": -29.7,
+      "cited_median": 9.0
+    },
+    {
+      "group": "Materials Science",
+      "n": 85,
+      "median_z_median": 11.96,
+      "p10_z_median": -48.25,
+      "cited_median": 14.0
+    },
+    {
+      "group": "Computer Science",
+      "n": 52,
+      "median_z_median": 8.3,
+      "p10_z_median": -10.14,
+      "cited_median": 4.0
+    },
+    {
+      "group": "Energy",
+      "n": 52,
+      "median_z_median": 26.1,
+      "p10_z_median": -31.02,
+      "cited_median": 17.5
+    },
+    {
+      "group": "Biochemistry, Genetics and Molecular Biology",
+      "n": 30,
+      "median_z_median": 9.8,
+      "p10_z_median": -29.53,
+      "cited_median": 7.5
+    },
+    {
+      "group": "Chemistry",
+      "n": 18,
+      "median_z_median": 6.03,
+      "p10_z_median": -46.8,
+      "cited_median": 7.5
+    },
+    {
+      "group": "Medicine",
+      "n": 16,
+      "median_z_median": 1.39,
+      "p10_z_median": -24.2,
+      "cited_median": 14.0
+    },
+    {
+      "group": "Environmental Science",
+      "n": 14,
+      "median_z_median": -0.72,
+      "p10_z_median": -30.11,
+      "cited_median": 9.0
+    }
+  ],
+  "by_year": [
+    {
+      "group": "2020",
+      "n": 84,
+      "median_z_median": 9.56,
+      "p10_z_median": -24.39,
+      "cited_median": 15.0
+    },
+    {
+      "group": "2025",
+      "n": 83,
+      "median_z_median": 4.85,
+      "p10_z_median": -41.5,
+      "cited_median": 1.0
+    },
+    {
+      "group": "2019",
+      "n": 79,
+      "median_z_median": 4.94,
+      "p10_z_median": -37.2,
+      "cited_median": 12.0
+    },
+    {
+      "group": "2023",
+      "n": 69,
+      "median_z_median": 9.9,
+      "p10_z_median": -40.25,
+      "cited_median": 8.0
+    },
+    {
+      "group": "2024",
+      "n": 68,
+      "median_z_median": 8.83,
+      "p10_z_median": -36.01,
+      "cited_median": 5.0
+    },
+    {
+      "group": "2021",
+      "n": 67,
+      "median_z_median": 7.86,
+      "p10_z_median": -39.35,
+      "cited_median": 13.0
+    },
+    {
+      "group": "2018",
+      "n": 47,
+      "median_z_median": 7.76,
+      "p10_z_median": -22.32,
+      "cited_median": 15.0
+    },
+    {
+      "group": "2022",
+      "n": 44,
+      "median_z_median": 10.36,
+      "p10_z_median": -34.49,
+      "cited_median": 10.5
+    },
+    {
+      "group": "2006",
+      "n": 21,
+      "median_z_median": 17.89,
+      "p10_z_median": -13.26,
+      "cited_median": 19.0
+    },
+    {
+      "group": "2005",
+      "n": 19,
+      "median_z_median": 10.18,
+      "p10_z_median": -25.7,
+      "cited_median": 7.0
+    },
+    {
+      "group": "2011",
+      "n": 18,
+      "median_z_median": 22.47,
+      "p10_z_median": -24.99,
+      "cited_median": 26.5
+    },
+    {
+      "group": "2007",
+      "n": 15,
+      "median_z_median": 16.07,
+      "p10_z_median": -15.7,
+      "cited_median": 24.0
+    },
+    {
+      "group": "2016",
+      "n": 13,
+      "median_z_median": 10.47,
+      "p10_z_median": -30.1,
+      "cited_median": 10.0
+    },
+    {
+      "group": "2009",
+      "n": 12,
+      "median_z_median": 30.42,
+      "p10_z_median": 2.62,
+      "cited_median": 55.5
+    },
+    {
+      "group": "2000",
+      "n": 10,
+      "median_z_median": 9.23,
+      "p10_z_median": -6.62,
+      "cited_median": 26.5
+    },
+    {
+      "group": "2008",
+      "n": 10,
+      "median_z_median": 3.97,
+      "p10_z_median": -47.89,
+      "cited_median": 30.0
+    },
+    {
+      "group": "2026",
+      "n": 10,
+      "median_z_median": 2.39,
+      "p10_z_median": -31.77,
+      "cited_median": 0.0
+    }
+  ],
+  "most_novel": [
+    {
+      "year": 2014,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": -144.29,
+      "p10_z": -337.48,
+      "cited_by_count": 0.0,
+      "title_site": "High Repetition-Rate, Pulse-Burst Assisted Desorption, Electrospray Post-Ionization Mass Spectrometry"
+    },
+    {
+      "year": 2019,
+      "source_org": "豊田中央研究所",
+      "median_z": -18.61,
+      "p10_z": -293.77,
+      "cited_by_count": 7.0,
+      "title_site": "Flow-based Image-to-image Translation with Feature Disentanglement"
+    },
+    {
+      "year": 2019,
+      "source_org": "トヨタ自動車未来創成センター",
+      "median_z": -19.79,
+      "p10_z": -178.42,
+      "cited_by_count": 6.0,
+      "title_site": "Cloning of a novel gene involved in alkane biosynthesis from Klebsiella sp"
+    },
+    {
+      "year": 2007,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": -0.55,
+      "p10_z": -165.12,
+      "cited_by_count": 24.0,
+      "title_site": "ZnMgO quantum dots grown by low-pressure metal organic chemical vapor deposition"
+    },
+    {
+      "year": 2023,
+      "source_org": "トヨタ自動車未来創成センター",
+      "median_z": -19.21,
+      "p10_z": -158.56,
+      "cited_by_count": 2.0,
+      "title_site": "Alkane Production from Fatty Alcohols by the Combined Reactions Catalyzed by an Alcohol Dehydrogenase and an Aldehyde-deformylating Oxygenase"
+    },
+    {
+      "year": 2024,
+      "source_org": "豊田中央研究所",
+      "median_z": -4.54,
+      "p10_z": -147.22,
+      "cited_by_count": 2.0,
+      "title_site": "Scale Separation of Shear-induced Criticality in Glasses"
+    },
+    {
+      "year": 2018,
+      "source_org": "豊田中央研究所",
+      "median_z": 4.21,
+      "p10_z": -145.08,
+      "cited_by_count": 8.0,
+      "title_site": "Ordered Silica Mineralization by Regulating Local Reaction Conditions"
+    },
+    {
+      "year": 2022,
+      "source_org": "AISIN IMRA(日本・aisin.com)",
+      "median_z": 13.28,
+      "p10_z": -143.23,
+      "cited_by_count": 5.0,
+      "title_site": "Hidden structural and superconducting phase induced in antiperovskite arsenide SrPd3As"
+    },
+    {
+      "year": 2011,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": 2.1,
+      "p10_z": -136.84,
+      "cited_by_count": 52.0,
+      "title_site": "Power optimization of XUV frequency combs for spectroscopy applications"
+    },
+    {
+      "year": 2016,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": -20.84,
+      "p10_z": -133.34,
+      "cited_by_count": 22.0,
+      "title_site": "Self-referenced, accurate and sensitive optical frequency comb spectroscopy with a virtually imaged phased array spectrometer"
+    }
+  ],
+  "most_conventional": [
+    {
+      "year": 2011,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": 217.24,
+      "p10_z": 169.3,
+      "cited_by_count": 0.0,
+      "title_site": "Self frequency shift near 2 μm in periodically poled Lithium Niobate waveguides"
+    },
+    {
+      "year": 2016,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": 183.97,
+      "p10_z": 157.33,
+      "cited_by_count": 0.0,
+      "title_site": "Narrow Linewidth Midinfrared Frequency Combs from Doubly-Resonant OPOs"
+    },
+    {
+      "year": 2006,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": 182.55,
+      "p10_z": 182.55,
+      "cited_by_count": 5.0,
+      "title_site": "Integrated fiber-frequency comb using a PPLN waveguide for spectral broadening and CEO phase detection"
+    },
+    {
+      "year": 2020,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": 181.35,
+      "p10_z": 34.06,
+      "cited_by_count": 3.0,
+      "title_site": "Milliwatt midinfrared from intrapulse difference frequency with a single erbium fiber laser"
+    },
+    {
+      "year": 2006,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": 145.17,
+      "p10_z": 116.39,
+      "cited_by_count": 1.0,
+      "title_site": "170 MHz spaced, self-referenced fiber-frequency-comb"
+    },
+    {
+      "year": 2024,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": 138.32,
+      "p10_z": 46.87,
+      "cited_by_count": 2.0,
+      "title_site": "Green pulse regenerative amplification using a Pr3+:LiYF4 crystal pumped by GaN blue laser diodes"
+    },
+    {
+      "year": 2000,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": 130.6,
+      "p10_z": 130.6,
+      "cited_by_count": 21.0,
+      "title_site": "Bit error rate performance of ultrashort-pulse optical CDMA detection under multi-access interference"
+    },
+    {
+      "year": 2000,
+      "source_org": "AISIN IMRA(米国・imra.com)",
+      "median_z": 129.42,
+      "p10_z": 129.42,
+      "cited_by_count": 8.0,
+      "title_site": "Generation of diffraction-limited femtosecond beams using spatially-multimode nanosecond pump sources in parametric chirped pulse amplification systems"
+    },
+    {
+      "year": 2021,
+      "source_org": "豊田中央研究所",
+      "median_z": 123.62,
+      "p10_z": -67.97,
+      "cited_by_count": 8.0,
+      "title_site": "Polarization Splitting Grating Coupler for Optical Antenna of LiDARs Consisting of Two Gratings Coupling Light in a Perfectly Vertical Direction"
+    },
+    {
+      "year": 2019,
+      "source_org": "豊田中央研究所",
+      "median_z": 123.19,
+      "p10_z": 20.43,
+      "cited_by_count": 3.0,
+      "title_site": "Silicon Optical Modulator Using a Low-loss Phase Shifter Based on Multimode Interference Waveguide"
+    }
+  ]
+}
