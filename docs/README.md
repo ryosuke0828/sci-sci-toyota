@@ -19,6 +19,7 @@
 | [reports/pilot_scopus_wos_verification.md](reports/pilot_scopus_wos_verification.md) | 受領した著者リスト（9,429名）の精度をScopus・WoSで照合したパイロット検証 |
 | [reports/random_impact_rule_reproduction.md](reports/random_impact_rule_reproduction.md) | Random Impact Ruleの外的再現 |
 | [reports/h_index_prediction.md](reports/h_index_prediction.md) | h指数予測力の再現 |
+| [reports/novelty_first_results.md](reports/novelty_first_results.md) | 論文の新規性を測った最初の結果（718件）。組織ごとの違いと、被引用との関係が参考文献数の交絡で消えること |
 | [notes/openalex_exploration.md](notes/openalex_exploration.md) | OpenAlex探索メモ |
 
 ## 計画
