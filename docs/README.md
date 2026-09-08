@@ -20,6 +20,8 @@
 | [reports/random_impact_rule_reproduction.md](reports/random_impact_rule_reproduction.md) | Random Impact Ruleの外的再現 |
 | [reports/h_index_prediction.md](reports/h_index_prediction.md) | h指数予測力の再現 |
 | [reports/scisci_foundation_review.md](reports/scisci_foundation_review.md) | 段階1-1 精読メモ。SciSciNet の novelty / disruption の実装仕様と、我々の実装との食い違い5点 |
+| [reports/sciscigpt_review.md](reports/sciscigpt_review.md) | 段階1-2 精読メモ。SciSciGPT の構成と評価、段階2で使える資源（SciSciCorpus） |
+| [reports/novelty_hotstreak_literature.md](reports/novelty_hotstreak_literature.md) | 段階2 文献調査。指標の種類・妥当性の検証結果・採否の決定。**被引用で新規性指標を検証してはいけない** |
 | [reports/novelty_first_results.md](reports/novelty_first_results.md) | **数値は無効**。新規性の最初の結果（718件）。値の定義が SciSciNet と違うことが後から判明した |
 | [notes/openalex_exploration.md](notes/openalex_exploration.md) | OpenAlex探索メモ |
 
