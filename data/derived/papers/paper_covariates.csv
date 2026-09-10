@@ -1,0 +1,853 @@
+paper_uid,source_org,year_openalex,primary_field,n_authors,referenced_works_count,cited_by_count,n_countries,has_university_oa,has_company_oa,has_government_oa,n_refs_with_field,n_ref_fields,ref_field_hhi,has_university_affil,has_company_affil,n_toyota_orgs_paper,is_international,is_solo,is_industry_academia_oa,is_industry_academia_affil,is_cross_org
+025329be2f96,AISIN IMRA(日本・aisin.com),2015.0,Engineering,3.0,13.0,3.0,2.0,1.0,1.0,0.0,13.0,4.0,0.3727810650887574,True,True,1,True,False,True,True,False
+070b47e118ec,AISIN IMRA(日本・aisin.com),2011.0,Energy,5.0,30.0,4.0,1.0,0.0,0.0,0.0,29.0,4.0,0.643281807372176,False,True,1,False,False,False,False,False
+0cb5ea330cbb,AISIN IMRA(日本・aisin.com),2008.0,Materials Science,9.0,37.0,4.0,1.0,1.0,0.0,0.0,37.0,11.0,0.14974433893352812,True,True,1,False,False,False,True,False
+12a9a39144c1,AISIN IMRA(日本・aisin.com),2023.0,Engineering,6.0,16.0,14.0,1.0,1.0,1.0,0.0,16.0,2.0,0.625,True,True,1,False,False,True,True,False
+17e701b729d3,AISIN IMRA(日本・aisin.com),2005.0,"Biochemistry, Genetics and Molecular Biology",5.0,39.0,7.0,1.0,1.0,0.0,1.0,38.0,6.0,0.36426592797783935,True,True,1,False,False,False,True,False
+230c7d6c0e31,AISIN IMRA(日本・aisin.com),2025.0,Engineering,4.0,26.0,1.0,2.0,1.0,0.0,0.0,26.0,5.0,0.4319526627218935,True,True,1,True,False,False,True,False
+2389d6e7b9fe,AISIN IMRA(日本・aisin.com),2023.0,Physics and Astronomy,6.0,8.0,1.0,1.0,1.0,0.0,0.0,8.0,2.0,0.78125,True,True,1,False,False,False,True,False
+2cfb4180b387,AISIN IMRA(日本・aisin.com),2018.0,Materials Science,9.0,34.0,24.0,1.0,0.0,0.0,1.0,30.0,3.0,0.8155555555555556,False,True,1,False,False,False,False,False
+31784b84dcd9,AISIN IMRA(日本・aisin.com),2025.0,Physics and Astronomy,4.0,18.0,0.0,1.0,0.0,1.0,1.0,17.0,4.0,0.5294117647058824,False,True,1,False,False,False,False,False
+35324f645852,AISIN IMRA(日本・aisin.com),2021.0,"Biochemistry, Genetics and Molecular Biology",4.0,55.0,11.0,1.0,0.0,1.0,0.0,53.0,3.0,0.858312566749733,False,True,2,False,False,False,False,True
+3624008ea75c,AISIN IMRA(日本・aisin.com),2020.0,Materials Science,10.0,23.0,15.0,1.0,0.0,0.0,1.0,19.0,2.0,0.5124653739612188,False,True,1,False,False,False,False,False
+369182d11651,AISIN IMRA(日本・aisin.com),2022.0,Physics and Astronomy,11.0,46.0,10.0,1.0,1.0,0.0,1.0,39.0,3.0,0.5266272189349113,True,True,1,False,False,False,True,False
+399c62c60b72,AISIN IMRA(日本・aisin.com),2011.0,Energy,8.0,34.0,3.0,2.0,1.0,0.0,0.0,34.0,4.0,0.6903114186851211,True,True,1,True,False,False,True,False
+3a657746996c,AISIN IMRA(日本・aisin.com),2011.0,Energy,8.0,40.0,29.0,1.0,0.0,0.0,0.0,40.0,8.0,0.41625,False,True,2,False,False,False,False,True
+3be7c4e77b95,AISIN IMRA(日本・aisin.com),2013.0,Energy,7.0,41.0,18.0,2.0,0.0,0.0,0.0,40.0,2.0,0.95125,False,True,1,True,False,False,False,False
+3d700028390d,AISIN IMRA(日本・aisin.com),2005.0,Energy,11.0,57.0,427.0,1.0,0.0,1.0,1.0,56.0,7.0,0.6262755102040817,False,True,0,False,False,False,False,False
+3ff1a2b6712e,AISIN IMRA(日本・aisin.com),2009.0,Environmental Science,3.0,9.0,9.0,1.0,1.0,1.0,0.0,9.0,3.0,0.43209876543209874,True,True,1,False,False,True,True,False
+4501228b76d0,AISIN IMRA(日本・aisin.com),2012.0,Engineering,8.0,27.0,29.0,1.0,1.0,0.0,0.0,27.0,6.0,0.47050754458161864,True,True,1,False,False,False,True,False
+46de8cd4a6be,AISIN IMRA(日本・aisin.com),2004.0,"Biochemistry, Genetics and Molecular Biology",1.0,5.0,1.0,1.0,0.0,0.0,0.0,5.0,1.0,1.0,False,True,1,False,True,False,False,False
+4878d337b081,AISIN IMRA(日本・aisin.com),2026.0,"Biochemistry, Genetics and Molecular Biology",4.0,0.0,0.0,,,,,,,,True,True,1,False,False,False,True,False
+4b5fbbf57346,AISIN IMRA(日本・aisin.com),2006.0,Energy,11.0,25.0,346.0,3.0,1.0,1.0,0.0,25.0,4.0,0.6,True,True,1,True,False,True,True,False
+4e1bc421b023,AISIN IMRA(日本・aisin.com),2016.0,Materials Science,10.0,35.0,83.0,1.0,1.0,0.0,1.0,32.0,5.0,0.71875,True,True,1,False,False,False,True,False
+54bf4613559e,AISIN IMRA(日本・aisin.com),2025.0,Engineering,5.0,84.0,4.0,2.0,1.0,0.0,0.0,76.0,5.0,0.346606648199446,True,True,1,True,False,False,True,False
+5503e4f7dfb2,AISIN IMRA(日本・aisin.com),2011.0,Energy,7.0,27.0,24.0,2.0,0.0,1.0,0.0,26.0,5.0,0.606508875739645,False,True,1,True,False,False,False,False
+56ab75b62dd3,AISIN IMRA(日本・aisin.com),2004.0,"Biochemistry, Genetics and Molecular Biology",1.0,0.0,0.0,,,,,,,,False,False,0,False,True,False,False,False
+58b63b16623f,AISIN IMRA(日本・aisin.com),2019.0,Physics and Astronomy,10.0,28.0,17.0,1.0,0.0,0.0,1.0,28.0,4.0,0.5586734693877551,False,True,1,False,False,False,False,False
+59cf6843c915,AISIN IMRA(日本・aisin.com),2020.0,Materials Science,12.0,22.0,2.0,1.0,1.0,0.0,1.0,22.0,7.0,0.26859504132231404,True,True,1,False,False,False,True,False
+5be9396c98ab,AISIN IMRA(日本・aisin.com),2011.0,Energy,8.0,37.0,18.0,2.0,1.0,0.0,0.0,36.0,7.0,0.5756172839506173,True,True,1,True,False,False,True,False
+5d12aa09c7f9,AISIN IMRA(日本・aisin.com),2011.0,Energy,6.0,26.0,36.0,1.0,0.0,0.0,0.0,24.0,3.0,0.7743055555555556,False,True,1,False,False,False,False,False
+5ea500536453,AISIN IMRA(日本・aisin.com),2019.0,Materials Science,8.0,59.0,21.0,1.0,0.0,0.0,1.0,50.0,2.0,0.9232,False,True,1,False,False,False,False,False
+620cfcc9aab5,AISIN IMRA(日本・aisin.com),2018.0,Materials Science,7.0,45.0,4.0,1.0,0.0,0.0,1.0,38.0,3.0,0.8988919667590027,False,True,1,False,False,False,False,False
+65d7ae4e565c,AISIN IMRA(日本・aisin.com),2004.0,"Biochemistry, Genetics and Molecular Biology",4.0,14.0,8.0,1.0,0.0,0.0,0.0,14.0,1.0,1.0,False,True,1,False,False,False,False,False
+66640bfaa5c2,AISIN IMRA(日本・aisin.com),2018.0,Energy,12.0,25.0,26.0,4.0,0.0,1.0,0.0,24.0,3.0,0.65625,False,True,2,True,False,False,False,True
+6b50834cd8e3,AISIN IMRA(日本・aisin.com),2010.0,"Biochemistry, Genetics and Molecular Biology",2.0,12.0,5.0,3.0,0.0,1.0,0.0,12.0,3.0,0.4305555555555556,False,True,2,True,False,False,False,True
+6bc07324fa56,AISIN IMRA(日本・aisin.com),2019.0,Materials Science,13.0,41.0,69.0,2.0,1.0,0.0,1.0,41.0,2.0,0.535990481856038,True,True,1,True,False,False,True,False
+7000e6cffc55,AISIN IMRA(日本・aisin.com),2023.0,Engineering,3.0,34.0,21.0,1.0,1.0,0.0,0.0,34.0,3.0,0.5069204152249135,True,True,1,False,False,False,True,False
+7092e633df0d,AISIN IMRA(日本・aisin.com),2006.0,Environmental Science,3.0,22.0,58.0,1.0,1.0,1.0,0.0,22.0,2.0,0.6033057851239669,True,True,1,False,False,True,True,False
+7115b529d2e8,AISIN IMRA(日本・aisin.com),2005.0,"Biochemistry, Genetics and Molecular Biology",1.0,10.0,1.0,1.0,0.0,0.0,0.0,9.0,1.0,1.0,False,True,1,False,True,False,False,False
+74a274aea889,AISIN IMRA(日本・aisin.com),2023.0,Physics and Astronomy,4.0,65.0,8.0,1.0,0.0,1.0,1.0,58.0,5.0,0.5755053507728894,False,True,0,False,False,False,False,False
+75b7a62816c6,AISIN IMRA(日本・aisin.com),2022.0,Engineering,3.0,8.0,0.0,1.0,1.0,1.0,0.0,8.0,3.0,0.59375,True,True,1,False,False,True,True,False
+7d4d22b5226f,AISIN IMRA(日本・aisin.com),2024.0,Engineering,5.0,69.0,22.0,2.0,1.0,0.0,0.0,63.0,6.0,0.30864197530864196,True,True,1,True,False,False,True,False
+7e70f9aa21b2,AISIN IMRA(日本・aisin.com),2021.0,Materials Science,12.0,34.0,13.0,1.0,1.0,0.0,1.0,28.0,3.0,0.6505102040816326,True,True,1,False,False,False,True,False
+82de53fe58e5,AISIN IMRA(日本・aisin.com),2017.0,Materials Science,11.0,32.0,10.0,1.0,0.0,0.0,1.0,32.0,5.0,0.513671875,False,True,1,False,False,False,False,False
+848bce5662d4,AISIN IMRA(日本・aisin.com),2023.0,Chemistry,5.0,35.0,2.0,1.0,1.0,0.0,0.0,35.0,3.0,0.6277551020408163,True,True,1,False,False,False,True,False
+853b21f8f5a3,AISIN IMRA(日本・aisin.com),2016.0,Materials Science,10.0,28.0,280.0,1.0,1.0,0.0,1.0,24.0,3.0,0.84375,True,True,1,False,False,False,True,False
+8a2242a7cabb,AISIN IMRA(日本・aisin.com),2011.0,Energy,11.0,28.0,26.0,2.0,1.0,0.0,0.0,27.0,3.0,0.8600823045267489,True,True,2,True,False,False,True,True
+8a7d15106cd7,AISIN IMRA(日本・aisin.com),2005.0,"Biochemistry, Genetics and Molecular Biology",1.0,29.0,56.0,1.0,0.0,0.0,0.0,29.0,3.0,0.652794292508918,False,True,1,False,True,False,False,False
+8d0baa6811a4,AISIN IMRA(日本・aisin.com),2021.0,Engineering,3.0,62.0,2.0,1.0,1.0,1.0,0.0,57.0,8.0,0.28654970760233917,True,True,1,False,False,True,True,False
+8e123337385d,AISIN IMRA(日本・aisin.com),2011.0,Energy,6.0,33.0,16.0,1.0,0.0,0.0,0.0,33.0,6.0,0.5922865013774105,False,True,1,False,False,False,False,False
+91abded8809b,AISIN IMRA(日本・aisin.com),2021.0,Physics and Astronomy,9.0,28.0,3.0,1.0,0.0,0.0,1.0,28.0,3.0,0.5,False,True,1,False,False,False,False,False
+931ba4a1bd27,AISIN IMRA(日本・aisin.com),2023.0,Physics and Astronomy,9.0,33.0,1.0,1.0,0.0,0.0,1.0,32.0,3.0,0.728515625,False,True,1,False,False,False,False,False
+955d72de2df6,AISIN IMRA(日本・aisin.com),2025.0,Physics and Astronomy,10.0,47.0,0.0,1.0,1.0,1.0,1.0,42.0,3.0,0.5555555555555556,True,True,0,False,False,True,True,False
+9b37f0f8cf85,AISIN IMRA(日本・aisin.com),2022.0,Materials Science,8.0,21.0,5.0,1.0,0.0,0.0,1.0,19.0,3.0,0.8060941828254847,False,True,1,False,False,False,False,False
+a00c47d2a0a7,AISIN IMRA(日本・aisin.com),2006.0,"Biochemistry, Genetics and Molecular Biology",6.0,71.0,8.0,3.0,1.0,1.0,1.0,71.0,6.0,0.4870065463201746,True,True,1,True,False,True,True,False
+a07af36ee29a,AISIN IMRA(日本・aisin.com),2023.0,Materials Science,13.0,38.0,1.0,1.0,1.0,0.0,1.0,38.0,6.0,0.32409972299168976,True,True,1,False,False,False,True,False
+a5678f00dcfb,AISIN IMRA(日本・aisin.com),2021.0,Materials Science,12.0,37.0,6.0,1.0,0.0,0.0,1.0,32.0,5.0,0.453125,False,True,1,False,False,False,False,False
+a607b9af8630,AISIN IMRA(日本・aisin.com),2012.0,Engineering,6.0,29.0,22.0,2.0,1.0,1.0,0.0,28.0,9.0,0.18622448979591838,True,True,1,True,False,True,True,False
+a6302d08bc70,AISIN IMRA(日本・aisin.com),2021.0,Materials Science,11.0,46.0,18.0,2.0,1.0,0.0,1.0,40.0,3.0,0.64125,False,True,1,True,False,False,False,False
+a8042ac2cc4c,AISIN IMRA(日本・aisin.com),2016.0,Engineering,4.0,45.0,7.0,1.0,0.0,1.0,0.0,45.0,6.0,0.4785185185185185,False,True,2,False,False,False,False,True
+a8cacb8a650c,AISIN IMRA(日本・aisin.com),2011.0,Energy,5.0,30.0,27.0,1.0,0.0,0.0,0.0,29.0,4.0,0.6504161712247325,False,True,1,False,False,False,False,False
+a91e05d6544d,AISIN IMRA(日本・aisin.com),2025.0,Materials Science,6.0,58.0,0.0,1.0,1.0,0.0,0.0,56.0,3.0,0.6932397959183674,True,True,1,False,False,False,True,False
+ab48e902e881,AISIN IMRA(日本・aisin.com),2021.0,Physics and Astronomy,9.0,46.0,9.0,1.0,0.0,1.0,1.0,46.0,5.0,0.5491493383742911,False,True,2,False,False,False,False,True
+ad90d790c9d8,AISIN IMRA(日本・aisin.com),2023.0,Engineering,7.0,32.0,12.0,1.0,0.0,0.0,1.0,31.0,4.0,0.3465140478668054,False,True,1,False,False,False,False,False
+adce50423e8a,AISIN IMRA(日本・aisin.com),2007.0,"Biochemistry, Genetics and Molecular Biology",2.0,5.0,1.0,2.0,1.0,1.0,0.0,5.0,1.0,1.0,False,True,1,True,False,True,False,False
+b024e6ffda17,AISIN IMRA(日本・aisin.com),2011.0,Energy,10.0,42.0,44.0,2.0,1.0,0.0,0.0,41.0,6.0,0.49196906603212376,False,True,1,True,False,False,False,False
+b2782d95e10c,AISIN IMRA(日本・aisin.com),2006.0,Energy,3.0,30.0,63.0,1.0,0.0,0.0,0.0,30.0,7.0,0.3333333333333333,False,True,1,False,False,False,False,False
+b68c11ed7d50,AISIN IMRA(日本・aisin.com),2012.0,Energy,4.0,28.0,2.0,1.0,0.0,0.0,0.0,28.0,3.0,0.8647959183673469,False,True,1,False,False,False,False,False
+b6c429dd1a94,AISIN IMRA(日本・aisin.com),2021.0,Materials Science,11.0,31.0,11.0,1.0,0.0,0.0,1.0,27.0,4.0,0.4375857338820302,False,True,1,False,False,False,False,False
+bb9d728e9ad2,AISIN IMRA(日本・aisin.com),2007.0,"Biochemistry, Genetics and Molecular Biology",4.0,17.0,1.0,1.0,1.0,0.0,1.0,16.0,4.0,0.4453125,True,True,1,False,False,False,True,False
+bc536ccccd39,AISIN IMRA(日本・aisin.com),2020.0,Engineering,3.0,27.0,3.0,1.0,1.0,1.0,0.0,27.0,6.0,0.3333333333333333,True,True,1,False,False,True,True,False
+c257d70b8717,AISIN IMRA(日本・aisin.com),2007.0,"Biochemistry, Genetics and Molecular Biology",2.0,10.0,15.0,1.0,0.0,1.0,0.0,9.0,5.0,0.35802469135802467,False,True,1,False,False,False,False,False
+cefee6d1f84d,AISIN IMRA(日本・aisin.com),2021.0,Engineering,4.0,30.0,17.0,1.0,1.0,0.0,0.0,30.0,5.0,0.56,True,True,1,False,False,False,True,False
+d7e466fe9b68,AISIN IMRA(日本・aisin.com),2021.0,Engineering,8.0,35.0,42.0,2.0,1.0,1.0,0.0,35.0,6.0,0.23591836734693877,True,True,1,True,False,True,True,False
+d8d23728bf47,AISIN IMRA(日本・aisin.com),2023.0,Engineering,5.0,8.0,1.0,1.0,1.0,0.0,0.0,8.0,3.0,0.46875,True,True,1,False,False,False,True,False
+e165cf6e3e93,AISIN IMRA(日本・aisin.com),2016.0,Engineering,11.0,40.0,38.0,5.0,1.0,1.0,0.0,40.0,3.0,0.62625,True,True,1,True,False,True,True,False
+e17bcf32ce5e,AISIN IMRA(日本・aisin.com),2018.0,Materials Science,8.0,30.0,6.0,1.0,0.0,1.0,1.0,27.0,3.0,0.6872427983539094,False,True,1,False,False,False,False,False
+e2975bb03fa9,AISIN IMRA(日本・aisin.com),2019.0,Physics and Astronomy,11.0,46.0,8.0,1.0,0.0,0.0,1.0,44.0,5.0,0.30991735537190085,False,True,1,False,False,False,False,False
+e8fa643c1acd,AISIN IMRA(日本・aisin.com),2025.0,Physics and Astronomy,7.0,23.0,0.0,4.0,1.0,1.0,1.0,23.0,4.0,0.31947069943289225,False,True,1,True,False,True,False,False
+e9ac119e8dae,AISIN IMRA(日本・aisin.com),2004.0,"Biochemistry, Genetics and Molecular Biology",1.0,26.0,15.0,1.0,0.0,0.0,0.0,26.0,3.0,0.7899408284023669,False,False,0,False,True,False,False,False
+ed3d3fcd7d15,AISIN IMRA(日本・aisin.com),2019.0,Engineering,5.0,31.0,74.0,2.0,1.0,1.0,1.0,31.0,4.0,0.7148803329864725,True,True,1,True,False,True,True,False
+eda00a147ef4,AISIN IMRA(日本・aisin.com),2006.0,"Biochemistry, Genetics and Molecular Biology",2.0,21.0,4.0,1.0,0.0,0.0,0.0,18.0,2.0,0.8950617283950617,False,True,1,False,False,False,False,False
+edb94f886caa,AISIN IMRA(日本・aisin.com),2017.0,Materials Science,11.0,50.0,79.0,4.0,1.0,0.0,1.0,49.0,4.0,0.36776343190337357,True,True,1,True,False,False,True,False
+f093823fb012,AISIN IMRA(日本・aisin.com),2014.0,Earth and Planetary Sciences,7.0,31.0,46.0,1.0,1.0,1.0,0.0,30.0,7.0,0.18666666666666668,True,True,1,False,False,True,True,False
+fe9a90b31b7e,AISIN IMRA(日本・aisin.com),2025.0,Chemistry,7.0,40.0,1.0,1.0,0.0,0.0,1.0,39.0,4.0,0.5200525969756739,False,True,1,False,False,False,False,False
+02f27c0dae41,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,5.0,5.0,3.0,0.0,0.0,1.0,0.0,5.0,2.0,0.68,False,True,1,False,False,False,False,False
+0497ac6b974f,AISIN IMRA(米国・imra.com),2024.0,Engineering,2.0,33.0,2.0,1.0,0.0,1.0,0.0,33.0,2.0,0.7024793388429752,False,True,1,False,False,False,False,False
+055660bec4db,AISIN IMRA(米国・imra.com),2020.0,Engineering,4.0,32.0,0.0,1.0,1.0,1.0,0.0,32.0,3.0,0.880859375,False,True,1,False,False,True,False,False
+067b01848054,AISIN IMRA(米国・imra.com),2023.0,Computer Science,2.0,9.0,1.0,0.0,0.0,1.0,0.0,7.0,3.0,0.42857142857142855,False,True,1,False,False,False,False,False
+06a94e525622,AISIN IMRA(米国・imra.com),2007.0,Engineering,2.0,8.0,53.0,2.0,0.0,1.0,0.0,8.0,2.0,0.78125,False,True,1,True,False,False,False,False
+06e902a79421,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,2.0,21.0,154.0,0.0,0.0,1.0,0.0,21.0,2.0,0.5555555555555556,False,True,1,False,False,False,False,False
+0a4c5e96d285,AISIN IMRA(米国・imra.com),2007.0,Physics and Astronomy,2.0,52.0,32.0,0.0,0.0,1.0,0.0,48.0,2.0,0.5078125,False,True,1,False,False,False,False,False
+0a90cfe47e38,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,5.0,18.0,66.0,1.0,1.0,1.0,0.0,17.0,2.0,0.7923875432525952,True,True,1,False,False,True,True,False
+0a9c9daa822f,AISIN IMRA(米国・imra.com),2004.0,Engineering,4.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+0abe40d14a0b,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,7.0,2.0,1.0,2.0,1.0,1.0,0.0,2.0,1.0,1.0,True,True,1,True,False,True,True,False
+0b1b7a2daac9,AISIN IMRA(米国・imra.com),2005.0,Engineering,3.0,7.0,0.0,0.0,0.0,1.0,0.0,7.0,2.0,0.5918367346938775,False,True,1,False,False,False,False,False
+0b8be374c492,AISIN IMRA(米国・imra.com),2007.0,Engineering,6.0,0.0,1.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+0bfb72a23530,AISIN IMRA(米国・imra.com),2021.0,Materials Science,11.0,95.0,11.0,2.0,1.0,1.0,0.0,95.0,9.0,0.33008310249307476,True,True,1,True,False,True,True,False
+0c5047e5b1d5,AISIN IMRA(米国・imra.com),2007.0,Engineering,5.0,23.0,102.0,1.0,1.0,1.0,0.0,23.0,4.0,0.47448015122873344,True,True,1,False,False,True,True,False
+0c5a9f4def54,AISIN IMRA(米国・imra.com),2023.0,Engineering,11.0,4.0,1.0,1.0,1.0,1.0,0.0,4.0,1.0,1.0,True,True,1,False,False,True,True,False
+0d18f50d9e8f,AISIN IMRA(米国・imra.com),2009.0,Materials Science,12.0,19.0,3.0,2.0,1.0,1.0,0.0,19.0,3.0,0.8060941828254847,True,True,1,True,False,True,True,False
+0d97ca1f7ab2,AISIN IMRA(米国・imra.com),1996.0,Physics and Astronomy,5.0,5.0,9.0,0.0,0.0,1.0,0.0,5.0,1.0,1.0,False,True,1,False,False,False,False,False
+12694fc1f57c,AISIN IMRA(米国・imra.com),2015.0,Physics and Astronomy,6.0,18.0,34.0,1.0,0.0,1.0,0.0,18.0,2.0,0.7222222222222222,True,True,1,False,False,False,True,False
+13445895d10e,AISIN IMRA(米国・imra.com),2003.0,Physics and Astronomy,6.0,0.0,1.0,1.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+158cacadff8b,AISIN IMRA(米国・imra.com),1968.0,Engineering,2.0,0.0,0.0,,,,,,,,False,False,0,False,False,False,False,False
+17def8b212e1,AISIN IMRA(米国・imra.com),2010.0,Engineering,4.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+1994ec9fb1ec,AISIN IMRA(米国・imra.com),2002.0,Physics and Astronomy,5.0,1.0,7.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,False,True,1,False,False,False,False,False
+19cc7a568be8,AISIN IMRA(米国・imra.com),2014.0,Chemistry,6.0,6.0,0.0,1.0,1.0,1.0,0.0,5.0,2.0,0.68,True,True,1,False,False,True,True,False
+1bba178fb9d5,AISIN IMRA(米国・imra.com),1993.0,Physics and Astronomy,3.0,8.0,26.0,1.0,1.0,0.0,0.0,8.0,2.0,0.53125,True,False,0,False,False,False,False,False
+1d0ed5210dcd,AISIN IMRA(米国・imra.com),2006.0,Materials Science,7.0,17.0,81.0,1.0,1.0,1.0,0.0,17.0,2.0,0.889273356401384,True,True,1,False,False,True,True,False
+1d3310e699ac,AISIN IMRA(米国・imra.com),2007.0,Materials Science,10.0,25.0,85.0,1.0,1.0,1.0,0.0,23.0,3.0,0.6370510396975425,True,True,1,False,False,True,True,False
+1d9ade0397cb,AISIN IMRA(米国・imra.com),2016.0,Engineering,4.0,0.0,3.0,1.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+1e4ec0591b7c,AISIN IMRA(米国・imra.com),2007.0,Physics and Astronomy,2.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+1f0abf73662a,AISIN IMRA(米国・imra.com),2001.0,Physics and Astronomy,4.0,16.0,19.0,1.0,1.0,1.0,0.0,16.0,2.0,0.6953125,True,True,1,False,False,True,True,False
+1f5df93c67a1,AISIN IMRA(米国・imra.com),1992.0,Engineering,5.0,5.0,23.0,2.0,1.0,0.0,1.0,5.0,2.0,0.68,True,False,0,True,False,False,False,False
+1f69ed8351f9,AISIN IMRA(米国・imra.com),2001.0,Engineering,4.0,11.0,77.0,1.0,1.0,1.0,0.0,11.0,2.0,0.5371900826446281,True,True,1,False,False,True,True,False
+1fa415734e17,AISIN IMRA(米国・imra.com),2009.0,Engineering,5.0,17.0,87.0,0.0,0.0,1.0,0.0,17.0,2.0,0.7923875432525952,False,True,1,False,False,False,False,False
+20ae4348c56e,AISIN IMRA(米国・imra.com),2008.0,Engineering,3.0,9.0,24.0,1.0,1.0,1.0,0.0,9.0,2.0,0.8024691358024691,False,True,1,False,False,True,False,False
+20d2bc404bae,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,5.0,10.0,81.0,1.0,1.0,1.0,0.0,10.0,2.0,0.68,True,True,1,False,False,True,True,False
+236e80a16dd5,AISIN IMRA(米国・imra.com),2017.0,Engineering,3.0,17.0,11.0,,,,,16.0,2.0,0.5703125,False,False,0,False,False,False,False,False
+24b429e39b96,AISIN IMRA(米国・imra.com),2016.0,Engineering,9.0,26.0,0.0,2.0,1.0,1.0,0.0,24.0,5.0,0.3715277777777778,True,True,1,True,False,True,True,False
+27d541dbdac6,AISIN IMRA(米国・imra.com),2024.0,Computer Science,2.0,28.0,8.0,0.0,0.0,1.0,0.0,22.0,3.0,0.5247933884297521,False,True,1,False,False,False,False,False
+291f9a7a64b1,AISIN IMRA(米国・imra.com),2009.0,Physics and Astronomy,2.0,208.0,405.0,0.0,0.0,1.0,0.0,200.0,2.0,0.5882,False,True,1,False,False,False,False,False
+2afc3a28bf38,AISIN IMRA(米国・imra.com),1999.0,Physics and Astronomy,8.0,8.0,47.0,1.0,1.0,1.0,0.0,8.0,2.0,0.625,True,True,1,False,False,True,True,False
+2c9a350e970a,AISIN IMRA(米国・imra.com),2023.0,Engineering,2.0,51.0,6.0,2.0,1.0,1.0,0.0,43.0,3.0,0.5045970795024337,False,True,1,True,False,True,False,False
+2caafd6d935d,AISIN IMRA(米国・imra.com),2024.0,Engineering,5.0,51.0,5.0,2.0,1.0,1.0,0.0,51.0,5.0,0.5470972702806612,True,True,1,True,False,True,True,False
+2cead05d5a90,AISIN IMRA(米国・imra.com),2011.0,Physics and Astronomy,4.0,2.0,4.0,1.0,1.0,1.0,0.0,2.0,1.0,1.0,True,True,1,False,False,True,True,False
+2d1632708d1a,AISIN IMRA(米国・imra.com),2013.0,Physics and Astronomy,11.0,0.0,0.0,2.0,1.0,1.0,1.0,,,,True,True,1,True,False,True,True,False
+2f17cd2c50e0,AISIN IMRA(米国・imra.com),2000.0,Physics and Astronomy,7.0,4.0,8.0,0.0,0.0,1.0,0.0,4.0,1.0,1.0,False,True,1,False,False,False,False,False
+2fdccb60f1e4,AISIN IMRA(米国・imra.com),2009.0,Engineering,7.0,21.0,74.0,0.0,0.0,1.0,0.0,21.0,2.0,0.691609977324263,False,True,1,False,False,False,False,False
+318428835ed8,AISIN IMRA(米国・imra.com),2025.0,Chemistry,5.0,34.0,0.0,1.0,0.0,1.0,0.0,33.0,3.0,0.4214876033057851,False,True,1,False,False,False,False,False
+330c974be7cd,AISIN IMRA(米国・imra.com),2017.0,Physics and Astronomy,6.0,26.0,50.0,2.0,1.0,1.0,1.0,23.0,3.0,0.8374291115311909,True,True,1,True,False,True,True,False
+331e86c52bd7,AISIN IMRA(米国・imra.com),2024.0,Physics and Astronomy,3.0,54.0,7.0,,,,,51.0,4.0,0.4755863129565552,False,True,1,False,False,False,False,False
+333dd0a7d26d,AISIN IMRA(米国・imra.com),2021.0,Engineering,9.0,41.0,148.0,2.0,1.0,1.0,0.0,41.0,5.0,0.45865556216537773,True,True,1,True,False,True,True,False
+335ce5a33604,AISIN IMRA(米国・imra.com),2000.0,Physics and Astronomy,5.0,3.0,7.0,0.0,0.0,1.0,0.0,3.0,2.0,0.5555555555555556,False,True,1,False,False,False,False,False
+34313b274d3e,AISIN IMRA(米国・imra.com),2003.0,Physics and Astronomy,4.0,3.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,1.0,True,True,1,False,False,True,True,False
+34968a6178b0,AISIN IMRA(米国・imra.com),2022.0,Physics and Astronomy,7.0,40.0,8.0,1.0,0.0,1.0,0.0,33.0,3.0,0.5371900826446281,False,True,1,False,False,False,False,False
+34cee59bdcd0,AISIN IMRA(米国・imra.com),2024.0,Engineering,5.0,47.0,45.0,2.0,1.0,1.0,0.0,46.0,4.0,0.3941398865784499,False,True,2,True,False,True,False,True
+34e230bda3cf,AISIN IMRA(米国・imra.com),2006.0,Engineering,6.0,9.0,0.0,0.0,0.0,1.0,0.0,7.0,2.0,0.5102040816326531,False,True,1,False,False,False,False,False
+3563aa99d4a4,AISIN IMRA(米国・imra.com),1994.0,Engineering,5.0,4.0,40.0,1.0,1.0,1.0,0.0,4.0,2.0,0.625,True,True,1,False,False,True,True,False
+36a623b61079,AISIN IMRA(米国・imra.com),2008.0,Physics and Astronomy,2.0,87.0,51.0,0.0,0.0,1.0,0.0,86.0,2.0,0.6081665765278529,False,True,1,False,False,False,False,False
+38da33768dca,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,3.0,4.0,0.0,1.0,1.0,0.0,0.0,4.0,2.0,0.625,True,True,0,False,False,False,True,False
+3974910d85ed,AISIN IMRA(米国・imra.com),2011.0,Physics and Astronomy,7.0,17.0,28.0,1.0,1.0,1.0,0.0,16.0,3.0,0.7734375,True,True,1,False,False,True,True,False
+39dcba207806,AISIN IMRA(米国・imra.com),2006.0,Materials Science,9.0,22.0,68.0,2.0,1.0,1.0,0.0,22.0,3.0,0.8305785123966942,True,True,1,True,False,True,True,False
+3a1314ed9858,AISIN IMRA(米国・imra.com),2001.0,Engineering,9.0,3.0,0.0,1.0,1.0,0.0,0.0,3.0,2.0,0.5555555555555556,True,True,1,False,False,False,True,False
+3a19c34d35e3,AISIN IMRA(米国・imra.com),2025.0,Physics and Astronomy,2.0,19.0,0.0,,,,,19.0,2.0,0.7340720221606648,False,True,1,False,False,False,False,False
+3b23bbdfa0b5,AISIN IMRA(米国・imra.com),2013.0,Chemistry,6.0,105.0,298.0,1.0,1.0,0.0,0.0,105.0,6.0,0.7556462585034014,True,False,0,False,False,False,False,False
+3b39137bf1f5,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,9.0,4.0,3.0,1.0,0.0,1.0,1.0,4.0,1.0,1.0,False,True,1,False,False,False,False,False
+3d136358ea7a,AISIN IMRA(米国・imra.com),2024.0,Engineering,3.0,53.0,1.0,2.0,0.0,1.0,0.0,53.0,4.0,0.5606977572089712,False,True,1,True,False,False,False,False
+417e8c913f31,AISIN IMRA(米国・imra.com),2007.0,Physics and Astronomy,2.0,16.0,1.0,0.0,0.0,1.0,0.0,15.0,2.0,0.8755555555555555,False,True,1,False,False,False,False,False
+429f55f122a0,AISIN IMRA(米国・imra.com),2008.0,Computer Science,1.0,0.0,0.0,,,,,,,,False,False,0,False,True,False,False,False
+42bfe10e2f8e,AISIN IMRA(米国・imra.com),2015.0,Physics and Astronomy,6.0,37.0,55.0,,,,,34.0,1.0,1.0,False,False,0,False,False,False,False,False
+434aa41ab793,AISIN IMRA(米国・imra.com),2007.0,Engineering,3.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+44ffaa074d12,AISIN IMRA(米国・imra.com),2006.0,Engineering,3.0,5.0,1.0,0.0,0.0,1.0,0.0,4.0,2.0,0.5,False,True,1,False,False,False,False,False
+454a8d3c4ac4,AISIN IMRA(米国・imra.com),1997.0,Physics and Astronomy,6.0,19.0,1.0,1.0,1.0,0.0,0.0,19.0,1.0,1.0,True,False,0,False,False,False,False,False
+45a375f852d7,AISIN IMRA(米国・imra.com),2006.0,Physics and Astronomy,4.0,3.0,1.0,1.0,1.0,1.0,0.0,3.0,1.0,1.0,True,True,1,False,False,True,True,False
+45cb8c58b080,AISIN IMRA(米国・imra.com),2008.0,Engineering,6.0,25.0,3.0,1.0,1.0,1.0,0.0,25.0,3.0,0.7824,True,True,1,False,False,True,True,False
+46954cfa4a96,AISIN IMRA(米国・imra.com),2014.0,Physics and Astronomy,1.0,131.0,12.0,0.0,0.0,1.0,0.0,124.0,8.0,0.44549947970863685,False,True,1,False,True,False,False,False
+49c236ca1b97,AISIN IMRA(米国・imra.com),2009.0,Physics and Astronomy,6.0,4.0,2.0,0.0,0.0,1.0,0.0,3.0,1.0,1.0,False,True,1,False,False,False,False,False
+4a3c6cd0a3b2,AISIN IMRA(米国・imra.com),2012.0,Physics and Astronomy,7.0,41.0,478.0,2.0,1.0,1.0,0.0,39.0,2.0,0.8579881656804734,True,True,1,True,False,True,True,False
+4a3ce8b7082c,AISIN IMRA(米国・imra.com),2016.0,Physics and Astronomy,6.0,3.0,0.0,1.0,0.0,1.0,0.0,3.0,1.0,1.0,True,True,1,False,False,False,True,False
+4b2482f108bc,AISIN IMRA(米国・imra.com),2006.0,Engineering,4.0,0.0,13.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+4bc01f68fac4,AISIN IMRA(米国・imra.com),1995.0,Physics and Astronomy,3.0,3.0,15.0,1.0,1.0,1.0,0.0,3.0,2.0,0.5555555555555556,True,True,1,False,False,True,True,False
+4d6e53bf35e5,AISIN IMRA(米国・imra.com),2013.0,Materials Science,4.0,0.0,11.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+4ecb63be2ce0,AISIN IMRA(米国・imra.com),2007.0,Materials Science,7.0,23.0,82.0,1.0,1.0,1.0,0.0,23.0,3.0,0.6446124763705104,True,True,1,False,False,True,True,False
+4f2527e82bc1,AISIN IMRA(米国・imra.com),1994.0,Physics and Astronomy,3.0,7.0,25.0,0.0,0.0,1.0,0.0,7.0,2.0,0.5918367346938775,False,True,1,False,False,False,False,False
+4f9a58e500ea,AISIN IMRA(米国・imra.com),2011.0,Physics and Astronomy,5.0,5.0,10.0,0.0,0.0,1.0,0.0,4.0,1.0,1.0,False,True,1,False,False,False,False,False
+50f826f12bd5,AISIN IMRA(米国・imra.com),2000.0,Engineering,4.0,5.0,21.0,1.0,1.0,1.0,0.0,5.0,1.0,1.0,True,True,1,False,False,True,True,False
+51146abb4b8e,AISIN IMRA(米国・imra.com),2007.0,Physics and Astronomy,4.0,3.0,1.0,1.0,1.0,1.0,0.0,3.0,1.0,1.0,True,True,1,False,False,True,True,False
+52bf401210dd,AISIN IMRA(米国・imra.com),2010.0,Engineering,1.0,0.0,1.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,True,False,False,False
+531b7496f032,AISIN IMRA(米国・imra.com),2001.0,Engineering,3.0,11.0,15.0,1.0,0.0,0.0,0.0,11.0,3.0,0.5702479338842975,False,False,0,False,False,False,False,False
+537dd12c9e19,AISIN IMRA(米国・imra.com),2016.0,Physics and Astronomy,4.0,3.0,2.0,1.0,0.0,1.0,0.0,2.0,1.0,1.0,False,True,1,False,False,False,False,False
+53d49e998f84,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,11.0,3.0,2.0,3.0,1.0,1.0,0.0,3.0,2.0,0.5555555555555556,True,True,1,True,False,True,True,False
+542cb02422fd,AISIN IMRA(米国・imra.com),2007.0,Materials Science,9.0,25.0,24.0,1.0,1.0,1.0,0.0,25.0,3.0,0.7824,True,True,1,False,False,True,True,False
+546fc4ad4ff2,AISIN IMRA(米国・imra.com),2000.0,Engineering,4.0,4.0,0.0,0.0,0.0,1.0,0.0,4.0,2.0,0.625,False,True,1,False,False,False,False,False
+55875b781991,AISIN IMRA(米国・imra.com),2012.0,Physics and Astronomy,12.0,16.0,82.0,1.0,1.0,1.0,0.0,16.0,2.0,0.78125,True,True,1,False,False,True,True,False
+565a9b51b57d,AISIN IMRA(米国・imra.com),2005.0,Engineering,4.0,26.0,21.0,2.0,1.0,1.0,0.0,26.0,3.0,0.6775147928994083,True,True,1,True,False,True,True,False
+57ce57f87bb1,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,3.0,6.0,0.0,0.0,0.0,1.0,0.0,6.0,1.0,1.0,False,True,1,False,False,False,False,False
+582833eb0bb5,AISIN IMRA(米国・imra.com),2025.0,Engineering,5.0,31.0,3.0,,,,,31.0,3.0,0.6295525494276795,False,True,1,False,False,False,False,False
+5a58ad5b2708,AISIN IMRA(米国・imra.com),2008.0,Engineering,1.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,True,False,False,False
+5b15247f6f4b,AISIN IMRA(米国・imra.com),2000.0,Engineering,9.0,6.0,32.0,1.0,1.0,1.0,0.0,6.0,2.0,0.7222222222222222,True,True,1,False,False,True,True,False
+5b3130c55658,AISIN IMRA(米国・imra.com),2006.0,Engineering,1.0,1.0,6.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,False,True,1,False,True,False,False,False
+5d14dbf3ddcb,AISIN IMRA(米国・imra.com),1946.0,Health Professions,1.0,0.0,0.0,,,,,,,,False,False,0,False,True,False,False,False
+5d3193ae4d37,AISIN IMRA(米国・imra.com),2000.0,Physics and Astronomy,6.0,36.0,177.0,1.0,1.0,1.0,0.0,36.0,2.0,0.8024691358024691,True,True,1,False,False,True,True,False
+5f3ff40000ba,AISIN IMRA(米国・imra.com),1992.0,Physics and Astronomy,4.0,32.0,156.0,1.0,1.0,0.0,0.0,32.0,2.0,0.658203125,True,False,0,False,False,False,False,False
+623cb5503b04,AISIN IMRA(米国・imra.com),2026.0,Physics and Astronomy,7.0,49.0,0.0,1.0,1.0,1.0,0.0,49.0,6.0,0.426905456059975,True,True,1,False,False,True,True,False
+62c9b2b2cc62,AISIN IMRA(米国・imra.com),2024.0,Medicine,14.0,56.0,12.0,1.0,1.0,1.0,0.0,56.0,4.0,0.33482142857142855,True,True,1,False,False,True,True,False
+6395cfe9c4aa,AISIN IMRA(米国・imra.com),2006.0,Engineering,8.0,0.0,85.0,1.0,1.0,1.0,1.0,,,,True,True,1,False,False,True,True,False
+64a24b69ace0,AISIN IMRA(米国・imra.com),2002.0,Physics and Astronomy,9.0,9.0,46.0,2.0,0.0,1.0,0.0,9.0,2.0,0.5555555555555556,False,True,1,True,False,False,False,False
+64cc82e127a3,AISIN IMRA(米国・imra.com),2018.0,Physics and Astronomy,8.0,44.0,35.0,2.0,0.0,1.0,0.0,44.0,3.0,0.7262396694214877,True,True,1,True,False,False,True,False
+64d2db71c1c2,AISIN IMRA(米国・imra.com),2006.0,Engineering,9.0,7.0,0.0,1.0,1.0,1.0,1.0,7.0,2.0,0.5102040816326531,True,True,1,False,False,True,True,False
+671428711dd5,AISIN IMRA(米国・imra.com),1999.0,Chemistry,4.0,0.0,19.0,1.0,1.0,1.0,0.0,,,,False,True,1,False,False,True,False,False
+67639a157887,AISIN IMRA(米国・imra.com),2020.0,"Biochemistry, Genetics and Molecular Biology",6.0,22.0,15.0,1.0,1.0,1.0,0.0,19.0,5.0,0.4404432132963989,True,True,1,False,False,True,True,False
+67c7926d1379,AISIN IMRA(米国・imra.com),2000.0,Engineering,7.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,False,True,1,False,False,False,False,False
+6ac6c722b8f0,AISIN IMRA(米国・imra.com),2006.0,Engineering,5.0,17.0,95.0,2.0,1.0,1.0,0.0,17.0,3.0,0.7854671280276817,True,True,1,True,False,True,True,False
+6bb04cc720e9,AISIN IMRA(米国・imra.com),2006.0,Physics and Astronomy,4.0,10.0,81.0,1.0,0.0,1.0,0.0,10.0,2.0,0.52,False,True,1,False,False,False,False,False
+6c9c3b0305e0,AISIN IMRA(米国・imra.com),2012.0,Engineering,3.0,54.0,14.0,0.0,0.0,1.0,0.0,52.0,6.0,0.39644970414201186,False,True,1,False,False,False,False,False
+6cf3aae8a205,AISIN IMRA(米国・imra.com),1997.0,Physics and Astronomy,5.0,10.0,194.0,1.0,1.0,1.0,0.0,10.0,3.0,0.54,True,True,1,False,False,True,True,False
+6d14350cd432,AISIN IMRA(米国・imra.com),2016.0,Physics and Astronomy,11.0,39.0,172.0,2.0,1.0,1.0,0.0,38.0,6.0,0.4916897506925208,True,True,1,True,False,True,True,False
+6d75d5697d2e,AISIN IMRA(米国・imra.com),2000.0,Engineering,6.0,6.0,0.0,1.0,1.0,1.0,0.0,6.0,4.0,0.3333333333333333,False,True,1,False,False,True,False,False
+6dadbeed94c4,AISIN IMRA(米国・imra.com),2001.0,Physics and Astronomy,3.0,4.0,9.0,0.0,0.0,1.0,0.0,4.0,2.0,0.5,False,True,1,False,False,False,False,False
+70618903a605,AISIN IMRA(米国・imra.com),2010.0,Physics and Astronomy,4.0,17.0,147.0,1.0,1.0,1.0,0.0,15.0,2.0,0.8755555555555555,False,True,1,False,False,True,False,False
+710485fa85eb,AISIN IMRA(米国・imra.com),1996.0,Physics and Astronomy,2.0,14.0,32.0,1.0,1.0,1.0,0.0,14.0,2.0,0.8673469387755102,True,True,1,False,False,True,True,False
+7130a2dc7a3c,AISIN IMRA(米国・imra.com),2019.0,Engineering,9.0,13.0,2.0,2.0,1.0,1.0,0.0,12.0,2.0,0.625,True,True,1,True,False,True,True,False
+716911aa1cf4,AISIN IMRA(米国・imra.com),2011.0,Physics and Astronomy,3.0,14.0,0.0,1.0,1.0,1.0,0.0,14.0,2.0,0.7551020408163265,True,True,1,False,False,True,True,False
+721d06c6711b,AISIN IMRA(米国・imra.com),2011.0,Physics and Astronomy,7.0,48.0,52.0,1.0,1.0,1.0,0.0,44.0,3.0,0.8316115702479339,True,True,1,False,False,True,True,False
+73651e78d378,AISIN IMRA(米国・imra.com),2008.0,Engineering,3.0,15.0,65.0,0.0,0.0,1.0,0.0,15.0,2.0,0.68,False,True,1,False,False,False,False,False
+74417f7270c2,AISIN IMRA(米国・imra.com),2021.0,Engineering,11.0,37.0,40.0,2.0,1.0,1.0,0.0,37.0,4.0,0.32213294375456536,True,True,1,True,False,True,True,False
+7494bcf8d008,AISIN IMRA(米国・imra.com),1997.0,Engineering,4.0,6.0,133.0,1.0,0.0,1.0,0.0,6.0,2.0,0.7222222222222222,False,True,1,False,False,False,False,False
+75bb4f7d505a,AISIN IMRA(米国・imra.com),2004.0,Physics and Astronomy,3.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+75de016dc403,AISIN IMRA(米国・imra.com),2024.0,Physics and Astronomy,2.0,16.0,0.0,1.0,0.0,0.0,0.0,14.0,2.0,0.7551020408163265,False,True,1,False,False,False,False,False
+7c199c4f7eb1,AISIN IMRA(米国・imra.com),1993.0,Physics and Astronomy,5.0,13.0,55.0,,,,,13.0,2.0,0.8579881656804734,False,False,0,False,False,False,False,False
+7c48b8f9cb13,AISIN IMRA(米国・imra.com),2008.0,Physics and Astronomy,1.0,18.0,15.0,0.0,0.0,1.0,0.0,16.0,3.0,0.4609375,False,True,1,False,True,False,False,False
+7c9d374b2a2d,AISIN IMRA(米国・imra.com),1995.0,Physics and Astronomy,1.0,0.0,4.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,True,False,False,False
+7d426362713f,AISIN IMRA(米国・imra.com),2005.0,Engineering,4.0,12.0,180.0,0.0,0.0,1.0,0.0,11.0,2.0,0.7024793388429752,False,True,1,False,False,False,False,False
+7d47f7f65c0b,AISIN IMRA(米国・imra.com),2012.0,Physics and Astronomy,8.0,21.0,298.0,2.0,1.0,1.0,0.0,21.0,2.0,0.8276643990929705,False,True,1,True,False,True,False,False
+7e082b22cb62,AISIN IMRA(米国・imra.com),2023.0,Engineering,6.0,32.0,29.0,2.0,1.0,1.0,0.0,31.0,2.0,0.9375650364203955,True,True,1,True,False,True,True,False
+7ead6788be80,AISIN IMRA(米国・imra.com),2001.0,Engineering,6.0,7.0,1.0,1.0,1.0,0.0,0.0,7.0,2.0,0.7551020408163265,True,False,0,False,False,False,False,False
+81b853e4c154,AISIN IMRA(米国・imra.com),2016.0,Materials Science,5.0,37.0,10.0,0.0,0.0,1.0,0.0,36.0,6.0,0.28703703703703703,False,True,1,False,False,False,False,False
+825e2e9fe14d,AISIN IMRA(米国・imra.com),2007.0,Physics and Astronomy,4.0,0.0,105.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+8316ba19c3c6,AISIN IMRA(米国・imra.com),2005.0,Engineering,6.0,8.0,0.0,2.0,1.0,1.0,0.0,7.0,1.0,1.0,True,True,1,True,False,True,True,False
+834eb990d026,AISIN IMRA(米国・imra.com),2022.0,Physics and Astronomy,5.0,54.0,3.0,0.0,0.0,1.0,0.0,52.0,2.0,0.8261834319526628,False,True,1,False,False,False,False,False
+8354640bfbfd,AISIN IMRA(米国・imra.com),2005.0,Engineering,5.0,4.0,11.0,1.0,1.0,0.0,0.0,4.0,2.0,0.625,True,False,0,False,False,False,False,False
+849e404910e1,AISIN IMRA(米国・imra.com),2003.0,Engineering,4.0,4.0,0.0,1.0,1.0,0.0,0.0,4.0,2.0,0.625,False,False,0,False,False,False,False,False
+85340bb52070,AISIN IMRA(米国・imra.com),2012.0,Arts and Humanities,5.0,1.0,7.0,,,,,1.0,1.0,1.0,False,False,0,False,False,False,False,False
+86077d096a6b,AISIN IMRA(米国・imra.com),2016.0,Chemistry,11.0,28.0,22.0,1.0,1.0,1.0,0.0,26.0,4.0,0.4171597633136095,True,True,1,False,False,True,True,False
+860925e403d0,AISIN IMRA(米国・imra.com),1999.0,Physics and Astronomy,5.0,0.0,2.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+864d5deb19dc,AISIN IMRA(米国・imra.com),2025.0,Chemistry,5.0,45.0,10.0,1.0,0.0,1.0,0.0,44.0,3.0,0.35020661157024796,False,True,1,False,False,False,False,False
+8858a9a4b37b,AISIN IMRA(米国・imra.com),1995.0,Physics and Astronomy,10.0,14.0,18.0,3.0,1.0,1.0,0.0,14.0,2.0,0.5102040816326531,True,True,1,True,False,True,True,False
+887a6d40e7c3,AISIN IMRA(米国・imra.com),2000.0,Engineering,6.0,10.0,302.0,1.0,1.0,1.0,0.0,10.0,3.0,0.46,True,True,1,False,False,True,True,False
+88f4dfffc486,AISIN IMRA(米国・imra.com),2023.0,Physics and Astronomy,9.0,45.0,25.0,1.0,1.0,1.0,0.0,42.0,2.0,0.5102040816326531,True,True,1,False,False,True,True,False
+8a2fdf6bfb57,AISIN IMRA(米国・imra.com),2009.0,Engineering,7.0,11.0,90.0,0.0,0.0,1.0,0.0,11.0,2.0,0.6033057851239669,False,True,1,False,False,False,False,False
+8a6b63a5911a,AISIN IMRA(米国・imra.com),1997.0,Physics and Astronomy,6.0,12.0,95.0,1.0,1.0,1.0,0.0,12.0,1.0,1.0,True,True,1,False,False,True,True,False
+8aae5b4d3d57,AISIN IMRA(米国・imra.com),1995.0,Physics and Astronomy,7.0,11.0,34.0,1.0,1.0,1.0,0.0,11.0,2.0,0.8347107438016529,True,True,1,False,False,True,True,False
+8bb82813d63b,AISIN IMRA(米国・imra.com),2015.0,Physics and Astronomy,7.0,9.0,3.0,2.0,1.0,1.0,0.0,9.0,3.0,0.6296296296296297,True,True,1,True,False,True,True,False
+8ccdd3e64603,AISIN IMRA(米国・imra.com),2009.0,Engineering,3.0,18.0,23.0,1.0,0.0,1.0,0.0,18.0,3.0,0.6358024691358025,False,True,1,False,False,False,False,False
+8db278a25f1b,AISIN IMRA(米国・imra.com),1996.0,Physics and Astronomy,6.0,0.0,5.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+8e3772120e45,AISIN IMRA(米国・imra.com),2023.0,Medicine,9.0,53.0,42.0,1.0,1.0,1.0,0.0,53.0,5.0,0.37557849768600926,True,True,1,False,False,True,True,False
+92f8707a48fd,AISIN IMRA(米国・imra.com),1997.0,Engineering,2.0,2.0,6.0,0.0,0.0,1.0,0.0,2.0,1.0,1.0,True,True,1,False,False,False,True,False
+9402d0146f24,AISIN IMRA(米国・imra.com),2024.0,Physics and Astronomy,12.0,69.0,169.0,4.0,1.0,1.0,0.0,56.0,3.0,0.8647959183673469,True,True,1,True,False,True,True,False
+948ef8d751d5,AISIN IMRA(米国・imra.com),2020.0,Physics and Astronomy,6.0,36.0,38.0,1.0,1.0,1.0,0.0,33.0,5.0,0.44719926538108357,True,True,1,False,False,True,True,False
+95c595888652,AISIN IMRA(米国・imra.com),2023.0,Materials Science,12.0,44.0,0.0,2.0,1.0,1.0,0.0,43.0,7.0,0.2601406165494862,True,True,1,True,False,True,True,False
+96263eebccf9,AISIN IMRA(米国・imra.com),2007.0,Engineering,3.0,18.0,181.0,0.0,0.0,1.0,0.0,17.0,2.0,0.7923875432525952,False,True,1,False,False,False,False,False
+98579172da13,AISIN IMRA(米国・imra.com),2006.0,Engineering,3.0,9.0,19.0,1.0,1.0,1.0,0.0,9.0,1.0,1.0,True,True,1,False,False,True,True,False
+9909878948b4,AISIN IMRA(米国・imra.com),1994.0,Physics and Astronomy,3.0,6.0,26.0,0.0,0.0,1.0,0.0,6.0,2.0,0.5,False,True,1,False,False,False,False,False
+991dcfa921dc,AISIN IMRA(米国・imra.com),2006.0,Engineering,7.0,4.0,1.0,2.0,1.0,1.0,0.0,4.0,1.0,1.0,True,True,1,True,False,True,True,False
+99212c83a3d7,AISIN IMRA(米国・imra.com),2021.0,Physics and Astronomy,6.0,34.0,12.0,2.0,1.0,1.0,1.0,31.0,2.0,0.6878251821019771,True,True,1,True,False,True,True,False
+9bb01239ff01,AISIN IMRA(米国・imra.com),1995.0,Physics and Astronomy,5.0,0.0,104.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+9bcb2adab51f,AISIN IMRA(米国・imra.com),2006.0,Physics and Astronomy,11.0,17.0,113.0,2.0,1.0,1.0,0.0,17.0,2.0,0.7093425605536332,True,True,1,True,False,True,True,False
+9c9f7e0f19ec,AISIN IMRA(米国・imra.com),2003.0,Physics and Astronomy,4.0,4.0,1.0,0.0,0.0,1.0,0.0,4.0,2.0,0.625,False,True,1,False,False,False,False,False
+9cd8815aa40f,AISIN IMRA(米国・imra.com),2005.0,Engineering,5.0,36.0,50.0,1.0,1.0,1.0,0.0,36.0,3.0,0.6435185185185185,True,True,1,False,False,True,True,False
+9d61dc292c19,AISIN IMRA(米国・imra.com),2003.0,Physics and Astronomy,3.0,2.0,0.0,0.0,0.0,1.0,0.0,2.0,1.0,1.0,False,True,1,False,False,False,False,False
+9d7e9c821311,AISIN IMRA(米国・imra.com),2004.0,Physics and Astronomy,3.0,11.0,50.0,0.0,0.0,1.0,0.0,11.0,1.0,1.0,False,True,1,False,False,False,False,False
+a0575bad75d6,AISIN IMRA(米国・imra.com),2002.0,Physics and Astronomy,1.0,2.0,2.0,0.0,0.0,1.0,0.0,2.0,1.0,1.0,False,True,1,False,True,False,False,False
+a0a66cd8396b,AISIN IMRA(米国・imra.com),2002.0,Physics and Astronomy,8.0,5.0,8.0,2.0,1.0,1.0,0.0,5.0,2.0,0.68,True,True,1,True,False,True,True,False
+a18a8d418359,AISIN IMRA(米国・imra.com),2000.0,Engineering,2.0,0.0,1.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+a3fb4b00b493,AISIN IMRA(米国・imra.com),2025.0,Physics and Astronomy,5.0,32.0,3.0,,,,,32.0,4.0,0.771484375,False,True,1,False,False,False,False,False
+a523b23976be,AISIN IMRA(米国・imra.com),2000.0,Physics and Astronomy,3.0,1.0,38.0,2.0,1.0,1.0,0.0,1.0,1.0,1.0,True,True,1,True,False,True,True,False
+a533db8375cb,AISIN IMRA(米国・imra.com),1998.0,Engineering,3.0,2.0,1.0,0.0,0.0,1.0,0.0,2.0,1.0,1.0,False,True,1,False,False,False,False,False
+a5b60c38ff5c,AISIN IMRA(米国・imra.com),1993.0,Physics and Astronomy,3.0,16.0,58.0,1.0,1.0,0.0,0.0,16.0,2.0,0.6953125,True,False,0,False,False,False,False,False
+a69178a343f9,AISIN IMRA(米国・imra.com),2008.0,Physics and Astronomy,7.0,32.0,258.0,1.0,1.0,1.0,0.0,30.0,2.0,0.9355555555555556,True,True,1,False,False,True,True,False
+a71ee3e836c2,AISIN IMRA(米国・imra.com),2006.0,Physics and Astronomy,6.0,6.0,5.0,1.0,1.0,1.0,0.0,5.0,1.0,1.0,True,True,1,False,False,True,True,False
+a8ff8185c44c,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,4.0,4.0,13.0,1.0,1.0,1.0,0.0,4.0,1.0,1.0,True,True,1,False,False,True,True,False
+a909976dd697,AISIN IMRA(米国・imra.com),1994.0,Engineering,5.0,17.0,5.0,1.0,0.0,1.0,0.0,17.0,2.0,0.5432525951557093,True,False,0,False,False,False,False,False
+a9965af309ce,AISIN IMRA(米国・imra.com),2004.0,Physics and Astronomy,8.0,10.0,203.0,1.0,0.0,1.0,1.0,10.0,2.0,0.82,False,True,1,False,False,False,False,False
+aa2f2e1c6565,AISIN IMRA(米国・imra.com),2003.0,Physics and Astronomy,3.0,0.0,0.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+aa8326c76602,AISIN IMRA(米国・imra.com),2009.0,Engineering,6.0,16.0,111.0,1.0,1.0,1.0,0.0,15.0,2.0,0.68,True,True,1,False,False,True,True,False
+ab44ac2a9f76,AISIN IMRA(米国・imra.com),2000.0,Physics and Astronomy,4.0,0.0,1.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+ab88255df927,AISIN IMRA(米国・imra.com),2008.0,Engineering,1.0,0.0,14.0,1.0,0.0,1.0,0.0,,,,False,True,1,False,True,False,False,False
+abcfcc5657ab,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,6.0,5.0,64.0,1.0,1.0,1.0,0.0,5.0,1.0,1.0,True,True,1,False,False,True,True,False
+ac0cc6b1809f,AISIN IMRA(米国・imra.com),2005.0,Engineering,7.0,0.0,2.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+ac6f50ee5acb,AISIN IMRA(米国・imra.com),2016.0,Chemistry,11.0,4.0,1.0,1.0,1.0,1.0,0.0,4.0,2.0,0.5,True,True,1,False,False,True,True,False
+ad6ad92721f6,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,3.0,9.0,0.0,1.0,1.0,1.0,0.0,9.0,2.0,0.8024691358024691,True,True,1,False,False,True,True,False
+addf4b23a4fc,AISIN IMRA(米国・imra.com),2011.0,Engineering,7.0,0.0,1.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+ae0ef0b96600,AISIN IMRA(米国・imra.com),2003.0,Engineering,3.0,17.0,527.0,1.0,1.0,1.0,0.0,17.0,2.0,0.889273356401384,False,True,1,False,False,True,False,False
+ae89330ff8f6,AISIN IMRA(米国・imra.com),2006.0,Engineering,7.0,0.0,2.0,1.0,0.0,1.0,0.0,,,,False,True,2,False,False,False,False,True
+af556361aae1,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,5.0,0.0,1.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+aff3f68d4c82,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,6.0,2.0,143.0,0.0,0.0,1.0,0.0,2.0,2.0,0.5,False,True,1,False,False,False,False,False
+b07c3c3610d2,AISIN IMRA(米国・imra.com),2023.0,Physics and Astronomy,7.0,21.0,6.0,1.0,0.0,1.0,0.0,19.0,2.0,0.5124653739612188,False,True,1,False,False,False,False,False
+b1c2d899cfc8,AISIN IMRA(米国・imra.com),2006.0,Chemistry,6.0,1.0,0.0,2.0,1.0,1.0,0.0,1.0,1.0,1.0,True,True,1,True,False,True,True,False
+b1e1391a57e1,AISIN IMRA(米国・imra.com),2000.0,Physics and Astronomy,5.0,19.0,797.0,1.0,1.0,1.0,0.0,18.0,3.0,0.5740740740740741,True,True,1,False,False,True,True,False
+b23eaa63a4d7,AISIN IMRA(米国・imra.com),2005.0,Engineering,8.0,5.0,1.0,,,,,5.0,2.0,0.52,False,False,0,False,False,False,False,False
+b2a807d42b60,AISIN IMRA(米国・imra.com),2020.0,Physics and Astronomy,5.0,29.0,32.0,1.0,1.0,1.0,0.0,23.0,3.0,0.6975425330812854,True,True,1,False,False,True,True,False
+b41b91cdaa98,AISIN IMRA(米国・imra.com),1993.0,Physics and Astronomy,4.0,5.0,15.0,1.0,1.0,1.0,0.0,5.0,2.0,0.68,True,True,1,False,False,True,True,False
+b43c242d618e,AISIN IMRA(米国・imra.com),2009.0,Engineering,14.0,10.0,72.0,5.0,1.0,1.0,1.0,10.0,2.0,0.82,True,True,1,True,False,True,True,False
+b43f432fe548,AISIN IMRA(米国・imra.com),2008.0,Engineering,6.0,32.0,36.0,1.0,1.0,1.0,0.0,32.0,4.0,0.439453125,True,True,1,False,False,True,True,False
+b4b7ba2e16c8,AISIN IMRA(米国・imra.com),2007.0,Engineering,2.0,0.0,67.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+b4fe1f56acd7,AISIN IMRA(米国・imra.com),2009.0,Materials Science,8.0,21.0,39.0,1.0,1.0,1.0,0.0,21.0,5.0,0.4331065759637188,True,True,1,False,False,True,True,False
+b56343abb0e7,AISIN IMRA(米国・imra.com),2009.0,Engineering,6.0,3.0,0.0,0.0,0.0,1.0,0.0,3.0,2.0,0.5555555555555556,False,True,1,False,False,False,False,False
+b6e088bd7a43,AISIN IMRA(米国・imra.com),2002.0,Engineering,4.0,0.0,6.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+b7a9fb0e4f38,AISIN IMRA(米国・imra.com),2020.0,Physics and Astronomy,3.0,11.0,3.0,1.0,0.0,1.0,0.0,10.0,2.0,0.82,False,True,1,False,False,False,False,False
+b880ccda364f,AISIN IMRA(米国・imra.com),2004.0,Physics and Astronomy,3.0,13.0,33.0,0.0,0.0,1.0,0.0,12.0,2.0,0.5138888888888888,False,True,1,False,False,False,False,False
+b8824ac6926a,AISIN IMRA(米国・imra.com),1993.0,Physics and Astronomy,4.0,15.0,44.0,,,,,15.0,2.0,0.5555555555555556,False,False,0,False,False,False,False,False
+b914197df9a5,AISIN IMRA(米国・imra.com),1994.0,Physics and Astronomy,4.0,10.0,116.0,1.0,1.0,1.0,0.0,10.0,1.0,1.0,True,True,1,False,False,True,True,False
+b9b00cbdc4e4,AISIN IMRA(米国・imra.com),1993.0,Physics and Astronomy,5.0,10.0,48.0,,,,,10.0,2.0,0.58,False,False,0,False,False,False,False,False
+bb7e25b7e9d6,AISIN IMRA(米国・imra.com),1998.0,Materials Science,2.0,5.0,21.0,0.0,0.0,1.0,0.0,5.0,2.0,0.52,False,True,1,False,False,False,False,False
+bd2ac7754a4f,AISIN IMRA(米国・imra.com),2006.0,Physics and Astronomy,8.0,0.0,11.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+bd67deff48c0,AISIN IMRA(米国・imra.com),2006.0,Engineering,3.0,5.0,65.0,0.0,0.0,1.0,0.0,5.0,2.0,0.68,False,True,1,False,False,False,False,False
+bdc4a84b1e1e,AISIN IMRA(米国・imra.com),2000.0,Engineering,5.0,16.0,117.0,1.0,1.0,1.0,0.0,16.0,2.0,0.5703125,True,True,1,False,False,True,True,False
+be27986bcef2,AISIN IMRA(米国・imra.com),2004.0,Engineering,4.0,19.0,62.0,1.0,1.0,1.0,0.0,19.0,3.0,0.590027700831025,True,True,1,False,False,True,True,False
+be953414fea7,AISIN IMRA(米国・imra.com),2002.0,Physics and Astronomy,1.0,2.0,0.0,0.0,0.0,1.0,0.0,2.0,1.0,1.0,False,True,1,False,True,False,False,False
+c1d89067941e,AISIN IMRA(米国・imra.com),2021.0,Physics and Astronomy,5.0,0.0,2.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+c207f10fff8c,AISIN IMRA(米国・imra.com),2011.0,Physics and Astronomy,6.0,5.0,0.0,1.0,1.0,1.0,0.0,5.0,1.0,1.0,True,True,1,False,False,True,True,False
+c3c8ba653e72,AISIN IMRA(米国・imra.com),2022.0,Physics and Astronomy,4.0,20.0,7.0,0.0,0.0,1.0,0.0,16.0,3.0,0.7734375,False,True,1,False,False,False,False,False
+c471018605a3,AISIN IMRA(米国・imra.com),2004.0,Engineering,2.0,10.0,15.0,2.0,1.0,1.0,0.0,10.0,1.0,1.0,False,True,1,True,False,True,False,False
+c4a48869c0d2,AISIN IMRA(米国・imra.com),2000.0,Engineering,8.0,3.0,0.0,1.0,1.0,1.0,0.0,3.0,2.0,0.5555555555555556,True,False,0,False,False,True,False,False
+c5c8173ea712,AISIN IMRA(米国・imra.com),2021.0,Engineering,4.0,58.0,15.0,2.0,1.0,1.0,0.0,55.0,4.0,0.37586776859504134,True,True,1,True,False,True,True,False
+c786b0df039f,AISIN IMRA(米国・imra.com),2007.0,Materials Science,8.0,21.0,18.0,1.0,1.0,1.0,0.0,21.0,2.0,0.8276643990929705,True,True,1,False,False,True,True,False
+c8ae7905cba7,AISIN IMRA(米国・imra.com),2010.0,Engineering,3.0,0.0,2.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+cac61616510d,AISIN IMRA(米国・imra.com),2007.0,Engineering,4.0,0.0,5.0,1.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+cb244a16d359,AISIN IMRA(米国・imra.com),1994.0,Physics and Astronomy,1.0,97.0,53.0,0.0,0.0,1.0,0.0,97.0,4.0,0.6775427781910937,False,True,1,False,True,False,False,False
+cb26a8385e05,AISIN IMRA(米国・imra.com),2003.0,Engineering,3.0,0.0,1.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+cb9ae91b7a06,AISIN IMRA(米国・imra.com),2026.0,Engineering,4.0,22.0,0.0,1.0,0.0,1.0,0.0,22.0,3.0,0.4669421487603306,False,True,1,False,False,False,False,False
+cd6763c2f151,AISIN IMRA(米国・imra.com),2009.0,Engineering,1.0,1.0,3.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0,False,True,1,False,True,False,False,False
+ce7d0376d004,AISIN IMRA(米国・imra.com),2011.0,Physics and Astronomy,4.0,3.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,1.0,True,True,1,False,False,True,True,False
+cedc01ec05ce,AISIN IMRA(米国・imra.com),1997.0,Physics and Astronomy,5.0,14.0,63.0,1.0,1.0,1.0,0.0,14.0,2.0,0.8673469387755102,True,True,1,False,False,True,True,False
+d0fe578c8290,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,5.0,5.0,6.0,0.0,0.0,1.0,0.0,4.0,1.0,1.0,False,True,1,False,False,False,False,False
+d22f851a67ba,AISIN IMRA(米国・imra.com),2016.0,Physics and Astronomy,5.0,35.0,269.0,1.0,1.0,1.0,0.0,33.0,2.0,0.8861340679522498,True,True,1,False,False,True,True,False
+d24955042507,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,5.0,7.0,39.0,0.0,0.0,1.0,0.0,7.0,2.0,0.5102040816326531,False,True,1,False,False,False,False,False
+d2ba4d05d1a8,AISIN IMRA(米国・imra.com),2008.0,Engineering,3.0,26.0,58.0,0.0,0.0,1.0,0.0,26.0,2.0,0.606508875739645,False,True,1,False,False,False,False,False
+d2f304de6923,AISIN IMRA(米国・imra.com),2012.0,Medicine,8.0,0.0,0.0,,,,,,,,False,False,0,False,False,False,False,False
+d390bf8bc04b,AISIN IMRA(米国・imra.com),2007.0,Materials Science,8.0,22.0,14.0,1.0,1.0,1.0,0.0,22.0,2.0,0.9132231404958677,True,True,1,False,False,True,True,False
+d43dd3c043cd,AISIN IMRA(米国・imra.com),2011.0,Physics and Astronomy,6.0,38.0,119.0,1.0,1.0,1.0,0.0,37.0,3.0,0.760409057706355,True,True,1,False,False,True,True,False
+d6d7a0e80b5a,AISIN IMRA(米国・imra.com),1996.0,Physics and Astronomy,3.0,9.0,20.0,0.0,0.0,1.0,0.0,9.0,2.0,0.654320987654321,True,True,1,False,False,False,True,False
+d8b9e58387e7,AISIN IMRA(米国・imra.com),1996.0,Physics and Astronomy,4.0,11.0,32.0,1.0,1.0,1.0,0.0,11.0,2.0,0.6033057851239669,True,True,1,False,False,True,True,False
+d93bb332a08f,AISIN IMRA(米国・imra.com),2006.0,Physics and Astronomy,1.0,24.0,19.0,0.0,0.0,1.0,0.0,20.0,2.0,0.545,False,True,1,False,True,False,False,False
+d97d2f5454d9,AISIN IMRA(米国・imra.com),2020.0,Materials Science,11.0,48.0,18.0,1.0,1.0,1.0,0.0,47.0,5.0,0.4114984155726573,True,True,1,False,False,True,True,False
+db1c5b1d0988,AISIN IMRA(米国・imra.com),2021.0,Physics and Astronomy,6.0,26.0,14.0,1.0,0.0,1.0,0.0,25.0,1.0,1.0,False,True,1,False,False,False,False,False
+dcac46a11287,AISIN IMRA(米国・imra.com),2009.0,Physics and Astronomy,3.0,4.0,2.0,0.0,0.0,1.0,0.0,4.0,1.0,1.0,False,True,1,False,False,False,False,False
+dd91b1b3b0b8,AISIN IMRA(米国・imra.com),2003.0,Physics and Astronomy,4.0,3.0,1.0,0.0,0.0,1.0,0.0,3.0,2.0,0.5555555555555556,False,True,1,False,False,False,False,False
+e15a7ad239ac,AISIN IMRA(米国・imra.com),1996.0,Engineering,5.0,10.0,21.0,1.0,1.0,1.0,0.0,10.0,3.0,0.36,False,True,1,False,False,True,False,False
+e22edc08944b,AISIN IMRA(米国・imra.com),2006.0,Materials Science,8.0,14.0,77.0,1.0,1.0,1.0,0.0,14.0,2.0,0.8673469387755102,True,True,1,False,False,True,True,False
+e2c046a681a8,AISIN IMRA(米国・imra.com),1996.0,Physics and Astronomy,4.0,30.0,30.0,1.0,1.0,1.0,0.0,30.0,2.0,0.58,True,True,1,False,False,True,True,False
+e431cbee321b,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,3.0,8.0,20.0,1.0,0.0,1.0,0.0,7.0,2.0,0.5102040816326531,False,True,1,False,False,False,False,False
+e4974ff91c47,AISIN IMRA(米国・imra.com),2016.0,Physics and Astronomy,11.0,3.0,0.0,2.0,1.0,1.0,0.0,3.0,1.0,1.0,True,True,1,True,False,True,True,False
+e49d832d6174,AISIN IMRA(米国・imra.com),2011.0,Engineering,4.0,35.0,91.0,0.0,0.0,1.0,0.0,35.0,4.0,0.35836734693877553,False,True,1,False,False,False,False,False
+e4e4da87cad2,AISIN IMRA(米国・imra.com),1999.0,Physics and Astronomy,5.0,7.0,22.0,0.0,0.0,1.0,0.0,7.0,2.0,0.5102040816326531,False,True,1,False,False,False,False,False
+e520c37a5e2c,AISIN IMRA(米国・imra.com),2020.0,Physics and Astronomy,5.0,29.0,34.0,1.0,1.0,1.0,0.0,29.0,2.0,0.7621878715814506,True,True,1,False,False,True,True,False
+e6a1bbdf3be5,AISIN IMRA(米国・imra.com),2006.0,Physics and Astronomy,5.0,12.0,0.0,0.0,0.0,1.0,0.0,11.0,2.0,0.7024793388429752,False,True,1,False,False,False,False,False
+e6c714afd89b,AISIN IMRA(米国・imra.com),2022.0,Medicine,8.0,50.0,17.0,2.0,1.0,1.0,0.0,47.0,6.0,0.46129470348574014,True,True,1,True,False,True,True,False
+e7105e8bf2cc,AISIN IMRA(米国・imra.com),2001.0,Physics and Astronomy,4.0,16.0,55.0,1.0,1.0,1.0,0.0,16.0,2.0,0.8828125,True,True,1,False,False,True,True,False
+e7fd6649d6c4,AISIN IMRA(米国・imra.com),1995.0,Physics and Astronomy,3.0,15.0,10.0,0.0,0.0,1.0,0.0,15.0,2.0,0.6088888888888889,False,True,1,False,False,False,False,False
+e8071b7e5a27,AISIN IMRA(米国・imra.com),2009.0,Engineering,5.0,0.0,15.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+e95550409373,AISIN IMRA(米国・imra.com),2008.0,Engineering,3.0,8.0,2.0,0.0,0.0,1.0,0.0,8.0,2.0,0.625,False,True,1,False,False,False,False,False
+ea44d855708f,AISIN IMRA(米国・imra.com),2007.0,Physics and Astronomy,4.0,4.0,28.0,0.0,0.0,1.0,0.0,4.0,1.0,1.0,True,True,1,False,False,False,True,False
+eb6b3ca63f6c,AISIN IMRA(米国・imra.com),2010.0,Physics and Astronomy,7.0,49.0,277.0,1.0,1.0,1.0,0.0,48.0,7.0,0.2387152777777778,True,True,1,False,False,True,True,False
+ebb2cae0ca8c,AISIN IMRA(米国・imra.com),2001.0,Physics and Astronomy,5.0,8.0,57.0,0.0,0.0,1.0,0.0,8.0,2.0,0.53125,False,True,1,False,False,False,False,False
+ef6f0811e516,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,1.0,12.0,293.0,0.0,0.0,1.0,0.0,12.0,3.0,0.7083333333333334,False,True,1,False,True,False,False,False
+f00a52fcfc6d,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,9.0,6.0,38.0,2.0,1.0,1.0,0.0,6.0,2.0,0.5555555555555556,True,True,1,True,False,True,True,False
+f00b5ce52224,AISIN IMRA(米国・imra.com),1995.0,Physics and Astronomy,9.0,15.0,6.0,2.0,1.0,1.0,0.0,15.0,2.0,0.52,True,True,1,True,False,True,True,False
+f07d611839ce,AISIN IMRA(米国・imra.com),2011.0,Physics and Astronomy,12.0,25.0,75.0,2.0,1.0,1.0,1.0,23.0,4.0,0.5349716446124764,True,True,1,True,False,True,True,False
+f0a5307b776a,AISIN IMRA(米国・imra.com),2023.0,Engineering,8.0,31.0,2.0,1.0,1.0,1.0,0.0,31.0,4.0,0.28407908428720086,True,True,1,False,False,True,True,False
+f0d40601da9a,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,5.0,8.0,37.0,1.0,1.0,1.0,0.0,8.0,2.0,0.625,True,True,1,False,False,True,True,False
+f14970c8cc66,AISIN IMRA(米国・imra.com),2012.0,Engineering,4.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+f2294435c12b,AISIN IMRA(米国・imra.com),2005.0,Physics and Astronomy,5.0,8.0,56.0,0.0,0.0,1.0,0.0,6.0,1.0,1.0,False,True,1,False,False,False,False,False
+f26aef31c493,AISIN IMRA(米国・imra.com),2003.0,Physics and Astronomy,6.0,0.0,4.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+f4965e1283d7,AISIN IMRA(米国・imra.com),2021.0,Physics and Astronomy,6.0,65.0,180.0,1.0,1.0,1.0,0.0,59.0,3.0,0.6127549554725653,True,True,1,False,False,True,True,False
+f4cf8a1751a1,AISIN IMRA(米国・imra.com),2019.0,Physics and Astronomy,2.0,32.0,0.0,1.0,1.0,1.0,0.0,31.0,2.0,0.6878251821019771,True,True,1,False,False,True,True,False
+f4fa752d3ebd,AISIN IMRA(米国・imra.com),2026.0,Physics and Astronomy,4.0,32.0,0.0,1.0,0.0,1.0,0.0,32.0,4.0,0.3671875,False,True,1,False,False,False,False,False
+f6047d930dcc,AISIN IMRA(米国・imra.com),1996.0,Physics and Astronomy,7.0,15.0,5.0,1.0,1.0,1.0,0.0,15.0,2.0,0.52,True,True,1,False,False,True,True,False
+f6c6622bb8af,AISIN IMRA(米国・imra.com),1995.0,Physics and Astronomy,4.0,9.0,56.0,1.0,1.0,0.0,0.0,9.0,3.0,0.5061728395061729,True,False,0,False,False,False,False,False
+f753652b65dc,AISIN IMRA(米国・imra.com),1999.0,Physics and Astronomy,4.0,8.0,19.0,1.0,1.0,1.0,0.0,8.0,2.0,0.625,True,True,1,False,False,True,True,False
+f7c5908cd75e,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,3.0,21.0,15.0,1.0,1.0,0.0,0.0,21.0,2.0,0.691609977324263,True,True,1,False,False,False,True,False
+f8ff4cd3ae9a,AISIN IMRA(米国・imra.com),1994.0,Physics and Astronomy,5.0,16.0,12.0,1.0,1.0,1.0,0.0,16.0,3.0,0.7734375,True,False,0,False,False,True,False,False
+f97079941223,AISIN IMRA(米国・imra.com),2007.0,Materials Science,8.0,26.0,12.0,2.0,1.0,1.0,0.0,26.0,2.0,0.5739644970414202,True,True,1,True,False,True,True,False
+fa1e24a68b9f,AISIN IMRA(米国・imra.com),1999.0,Physics and Astronomy,6.0,11.0,78.0,1.0,0.0,1.0,0.0,11.0,2.0,0.6033057851239669,False,True,1,False,False,False,False,False
+fa6601ddce7b,AISIN IMRA(米国・imra.com),2005.0,Engineering,7.0,0.0,4.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+fae3d45cbbd9,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,5.0,19.0,11.0,1.0,1.0,0.0,0.0,19.0,2.0,0.9002770083102493,True,False,0,False,False,False,False,False
+fae50c483648,AISIN IMRA(米国・imra.com),1998.0,Physics and Astronomy,4.0,0.0,0.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+fb134c4bc485,AISIN IMRA(米国・imra.com),2001.0,Physics and Astronomy,1.0,47.0,192.0,1.0,1.0,0.0,0.0,43.0,2.0,0.513250405624662,False,False,0,False,True,False,False,False
+fcf84c530275,AISIN IMRA(米国・imra.com),2020.0,Engineering,4.0,0.0,20.0,,,,,,,,False,True,1,False,False,False,False,False
+fd12c0ddcd2e,AISIN IMRA(米国・imra.com),2025.0,Chemical Engineering,9.0,89.0,7.0,1.0,1.0,0.0,0.0,84.0,8.0,0.19642857142857142,True,True,1,False,False,False,True,False
+fdac5daf6da0,AISIN IMRA(米国・imra.com),2024.0,Physics and Astronomy,2.0,121.0,9.0,2.0,0.0,1.0,0.0,107.0,4.0,0.5828456633767142,False,True,1,True,False,False,False,False
+fe2ed783c920,AISIN IMRA(米国・imra.com),1988.0,Engineering,5.0,19.0,13.0,1.0,1.0,1.0,0.0,18.0,2.0,0.5246913580246914,True,True,0,False,False,True,True,False
+fe42adf66fde,AISIN IMRA(米国・imra.com),2021.0,Chemistry,5.0,48.0,1.0,1.0,1.0,1.0,1.0,45.0,6.0,0.254320987654321,True,True,1,False,False,True,True,False
+ff4beab700dc,AISIN IMRA(米国・imra.com),2006.0,Physics and Astronomy,6.0,0.0,5.0,0.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+004fc8c307f3,トヨタ自動車未来創成センター,2024.0,Engineering,5.0,26.0,1.0,1.0,0.0,1.0,0.0,16.0,5.0,0.34375,False,True,1,False,False,False,False,False
+01e1e998335f,トヨタ自動車未来創成センター,2022.0,Engineering,6.0,40.0,29.0,1.0,1.0,1.0,0.0,39.0,4.0,0.45956607495069035,True,True,1,False,False,True,True,False
+0293eaf1e4ec,トヨタ自動車未来創成センター,2019.0,Computer Science,5.0,9.0,11.0,2.0,1.0,1.0,0.0,9.0,2.0,0.8024691358024691,True,True,1,True,False,True,True,False
+04c22be2cf28,トヨタ自動車未来創成センター,2025.0,Engineering,3.0,26.0,0.0,1.0,0.0,1.0,0.0,26.0,1.0,1.0,False,True,1,False,False,False,False,False
+08a982566c37,トヨタ自動車未来創成センター,2024.0,"Business, Management and Accounting",1.0,23.0,1.0,1.0,0.0,1.0,0.0,20.0,6.0,0.4,False,True,1,False,True,False,False,False
+0ba80a2292fc,トヨタ自動車未来創成センター,2022.0,Physics and Astronomy,5.0,27.0,5.0,1.0,1.0,1.0,0.0,24.0,3.0,0.5972222222222222,True,True,1,False,False,True,True,False
+0db34d8fe1ea,トヨタ自動車未来創成センター,2025.0,Computer Science,6.0,34.0,0.0,1.0,1.0,1.0,0.0,27.0,6.0,0.21536351165980797,True,True,2,False,False,True,True,True
+0dc9d7e18842,トヨタ自動車未来創成センター,2018.0,Psychology,3.0,17.0,11.0,1.0,0.0,1.0,0.0,15.0,4.0,0.37777777777777777,False,True,1,False,False,False,False,False
+1236ecb7abe5,トヨタ自動車未来創成センター,2025.0,Engineering,7.0,16.0,1.0,3.0,1.0,1.0,0.0,16.0,1.0,1.0,True,True,1,True,False,True,True,False
+133cd681dac3,トヨタ自動車未来創成センター,2025.0,Engineering,2.0,18.0,0.0,2.0,0.0,1.0,0.0,15.0,6.0,0.30666666666666664,False,True,2,True,False,False,False,True
+140342bb6f20,トヨタ自動車未来創成センター,2021.0,Chemistry,5.0,41.0,22.0,2.0,1.0,1.0,0.0,40.0,5.0,0.47125,True,True,1,True,False,True,True,False
+16c675fefb5b,トヨタ自動車未来創成センター,2018.0,"Biochemistry, Genetics and Molecular Biology",14.0,217.0,163.0,1.0,1.0,0.0,1.0,214.0,9.0,0.6641628089789501,True,False,0,False,False,False,False,False
+1bcaa3c25be8,トヨタ自動車未来創成センター,2017.0,"Biochemistry, Genetics and Molecular Biology",5.0,14.0,10.0,1.0,1.0,1.0,0.0,14.0,4.0,0.3877551020408163,True,True,1,False,False,True,True,False
+1c7dfd97967b,トヨタ自動車未来創成センター,2024.0,Energy,4.0,0.0,0.0,,,,,,,,False,False,0,False,False,False,False,False
+1edf950142dc,トヨタ自動車未来創成センター,2018.0,Engineering,6.0,19.0,25.0,1.0,1.0,1.0,0.0,19.0,1.0,1.0,True,True,2,False,False,True,True,True
+2067c9562882,トヨタ自動車未来創成センター,2018.0,Engineering,5.0,1.0,37.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0,False,True,1,False,False,False,False,False
+22c563fee328,トヨタ自動車未来創成センター,2018.0,Engineering,3.0,34.0,3.0,1.0,1.0,1.0,0.0,29.0,5.0,0.3341260404280618,False,True,1,False,False,True,False,False
+23e2740de448,トヨタ自動車未来創成センター,2019.0,Engineering,1.0,57.0,5.0,1.0,0.0,1.0,0.0,56.0,5.0,0.7123724489795918,False,True,1,False,True,False,False,False
+27d68fbe666c,トヨタ自動車未来創成センター,2018.0,Agricultural and Biological Sciences,8.0,22.0,4.0,1.0,1.0,1.0,1.0,22.0,4.0,0.4214876033057851,True,True,1,False,False,True,True,False
+28772b2ede0a,トヨタ自動車未来創成センター,2019.0,Engineering,5.0,36.0,4.0,1.0,1.0,1.0,0.0,30.0,5.0,0.36,True,True,1,False,False,True,True,False
+295dd1f33ebb,トヨタ自動車未来創成センター,2018.0,Medicine,6.0,33.0,15.0,1.0,1.0,1.0,0.0,30.0,3.0,0.47555555555555556,True,True,1,False,False,True,True,False
+2b3bda66c720,トヨタ自動車未来創成センター,2020.0,Engineering,4.0,36.0,103.0,1.0,1.0,1.0,0.0,35.0,3.0,0.4726530612244898,False,True,1,False,False,True,False,False
+2c5a4b7fddcc,トヨタ自動車未来創成センター,2021.0,Engineering,8.0,48.0,22.0,1.0,1.0,1.0,0.0,47.0,3.0,0.917609778180172,True,True,1,False,False,True,True,False
+2e3443dcdd7b,トヨタ自動車未来創成センター,2021.0,Computer Science,5.0,41.0,6.0,1.0,1.0,1.0,0.0,31.0,3.0,0.46930280957336107,False,True,1,False,False,True,False,False
+304d77bab749,トヨタ自動車未来創成センター,2019.0,"Biochemistry, Genetics and Molecular Biology",13.0,80.0,98.0,1.0,0.0,0.0,0.0,78.0,8.0,0.6466140696909928,False,False,0,False,False,False,False,False
+35d2d9a2ab36,トヨタ自動車未来創成センター,2019.0,Computer Science,2.0,33.0,0.0,1.0,0.0,1.0,0.0,25.0,4.0,0.6544,False,True,1,False,False,False,False,False
+3768be6ac837,トヨタ自動車未来創成センター,2023.0,Engineering,3.0,0.0,2.0,1.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+3974689d81db,トヨタ自動車未来創成センター,2023.0,Engineering,3.0,14.0,0.0,1.0,0.0,1.0,0.0,14.0,4.0,0.3877551020408163,False,True,1,False,False,False,False,False
+3c0c02f98e81,トヨタ自動車未来創成センター,2023.0,Computer Science,5.0,23.0,3.0,1.0,1.0,1.0,0.0,18.0,2.0,0.5987654320987654,True,True,1,False,False,True,True,False
+3e3b6ac4b4a6,トヨタ自動車未来創成センター,2025.0,Engineering,4.0,8.0,0.0,1.0,1.0,1.0,0.0,8.0,3.0,0.46875,True,True,1,False,False,True,True,False
+40c3900e414c,トヨタ自動車未来創成センター,2020.0,Engineering,4.0,83.0,28.0,2.0,1.0,1.0,0.0,80.0,6.0,0.4909375,True,True,1,True,False,True,True,False
+438325c7829e,トヨタ自動車未来創成センター,2021.0,Energy,3.0,15.0,0.0,1.0,1.0,1.0,0.0,15.0,3.0,0.47555555555555556,True,True,1,False,False,True,True,False
+4426304a2135,トヨタ自動車未来創成センター,2025.0,Computer Science,4.0,19.0,1.0,1.0,1.0,1.0,0.0,19.0,2.0,0.5013850415512465,True,True,1,False,False,True,True,False
+461bd60b5c38,トヨタ自動車未来創成センター,2018.0,Engineering,4.0,16.0,14.0,1.0,1.0,1.0,0.0,15.0,3.0,0.52,False,True,1,False,False,True,False,False
+49652640086d,トヨタ自動車未来創成センター,2025.0,Engineering,4.0,0.0,0.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+49cf5402c65b,トヨタ自動車未来創成センター,2025.0,Computer Science,2.0,0.0,0.0,,,,,,,,False,False,0,False,False,False,False,False
+4c76d4a8cf71,トヨタ自動車未来創成センター,2023.0,Computer Science,5.0,40.0,8.0,0.0,0.0,0.0,0.0,23.0,2.0,0.5765595463137996,False,True,1,False,False,False,False,False
+4e5fb6363e9c,トヨタ自動車未来創成センター,2025.0,Computer Science,5.0,20.0,0.0,2.0,0.0,1.0,0.0,17.0,5.0,0.356401384083045,False,True,2,True,False,False,False,True
+584944f8b64b,トヨタ自動車未来創成センター,2018.0,Engineering,4.0,5.0,2.0,1.0,0.0,1.0,0.0,4.0,2.0,0.625,False,True,1,False,False,False,False,False
+5d24803d1222,トヨタ自動車未来創成センター,2023.0,Environmental Science,11.0,50.0,20.0,1.0,0.0,1.0,0.0,49.0,7.0,0.36193252811328613,False,True,2,False,False,False,False,True
+5f8ac6858045,トヨタ自動車未来創成センター,2023.0,"Business, Management and Accounting",5.0,22.0,4.0,1.0,1.0,1.0,0.0,14.0,7.0,0.1836734693877551,True,True,2,False,False,True,True,True
+5fcff8ee5f8b,トヨタ自動車未来創成センター,2026.0,Engineering,5.0,24.0,0.0,1.0,1.0,1.0,0.0,24.0,5.0,0.4791666666666667,False,True,1,False,False,True,False,False
+61198cf88bd5,トヨタ自動車未来創成センター,2018.0,Engineering,6.0,20.0,17.0,1.0,1.0,1.0,0.0,16.0,3.0,0.4609375,True,True,1,False,False,True,True,False
+6152a9ae67b2,トヨタ自動車未来創成センター,2018.0,Engineering,4.0,25.0,5.0,1.0,1.0,1.0,0.0,22.0,4.0,0.4669421487603306,True,True,1,False,False,True,True,False
+625b126a686e,トヨタ自動車未来創成センター,2018.0,Engineering,3.0,12.0,7.0,1.0,1.0,1.0,0.0,10.0,2.0,0.82,True,True,1,False,False,True,True,False
+62bebd280b1b,トヨタ自動車未来創成センター,2019.0,Engineering,5.0,36.0,58.0,4.0,1.0,1.0,0.0,34.0,4.0,0.5363321799307958,True,True,1,True,False,True,True,False
+6433436a43c6,トヨタ自動車未来創成センター,2023.0,"Biochemistry, Genetics and Molecular Biology",8.0,25.0,2.0,1.0,1.0,1.0,0.0,24.0,7.0,0.4201388888888889,True,True,1,False,False,True,True,False
+666645c0e7a2,トヨタ自動車未来創成センター,2020.0,Computer Science,3.0,35.0,10.0,1.0,1.0,1.0,0.0,34.0,3.0,0.596885813148789,True,True,1,False,False,True,True,False
+66fe0f391d63,トヨタ自動車未来創成センター,2025.0,Engineering,5.0,9.0,0.0,2.0,1.0,1.0,0.0,9.0,1.0,1.0,True,True,1,True,False,True,True,False
+691b574f30ae,トヨタ自動車未来創成センター,2019.0,"Biochemistry, Genetics and Molecular Biology",6.0,74.0,80.0,2.0,1.0,1.0,0.0,74.0,6.0,0.775018261504748,True,True,1,True,False,True,True,False
+6bb9b41a2203,トヨタ自動車未来創成センター,2025.0,Environmental Science,7.0,26.0,2.0,1.0,1.0,1.0,0.0,26.0,9.0,0.21597633136094674,True,True,1,False,False,True,True,False
+6c87b7ec0310,トヨタ自動車未来創成センター,2025.0,Computer Science,3.0,32.0,1.0,1.0,0.0,1.0,0.0,31.0,9.0,0.1841831425598335,False,True,1,False,False,False,False,False
+6d757339e104,トヨタ自動車未来創成センター,2022.0,Computer Science,3.0,23.0,6.0,1.0,0.0,1.0,0.0,21.0,4.0,0.41496598639455784,False,True,2,False,False,False,False,True
+6e8e782da858,トヨタ自動車未来創成センター,2018.0,Agricultural and Biological Sciences,10.0,41.0,7.0,3.0,1.0,1.0,0.0,41.0,5.0,0.5895300416418798,True,True,1,True,False,True,True,False
+70ce2b43703e,トヨタ自動車未来創成センター,2021.0,"Economics, Econometrics and Finance",4.0,25.0,3.0,1.0,1.0,0.0,0.0,22.0,2.0,0.8347107438016529,True,True,1,False,False,False,True,False
+70f068cc68c2,トヨタ自動車未来創成センター,2025.0,Energy,3.0,5.0,0.0,1.0,1.0,1.0,0.0,5.0,2.0,0.52,True,True,1,False,False,True,True,False
+7394b8f9c395,トヨタ自動車未来創成センター,2023.0,Engineering,7.0,23.0,0.0,3.0,0.0,1.0,0.0,17.0,2.0,0.6401384083044983,False,True,2,True,False,False,False,True
+7498f7eaab3f,トヨタ自動車未来創成センター,2018.0,Computer Science,4.0,2.0,1.0,1.0,1.0,1.0,0.0,2.0,1.0,1.0,True,True,2,False,False,True,True,True
+789dbbedb440,トヨタ自動車未来創成センター,2019.0,Computer Science,8.0,9.0,11.0,2.0,0.0,1.0,0.0,8.0,3.0,0.59375,False,True,2,True,False,False,False,True
+80c9850e8d43,トヨタ自動車未来創成センター,2025.0,Engineering,4.0,40.0,0.0,2.0,0.0,1.0,0.0,35.0,3.0,0.5314285714285715,False,True,2,True,False,False,False,True
+80f26be997e2,トヨタ自動車未来創成センター,2024.0,Computer Science,5.0,23.0,0.0,1.0,1.0,0.0,0.0,20.0,2.0,0.545,True,True,1,False,False,False,True,False
+824f1914626e,トヨタ自動車未来創成センター,2023.0,Computer Science,5.0,27.0,15.0,1.0,1.0,1.0,0.0,16.0,5.0,0.28125,True,True,2,False,False,True,True,True
+82adc0294157,トヨタ自動車未来創成センター,2025.0,Engineering,4.0,16.0,0.0,2.0,1.0,1.0,0.0,15.0,2.0,0.68,True,False,0,True,False,True,False,False
+84a58934cd79,トヨタ自動車未来創成センター,2024.0,Computer Science,3.0,31.0,2.0,1.0,1.0,1.0,0.0,27.0,3.0,0.4897119341563786,True,True,1,False,False,True,True,False
+8528eb8cdf26,トヨタ自動車未来創成センター,2019.0,Engineering,6.0,31.0,232.0,1.0,0.0,1.0,0.0,29.0,3.0,0.5267538644470868,False,True,2,False,False,False,False,True
+870dc004e061,トヨタ自動車未来創成センター,2019.0,Computer Science,4.0,12.0,1.0,1.0,1.0,1.0,0.0,12.0,2.0,0.625,False,True,1,False,False,True,False,False
+88e8125ccb6f,トヨタ自動車未来創成センター,2024.0,Environmental Science,6.0,58.0,13.0,1.0,1.0,1.0,0.0,56.0,9.0,0.3947704081632653,True,True,2,False,False,True,True,True
+892c666b2a34,トヨタ自動車未来創成センター,2020.0,Engineering,5.0,22.0,0.0,3.0,1.0,1.0,0.0,15.0,4.0,0.37777777777777777,True,True,2,True,False,True,True,True
+945604727437,トヨタ自動車未来創成センター,2025.0,Engineering,4.0,31.0,6.0,1.0,1.0,1.0,0.0,28.0,4.0,0.37244897959183676,True,True,2,False,False,True,True,True
+98aa059c2fbc,トヨタ自動車未来創成センター,2025.0,Social Sciences,2.0,34.0,0.0,1.0,1.0,1.0,0.0,30.0,7.0,0.2088888888888889,True,True,1,False,False,True,True,False
+9defcdf411af,トヨタ自動車未来創成センター,2019.0,Medicine,10.0,31.0,16.0,1.0,1.0,1.0,0.0,31.0,4.0,0.54630593132154,True,True,1,False,False,True,True,False
+9f2b54a78c3a,トヨタ自動車未来創成センター,2019.0,Engineering,3.0,15.0,1.0,1.0,1.0,1.0,0.0,15.0,2.0,0.52,False,True,1,False,False,True,False,False
+9f7f1f0e2493,トヨタ自動車未来創成センター,2025.0,Environmental Science,7.0,61.0,3.0,1.0,0.0,1.0,0.0,55.0,6.0,0.584793388429752,False,True,2,False,False,False,False,True
+a2886ae8b620,トヨタ自動車未来創成センター,2023.0,Computer Science,22.0,78.0,18.0,5.0,1.0,1.0,0.0,55.0,7.0,0.5715702479338843,True,True,1,True,False,True,True,False
+a2a7d8abd373,トヨタ自動車未来創成センター,2018.0,Agricultural and Biological Sciences,15.0,64.0,34.0,1.0,1.0,1.0,0.0,62.0,3.0,0.5,True,True,2,False,False,True,True,True
+a375d473c249,トヨタ自動車未来創成センター,2026.0,Computer Science,3.0,0.0,0.0,,,,,,,,False,False,0,False,False,False,False,False
+ae19ca349314,トヨタ自動車未来創成センター,2025.0,Computer Science,6.0,26.0,0.0,1.0,0.0,1.0,0.0,26.0,6.0,0.33727810650887574,False,True,1,False,False,False,False,False
+b482e43eb89f,トヨタ自動車未来創成センター,2022.0,"Biochemistry, Genetics and Molecular Biology",7.0,37.0,4.0,1.0,1.0,1.0,0.0,37.0,6.0,0.5865595325054784,True,True,1,False,False,True,True,False
+b569a0b0b052,トヨタ自動車未来創成センター,2018.0,Engineering,3.0,21.0,32.0,1.0,0.0,1.0,0.0,21.0,5.0,0.5328798185941043,False,True,2,False,False,False,False,True
+b64d72588d55,トヨタ自動車未来創成センター,2021.0,Medicine,9.0,31.0,30.0,1.0,1.0,1.0,0.0,30.0,7.0,0.35333333333333333,True,True,1,False,False,True,True,False
+b93796e1efb7,トヨタ自動車未来創成センター,2018.0,Engineering,4.0,28.0,10.0,1.0,0.0,1.0,0.0,28.0,3.0,0.8647959183673469,False,True,1,False,False,False,False,False
+bbd5871c0e12,トヨタ自動車未来創成センター,2017.0,Engineering,4.0,31.0,10.0,1.0,0.0,1.0,0.0,26.0,4.0,0.7248520710059172,False,True,1,False,False,False,False,False
+bc182cf274aa,トヨタ自動車未来創成センター,2018.0,Computer Science,6.0,23.0,12.0,1.0,1.0,1.0,0.0,21.0,3.0,0.6190476190476191,True,True,1,False,False,True,True,False
+bd5ec03bcf0b,トヨタ自動車未来創成センター,2022.0,Engineering,4.0,13.0,11.0,1.0,1.0,1.0,0.0,11.0,4.0,0.32231404958677684,True,True,1,False,False,True,True,False
+bf5747d045e5,トヨタ自動車未来創成センター,2019.0,Computer Science,4.0,38.0,1.0,1.0,1.0,1.0,0.0,31.0,2.0,0.562955254942768,True,True,1,False,False,True,True,False
+c2efdbc8a0db,トヨタ自動車未来創成センター,2024.0,Computer Science,5.0,24.0,2.0,1.0,1.0,1.0,0.0,19.0,6.0,0.23545706371191136,True,True,2,False,False,True,True,True
+c340f7ef84db,トヨタ自動車未来創成センター,2026.0,Psychology,6.0,28.0,0.0,1.0,0.0,1.0,0.0,28.0,9.0,0.23979591836734693,False,True,2,False,False,False,False,True
+c5373839c4d0,トヨタ自動車未来創成センター,2020.0,Engineering,14.0,44.0,92.0,2.0,1.0,1.0,0.0,44.0,6.0,0.7882231404958677,True,True,1,True,False,True,True,False
+c566a40894d3,トヨタ自動車未来創成センター,2025.0,Social Sciences,4.0,17.0,0.0,1.0,1.0,1.0,0.0,16.0,5.0,0.3046875,True,True,1,False,False,True,True,False
+c62d92671467,トヨタ自動車未来創成センター,2022.0,Environmental Science,6.0,28.0,20.0,1.0,1.0,1.0,0.0,26.0,7.0,0.21893491124260356,True,True,2,False,False,True,True,True
+c724de77db6a,トヨタ自動車未来創成センター,2025.0,Engineering,4.0,35.0,0.0,1.0,0.0,1.0,0.0,32.0,6.0,0.404296875,False,True,1,False,False,False,False,False
+c8cfb619c632,トヨタ自動車未来創成センター,2025.0,Engineering,3.0,19.0,0.0,1.0,1.0,1.0,0.0,19.0,3.0,0.7229916897506925,True,True,1,False,False,True,True,False
+c9484bfeba2f,トヨタ自動車未来創成センター,2025.0,Computer Science,7.0,33.0,1.0,1.0,1.0,1.0,0.0,33.0,4.0,0.41781450872359965,True,True,1,False,False,True,True,False
+ca4ef11efdb1,トヨタ自動車未来創成センター,2025.0,Engineering,4.0,18.0,2.0,1.0,1.0,1.0,0.0,14.0,5.0,0.32653061224489793,True,True,2,False,False,True,True,True
+cb3b3c84ea49,トヨタ自動車未来創成センター,2025.0,Engineering,6.0,0.0,2.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+cca034884936,トヨタ自動車未来創成センター,2023.0,Computer Science,3.0,34.0,1.0,3.0,0.0,1.0,0.0,27.0,2.0,0.9286694101508917,False,True,2,True,False,False,False,True
+d00b67385d55,トヨタ自動車未来創成センター,2020.0,Materials Science,10.0,46.0,24.0,2.0,1.0,1.0,0.0,45.0,2.0,0.5555555555555556,True,True,1,True,False,True,True,False
+d034a66bf244,トヨタ自動車未来創成センター,2020.0,Engineering,5.0,25.0,18.0,2.0,0.0,1.0,0.0,14.0,3.0,0.3979591836734694,False,True,2,True,False,False,False,True
+d0a2d74628b6,トヨタ自動車未来創成センター,2025.0,Decision Sciences,8.0,34.0,0.0,1.0,1.0,1.0,0.0,34.0,5.0,0.2301038062283737,True,True,1,False,False,True,True,False
+d0d6ae494d25,トヨタ自動車未来創成センター,2024.0,Engineering,6.0,14.0,0.0,1.0,1.0,1.0,0.0,14.0,2.0,0.8673469387755102,True,True,1,False,False,True,True,False
+d126688dd88d,トヨタ自動車未来創成センター,2025.0,"Biochemistry, Genetics and Molecular Biology",6.0,27.0,1.0,1.0,1.0,1.0,0.0,27.0,8.0,0.28669410150891633,True,True,1,False,False,True,True,False
+d26d834e314a,トヨタ自動車未来創成センター,2024.0,Engineering,3.0,24.0,0.0,1.0,1.0,1.0,0.0,18.0,2.0,0.5246913580246914,True,True,1,False,False,True,True,False
+d492ca90aab5,トヨタ自動車未来創成センター,2020.0,Psychology,4.0,29.0,5.0,1.0,1.0,1.0,0.0,28.0,4.0,0.3596938775510204,True,True,1,False,False,True,True,False
+d4f0d6c91116,トヨタ自動車未来創成センター,2022.0,Engineering,12.0,33.0,9.0,1.0,1.0,1.0,0.0,33.0,1.0,1.0,True,True,2,False,False,True,True,True
+d59ef6856782,トヨタ自動車未来創成センター,2020.0,Chemistry,8.0,39.0,57.0,3.0,1.0,1.0,0.0,37.0,6.0,0.5164353542731921,True,True,1,True,False,True,True,False
+d602b7ddd952,トヨタ自動車未来創成センター,2024.0,Medicine,9.0,11.0,4.0,1.0,1.0,1.0,0.0,10.0,3.0,0.66,True,True,2,False,False,True,True,True
+d90ba3638783,トヨタ自動車未来創成センター,2022.0,Decision Sciences,8.0,74.0,12.0,1.0,1.0,1.0,0.0,64.0,6.0,0.310546875,True,True,1,False,False,True,True,False
+d9e378213490,トヨタ自動車未来創成センター,2020.0,Engineering,7.0,43.0,20.0,1.0,1.0,1.0,0.0,42.0,6.0,0.6643990929705216,True,True,1,False,False,True,True,False
+db19d8fe035f,トヨタ自動車未来創成センター,2021.0,Chemistry,6.0,29.0,12.0,2.0,1.0,1.0,0.0,29.0,5.0,0.5053507728894173,True,True,1,True,False,True,True,False
+dc63217997cb,トヨタ自動車未来創成センター,2018.0,Engineering,6.0,21.0,52.0,1.0,0.0,1.0,0.0,16.0,2.0,0.53125,False,True,2,False,False,False,False,True
+df06e45580a6,トヨタ自動車未来創成センター,2024.0,Social Sciences,7.0,29.0,9.0,1.0,0.0,1.0,0.0,18.0,2.0,0.5987654320987654,False,True,1,False,False,False,False,False
+e11964103855,トヨタ自動車未来創成センター,2025.0,Engineering,5.0,8.0,3.0,1.0,0.0,1.0,0.0,5.0,2.0,0.68,False,True,1,False,False,False,False,False
+e1cb6802c070,トヨタ自動車未来創成センター,2019.0,"Biochemistry, Genetics and Molecular Biology",8.0,19.0,6.0,1.0,1.0,1.0,0.0,19.0,6.0,0.2631578947368421,True,True,1,False,False,True,True,False
+e58fc908d349,トヨタ自動車未来創成センター,2018.0,Psychology,6.0,22.0,9.0,1.0,1.0,1.0,0.0,20.0,3.0,0.665,True,True,1,False,False,True,True,False
+e7ff5f0334e9,トヨタ自動車未来創成センター,2026.0,Computer Science,8.0,0.0,0.0,1.0,1.0,1.0,0.0,,,,True,True,1,False,False,True,True,False
+e88e930525d2,トヨタ自動車未来創成センター,2024.0,Engineering,2.0,28.0,2.0,1.0,1.0,1.0,0.0,26.0,2.0,0.5266272189349113,True,True,1,False,False,True,True,False
+e8d6029e1261,トヨタ自動車未来創成センター,2026.0,Engineering,3.0,30.0,1.0,1.0,0.0,1.0,0.0,28.0,3.0,0.6964285714285714,False,True,1,False,False,False,False,False
+ea1b251c1dd7,トヨタ自動車未来創成センター,2023.0,Engineering,5.0,15.0,1.0,2.0,1.0,1.0,0.0,12.0,1.0,1.0,True,True,1,True,False,True,True,False
+eb2ae282030f,トヨタ自動車未来創成センター,2020.0,Computer Science,4.0,27.0,6.0,1.0,1.0,1.0,0.0,25.0,2.0,0.5968,True,True,1,False,False,True,True,False
+eeccf9ce9089,トヨタ自動車未来創成センター,2020.0,Neuroscience,6.0,7.0,0.0,1.0,1.0,1.0,0.0,5.0,3.0,0.36,True,True,2,False,False,True,True,True
+f50c46f2229e,トヨタ自動車未来創成センター,2018.0,Engineering,3.0,56.0,23.0,1.0,0.0,1.0,0.0,49.0,6.0,0.22948771345272803,False,True,1,False,False,False,False,False
+f5787515b5af,トヨタ自動車未来創成センター,2020.0,Engineering,4.0,0.0,0.0,,,,,,,,False,False,0,False,False,False,False,False
+f7f4b5d535ff,トヨタ自動車未来創成センター,2020.0,Engineering,5.0,14.0,0.0,2.0,0.0,1.0,0.0,10.0,2.0,0.68,False,True,2,True,False,False,False,True
+f936923f9e6a,トヨタ自動車未来創成センター,2024.0,Engineering,3.0,33.0,2.0,1.0,0.0,1.0,0.0,25.0,5.0,0.4048,False,True,1,False,False,False,False,False
+fbaee1973bfa,トヨタ自動車未来創成センター,2019.0,Psychology,4.0,41.0,4.0,1.0,0.0,1.0,0.0,35.0,5.0,0.3355102040816327,False,True,1,False,False,False,False,False
+fc7a8f94e639,トヨタ自動車未来創成センター,2021.0,Engineering,19.0,31.0,23.0,2.0,1.0,1.0,1.0,28.0,5.0,0.5867346938775511,True,True,1,True,False,True,True,False
+fc9dc63c94e0,トヨタ自動車未来創成センター,2025.0,"Biochemistry, Genetics and Molecular Biology",2.0,13.0,0.0,1.0,0.0,1.0,0.0,11.0,3.0,0.5702479338842975,False,True,1,False,False,False,False,False
+fd2ed23244e2,トヨタ自動車未来創成センター,2021.0,Engineering,7.0,11.0,10.0,2.0,0.0,1.0,1.0,11.0,3.0,0.48760330578512395,False,True,2,True,False,False,False,True
+fe74947aa34c,トヨタ自動車未来創成センター,2019.0,Engineering,1.0,53.0,4.0,1.0,0.0,1.0,0.0,53.0,6.0,0.7265930936276255,False,True,1,False,True,False,False,False
+fe9a2b28cf0e,トヨタ自動車未来創成センター,2022.0,Engineering,4.0,24.0,3.0,1.0,0.0,1.0,0.0,22.0,5.0,0.6115702479338843,False,True,1,False,False,False,False,False
+009318edcf81,豊田中央研究所,2024.0,Engineering,5.0,0.0,0.0,,,,,,,,False,False,0,False,False,False,False,False
+00daac7f1163,豊田中央研究所,2018.0,Physics and Astronomy,3.0,36.0,13.0,1.0,0.0,1.0,0.0,36.0,5.0,0.3611111111111111,False,True,1,False,False,False,False,False
+00ffd7a0d41d,豊田中央研究所,2022.0,Engineering,3.0,52.0,11.0,,,,,34.0,3.0,0.47231833910034604,False,True,1,False,False,False,False,False
+0149cb4ccfc4,豊田中央研究所,2018.0,Engineering,2.0,20.0,19.0,1.0,0.0,1.0,0.0,20.0,4.0,0.405,False,True,1,False,False,False,False,False
+024332c0c1e0,豊田中央研究所,2025.0,Materials Science,2.0,454.0,22.0,2.0,0.0,1.0,0.0,425.0,11.0,0.24916262975778547,False,True,1,True,False,False,False,False
+026001f353bd,豊田中央研究所,2021.0,Engineering,4.0,54.0,6.0,1.0,0.0,1.0,0.0,54.0,9.0,0.33539094650205764,False,True,1,False,False,False,False,False
+027a54e73daa,豊田中央研究所,2025.0,Computer Science,4.0,62.0,8.0,1.0,1.0,1.0,0.0,58.0,5.0,0.6700356718192628,True,True,1,False,False,True,True,False
+02aab106bc82,豊田中央研究所,2024.0,Materials Science,4.0,36.0,11.0,1.0,0.0,1.0,0.0,36.0,5.0,0.4104938271604938,False,True,1,False,False,False,False,False
+0506b29523e0,豊田中央研究所,2020.0,Materials Science,5.0,103.0,202.0,2.0,1.0,1.0,0.0,93.0,8.0,0.4124176205341658,True,True,1,True,False,True,True,False
+07706fdeeba6,豊田中央研究所,2019.0,Materials Science,4.0,21.0,10.0,2.0,0.0,1.0,0.0,21.0,2.0,0.909297052154195,False,True,2,True,False,False,False,True
+082c4c8c3162,豊田中央研究所,2019.0,Materials Science,2.0,108.0,452.0,1.0,0.0,1.0,0.0,106.0,7.0,0.621751512993948,False,True,1,False,False,False,False,False
+08c88d3d6aca,豊田中央研究所,2024.0,Materials Science,3.0,58.0,3.0,1.0,0.0,1.0,0.0,57.0,9.0,0.32594644506001846,False,True,1,False,False,False,False,False
+099f28065ed7,豊田中央研究所,2023.0,Materials Science,6.0,46.0,15.0,1.0,1.0,1.0,0.0,45.0,6.0,0.42518518518518517,False,True,1,False,False,True,False,False
+0a4f67d7efa2,豊田中央研究所,2020.0,Materials Science,8.0,36.0,6.0,1.0,0.0,1.0,1.0,36.0,8.0,0.3734567901234568,False,True,1,False,False,False,False,False
+0cd754b72582,豊田中央研究所,2021.0,Energy,9.0,48.0,33.0,1.0,0.0,1.0,0.0,48.0,4.0,0.7717013888888888,False,True,1,False,False,False,False,False
+0d830264daab,豊田中央研究所,2018.0,Physics and Astronomy,3.0,53.0,28.0,2.0,1.0,1.0,0.0,49.0,7.0,0.5285297792586422,True,True,1,True,False,True,True,False
+0e54be0b9a1d,豊田中央研究所,2018.0,Engineering,3.0,47.0,8.0,1.0,0.0,1.0,0.0,43.0,4.0,0.37696051919956736,False,True,1,False,False,False,False,False
+107e1cb7d44d,豊田中央研究所,2022.0,Computer Science,5.0,54.0,14.0,1.0,0.0,1.0,0.0,38.0,3.0,0.8518005540166205,False,True,2,False,False,False,False,True
+1132359b512f,豊田中央研究所,2020.0,Materials Science,6.0,55.0,137.0,1.0,0.0,1.0,0.0,55.0,7.0,0.4380165289256198,False,True,2,False,False,False,False,True
+117fa6c79e15,豊田中央研究所,2024.0,Chemical Engineering,10.0,29.0,3.0,1.0,1.0,1.0,1.0,29.0,2.0,0.9334126040428062,False,True,2,False,False,True,False,True
+1207ea357f89,豊田中央研究所,2020.0,Engineering,4.0,41.0,31.0,1.0,0.0,1.0,0.0,38.0,2.0,0.9487534626038782,False,True,1,False,False,False,False,False
+13b111cc27fa,豊田中央研究所,2021.0,Neuroscience,4.0,56.0,1.0,1.0,1.0,1.0,0.0,52.0,10.0,0.4519230769230769,True,True,1,False,False,True,True,False
+144b89d5eaf0,豊田中央研究所,2020.0,Materials Science,2.0,20.0,29.0,1.0,0.0,1.0,0.0,20.0,3.0,0.595,False,True,1,False,False,False,False,False
+15b165947742,豊田中央研究所,2020.0,Engineering,6.0,47.0,38.0,1.0,0.0,1.0,0.0,46.0,3.0,0.7325141776937618,False,True,1,False,False,False,False,False
+172f74f3d172,豊田中央研究所,2018.0,Decision Sciences,4.0,30.0,18.0,1.0,1.0,1.0,0.0,27.0,5.0,0.25651577503429357,True,True,1,False,False,True,True,False
+177ea6b960cc,豊田中央研究所,2019.0,Materials Science,6.0,26.0,4.0,1.0,0.0,1.0,0.0,26.0,6.0,0.38461538461538464,False,True,1,False,False,False,False,False
+1891031071b0,豊田中央研究所,2019.0,Materials Science,1.0,71.0,18.0,2.0,0.0,1.0,0.0,60.0,4.0,0.8138888888888889,False,True,1,True,True,False,False,False
+189f5c2c8316,豊田中央研究所,2020.0,Engineering,4.0,22.0,11.0,1.0,1.0,1.0,0.0,22.0,4.0,0.7520661157024794,True,True,1,False,False,True,True,False
+18d086e044b5,豊田中央研究所,2022.0,Engineering,7.0,62.0,5.0,2.0,0.0,1.0,0.0,61.0,3.0,0.9360386992743887,False,True,2,True,False,False,False,True
+18f2851796a0,豊田中央研究所,2023.0,Energy,9.0,60.0,10.0,1.0,1.0,0.0,0.0,60.0,5.0,0.7333333333333333,False,False,0,False,False,False,False,False
+19082825a66a,豊田中央研究所,2025.0,Medicine,5.0,68.0,1.0,1.0,1.0,1.0,0.0,68.0,7.0,0.2750865051903114,True,True,1,False,False,True,True,False
+1925ac4fe1eb,豊田中央研究所,2021.0,Energy,2.0,31.0,6.0,1.0,0.0,1.0,0.0,31.0,4.0,0.7648283038501561,False,True,1,False,False,False,False,False
+194945adb4d3,豊田中央研究所,2021.0,Energy,3.0,40.0,17.0,1.0,0.0,1.0,0.0,38.0,4.0,0.6440443213296398,False,True,1,False,False,False,False,False
+1a579881105c,豊田中央研究所,2021.0,Engineering,6.0,56.0,39.0,1.0,0.0,1.0,0.0,56.0,3.0,0.8973214285714286,False,True,1,False,False,False,False,False
+1ae39310f94e,豊田中央研究所,2020.0,Engineering,5.0,33.0,5.0,1.0,0.0,1.0,0.0,33.0,3.0,0.35720844811753905,False,True,1,False,False,False,False,False
+1bddc29450af,豊田中央研究所,2024.0,Engineering,3.0,48.0,9.0,1.0,0.0,1.0,0.0,47.0,2.0,0.9583521955636034,False,True,1,False,False,False,False,False
+1bdf12171b37,豊田中央研究所,2023.0,Engineering,6.0,48.0,26.0,1.0,0.0,1.0,0.0,48.0,6.0,0.8046875,False,True,1,False,False,False,False,False
+1d43bf8758de,豊田中央研究所,2020.0,Materials Science,3.0,32.0,17.0,7.0,0.0,1.0,0.0,32.0,3.0,0.611328125,False,True,2,True,False,False,False,True
+1d454f14594b,豊田中央研究所,2023.0,Engineering,8.0,37.0,48.0,1.0,1.0,1.0,0.0,37.0,3.0,0.8962746530314097,True,True,1,False,False,True,True,False
+1f5dbacce0f0,豊田中央研究所,2019.0,Materials Science,1.0,45.0,31.0,1.0,0.0,1.0,0.0,28.0,3.0,0.5127551020408163,False,True,1,False,True,False,False,False
+1f97ce569773,豊田中央研究所,2021.0,Computer Science,4.0,27.0,0.0,,,,,27.0,5.0,0.49794238683127573,False,True,1,False,False,False,False,False
+2072206cf1cb,豊田中央研究所,2019.0,Energy,2.0,36.0,7.0,2.0,0.0,1.0,0.0,36.0,6.0,0.30092592592592593,False,True,1,True,False,False,False,False
+20bac751660f,豊田中央研究所,2019.0,Engineering,6.0,33.0,132.0,1.0,0.0,1.0,0.0,32.0,6.0,0.544921875,False,True,1,False,False,False,False,False
+2281572086af,豊田中央研究所,2024.0,Engineering,4.0,83.0,14.0,1.0,0.0,1.0,0.0,81.0,3.0,0.9280597469897881,False,True,1,False,False,False,False,False
+2322e40dc6bc,豊田中央研究所,2020.0,Engineering,2.0,16.0,4.0,1.0,0.0,1.0,0.0,12.0,3.0,0.7083333333333334,False,True,1,False,False,False,False,False
+2407f4665bf6,豊田中央研究所,2024.0,Materials Science,5.0,99.0,11.0,1.0,0.0,1.0,0.0,97.0,7.0,0.3504091826974174,False,True,2,False,False,False,False,True
+2468c6cb6d58,豊田中央研究所,2021.0,Engineering,5.0,19.0,8.0,1.0,0.0,1.0,0.0,19.0,2.0,0.9002770083102493,False,True,1,False,False,False,False,False
+24d8666c37ef,豊田中央研究所,2019.0,Materials Science,3.0,24.0,28.0,1.0,0.0,1.0,0.0,24.0,4.0,0.59375,False,True,1,False,False,False,False,False
+25fd989cb588,豊田中央研究所,2023.0,Engineering,5.0,69.0,33.0,1.0,0.0,1.0,0.0,69.0,6.0,0.4303717706364209,False,True,1,False,False,False,False,False
+2676674cf3fa,豊田中央研究所,2021.0,Energy,8.0,53.0,102.0,1.0,0.0,1.0,0.0,51.0,6.0,0.6855055747789311,False,True,1,False,False,False,False,False
+2720738ce536,豊田中央研究所,2023.0,Engineering,4.0,44.0,29.0,1.0,0.0,1.0,0.0,44.0,3.0,0.9121900826446281,False,True,1,False,False,False,False,False
+27c195fa72d9,豊田中央研究所,2020.0,Engineering,4.0,41.0,32.0,1.0,0.0,1.0,0.0,41.0,3.0,0.552647233789411,False,True,1,False,False,False,False,False
+27d7e2b65c8d,豊田中央研究所,2018.0,Engineering,4.0,41.0,8.0,2.0,1.0,1.0,0.0,40.0,3.0,0.81625,True,True,1,True,False,True,True,False
+286de4654671,豊田中央研究所,2022.0,Social Sciences,3.0,30.0,3.0,1.0,1.0,1.0,0.0,29.0,5.0,0.29369797859690844,True,True,1,False,False,True,True,False
+2894e0bfa304,豊田中央研究所,2024.0,Materials Science,3.0,83.0,14.0,2.0,1.0,1.0,0.0,80.0,7.0,0.265,True,True,1,True,False,True,True,False
+28a060b82abe,豊田中央研究所,2025.0,Engineering,3.0,44.0,2.0,1.0,0.0,1.0,0.0,44.0,2.0,0.9555785123966942,False,True,1,False,False,False,False,False
+2c3d42bcf54c,豊田中央研究所,2019.0,Computer Science,4.0,23.0,12.0,1.0,1.0,1.0,0.0,20.0,6.0,0.23,True,True,1,False,False,True,True,False
+2daf5908a8e8,豊田中央研究所,2023.0,Engineering,9.0,49.0,12.0,1.0,1.0,1.0,0.0,49.0,4.0,0.5735110370678884,False,True,1,False,False,True,False,False
+2e553763fd60,豊田中央研究所,2023.0,"Biochemistry, Genetics and Molecular Biology",12.0,54.0,22.0,1.0,1.0,1.0,1.0,53.0,9.0,0.30509077963688147,True,True,1,False,False,True,True,False
+2eacbcd221af,豊田中央研究所,2025.0,Engineering,8.0,34.0,2.0,1.0,1.0,1.0,0.0,34.0,3.0,0.6522491349480969,False,True,1,False,False,True,False,False
+30f2b9606c0f,豊田中央研究所,2023.0,Chemistry,8.0,43.0,8.0,1.0,0.0,1.0,0.0,41.0,3.0,0.5169541939321832,False,True,1,False,False,False,False,False
+3301cbb6232e,豊田中央研究所,2023.0,Engineering,7.0,56.0,46.0,2.0,1.0,1.0,0.0,55.0,5.0,0.6833057851239669,False,True,2,True,False,True,False,True
+33b2e1bb70e6,豊田中央研究所,2025.0,Computer Science,3.0,70.0,15.0,1.0,1.0,1.0,0.0,66.0,8.0,0.43709825528007346,True,True,1,False,False,True,True,False
+33f950f1f37b,豊田中央研究所,2024.0,Environmental Science,2.0,53.0,9.0,1.0,0.0,1.0,0.0,51.0,7.0,0.30411380238369856,False,True,1,False,False,False,False,False
+3425e5e11a32,豊田中央研究所,2019.0,Engineering,9.0,31.0,171.0,2.0,0.0,1.0,0.0,31.0,3.0,0.7211238293444329,False,True,1,True,False,False,False,False
+342fc79a2dc2,豊田中央研究所,2026.0,Computer Science,2.0,0.0,0.0,1.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+3494280969a4,豊田中央研究所,2025.0,Computer Science,3.0,41.0,1.0,1.0,0.0,1.0,0.0,31.0,6.0,0.6586888657648283,False,True,2,False,False,False,False,True
+3681a81ae703,豊田中央研究所,2022.0,Engineering,11.0,69.0,28.0,1.0,0.0,1.0,0.0,69.0,6.0,0.4354127284183995,False,True,1,False,False,False,False,False
+36a88704a84b,豊田中央研究所,2021.0,Computer Science,4.0,55.0,9.0,1.0,1.0,0.0,0.0,31.0,3.0,0.768990634755463,False,True,1,False,False,False,False,False
+37d065c45103,豊田中央研究所,2020.0,Computer Science,1.0,16.0,1.0,1.0,0.0,1.0,0.0,13.0,2.0,0.5739644970414202,False,True,1,False,True,False,False,False
+3a72fab5f46c,豊田中央研究所,2019.0,Materials Science,6.0,46.0,11.0,1.0,0.0,1.0,0.0,46.0,2.0,0.9574669187145558,False,True,1,False,False,False,False,False
+3bf7b9ad3d7b,豊田中央研究所,2025.0,Materials Science,1.0,57.0,3.0,1.0,0.0,1.0,0.0,57.0,5.0,0.44352108341028007,False,True,1,False,True,False,False,False
+3c0408528e38,豊田中央研究所,2019.0,Engineering,5.0,41.0,23.0,1.0,1.0,1.0,0.0,33.0,5.0,0.3810835629017447,True,True,1,False,False,True,True,False
+3c78286b82cc,豊田中央研究所,2018.0,Engineering,3.0,53.0,67.0,1.0,0.0,1.0,0.0,40.0,4.0,0.4225,False,True,1,False,False,False,False,False
+3ecc54161003,豊田中央研究所,2023.0,Engineering,6.0,33.0,11.0,,,,,33.0,2.0,0.6657483930211203,False,True,1,False,False,False,False,False
+3f9a312a8d6c,豊田中央研究所,2024.0,Chemical Engineering,8.0,68.0,10.0,1.0,1.0,1.0,1.0,68.0,3.0,0.9147923875432526,False,True,2,False,False,True,False,True
+409870da2c10,豊田中央研究所,2021.0,Engineering,4.0,30.0,1.0,3.0,1.0,1.0,0.0,27.0,6.0,0.6159122085048011,True,True,1,True,False,True,True,False
+409fe09dac16,豊田中央研究所,2018.0,Materials Science,6.0,34.0,56.0,1.0,0.0,1.0,0.0,34.0,3.0,0.8875432525951558,False,True,1,False,False,False,False,False
+41a5039f67b9,豊田中央研究所,2024.0,Chemistry,5.0,68.0,4.0,1.0,0.0,1.0,0.0,68.0,5.0,0.5852076124567474,False,True,1,False,False,False,False,False
+4315f6ee6cc0,豊田中央研究所,2020.0,Engineering,2.0,19.0,14.0,1.0,0.0,1.0,0.0,19.0,1.0,1.0,False,True,1,False,False,False,False,False
+434004e38ac6,豊田中央研究所,2024.0,Social Sciences,3.0,26.0,5.0,1.0,0.0,1.0,0.0,12.0,2.0,0.8472222222222222,False,True,1,False,False,False,False,False
+45d2de2795e0,豊田中央研究所,2024.0,Engineering,6.0,43.0,9.0,1.0,1.0,0.0,0.0,40.0,2.0,0.95125,True,True,1,False,False,False,True,False
+462954d6c690,豊田中央研究所,2019.0,Engineering,4.0,6.0,4.0,1.0,0.0,1.0,0.0,6.0,1.0,1.0,False,True,1,False,False,False,False,False
+4780234b333d,豊田中央研究所,2024.0,Engineering,3.0,32.0,1.0,1.0,0.0,1.0,0.0,25.0,5.0,0.5488,False,True,1,False,False,False,False,False
+47cb301e989b,豊田中央研究所,2025.0,Computer Science,1.0,7.0,0.0,1.0,0.0,1.0,0.0,7.0,3.0,0.42857142857142855,False,True,1,False,True,False,False,False
+4893c5cc197b,豊田中央研究所,2023.0,Energy,9.0,25.0,6.0,1.0,1.0,1.0,0.0,25.0,2.0,0.9232,True,True,1,False,False,True,True,False
+4a2bc06b8999,豊田中央研究所,2026.0,Engineering,4.0,27.0,0.0,1.0,0.0,1.0,0.0,27.0,3.0,0.5637860082304527,False,True,1,False,False,False,False,False
+4be4d8d9a2e3,豊田中央研究所,2019.0,Physics and Astronomy,5.0,37.0,2.0,1.0,1.0,1.0,0.0,37.0,5.0,0.4404674945215486,True,True,1,False,False,True,True,False
+4bf9bc666b75,豊田中央研究所,2019.0,Neuroscience,3.0,43.0,2.0,1.0,0.0,1.0,0.0,41.0,6.0,0.5014872099940512,False,True,1,False,False,False,False,False
+4c238eac194e,豊田中央研究所,2019.0,Materials Science,7.0,42.0,21.0,1.0,1.0,1.0,0.0,42.0,4.0,0.6768707482993197,True,True,1,False,False,True,True,False
+4c9bf19b87e0,豊田中央研究所,2024.0,Engineering,10.0,78.0,21.0,2.0,1.0,1.0,0.0,78.0,5.0,0.685404339250493,False,True,2,True,False,True,False,True
+4cd5da3f8b8e,豊田中央研究所,2020.0,Engineering,2.0,17.0,5.0,1.0,1.0,1.0,0.0,13.0,1.0,1.0,True,True,1,False,False,True,True,False
+4d302e3f916b,豊田中央研究所,2019.0,Materials Science,5.0,92.0,101.0,1.0,0.0,1.0,0.0,92.0,8.0,0.3844517958412098,False,True,1,False,False,False,False,False
+4d81d895acf6,豊田中央研究所,2019.0,Materials Science,4.0,26.0,10.0,1.0,0.0,1.0,0.0,26.0,8.0,0.4467455621301775,False,True,2,False,False,False,False,True
+506a1080ada9,豊田中央研究所,2020.0,Materials Science,9.0,32.0,4.0,1.0,1.0,1.0,0.0,29.0,5.0,0.3769322235434007,True,True,2,False,False,True,True,True
+50756fd69794,豊田中央研究所,2025.0,Engineering,6.0,32.0,0.0,1.0,0.0,1.0,0.0,32.0,4.0,0.548828125,False,True,1,False,False,False,False,False
+55380b96f4d2,豊田中央研究所,2019.0,Engineering,3.0,34.0,5.0,1.0,0.0,1.0,0.0,34.0,3.0,0.6141868512110726,False,True,2,False,False,False,False,True
+559452b7343d,豊田中央研究所,2025.0,Decision Sciences,5.0,43.0,1.0,1.0,1.0,1.0,0.0,40.0,10.0,0.15375,True,True,1,False,False,True,True,False
+571992758989,豊田中央研究所,2023.0,Engineering,4.0,63.0,36.0,1.0,0.0,1.0,0.0,63.0,2.0,0.9687578735197783,False,True,1,False,False,False,False,False
+582ffd86f677,豊田中央研究所,2021.0,Computer Science,5.0,53.0,99.0,1.0,1.0,1.0,0.0,51.0,5.0,0.3502499038831219,True,True,1,False,False,True,True,False
+584df97ed868,豊田中央研究所,2025.0,Engineering,5.0,14.0,1.0,1.0,0.0,1.0,0.0,12.0,2.0,0.5555555555555556,False,True,2,False,False,False,False,True
+58efc627e18e,豊田中央研究所,2021.0,Engineering,3.0,68.0,15.0,1.0,0.0,1.0,0.0,68.0,6.0,0.5981833910034602,False,True,1,False,False,False,False,False
+595e09614da9,豊田中央研究所,2020.0,Engineering,4.0,20.0,3.0,1.0,0.0,1.0,0.0,20.0,2.0,0.625,False,True,1,False,False,False,False,False
+5a21732a5b83,豊田中央研究所,2020.0,Engineering,4.0,28.0,21.0,1.0,1.0,0.0,0.0,26.0,1.0,1.0,False,True,1,False,False,False,False,False
+5a7d0bb7c38b,豊田中央研究所,2023.0,Energy,8.0,43.0,3.0,1.0,0.0,1.0,0.0,41.0,7.0,0.18738845925044617,False,True,1,False,False,False,False,False
+5abede2611b7,豊田中央研究所,2022.0,Chemical Engineering,2.0,40.0,12.0,1.0,0.0,1.0,0.0,36.0,5.0,0.35802469135802467,False,True,1,False,False,False,False,False
+5b11303e20ac,豊田中央研究所,2018.0,Engineering,4.0,34.0,33.0,1.0,1.0,1.0,0.0,32.0,4.0,0.677734375,True,True,1,False,False,True,True,False
+5b588890d274,豊田中央研究所,2022.0,Engineering,4.0,39.0,16.0,1.0,0.0,1.0,0.0,35.0,9.0,0.22448979591836735,False,True,1,False,False,False,False,False
+5b5d15d42d8b,豊田中央研究所,2021.0,Engineering,7.0,69.0,13.0,1.0,0.0,1.0,0.0,68.0,3.0,0.8620242214532872,False,True,1,False,False,False,False,False
+5bb3bccedf53,豊田中央研究所,2020.0,"Biochemistry, Genetics and Molecular Biology",7.0,62.0,6.0,1.0,0.0,1.0,0.0,62.0,6.0,0.690426638917794,False,True,1,False,False,False,False,False
+5c321ecf5f6b,豊田中央研究所,2018.0,Engineering,4.0,66.0,60.0,3.0,1.0,1.0,1.0,65.0,8.0,0.28473372781065087,False,True,1,True,False,True,False,False
+5dafa7d353d8,豊田中央研究所,2018.0,Physics and Astronomy,1.0,14.0,2.0,1.0,0.0,1.0,0.0,12.0,5.0,0.3055555555555556,False,True,1,False,True,False,False,False
+5e0365d1b9b2,豊田中央研究所,2023.0,Medicine,6.0,79.0,13.0,1.0,1.0,1.0,0.0,79.0,7.0,0.38631629546547025,True,True,1,False,False,True,True,False
+5e8c0cf41e6b,豊田中央研究所,2020.0,Agricultural and Biological Sciences,5.0,56.0,15.0,1.0,1.0,1.0,0.0,56.0,2.0,0.5057397959183674,True,True,1,False,False,True,True,False
+5f8f0b88d1fd,豊田中央研究所,2022.0,Energy,3.0,43.0,22.0,1.0,0.0,1.0,0.0,42.0,4.0,0.4002267573696145,False,True,1,False,False,False,False,False
+6008737b26b3,豊田中央研究所,2020.0,Engineering,4.0,82.0,0.0,1.0,1.0,1.0,0.0,53.0,4.0,0.5329298682805269,False,True,1,False,False,True,False,False
+6044a8508221,豊田中央研究所,2021.0,Engineering,6.0,48.0,48.0,1.0,1.0,1.0,0.0,48.0,5.0,0.5564236111111112,False,True,1,False,False,True,False,False
+60eec938a61c,豊田中央研究所,2024.0,Engineering,5.0,62.0,14.0,1.0,0.0,1.0,0.0,62.0,6.0,0.63579604578564,False,True,1,False,False,False,False,False
+61d6bc9bd0ea,豊田中央研究所,2024.0,Materials Science,4.0,38.0,2.0,1.0,1.0,1.0,0.0,36.0,4.0,0.4583333333333333,True,True,1,False,False,True,True,False
+61ddd223a0b4,豊田中央研究所,2020.0,Materials Science,5.0,32.0,20.0,1.0,0.0,1.0,0.0,32.0,3.0,0.724609375,False,True,1,False,False,False,False,False
+62a89ae4a68d,豊田中央研究所,2020.0,Engineering,2.0,225.0,191.0,2.0,1.0,1.0,0.0,222.0,8.0,0.6150474799123448,False,True,1,True,False,True,False,False
+633f9e3621b3,豊田中央研究所,2023.0,Engineering,5.0,60.0,34.0,1.0,0.0,1.0,0.0,53.0,5.0,0.7030971876112495,False,True,1,False,False,False,False,False
+643d81b0f2e7,豊田中央研究所,2020.0,Computer Science,2.0,20.0,8.0,1.0,0.0,1.0,0.0,20.0,3.0,0.515,False,True,1,False,False,False,False,False
+648a01917ce3,豊田中央研究所,2019.0,Environmental Science,3.0,35.0,12.0,1.0,1.0,1.0,0.0,34.0,11.0,0.3408304498269896,False,True,1,False,False,True,False,False
+64fbec506d1c,豊田中央研究所,2019.0,Engineering,5.0,31.0,57.0,1.0,0.0,1.0,0.0,29.0,4.0,0.5148632580261593,False,True,1,False,False,False,False,False
+654c8be729a9,豊田中央研究所,2020.0,Engineering,2.0,31.0,6.0,1.0,0.0,1.0,0.0,31.0,6.0,0.2903225806451613,False,True,1,False,False,False,False,False
+65654a7013e9,豊田中央研究所,2025.0,Engineering,2.0,26.0,0.0,1.0,0.0,1.0,0.0,23.0,7.0,0.29678638941398866,False,True,1,False,False,False,False,False
+67679445ded6,豊田中央研究所,2025.0,Energy,5.0,45.0,1.0,1.0,0.0,1.0,0.0,45.0,6.0,0.4883950617283951,False,True,1,False,False,False,False,False
+6868015b5fd4,豊田中央研究所,2024.0,Engineering,12.0,63.0,35.0,1.0,0.0,1.0,0.0,63.0,4.0,0.42605190224237843,False,True,2,False,False,False,False,True
+6888cae6908f,豊田中央研究所,2022.0,Engineering,3.0,44.0,4.0,1.0,1.0,1.0,0.0,39.0,4.0,0.5042735042735043,False,True,1,False,False,True,False,False
+68b17ed89811,豊田中央研究所,2023.0,Mathematics,2.0,24.0,6.0,1.0,0.0,1.0,0.0,23.0,7.0,0.2060491493383743,False,True,1,False,False,False,False,False
+68eb53081212,豊田中央研究所,2020.0,Engineering,4.0,15.0,20.0,1.0,0.0,1.0,0.0,15.0,2.0,0.52,False,True,1,False,False,False,False,False
+697c470ad7e9,豊田中央研究所,2024.0,Engineering,13.0,63.0,97.0,1.0,0.0,1.0,0.0,56.0,8.0,0.42665816326530615,False,True,2,False,False,False,False,True
+69ad9829dc95,豊田中央研究所,2019.0,Computer Science,4.0,19.0,7.0,2.0,1.0,1.0,0.0,16.0,4.0,0.5859375,True,True,1,True,False,True,True,False
+6b3c5fd5ef28,豊田中央研究所,2021.0,Engineering,4.0,35.0,24.0,1.0,0.0,1.0,0.0,35.0,4.0,0.4563265306122449,False,True,2,False,False,False,False,True
+6c8a55a54b45,豊田中央研究所,2023.0,Engineering,4.0,29.0,7.0,1.0,0.0,1.0,0.0,28.0,4.0,0.44387755102040816,False,True,1,False,False,False,False,False
+6f916e51d266,豊田中央研究所,2020.0,Chemistry,5.0,24.0,11.0,1.0,0.0,1.0,0.0,24.0,7.0,0.3298611111111111,False,True,1,False,False,False,False,False
+6fa1f8208709,豊田中央研究所,2023.0,Computer Science,4.0,32.0,4.0,1.0,0.0,1.0,0.0,20.0,2.0,0.505,False,True,1,False,False,False,False,False
+70199f67b6cd,豊田中央研究所,2020.0,Engineering,3.0,40.0,9.0,1.0,0.0,1.0,0.0,40.0,10.0,0.16125,False,True,1,False,False,False,False,False
+70e545fca1e3,豊田中央研究所,2020.0,Energy,6.0,34.0,7.0,2.0,0.0,1.0,0.0,34.0,5.0,0.4913494809688581,False,True,1,True,False,False,False,False
+718c2c1bad06,豊田中央研究所,2025.0,"Biochemistry, Genetics and Molecular Biology",2.0,20.0,0.0,1.0,0.0,1.0,0.0,19.0,3.0,0.8060941828254847,False,True,1,False,False,False,False,False
+718d01bdc986,豊田中央研究所,2025.0,Engineering,3.0,22.0,1.0,1.0,0.0,1.0,0.0,22.0,4.0,0.5578512396694215,False,True,1,False,False,False,False,False
+71c35125510f,豊田中央研究所,2020.0,Engineering,3.0,27.0,64.0,1.0,0.0,1.0,0.0,27.0,3.0,0.47599451303155005,False,True,2,False,False,False,False,True
+7331f3e8995a,豊田中央研究所,2020.0,Engineering,4.0,31.0,9.0,1.0,0.0,1.0,0.0,29.0,3.0,0.8097502972651606,False,True,1,False,False,False,False,False
+7335c131b803,豊田中央研究所,2023.0,Chemistry,5.0,50.0,7.0,1.0,0.0,1.0,0.0,50.0,6.0,0.3456,False,True,1,False,False,False,False,False
+739cc3e7a4c4,豊田中央研究所,2020.0,Physics and Astronomy,5.0,32.0,9.0,1.0,1.0,1.0,0.0,32.0,3.0,0.646484375,True,True,1,False,False,True,True,False
+74d1d9aa4eb7,豊田中央研究所,2019.0,Materials Science,1.0,79.0,7.0,1.0,0.0,1.0,0.0,55.0,7.0,0.5689256198347108,False,True,1,False,True,False,False,False
+7602a18bd8a6,豊田中央研究所,2025.0,Engineering,5.0,70.0,3.0,1.0,0.0,1.0,0.0,57.0,9.0,0.27362265312403816,False,True,2,False,False,False,False,True
+768082aac403,豊田中央研究所,2021.0,Engineering,4.0,25.0,1.0,1.0,0.0,1.0,0.0,25.0,2.0,0.8528,False,True,1,False,False,False,False,False
+76ef1c151dbc,豊田中央研究所,2020.0,Computer Science,3.0,62.0,31.0,2.0,1.0,1.0,0.0,62.0,5.0,0.5509885535900104,True,True,1,True,False,True,True,False
+781c6f821e73,豊田中央研究所,2022.0,Materials Science,4.0,67.0,55.0,1.0,0.0,1.0,0.0,67.0,7.0,0.5036756515927824,False,True,2,False,False,False,False,True
+782fef87cdf1,豊田中央研究所,2022.0,Physics and Astronomy,5.0,80.0,47.0,3.0,1.0,1.0,0.0,80.0,7.0,0.2475,True,True,1,True,False,True,True,False
+79513bb2cec1,豊田中央研究所,2025.0,Energy,10.0,53.0,4.0,2.0,1.0,1.0,0.0,53.0,7.0,0.5813456746173016,True,True,1,True,False,True,True,False
+796b6591e65e,豊田中央研究所,2023.0,Materials Science,3.0,56.0,9.0,1.0,0.0,1.0,0.0,49.0,5.0,0.5268638067471887,False,True,1,False,False,False,False,False
+797169e09f2b,豊田中央研究所,2018.0,Materials Science,3.0,29.0,8.0,2.0,0.0,1.0,0.0,29.0,6.0,0.638525564803805,False,True,1,True,False,False,False,False
+7a7ad7b9725d,豊田中央研究所,2022.0,Engineering,4.0,31.0,8.0,,,,,27.0,2.0,0.5555555555555556,False,True,1,False,False,False,False,False
+7cfad49db475,豊田中央研究所,2024.0,Engineering,3.0,65.0,3.0,1.0,1.0,1.0,0.0,63.0,8.0,0.28999748047367097,True,True,1,False,False,True,True,False
+7d73fb679c9e,豊田中央研究所,2024.0,Engineering,1.0,50.0,10.0,2.0,0.0,1.0,0.0,50.0,4.0,0.8136,False,True,1,True,True,False,False,False
+7dcf92bf8b48,豊田中央研究所,2023.0,Energy,5.0,50.0,5.0,1.0,0.0,1.0,0.0,50.0,3.0,0.7848,False,True,2,False,False,False,False,True
+7dee2542e5e3,豊田中央研究所,2024.0,Engineering,8.0,36.0,3.0,2.0,1.0,1.0,0.0,36.0,5.0,0.3487654320987654,True,True,2,True,False,True,True,True
+7ec6007a8aff,豊田中央研究所,2018.0,Materials Science,10.0,32.0,26.0,1.0,1.0,1.0,0.0,32.0,4.0,0.31640625,True,True,1,False,False,True,True,False
+7f0f69cb60f5,豊田中央研究所,2025.0,Engineering,4.0,57.0,5.0,1.0,1.0,1.0,0.0,55.0,5.0,0.6515702479338843,False,True,1,False,False,True,False,False
+8087abb57c9a,豊田中央研究所,2025.0,Engineering,5.0,48.0,5.0,1.0,0.0,1.0,0.0,48.0,12.0,0.2743055555555556,False,True,1,False,False,False,False,False
+80bd51cfae93,豊田中央研究所,2024.0,Earth and Planetary Sciences,2.0,55.0,0.0,1.0,1.0,1.0,0.0,50.0,6.0,0.3512,True,True,1,False,False,True,True,False
+819730a30c79,豊田中央研究所,2019.0,Neuroscience,3.0,36.0,1.0,1.0,1.0,1.0,0.0,36.0,6.0,0.4737654320987654,True,True,1,False,False,True,True,False
+81fea8954ac5,豊田中央研究所,2022.0,Physics and Astronomy,7.0,63.0,30.0,1.0,1.0,1.0,0.0,58.0,4.0,0.7235434007134364,True,True,1,False,False,True,True,False
+830446678bba,豊田中央研究所,2022.0,Engineering,7.0,74.0,37.0,1.0,0.0,1.0,0.0,67.0,3.0,0.8863889507685453,False,True,1,False,False,False,False,False
+842346c1157b,豊田中央研究所,2020.0,Computer Science,6.0,47.0,11.0,1.0,1.0,1.0,0.0,41.0,5.0,0.3920285544318858,True,True,1,False,False,True,True,False
+8532fbe50387,豊田中央研究所,2019.0,Engineering,7.0,47.0,102.0,2.0,1.0,1.0,0.0,45.0,3.0,0.8340740740740741,False,True,2,True,False,True,False,True
+861ea269ddac,豊田中央研究所,2024.0,Energy,5.0,62.0,4.0,1.0,0.0,1.0,0.0,56.0,3.0,0.7008928571428571,False,True,1,False,False,False,False,False
+8745baba9eb7,豊田中央研究所,2020.0,Engineering,5.0,53.0,26.0,1.0,0.0,1.0,0.0,53.0,4.0,0.5279458882164472,False,True,1,False,False,False,False,False
+8766c1c7499a,豊田中央研究所,2020.0,Chemical Engineering,7.0,20.0,5.0,2.0,0.0,1.0,0.0,20.0,3.0,0.515,False,True,2,True,False,False,False,True
+87932aedc212,豊田中央研究所,2019.0,Engineering,5.0,64.0,7.0,1.0,0.0,1.0,0.0,63.0,3.0,0.37918871252204583,False,True,1,False,False,False,False,False
+88099efca158,豊田中央研究所,2023.0,Engineering,4.0,47.0,13.0,1.0,0.0,1.0,0.0,47.0,6.0,0.3472159348121322,False,True,1,False,False,False,False,False
+8854217ccfed,豊田中央研究所,2009.0,Environmental Science,1.0,0.0,0.0,,,,,,,,False,False,0,False,True,False,False,False
+8a0d1a9a2d33,豊田中央研究所,2025.0,Environmental Science,4.0,34.0,2.0,1.0,0.0,1.0,0.0,34.0,4.0,0.48788927335640137,False,True,1,False,False,False,False,False
+8ae19878c33c,豊田中央研究所,2025.0,Energy,7.0,92.0,4.0,1.0,1.0,1.0,0.0,91.0,8.0,0.350320009660669,True,True,1,False,False,True,True,False
+8afae8fb5634,豊田中央研究所,2019.0,Engineering,3.0,24.0,5.0,1.0,0.0,1.0,0.0,24.0,2.0,0.9201388888888888,False,True,1,False,False,False,False,False
+8b0f90d28408,豊田中央研究所,2022.0,Social Sciences,4.0,17.0,3.0,3.0,1.0,1.0,0.0,12.0,3.0,0.5972222222222222,True,True,2,True,False,True,True,True
+8b18c26f5781,豊田中央研究所,2019.0,Engineering,3.0,25.0,14.0,1.0,1.0,0.0,0.0,25.0,3.0,0.8496,False,True,1,False,False,False,False,False
+8b4556132a74,豊田中央研究所,2021.0,Energy,5.0,108.0,898.0,1.0,0.0,1.0,0.0,107.0,3.0,0.5753340903135645,False,True,1,False,False,False,False,False
+8c99fa9c2405,豊田中央研究所,2024.0,Engineering,12.0,54.0,12.0,1.0,0.0,1.0,0.0,54.0,3.0,0.8292181069958847,False,True,1,False,False,False,False,False
+8cba5682b348,豊田中央研究所,2023.0,Engineering,5.0,80.0,10.0,1.0,0.0,1.0,0.0,76.0,10.0,0.2596952908587258,False,True,1,False,False,False,False,False
+8ce9d7bd1921,豊田中央研究所,2025.0,Energy,2.0,176.0,7.0,1.0,1.0,1.0,0.0,176.0,8.0,0.5130423553719008,True,True,1,False,False,True,True,False
+8dbb4da58f57,豊田中央研究所,2019.0,Energy,2.0,52.0,24.0,1.0,0.0,1.0,0.0,51.0,5.0,0.3871587850826605,False,True,1,False,False,False,False,False
+8e1cca9218d0,豊田中央研究所,2022.0,Engineering,4.0,56.0,14.0,1.0,0.0,1.0,0.0,53.0,3.0,0.8262726949092204,False,True,2,False,False,False,False,True
+8e431102a190,豊田中央研究所,2021.0,Engineering,2.0,30.0,23.0,1.0,0.0,1.0,0.0,30.0,8.0,0.3,False,True,1,False,False,False,False,False
+8e8c8c512240,豊田中央研究所,2023.0,Engineering,2.0,64.0,12.0,1.0,0.0,1.0,0.0,63.0,7.0,0.32476694381456284,False,True,1,False,False,False,False,False
+8ebce782e65d,豊田中央研究所,2024.0,Chemistry,4.0,66.0,7.0,1.0,0.0,1.0,0.0,66.0,8.0,0.22819100091827366,False,True,1,False,False,False,False,False
+8f51aae43a25,豊田中央研究所,2025.0,Energy,8.0,22.0,3.0,1.0,1.0,1.0,0.0,22.0,2.0,0.9132231404958677,True,True,1,False,False,True,True,False
+8fdeb70de0e5,豊田中央研究所,2021.0,Materials Science,7.0,57.0,396.0,2.0,1.0,0.0,0.0,55.0,6.0,0.2634710743801653,True,False,0,True,False,False,False,False
+907a94c73649,豊田中央研究所,2019.0,Engineering,8.0,50.0,27.0,1.0,1.0,1.0,0.0,50.0,1.0,1.0,True,True,1,False,False,True,True,False
+90d902dc51ec,豊田中央研究所,2023.0,Materials Science,2.0,48.0,4.0,1.0,1.0,0.0,0.0,48.0,7.0,0.3289930555555556,True,False,0,False,False,False,False,False
+91362cf0491b,豊田中央研究所,2019.0,"Biochemistry, Genetics and Molecular Biology",4.0,47.0,13.0,1.0,0.0,1.0,0.0,47.0,7.0,0.4576731552738796,False,True,1,False,False,False,False,False
+91915a5261d7,豊田中央研究所,2020.0,Chemical Engineering,4.0,43.0,39.0,1.0,1.0,1.0,0.0,41.0,5.0,0.223081499107674,True,True,1,False,False,True,True,False
+91a243024f15,豊田中央研究所,2025.0,Energy,2.0,23.0,4.0,1.0,0.0,1.0,0.0,23.0,4.0,0.3383742911153119,False,True,1,False,False,False,False,False
+9204ee776330,豊田中央研究所,2025.0,Environmental Science,1.0,29.0,0.0,2.0,0.0,1.0,0.0,27.0,6.0,0.3635116598079561,False,True,1,True,True,False,False,False
+920b9183f217,豊田中央研究所,2024.0,Engineering,3.0,41.0,8.0,3.0,0.0,1.0,0.0,40.0,5.0,0.69,False,True,2,True,False,False,False,True
+924f917944e7,豊田中央研究所,2020.0,Chemistry,12.0,31.0,63.0,1.0,1.0,1.0,0.0,31.0,4.0,0.40270551508844954,True,True,1,False,False,True,True,False
+9316f378d92f,豊田中央研究所,2025.0,Materials Science,8.0,74.0,14.0,1.0,0.0,1.0,0.0,71.0,8.0,0.27990478079746084,False,True,1,False,False,False,False,False
+9378c80aa06e,豊田中央研究所,2020.0,Medicine,6.0,41.0,33.0,1.0,1.0,1.0,0.0,40.0,4.0,0.81375,True,True,1,False,False,True,True,False
+94f03262b23f,豊田中央研究所,2019.0,Engineering,3.0,13.0,17.0,1.0,0.0,1.0,0.0,13.0,2.0,0.8579881656804734,False,False,0,False,False,False,False,False
+951a88b7dad8,豊田中央研究所,2020.0,Materials Science,3.0,55.0,69.0,1.0,0.0,1.0,0.0,50.0,10.0,0.2272,False,True,1,False,False,False,False,False
+95ac08bdc27e,豊田中央研究所,2023.0,Engineering,11.0,63.0,34.0,1.0,0.0,1.0,0.0,61.0,3.0,0.8177909164203171,False,True,2,False,False,False,False,True
+96e051c7e4f4,豊田中央研究所,2025.0,Engineering,3.0,39.0,17.0,2.0,0.0,1.0,0.0,38.0,3.0,0.5498614958448753,False,True,1,True,False,False,False,False
+97acc8adcdff,豊田中央研究所,2020.0,Engineering,6.0,38.0,16.0,1.0,0.0,1.0,0.0,38.0,5.0,0.5997229916897507,False,True,1,False,False,False,False,False
+9920fa812ab7,豊田中央研究所,2019.0,Engineering,4.0,38.0,14.0,1.0,1.0,1.0,0.0,37.0,2.0,0.9474068663257852,True,True,1,False,False,True,True,False
+99b85795b407,豊田中央研究所,2025.0,Medicine,4.0,37.0,6.0,1.0,1.0,1.0,0.0,36.0,3.0,0.6774691358024691,True,True,1,False,False,True,True,False
+9a26fdb832dd,豊田中央研究所,2021.0,Engineering,6.0,35.0,14.0,1.0,0.0,1.0,0.0,34.0,4.0,0.6903114186851211,False,True,1,False,False,False,False,False
+9c589dc07196,豊田中央研究所,2024.0,Engineering,14.0,27.0,23.0,1.0,1.0,1.0,0.0,27.0,3.0,0.5994513031550068,False,True,1,False,False,True,False,False
+9d17add0c18a,豊田中央研究所,2019.0,Engineering,4.0,8.0,3.0,1.0,0.0,1.0,0.0,8.0,2.0,0.78125,False,True,1,False,False,False,False,False
+9e2145e4bb1b,豊田中央研究所,2022.0,Energy,6.0,55.0,37.0,1.0,1.0,1.0,0.0,53.0,5.0,0.700249199003204,True,True,1,False,False,True,True,False
+9ec37d20e883,豊田中央研究所,2026.0,Engineering,8.0,21.0,0.0,1.0,0.0,1.0,0.0,21.0,3.0,0.8231292517006803,False,True,1,False,False,False,False,False
+9f023d213053,豊田中央研究所,2022.0,Materials Science,3.0,48.0,3.0,1.0,0.0,1.0,0.0,47.0,7.0,0.2738795835219556,False,True,1,False,False,False,False,False
+a0b900a7c2c5,豊田中央研究所,2023.0,Energy,7.0,65.0,24.0,1.0,0.0,1.0,0.0,65.0,5.0,0.504378698224852,False,True,1,False,False,False,False,False
+a15173de925e,豊田中央研究所,2024.0,Materials Science,6.0,45.0,3.0,1.0,1.0,1.0,0.0,43.0,8.0,0.2633856138453218,False,True,1,False,False,True,False,False
+a1ab3f636a10,豊田中央研究所,2018.0,Engineering,2.0,10.0,15.0,1.0,0.0,1.0,0.0,9.0,4.0,0.48148148148148145,False,True,1,False,False,False,False,False
+a1f086f4885f,豊田中央研究所,2023.0,Medicine,3.0,40.0,21.0,1.0,0.0,1.0,0.0,40.0,5.0,0.33625,False,True,1,False,False,False,False,False
+a267290acb36,豊田中央研究所,2025.0,Computer Science,4.0,23.0,2.0,1.0,0.0,1.0,0.0,21.0,4.0,0.3786848072562358,False,True,1,False,False,False,False,False
+a32287fa690e,豊田中央研究所,2020.0,Energy,5.0,31.0,97.0,1.0,0.0,1.0,0.0,31.0,4.0,0.44432882414151925,False,True,1,False,False,False,False,False
+a3a98f9f1c8f,豊田中央研究所,2020.0,Engineering,11.0,40.0,45.0,1.0,1.0,1.0,0.0,39.0,5.0,0.4714003944773176,True,True,1,False,False,True,True,False
+a4f1361ca8da,豊田中央研究所,2021.0,Engineering,3.0,26.0,6.0,1.0,0.0,1.0,0.0,26.0,5.0,0.39349112426035504,False,True,1,False,False,False,False,False
+a50a9d26ea49,豊田中央研究所,2021.0,Engineering,5.0,42.0,4.0,1.0,1.0,1.0,0.0,36.0,5.0,0.5185185185185185,True,True,1,False,False,True,True,False
+a54e71c6c535,豊田中央研究所,2023.0,Computer Science,3.0,29.0,4.0,1.0,1.0,1.0,0.0,24.0,4.0,0.3923611111111111,True,True,1,False,False,True,True,False
+a564ffe029cb,豊田中央研究所,2020.0,Engineering,5.0,50.0,58.0,1.0,0.0,1.0,0.0,46.0,7.0,0.3705103969754253,False,True,1,False,False,False,False,False
+a598563f6426,豊田中央研究所,2020.0,Engineering,4.0,33.0,6.0,1.0,1.0,1.0,0.0,32.0,5.0,0.5390625,True,True,1,False,False,True,True,False
+a5af353e60d8,豊田中央研究所,2022.0,Engineering,2.0,64.0,2.0,1.0,0.0,1.0,0.0,48.0,4.0,0.4678819444444444,False,True,1,False,False,False,False,False
+a6088a4177d0,豊田中央研究所,2019.0,Engineering,3.0,3.0,0.0,1.0,1.0,0.0,0.0,3.0,2.0,0.5555555555555556,True,True,1,False,False,False,True,False
+a741b6125efa,豊田中央研究所,2023.0,Physics and Astronomy,4.0,42.0,8.0,1.0,1.0,1.0,0.0,38.0,3.0,0.7271468144044322,True,True,1,False,False,True,True,False
+a799d2983af7,豊田中央研究所,2025.0,Engineering,3.0,34.0,5.0,1.0,0.0,1.0,0.0,33.0,4.0,0.7777777777777778,False,True,1,False,False,False,False,False
+a8111a316d03,豊田中央研究所,2023.0,Engineering,3.0,59.0,3.0,1.0,1.0,1.0,0.0,56.0,5.0,0.33482142857142855,True,True,1,False,False,True,True,False
+a93f0450309b,豊田中央研究所,2025.0,Engineering,3.0,44.0,4.0,1.0,0.0,1.0,0.0,40.0,3.0,0.90375,False,True,1,False,False,False,False,False
+aa1250500a72,豊田中央研究所,2024.0,Neuroscience,25.0,23.0,7.0,2.0,1.0,1.0,0.0,23.0,5.0,0.444234404536862,True,True,1,True,False,True,True,False
+aa8666a45b6a,豊田中央研究所,2022.0,Engineering,4.0,53.0,24.0,1.0,0.0,1.0,0.0,49.0,4.0,0.6609745939192003,False,True,1,False,False,False,False,False
+aab54922c525,豊田中央研究所,2021.0,Engineering,3.0,18.0,26.0,1.0,0.0,1.0,0.0,18.0,2.0,0.8950617283950617,False,True,1,False,False,False,False,False
+aabc78be0164,豊田中央研究所,2019.0,Engineering,7.0,48.0,17.0,1.0,1.0,1.0,0.0,47.0,3.0,0.8786781349026709,True,True,1,False,False,True,True,False
+aae8e51eeeb8,豊田中央研究所,2021.0,Engineering,4.0,22.0,6.0,1.0,0.0,1.0,0.0,21.0,4.0,0.7414965986394558,False,True,1,False,False,False,False,False
+adc8ac843935,豊田中央研究所,2022.0,Energy,2.0,52.0,42.0,1.0,0.0,1.0,0.0,51.0,4.0,0.6624375240292195,False,True,1,False,False,False,False,False
+b0cc27e28ca4,豊田中央研究所,2019.0,Physics and Astronomy,2.0,28.0,1.0,1.0,0.0,1.0,0.0,28.0,11.0,0.15306122448979592,False,True,1,False,False,False,False,False
+b3f4bf80e66b,豊田中央研究所,2020.0,Engineering,4.0,33.0,15.0,2.0,0.0,1.0,0.0,33.0,3.0,0.6877869605142333,False,True,1,True,False,False,False,False
+b5ce9968101b,豊田中央研究所,2023.0,Engineering,6.0,30.0,79.0,1.0,1.0,1.0,0.0,30.0,2.0,0.82,True,True,1,False,False,True,True,False
+b867068a797e,豊田中央研究所,2019.0,Engineering,5.0,45.0,39.0,1.0,0.0,1.0,0.0,45.0,2.0,0.7076543209876544,False,True,1,False,False,False,False,False
+b887c1331218,豊田中央研究所,2024.0,Engineering,5.0,35.0,5.0,1.0,0.0,1.0,0.0,35.0,5.0,0.4073469387755102,False,True,1,False,False,False,False,False
+b8c4e453c17b,豊田中央研究所,2019.0,Engineering,7.0,34.0,33.0,1.0,0.0,1.0,0.0,34.0,2.0,0.9429065743944637,False,True,1,False,False,False,False,False
+b8db44443d66,豊田中央研究所,2019.0,Physics and Astronomy,11.0,52.0,38.0,1.0,1.0,1.0,1.0,51.0,2.0,0.855440215301807,True,True,1,False,False,True,True,False
+b974472df54a,豊田中央研究所,2020.0,Engineering,3.0,22.0,8.0,1.0,1.0,0.0,0.0,22.0,4.0,0.7520661157024794,False,True,1,False,False,False,False,False
+bba9a9c60e94,豊田中央研究所,2021.0,Engineering,3.0,33.0,8.0,1.0,0.0,1.0,0.0,33.0,7.0,0.3002754820936639,False,True,1,False,False,False,False,False
+bcff240f9eed,豊田中央研究所,2021.0,Engineering,9.0,59.0,279.0,1.0,0.0,1.0,0.0,56.0,8.0,0.42346938775510207,False,True,1,False,False,False,False,False
+bd61ad81dc0b,豊田中央研究所,2019.0,Engineering,4.0,18.0,3.0,1.0,0.0,1.0,0.0,18.0,1.0,1.0,False,True,1,False,False,False,False,False
+be2c7d15b528,豊田中央研究所,2023.0,Environmental Science,4.0,55.0,35.0,1.0,1.0,1.0,0.0,53.0,9.0,0.44037023851904594,False,True,1,False,False,True,False,False
+be54de9b6914,豊田中央研究所,2026.0,Engineering,2.0,39.0,0.0,1.0,0.0,1.0,0.0,39.0,4.0,0.854043392504931,False,True,1,False,False,False,False,False
+beadab5078f1,豊田中央研究所,2024.0,Materials Science,3.0,107.0,34.0,2.0,1.0,1.0,0.0,103.0,9.0,0.21821095296446413,True,True,1,True,False,True,True,False
+bec34272fd43,豊田中央研究所,2019.0,Computer Science,3.0,31.0,44.0,1.0,0.0,1.0,0.0,25.0,2.0,0.6352,False,True,1,False,False,False,False,False
+bf633aca41b0,豊田中央研究所,2019.0,Neuroscience,3.0,57.0,7.0,1.0,1.0,1.0,0.0,55.0,6.0,0.6112396694214876,True,True,1,False,False,True,True,False
+bfc1d9f2bd50,豊田中央研究所,2025.0,Engineering,16.0,45.0,10.0,1.0,0.0,1.0,0.0,43.0,4.0,0.5586803677663602,False,True,2,False,False,False,False,True
+c0a5f14be1a4,豊田中央研究所,2022.0,Environmental Science,13.0,26.0,2.0,1.0,1.0,1.0,0.0,26.0,9.0,0.23372781065088757,True,True,1,False,False,True,True,False
+c1b40c48d343,豊田中央研究所,2021.0,Engineering,3.0,39.0,15.0,2.0,0.0,1.0,0.0,39.0,2.0,0.8159105851413544,False,True,1,True,False,False,False,False
+c2a9ceb6c91e,豊田中央研究所,2019.0,Materials Science,5.0,69.0,13.0,1.0,0.0,1.0,0.0,68.0,5.0,0.27854671280276816,False,True,1,False,False,False,False,False
+c34d0399d40e,豊田中央研究所,2023.0,Engineering,10.0,13.0,41.0,1.0,1.0,1.0,0.0,13.0,3.0,0.4556213017751479,False,True,1,False,False,True,False,False
+c3a3370af041,豊田中央研究所,2025.0,Engineering,3.0,22.0,8.0,1.0,0.0,1.0,0.0,22.0,3.0,0.5413223140495868,False,True,1,False,False,False,False,False
+c4011f0156bb,豊田中央研究所,2025.0,Physics and Astronomy,4.0,79.0,1.0,1.0,0.0,1.0,0.0,72.0,5.0,0.5513117283950617,False,True,1,False,False,False,False,False
+c409bfe590bc,豊田中央研究所,2019.0,Engineering,4.0,7.0,73.0,1.0,0.0,1.0,0.0,7.0,2.0,0.5102040816326531,False,True,1,False,False,False,False,False
+cbb4826fbe11,豊田中央研究所,2024.0,Energy,7.0,68.0,112.0,1.0,0.0,1.0,0.0,67.0,7.0,0.3521942526175095,False,True,1,False,False,False,False,False
+ccfc3ebd75d1,豊田中央研究所,2022.0,Environmental Science,5.0,40.0,4.0,1.0,1.0,1.0,0.0,36.0,7.0,0.30401234567901236,True,True,1,False,False,True,True,False
+cda29d0f498b,豊田中央研究所,2022.0,Engineering,2.0,62.0,1.0,1.0,0.0,1.0,0.0,46.0,2.0,0.5463137996219282,False,True,1,False,False,False,False,False
+ce3127e45bf1,豊田中央研究所,2023.0,Engineering,7.0,66.0,6.0,1.0,0.0,1.0,0.0,66.0,5.0,0.7773186409550046,False,True,1,False,False,False,False,False
+ce686dd841f8,豊田中央研究所,2024.0,Materials Science,3.0,59.0,4.0,1.0,0.0,1.0,0.0,57.0,5.0,0.48907356109572175,False,True,2,False,False,False,False,True
+cf8efd0fc9a2,豊田中央研究所,2025.0,Engineering,3.0,21.0,1.0,1.0,1.0,1.0,0.0,18.0,3.0,0.7098765432098766,True,True,2,False,False,True,True,True
+cfdbb8a4e6ae,豊田中央研究所,2025.0,Engineering,3.0,20.0,0.0,1.0,0.0,1.0,0.0,17.0,6.0,0.3356401384083045,False,True,1,False,False,False,False,False
+d14ed01e2220,豊田中央研究所,2025.0,Materials Science,7.0,40.0,11.0,1.0,1.0,1.0,0.0,37.0,3.0,0.760409057706355,True,True,1,False,False,True,True,False
+d1611c0113d3,豊田中央研究所,2020.0,Physics and Astronomy,3.0,43.0,12.0,1.0,0.0,1.0,0.0,42.0,3.0,0.5929705215419501,False,True,2,False,False,False,False,True
+d27bbef63358,豊田中央研究所,2025.0,Engineering,3.0,41.0,2.0,1.0,0.0,1.0,0.0,41.0,6.0,0.4634146341463415,False,True,1,False,False,False,False,False
+d2b6efef2403,豊田中央研究所,2024.0,Engineering,4.0,101.0,7.0,1.0,0.0,1.0,0.0,96.0,9.0,0.2808159722222222,False,True,1,False,False,False,False,False
+d302e98b589f,豊田中央研究所,2020.0,Engineering,2.0,46.0,38.0,1.0,0.0,1.0,0.0,42.0,6.0,0.4557823129251701,False,True,1,False,False,False,False,False
+d322f98677a3,豊田中央研究所,2018.0,Materials Science,3.0,71.0,7.0,1.0,0.0,1.0,0.0,70.0,4.0,0.34816326530612246,False,True,1,False,False,False,False,False
+d325ef8f3824,豊田中央研究所,2019.0,Medicine,2.0,29.0,10.0,1.0,0.0,1.0,0.0,24.0,3.0,0.46875,False,True,1,False,False,False,False,False
+d3fad117f121,豊田中央研究所,2020.0,Engineering,7.0,32.0,5.0,1.0,1.0,1.0,0.0,32.0,3.0,0.775390625,True,True,1,False,False,True,True,False
+d4601430f98c,豊田中央研究所,2024.0,Computer Science,2.0,75.0,4.0,1.0,1.0,1.0,0.0,64.0,6.0,0.4033203125,True,True,1,False,False,True,True,False
+d608d5ab506d,豊田中央研究所,2020.0,Physics and Astronomy,6.0,63.0,4.0,3.0,1.0,1.0,0.0,63.0,6.0,0.3434114386495339,True,True,1,True,False,True,True,False
+d72d70819bab,豊田中央研究所,2025.0,Engineering,5.0,56.0,3.0,1.0,0.0,1.0,0.0,55.0,6.0,0.828099173553719,False,True,1,False,False,False,False,False
+d88090b1aef1,豊田中央研究所,2023.0,Materials Science,4.0,37.0,19.0,1.0,0.0,1.0,0.0,36.0,6.0,0.4876543209876543,False,True,1,False,False,False,False,False
+d91a49dff2bf,豊田中央研究所,2019.0,Physics and Astronomy,5.0,16.0,7.0,1.0,0.0,1.0,0.0,14.0,4.0,0.35714285714285715,False,True,1,False,False,False,False,False
+da52c0e0b2a1,豊田中央研究所,2022.0,Engineering,8.0,47.0,15.0,1.0,0.0,1.0,0.0,47.0,4.0,0.5282933454051607,False,True,1,False,False,False,False,False
+daae6a5ceea7,豊田中央研究所,2024.0,Computer Science,3.0,15.0,3.0,1.0,0.0,1.0,0.0,10.0,3.0,0.46,False,True,1,False,False,False,False,False
+dcf8cef46b88,豊田中央研究所,2025.0,Medicine,4.0,41.0,2.0,1.0,0.0,1.0,0.0,40.0,8.0,0.22375,False,True,1,False,False,False,False,False
+dd4f7d4b20f2,豊田中央研究所,2025.0,Energy,3.0,47.0,28.0,1.0,0.0,1.0,0.0,47.0,3.0,0.4431869624264373,False,True,1,False,False,False,False,False
+dd7bb73849f9,豊田中央研究所,2018.0,Engineering,4.0,25.0,18.0,1.0,0.0,1.0,0.0,20.0,2.0,0.82,False,True,1,False,False,False,False,False
+df50988911f4,豊田中央研究所,2018.0,Medicine,3.0,21.0,16.0,1.0,1.0,1.0,0.0,21.0,4.0,0.36054421768707484,False,True,1,False,False,True,False,False
+dfe6285a2ec4,豊田中央研究所,2024.0,Computer Science,3.0,82.0,2.0,1.0,0.0,1.0,0.0,73.0,4.0,0.4817038844060799,False,True,1,False,False,False,False,False
+e053f4e24d79,豊田中央研究所,2021.0,Engineering,2.0,49.0,15.0,1.0,0.0,1.0,0.0,45.0,4.0,0.8330864197530864,False,True,1,False,False,False,False,False
+e060b98a7df3,豊田中央研究所,2019.0,Engineering,5.0,46.0,29.0,1.0,0.0,1.0,0.0,40.0,3.0,0.53625,False,True,2,False,False,False,False,True
+e0e14d9230bf,豊田中央研究所,2024.0,Engineering,3.0,29.0,13.0,1.0,0.0,1.0,0.0,29.0,5.0,0.7479191438763377,False,True,1,False,False,False,False,False
+e128f7cc0549,豊田中央研究所,2024.0,Engineering,4.0,45.0,2.0,1.0,0.0,1.0,0.0,42.0,3.0,0.7834467120181405,False,True,1,False,False,False,False,False
+e1db59ff2223,豊田中央研究所,2019.0,Chemical Engineering,2.0,21.0,25.0,1.0,0.0,1.0,0.0,18.0,4.0,0.3888888888888889,False,True,1,False,False,False,False,False
+e2f184676ee7,豊田中央研究所,2018.0,Materials Science,2.0,15.0,44.0,1.0,0.0,1.0,0.0,15.0,2.0,0.68,False,True,1,False,False,False,False,False
+e3bce6b850ba,豊田中央研究所,2024.0,Energy,8.0,43.0,1.0,1.0,0.0,1.0,0.0,42.0,7.0,0.2290249433106576,False,True,1,False,False,False,False,False
+e412e60bed4c,豊田中央研究所,2020.0,Materials Science,5.0,38.0,31.0,1.0,0.0,1.0,0.0,38.0,8.0,0.2880886426592798,False,True,1,False,False,False,False,False
+e5082d83466d,豊田中央研究所,2023.0,Neuroscience,3.0,64.0,4.0,1.0,0.0,1.0,0.0,62.0,6.0,0.6649323621227887,False,True,1,False,False,False,False,False
+e5ccfdc37bf7,豊田中央研究所,2020.0,Engineering,2.0,42.0,4.0,1.0,0.0,1.0,0.0,42.0,2.0,0.909297052154195,False,True,1,False,False,False,False,False
+e60ed3dfaed8,豊田中央研究所,2019.0,Materials Science,3.0,73.0,9.0,1.0,0.0,1.0,0.0,72.0,7.0,0.3869598765432099,False,True,1,False,False,False,False,False
+e62ab6049d3f,豊田中央研究所,2020.0,Engineering,4.0,9.0,2.0,1.0,1.0,1.0,0.0,8.0,4.0,0.4375,True,True,1,False,False,True,True,False
+e768b5a29265,豊田中央研究所,2022.0,Physics and Astronomy,3.0,27.0,2.0,1.0,0.0,1.0,0.0,27.0,7.0,0.3168724279835391,False,True,1,False,False,False,False,False
+e7dd77198c20,豊田中央研究所,2020.0,Computer Science,3.0,26.0,4.0,1.0,0.0,1.0,0.0,18.0,3.0,0.6296296296296297,False,True,1,False,False,False,False,False
+e7dd86304107,豊田中央研究所,2022.0,Materials Science,5.0,49.0,14.0,1.0,0.0,1.0,0.0,49.0,7.0,0.47771761765930865,False,True,2,False,False,False,False,True
+e8d00ca7dc08,豊田中央研究所,2020.0,Medicine,5.0,26.0,6.0,1.0,1.0,1.0,0.0,26.0,2.0,0.9260355029585798,True,True,1,False,False,True,True,False
+e8e2ae16d950,豊田中央研究所,2022.0,Engineering,6.0,49.0,14.0,1.0,0.0,1.0,0.0,49.0,4.0,0.775926697209496,False,True,1,False,False,False,False,False
+e9cf2137cf5d,豊田中央研究所,2024.0,Engineering,4.0,44.0,16.0,1.0,1.0,1.0,0.0,42.0,5.0,0.7052154195011338,False,True,1,False,False,True,False,False
+ea1a7d98c912,豊田中央研究所,2018.0,Energy,7.0,36.0,13.0,3.0,1.0,1.0,0.0,36.0,3.0,0.7962962962962963,True,True,1,True,False,True,True,False
+eac5f0a591c1,豊田中央研究所,2020.0,Engineering,3.0,16.0,6.0,1.0,1.0,0.0,0.0,14.0,2.0,0.7551020408163265,False,True,1,False,False,False,False,False
+eb1807302f31,豊田中央研究所,2021.0,Energy,5.0,60.0,131.0,1.0,0.0,1.0,0.0,60.0,5.0,0.7855555555555556,False,True,1,False,False,False,False,False
+eb1d1e40510a,豊田中央研究所,2021.0,Physics and Astronomy,6.0,48.0,8.0,1.0,1.0,1.0,0.0,43.0,6.0,0.37263385613845323,True,True,1,False,False,True,True,False
+eb213b555142,豊田中央研究所,2022.0,Computer Science,2.0,0.0,2.0,1.0,0.0,1.0,0.0,,,,False,True,1,False,False,False,False,False
+ebba26c7a70a,豊田中央研究所,2024.0,Chemical Engineering,5.0,27.0,3.0,1.0,0.0,1.0,0.0,22.0,3.0,0.3925619834710744,False,True,2,False,False,False,False,True
+ebbae55688d7,豊田中央研究所,2020.0,Materials Science,3.0,73.0,18.0,1.0,0.0,1.0,0.0,72.0,9.0,0.3287037037037037,False,True,1,False,False,False,False,False
+ec00b36d914f,豊田中央研究所,2020.0,Physics and Astronomy,5.0,31.0,20.0,1.0,0.0,1.0,0.0,31.0,2.0,0.8792924037460979,False,True,1,False,False,False,False,False
+ecd3e5253c09,豊田中央研究所,2021.0,Engineering,4.0,50.0,100.0,1.0,0.0,1.0,0.0,49.0,6.0,0.6426488962932112,False,True,1,False,False,False,False,False
+ed377f142b71,豊田中央研究所,2021.0,Energy,5.0,34.0,17.0,1.0,0.0,1.0,0.0,34.0,5.0,0.3944636678200692,False,True,1,False,False,False,False,False
+ed5cf7c6c731,豊田中央研究所,2024.0,Engineering,3.0,0.0,0.0,,,,,,,,False,False,0,False,False,False,False,False
+ee7b59b50794,豊田中央研究所,2008.0,Engineering,5.0,0.0,0.0,,,,,,,,False,False,0,False,False,False,False,False
+eecedac52fc4,豊田中央研究所,2018.0,Physics and Astronomy,5.0,27.0,6.0,1.0,1.0,1.0,0.0,27.0,2.0,0.8628257887517147,False,True,1,False,False,True,False,False
+ef8dc54a432c,豊田中央研究所,2021.0,Computer Science,3.0,35.0,22.0,1.0,1.0,1.0,0.0,27.0,2.0,0.5171467764060357,False,True,1,False,False,True,False,False
+efbd8be53d77,豊田中央研究所,2019.0,Engineering,1.0,66.0,10.0,1.0,0.0,1.0,0.0,63.0,4.0,0.41597379692617786,False,True,1,False,True,False,False,False
+f0fb901e4d31,豊田中央研究所,2021.0,Neuroscience,2.0,21.0,4.0,,,,,21.0,5.0,0.5328798185941043,False,True,1,False,False,False,False,False
+f23efac3ac9c,豊田中央研究所,2019.0,Engineering,3.0,39.0,47.0,1.0,0.0,1.0,0.0,39.0,6.0,0.6068376068376068,False,True,1,False,False,False,False,False
+f3e11bf7d10e,豊田中央研究所,2020.0,Engineering,5.0,49.0,12.0,1.0,1.0,1.0,0.0,48.0,4.0,0.8802083333333334,True,True,1,False,False,True,True,False
+f6526e5a6118,豊田中央研究所,2019.0,"Biochemistry, Genetics and Molecular Biology",1.0,81.0,15.0,1.0,0.0,1.0,0.0,78.0,5.0,0.8770545693622617,False,True,1,False,True,False,False,False
+f796cd0e0eff,豊田中央研究所,2024.0,Computer Science,2.0,21.0,2.0,1.0,0.0,1.0,0.0,15.0,3.0,0.47555555555555556,False,True,1,False,False,False,False,False
+f8e7fa4fef81,豊田中央研究所,2019.0,Mathematics,5.0,31.0,24.0,1.0,1.0,1.0,0.0,31.0,7.0,0.3048907388137357,True,True,1,False,False,True,True,False
+f9298abe7a2b,豊田中央研究所,2023.0,Energy,5.0,50.0,30.0,1.0,0.0,1.0,0.0,49.0,5.0,0.49271137026239065,False,True,1,False,False,False,False,False
+f9574c4ea78c,豊田中央研究所,2019.0,Energy,6.0,38.0,5.0,2.0,1.0,1.0,0.0,37.0,9.0,0.1570489408327246,True,True,1,True,False,True,True,False
+f9809bf7d1f6,豊田中央研究所,2024.0,Physics and Astronomy,3.0,45.0,3.0,1.0,0.0,1.0,0.0,41.0,4.0,0.817965496728138,False,True,1,False,False,False,False,False
+f98c15486acf,豊田中央研究所,2021.0,Engineering,3.0,26.0,3.0,1.0,0.0,1.0,0.0,26.0,3.0,0.621301775147929,False,True,1,False,False,False,False,False
+fa69d608af2b,豊田中央研究所,2019.0,Chemical Engineering,2.0,19.0,11.0,1.0,0.0,1.0,0.0,19.0,2.0,0.8116343490304709,False,True,1,False,False,False,False,False
+faf402990b3c,豊田中央研究所,2019.0,Materials Science,3.0,37.0,8.0,1.0,0.0,1.0,0.0,35.0,6.0,0.26857142857142857,False,True,1,False,False,False,False,False
+fb60971e4891,豊田中央研究所,2021.0,Engineering,8.0,70.0,29.0,3.0,1.0,1.0,0.0,67.0,7.0,0.23680106928046335,True,True,1,True,False,True,True,False
+fb7ca8fb5298,豊田中央研究所,2021.0,"Biochemistry, Genetics and Molecular Biology",3.0,65.0,4.0,1.0,1.0,0.0,0.0,63.0,6.0,0.7394809775762157,False,False,0,False,False,False,False,False
+fb8db110b12d,豊田中央研究所,2024.0,Engineering,5.0,102.0,5.0,1.0,0.0,1.0,0.0,100.0,9.0,0.3258,False,True,1,False,False,False,False,False
+fc21db55464c,豊田中央研究所,2018.0,Materials Science,4.0,35.0,23.0,1.0,0.0,1.0,0.0,35.0,4.0,0.8383673469387755,False,True,1,False,False,False,False,False
+fc2ab5b81e32,豊田中央研究所,2021.0,Computer Science,3.0,13.0,2.0,,,,,11.0,2.0,0.6033057851239669,False,True,1,False,False,False,False,False
+fc84ee0d99af,豊田中央研究所,2018.0,Physics and Astronomy,3.0,15.0,11.0,1.0,0.0,1.0,0.0,14.0,4.0,0.5408163265306123,False,True,1,False,False,False,False,False
+fcaf1a5dfe25,豊田中央研究所,2026.0,Energy,4.0,122.0,5.0,1.0,1.0,1.0,0.0,122.0,5.0,0.8020693361999462,True,True,1,False,False,True,True,False
+fd5af67ca365,豊田中央研究所,2023.0,Engineering,2.0,31.0,4.0,1.0,1.0,1.0,0.0,25.0,5.0,0.4592,True,True,1,False,False,True,True,False
+fd6f17d55ed0,豊田中央研究所,2020.0,Energy,10.0,53.0,71.0,1.0,0.0,1.0,0.0,53.0,3.0,0.7386970452118191,False,True,1,False,False,False,False,False
+fdcffd044b77,豊田中央研究所,2020.0,"Biochemistry, Genetics and Molecular Biology",6.0,38.0,39.0,1.0,0.0,1.0,0.0,38.0,9.0,0.2077562326869806,False,True,1,False,False,False,False,False
+fdd8a9a5bf43,豊田中央研究所,2021.0,Engineering,5.0,99.0,9.0,1.0,1.0,1.0,0.0,98.0,8.0,0.253436068304873,True,True,1,False,False,True,True,False
+fee21d31f697,豊田中央研究所,2025.0,Engineering,5.0,35.0,6.0,1.0,0.0,1.0,0.0,35.0,3.0,0.8906122448979592,False,True,1,False,False,False,False,False
+ff2d17396f3b,豊田中央研究所,2025.0,Physics and Astronomy,4.0,56.0,1.0,1.0,0.0,1.0,0.0,51.0,6.0,0.5786236063052672,False,True,1,False,False,False,False,False
