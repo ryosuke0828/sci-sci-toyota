@@ -3,10 +3,13 @@
 疎行列の転置積に置き換えた際（2026-09-07）、置き換え前の DuckDB 自己結合と
 同じ数を返すことを担保するために書いた。スナップショットが無くても走る。
 
-  検査1 … cooccurrence() の値が、DuckDB の自己結合による計数と完全一致する
+  検査1 … cooccurrence() の値が、SQL で素直に書いた計数と完全一致する
   検査2 … shuffle_strata() が Uzzi の次数保存条件を満たす
            （論文ごとの被引用年別の参照本数、ジャーナル年ごとの被引用数）
-  検査3 … 同じジャーナルを複数回引いても1回と数える（二値化の確認）
+  検査3 … 出現回数で数え、同一誌どうしの対も正しく作る（2026-09-10 の仕様変更）
+
+2026-09-10: SciSciNet に合わせて計数を「共起した論文数」から「参照の全ペアの出現回数」に
+変えたので、検査1の参照実装と検査3の期待値を書き換えた。
 
 実行: ~/.venvs/scisci-rir/bin/python src/novelty_uzzi_selftest.py
 """
@@ -39,14 +42,20 @@ def make_edges(rng: np.random.Generator, n_src=4000, n_j_all=300, n_j_target=60,
 
 
 def sql_counts(con, si, ji, n_j) -> np.ndarray:
-    """置き換え前と同じ書き方（自己結合）で共起数を数える。"""
+    """SciSciNet の数え方を SQL で素直に書いたもの（参照実装）。
+
+    非対角は Σ_p c_A(p)·c_B(p)、対角は Σ_p C(c_A(p), 2)。
+    疎行列版と独立に書くことで、行列演算の取り違えを検出する。
+    """
     con.register("e_df", pd.DataFrame({"src": si, "j": ji}))
     con.execute("CREATE OR REPLACE TABLE e AS SELECT * FROM e_df WHERE j >= 0")
     df = con.execute("""
-        WITH dj AS (SELECT DISTINCT src, j FROM e)
-        SELECT a.j AS j1, b.j AS j2, count(*)::INTEGER AS n
-        FROM dj a JOIN dj b ON b.src = a.src AND a.j < b.j
-        GROUP BY a.j, b.j
+        WITH c AS (SELECT src, j, count(*) AS cnt FROM e GROUP BY src, j)
+        SELECT a.j AS j1, b.j AS j2, sum(a.cnt * b.cnt)::BIGINT AS n
+        FROM c a JOIN c b ON b.src = a.src AND a.j < b.j
+        GROUP BY 1, 2
+        UNION ALL
+        SELECT j, j, sum(cnt * (cnt - 1) / 2)::BIGINT FROM c GROUP BY j
     """).df()
     C = np.zeros((n_j, n_j), dtype=np.int64)
     C[df["j1"].values, df["j2"].values] = df["n"].values
@@ -60,7 +69,7 @@ def main() -> int:
 
     # ---- 検査1: 計数が自己結合と一致するか
     si, j, ji, cy, n_src, n_j = make_edges(rng)
-    C_sparse = np.triu(cooccurrence(si, ji, n_src, n_j), k=1)
+    C_sparse = np.triu(cooccurrence(si, ji, n_src, n_j), k=0)  # 対角も比べる
     C_sql = sql_counts(con, si, ji, n_j)
     same = np.array_equal(C_sparse, C_sql)
     print(f"検査1 計数の一致: {'OK' if same else 'NG'} "
@@ -86,12 +95,18 @@ def main() -> int:
           f"誌×年 {'OK' if jy_ok else 'NG'}（実際に動いたエッジ {moved:,}/{ji.size:,}）")
     ok &= deg_ok and jy_ok
 
-    # ---- 検査3: 同一誌の重複参照が1回に潰れるか
+    # ---- 検査3: 出現回数の数え方と、同一誌どうしの対
+    # 論文0 … 誌0を2本・誌1を1本、論文1 … 誌0を1本・誌1を1本
     si2 = np.array([0, 0, 0, 1, 1], dtype=np.int32)
-    ji2 = np.array([0, 0, 1, 0, 1], dtype=np.int32)  # 論文0は誌0を2回引いている
+    ji2 = np.array([0, 0, 1, 0, 1], dtype=np.int32)
     C = cooccurrence(si2, ji2, 2, 2)
-    dup_ok = C[0, 1] == 2 and C[0, 0] == 2
-    print(f"検査3 二値化: {'OK' if dup_ok else 'NG'}（対(0,1)={int(C[0,1])}、期待 2）")
+    # 対(0,1) = 2×1 + 1×1 = 3
+    # 対(0,0) = C(2,2) + C(1,2) = 1 + 0 = 1
+    # 対(1,1) = 0 + 0 = 0
+    exp = {"(0,1)": (int(C[0, 1]), 3), "(0,0)": (int(C[0, 0]), 1), "(1,1)": (int(C[1, 1]), 0)}
+    dup_ok = all(a == b for a, b in exp.values())
+    detail = " ".join(f"{k}={a}(期待{b})" for k, (a, b) in exp.items())
+    print(f"検査3 出現回数と同一誌の対: {'OK' if dup_ok else 'NG'}  {detail}")
     ok &= dup_ok
 
     print("\n結果:", "すべて一致" if ok else "不一致あり")
