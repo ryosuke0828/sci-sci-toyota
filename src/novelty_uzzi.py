@@ -73,6 +73,11 @@ def load_our_papers() -> pd.DataFrame:
     p = p[(p["work_id"].notna()) & (p["is_work_primary"])].copy()
     p["wid"] = p["work_id"].str.extract(r"W(\d+)").astype("Int64")
     p = p[p["year_openalex"] >= MIN_YEAR]
+    # SciSciNet は焦点論文を DocType == 'Journal' に限る。合わせて雑誌論文だけにする。
+    # 会議論文182件などが外れる（2026-09-10 の判断。組織ごとに落ち方が偏る点は報告書に記載）
+    n_before = len(p)
+    p = p[p["type"] == "article"]
+    print(f"焦点論文: {len(p)} 件（type='article' 以外の {n_before - len(p)} 件を除外）", flush=True)
     return p[["paper_uid", "wid", "year_openalex"]]
 
 
@@ -101,48 +106,71 @@ def build_work_meta(con: duckdb.DuckDBPyConnection) -> None:
 
 
 def setup(con: duckdb.DuckDBPyConnection, ours: pd.DataFrame) -> None:
-    """J*（対象ジャーナル集合）と、我々の論文のジャーナル対を用意する。"""
+    """我々の論文の参考文献を誌ごとに数え、そこからジャーナル対の集合を作る。
+
+    本数を保つ必要がある。同一誌どうしの対(A,A)は「誌Aを2本以上引いている」ときにだけ
+    できるので、重複を落としてしまうと作れない。
+
+    論文側は SciSciNet の `Paper_pair[k]`（集合）に合わせ、1論文の中で同じ対が
+    何回出ても1回として扱う。コーパス側が出現回数で重み付きなのと非対称だが、これが仕様である。
+    """
     con.register("ours_df", ours)
     con.execute("CREATE OR REPLACE TABLE ours AS SELECT * FROM ours_df")
     con.execute(f"""
-        CREATE OR REPLACE TABLE our_refs AS
+        CREATE OR REPLACE TABLE our_ref_counts AS
         WITH e AS (
             SELECT o.paper_uid, o.year_openalex AS y, unnest(w.referenced_works) AS ref
             FROM ours o JOIN read_parquet('{SLIM_GLOB}') w ON w.work_id = o.wid
         )
-        SELECT DISTINCT e.paper_uid, e.y, m.source_id AS j
+        SELECT e.paper_uid, e.y, m.source_id AS j, count(*)::INTEGER AS cnt
         FROM e JOIN work_meta m ON m.work_id = e.ref
+        GROUP BY 1, 2, 3
     """)
-    con.execute("CREATE OR REPLACE TABLE jstar AS SELECT DISTINCT j FROM our_refs")
+    con.execute("CREATE OR REPLACE TABLE jstar AS SELECT DISTINCT j FROM our_ref_counts")
     con.execute("""
         CREATE OR REPLACE TABLE our_pairs AS
         SELECT DISTINCT a.paper_uid, a.y, a.j AS j1, b.j AS j2
-        FROM our_refs a JOIN our_refs b
+        FROM our_ref_counts a JOIN our_ref_counts b
           ON a.paper_uid = b.paper_uid AND a.j < b.j
+        UNION
+        -- 同一誌どうしの対。2本以上引いているときだけできる
+        SELECT paper_uid, y, j AS j1, j AS j2 FROM our_ref_counts WHERE cnt >= 2
     """)
     n_j = con.execute("SELECT count(*) FROM jstar").fetchone()[0]
     n_p = con.execute("SELECT count(*) FROM our_pairs").fetchone()[0]
-    print(f"J* {n_j:,} 誌 / 我々の論文のジャーナル対 {n_p:,}", flush=True)
+    n_same = con.execute("SELECT count(*) FROM our_pairs WHERE j1 = j2").fetchone()[0]
+    print(f"J* {n_j:,} 誌 / 我々の論文のジャーナル対 {n_p:,}"
+          f"（うち同一誌どうし {n_same:,}）", flush=True)
 
 
 # ---------------------------------------------------------------- 疎行列での計数
 
 def cooccurrence(si: np.ndarray, ji: np.ndarray, n_src: int, n_j: int) -> np.ndarray:
-    """ジャーナル対ごとの共起論文数を密行列 (n_j × n_j) で返す。
+    """ジャーナル対ごとの出現回数を密行列 (n_j × n_j) で返す。
 
-    si … 論文の行番号、ji … 対象ジャーナルの列番号（対象外は -1）。
-    同じ論文が同じ誌を複数回引いていても1回と数えるため、CSR 化で重複を合算したあと
-    値を1に潰してから転置積を取る。
+    SciSciNet は参考文献の**全ペア**を列挙して数える。誌Aから3本・誌Bから2本引いていれば
+    対(A,B) に 3×2=6 を足す（「両方を引いた論文数」の1ではない）。
+    同一誌どうしの対(A,A) も数え、誌Aから3本なら 3本から2本選ぶ組み合わせで3を足す。
+
+    行列 M を「行=論文・列=誌・値=引いた本数」とすると、
+
+      非対角 (A≠B) … (MᵀM)[A,B] = Σ_p c_A(p)·c_B(p)      … これがそのまま欲しい値
+      対角   (A,A) … (MᵀM)[A,A] = Σ_p c_A(p)²            … 欲しいのは Σ_p C(c_A(p),2)
+
+    なので対角だけ (Σc² − Σc)/2 に直す。Σc は M の列和である。
+    c(c−1) は常に偶数なので割り切れる。
     """
     m = ji >= 0
     rows = si[m]
     cols = ji[m]
+    # coo → csr で重複が合算されるので、M[p, A] は論文 p が誌 A を引いた本数になる
     M = sp.coo_matrix(
-        (np.ones(rows.size, dtype=np.int32), (rows, cols)),
+        (np.ones(rows.size, dtype=np.int64), (rows, cols)),
         shape=(n_src, n_j),
     ).tocsr()
-    M.data[:] = 1  # 二値化（重複参照を1回とみなす）
     C = (M.T @ M).toarray()
+    colsum = np.asarray(M.sum(axis=0)).ravel()
+    np.fill_diagonal(C, (C.diagonal() - colsum) // 2)
     return C
 
 
@@ -167,9 +195,14 @@ def run_year(con: duckdb.DuckDBPyConnection, year: int, rng: np.random.Generator
             SELECT work_id, referenced_works FROM read_parquet('{SLIM_GLOB}')
             WHERE publication_year = {year} AND type = 'article' AND len(referenced_works) > 0
         ),
-        e AS (SELECT work_id AS src, unnest(referenced_works) AS ref FROM corpus)
-        SELECT e.src, m.source_id AS j, m.cy
-        FROM e JOIN work_meta m ON m.work_id = e.ref
+        e AS (SELECT work_id AS src, unnest(referenced_works) AS ref FROM corpus),
+        j AS (SELECT e.src, m.source_id AS j, m.cy
+              FROM e JOIN work_meta m ON m.work_id = e.ref),
+        -- SciSciNet は参考文献1000本超の論文を飛ばす（cur_len > 1000 で continue）。
+        -- 1本の総説が50万個の対を生んで計数を独占するのを防ぐため。
+        -- cur_len は掲載誌が分かる参照の本数なので、結合後に数える
+        big AS (SELECT src FROM j GROUP BY src HAVING count(*) > 1000)
+        SELECT * FROM j WHERE src NOT IN (SELECT src FROM big)
     """)
     n_edges = con.execute("SELECT count(*) FROM edges_raw").fetchone()[0]
     con.execute(
@@ -225,7 +258,7 @@ def run_year(con: duckdb.DuckDBPyConnection, year: int, rng: np.random.Generator
     observed = cooccurrence(si, ji, n_src, n_j)[ti, tj]
     print(f"    観測集計 {time.time()-t:.1f}秒", flush=True)
 
-    rand = np.empty((N_RAND, ti.size), dtype=np.int32)
+    rand = np.empty((N_RAND, ti.size), dtype=np.int64)
     for r in range(N_RAND):
         t = time.time()
         js = shuffle_strata(ji, bounds, rng)
@@ -236,7 +269,7 @@ def run_year(con: duckdb.DuckDBPyConnection, year: int, rng: np.random.Generator
     del si, ji
 
     mu = rand.mean(axis=0)
-    sd = rand.std(axis=0, ddof=1)
+    sd = rand.std(axis=0, ddof=0)  # SciSciNet は np.std（母標準偏差）
     # ランダム化で一度も出なかった対は sd=0 になる。観測も0なら z=0、
     # 観測が正なら z が定義できないので NaN にして後段の中央値・10パーセンタイルから外す。
     # この扱いは「偶然では出ないのに実際には出た対」を捨てることになるので、
