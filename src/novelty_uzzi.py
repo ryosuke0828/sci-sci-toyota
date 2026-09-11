@@ -52,6 +52,9 @@ import sys
 import time
 from pathlib import Path
 
+import json
+import urllib.request
+
 import duckdb
 import numpy as np
 import pandas as pd
@@ -62,6 +65,9 @@ IN_PAPERS = ROOT / "data" / "derived" / "papers" / "papers.csv"
 SLIM_GLOB = os.environ.get(
     "SCISCI_SLIM_GLOB", str(Path.home() / "scisci-data" / "works_slim" / "*.parquet"))
 DB_PATH = os.environ.get("SCISCI_NOVELTY_DB", str(Path.home() / "scisci-data" / "novelty.duckdb"))
+SOURCES_PARQUET = Path(os.environ.get(
+    "SCISCI_SOURCES_PARQUET", str(Path.home() / "scisci-data" / "journal_sources.parquet")))
+SOURCES_MANIFEST = "https://openalex.s3.amazonaws.com/data/parquet/sources/manifest.json"
 OUT_DIR = Path(os.environ.get("SCISCI_NOVELTY_OUT", ROOT / "data" / "derived" / "novelty"))
 N_RAND = int(os.environ.get("SCISCI_N_RAND", "10"))
 SEED = int(os.environ.get("SCISCI_SEED", "20260907"))
@@ -81,6 +87,41 @@ def load_our_papers() -> pd.DataFrame:
     return p[["paper_uid", "wid", "year_openalex"]]
 
 
+def build_journal_sources(con: duckdb.DuckDBPyConnection) -> None:
+    """掲載誌のうち「雑誌」だけを集めた表を作る。
+
+    OpenAlex の source には雑誌以外も入っている（283,287件のうち journal 229,145、
+    ebook platform 28,966、conference 10,939、repository 7,083、book series 6,978）。
+    `primary_location.source.id` をそのまま使うと会議録や書籍シリーズまで「誌」として
+    数えてしまい、ジャーナル対が増える。
+
+    2026-09-11 の照合で、SciSciNet より1論文あたりの誌数が 21 対 17 と多かった。
+    雑誌に限ると19、引用先も雑誌論文に限ると18まで詰まる（17には届かない。
+    SciSciNet は掲載誌の割り当て規則を公開していないため、それ以上は追えない）。
+    """
+    exists = con.execute(
+        "SELECT count(*) FROM duckdb_tables() WHERE table_name='journal_sources'").fetchone()[0]
+    if exists:
+        return
+    if SOURCES_PARQUET.exists():
+        con.execute(f"CREATE TABLE journal_sources AS SELECT * FROM read_parquet('{SOURCES_PARQUET}')")
+        return
+    con.execute("INSTALL httpfs; LOAD httpfs;")
+    with urllib.request.urlopen(SOURCES_MANIFEST, timeout=60) as r:
+        man = json.load(r)
+    files = [f["url"].replace("s3://openalex/", "https://openalex.s3.amazonaws.com/")
+             for f in (man["files"] if "files" in man else man["entities"][0]["files"])]
+    con.execute(f"""
+        CREATE TABLE journal_sources AS
+        SELECT try_cast(substr(id, 23) AS UBIGINT) AS source_id
+        FROM read_parquet({files}) WHERE type = 'journal'
+    """)
+    SOURCES_PARQUET.parent.mkdir(parents=True, exist_ok=True)
+    con.execute(f"COPY journal_sources TO '{SOURCES_PARQUET}' (FORMAT PARQUET)")
+    n = con.execute("SELECT count(*) FROM journal_sources").fetchone()[0]
+    print(f"雑誌の source を取得: {n:,} 誌", flush=True)
+
+
 def build_work_meta(con: duckdb.DuckDBPyConnection) -> None:
     """work_id → (ジャーナル, 出版年) の索引表を作る。
 
@@ -97,9 +138,11 @@ def build_work_meta(con: duckdb.DuckDBPyConnection) -> None:
     t = time.time()
     con.execute(f"""
         CREATE TABLE work_meta AS
-        SELECT work_id, source_id, publication_year AS cy
-        FROM read_parquet('{SLIM_GLOB}')
-        WHERE source_id IS NOT NULL AND publication_year IS NOT NULL
+        SELECT w.work_id, w.source_id, w.publication_year AS cy
+        FROM read_parquet('{SLIM_GLOB}') w
+        JOIN journal_sources j ON j.source_id = w.source_id
+        WHERE w.publication_year IS NOT NULL
+          AND w.type = 'article'   -- 引用先も雑誌論文に限る（SciSciNet に合わせる）
     """)
     n = con.execute("SELECT count(*) FROM work_meta").fetchone()[0]
     print(f"work_meta を構築: {n:,} 行  [{time.time()-t:.0f}秒]", flush=True)
@@ -312,6 +355,7 @@ def main() -> int:
     rng = np.random.default_rng(SEED)
     con = duckdb.connect(DB_PATH)
     con.execute("SET threads=8; SET preserve_insertion_order=false;")
+    build_journal_sources(con)
     build_work_meta(con)
     setup(con, ours)
 
