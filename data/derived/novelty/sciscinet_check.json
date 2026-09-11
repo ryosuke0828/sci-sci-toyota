@@ -1,28 +1,28 @@
 {
-  "n_ours": 582,
-  "n_with_doi": 582,
-  "n_found_in_sciscinet": 505,
+  "n_ours": 581,
+  "n_with_doi": 581,
+  "n_found_in_sciscinet": 504,
   "n_comparable": 490,
   "ss_year_range": [
     2000,
     2024
   ],
   "conventionality": {
-    "spearman": 0.755,
-    "pearson": 0.388,
-    "ours_median": 95.06,
+    "spearman": 0.82,
+    "pearson": 0.814,
+    "ours_median": 113.22,
     "sciscinet_median": 217.09
   },
   "novelty": {
-    "spearman": 0.804,
-    "pearson": 0.138,
-    "ours_median": -5.26,
+    "spearman": 0.898,
+    "pearson": 0.337,
+    "ours_median": -2.46,
     "sciscinet_median": 4.41
   },
   "対の数": {
-    "spearman": 0.972,
-    "pearson": 0.974,
-    "ours_median": 194.0,
+    "spearman": 0.987,
+    "pearson": 0.994,
+    "ours_median": 154.5,
     "sciscinet_median": 136.0
   }
 }
