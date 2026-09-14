@@ -43,6 +43,7 @@ Sci-sci-tasks.md の「Study the literature on measuring novelty, hot streak, an
 | 段階3-3 検算 | 済み（2026-09-11）。SciSciNet と順位相関 0.82〜0.90、値の相関 0.81 |
 | 段階0-3 被引用テーブル | **不要になった（2026-09-14）。** SciSciNet の disruption を使うため |
 | 段階3-2 CD index の自前計算 | **不要になった（2026-09-14）。** 同上 |
+| 段階3-4 分野×年でマッチした比較群 | 済み（2026-09-14）。157升目から471,000件を抽出。参考文献数まで揃えた順位も併記 |
 | 段階3-6 記述統計 | 実施済みだが、検証の設計が不適切（逆U字の可能性を無視した線形の相関）。**やり直す** |
 
 段階2の結果は `docs/reports/novelty_hotstreak_literature.md`。
