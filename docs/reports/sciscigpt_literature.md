@@ -8,6 +8,12 @@ the science of science", *Nature Computational Science* 6:301–315 (2026), `10.
 論文そのものの中身は[段階1-2 精読メモ](sciscigpt_review.md)にある。本メモはその**周辺**、
 すなわち何を引き、誰に引かれ、同種のシステムが他に何があるかを調べたものである。
 
+> **【位置づけ】本メモは novelty / hot streak の解析とは別系統である。**
+>
+> `Sci-sci-tasks.md` にある「AIの使い方の write-up を先生に提出する」（2026-08-20 の打ち合わせ）
+> のための材料として作った。`docs/plans/novelty_hotstreak.md` の段階には含まれない。
+> 新規性の解析を進めるうえで、本メモを読む必要はない。
+
 ---
 
 ## 0. 結論（先に読む用）

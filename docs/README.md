@@ -21,11 +21,19 @@
 | [reports/h_index_prediction.md](reports/h_index_prediction.md) | h指数予測力の再現 |
 | [reports/scisci_foundation_review.md](reports/scisci_foundation_review.md) | 段階1-1 精読メモ。SciSciNet の novelty / disruption の実装仕様と、我々の実装との食い違い5点 |
 | [reports/sciscigpt_review.md](reports/sciscigpt_review.md) | 段階1-2 精読メモ。SciSciGPT の構成と評価、段階2で使える資源（SciSciCorpus） |
-| [reports/sciscigpt_literature.md](reports/sciscigpt_literature.md) | SciSciGPT の周辺文献調査。同種システムの地図、分野の評価の弱さ、**AIの研究利用への実証的な批判**、先生への write-up の材料 |
+
 | [reports/novelty_hotstreak_literature.md](reports/novelty_hotstreak_literature.md) | 段階2 文献調査。指標の種類・妥当性の検証結果・採否の決定。**被引用で新規性指標を検証してはいけない** |
 | [reports/novelty_measure_verification.md](reports/novelty_measure_verification.md) | 新規性の指標を作り直し、SciSciNet の公開値と突き合わせた結果（581件）。実装の誤り5点の修正、1.31倍ずれた原因の特定、残る限界 |
 | [reports/novelty_first_results.md](reports/novelty_first_results.md) | **数値は無効**。新規性の最初の結果（718件）。値の定義が SciSciNet と違うことが後から判明した。作り直した値は上の報告書 |
 | [notes/openalex_exploration.md](notes/openalex_exploration.md) | OpenAlex探索メモ |
+
+## 別件: AIの使い方の write-up（`Sci-sci-tasks.md` の依頼）
+
+novelty / hot streak の解析とは別系統の成果物。
+
+| 文書 | 内容 |
+|---|---|
+| [reports/sciscigpt_literature.md](reports/sciscigpt_literature.md) | SciSciGPT の周辺文献調査。同種システムの地図、分野の評価の弱さ、AIの研究利用への実証的な批判（個人の成果は伸びるが科学全体の多様性は狭まる） |
 
 ## 計画
 
