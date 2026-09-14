@@ -1,0 +1,54 @@
+wid,title,year,cited,type,dir
+1897139626,Estimating the reproducibility of psychological science,2015,8859,article,後方
+4309674289,Survey of Hallucination in Natural Language Generation,2022,4395,article,後方
+1965631677,The Increasing Dominance of Teams in Production of Knowledge,2007,3686,article,後方
+1767470961,Promoting an open research culture,2015,2845,article,後方
+3001554335,"Scopus as a curated, high-quality bibliometric data source for academic research in quantitative science studies",2020,2032,article,後方
+2793071066,Science of science,2018,1448,article,後方
+3198685994,CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation,2021,1384,conference-paper,後方
+3000895385,Web of Science as a data source for research on scientific and scholarly activity,2020,1268,article,後方
+4391876619,Lost in the Middle: How Language Models Use Long Contexts,2024,1267,article,後方
+2073275508,"Capability maturity model, version 1.1",1993,1250,article,後方
+3124253902,The Burden of Knowledge and the “Death of the Renaissance Man”: Is Innovation Getting Harder?,2008,1071,article,後方
+2913773162,Large teams develop and small teams disrupt science and technology,2019,1057,article,後方
+4414281281,DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,2025,970,article,後方
+4401857375,A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models,2024,737,conference-paper,後方
+2120525070,Characterizing the software process: a maturity framework,1988,663,article,後方
+956237728,Enhancing the Effectiveness of Team Science,2015,639,book,後方
+4235571646,Network science,2013,556,article,後方
+3002924435,Microsoft Academic Graph: When experts are not enough,2020,521,article,後方
+4403839497,When combinations of humans and AI are useful: A systematic review and meta-analysis,2024,484,review,後方
+4317757464,Human–AI collaboration enables more empathic conversations in text-based peer-to-peer mental health support,2023,481,article,後方
+4385565351,Precise Zero-Shot Dense Retrieval without Relevance Labels,2023,306,conference-paper,後方
+2743628650,The dual frontier: Patented inventions and prior scientific advance,2017,303,article,後方
+4396781199,Can Generative AI improve social science?,2024,287,article,後方
+4400047099,Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models,2024,266,article,後方
+4389520103,Measuring and Narrowing the Compositionality Gap in Language Models,2023,251,conference-paper,後方
+4389519928,Towards Mitigating LLM Hallucination via Self Reflection,2023,244,conference-paper,後方
+3001137683,Dimensions: Bringing down barriers between scientometricians and data,2020,231,article,後方
+4307475647,Observing many researchers using the same data and hypothesis reveals a hidden universe of uncertainty,2022,229,article,後方
+4205302485,The Science of Science,2021,219,book,後方
+3002281830,Crossref: The sustainable source of community-owned scholarly metadata,2020,181,article,後方
+3118796057,Coevolution of policy and science during the pandemic,2021,133,article,後方
+4284704491,Public use and public funding of science,2022,123,article,後方
+4379016496,"Data, measurement and empirical methods in the science of science",2023,114,article,後方
+4293243877,Overton: A bibliometric database of policy document citations,2022,92,article,後方
+2935051602,AMiner: Search and Mining of Academic Social Networks,2019,77,article,後方
+4403338646,Quantifying the use and potential benefits of artificial intelligence in scientific research,2024,72,article,後方
+4233667776,Reliance on science by inventors: Hybrid extraction of in‐text patent‐to‐article citations,2021,68,article,後方
+4416035220,Agent Laboratory: Using LLM Agents as Research Assistants,2025,49,conference-paper,後方
+4404782899,Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models,2024,46,conference-paper,後方
+4410818492,The pivot penalty in research,2025,33,article,後方
+4412887940,Data Interpreter: An LLM Agent for Data Science,2025,30,conference-paper,後方
+4414205706,A Survey on Large Language Model-based Agents for Statistics and Data Science,2025,20,article,後方
+4410948229,LAMBDA: A Large Model Based Data Agent,2025,10,article,後方
+4387934855,InnovationInsights: A Visual Analytics Approach for Understanding the Dual Frontiers of Science and Technology,2023,5,article,後方
+4404782824,LONGAGENT: Achieving Question Answering for 128k-Token-Long Documents through Multi-Agent Collaboration,2024,5,conference-paper,後方
+4378980478,SciSciNet: A large-scale open data lake for the science of science research,2023,123,data-paper,後方
+4403383897,Global Evidence on Gender Gaps and Generative AI,2024,45,preprint,後方
+7133185092,AI agents are ‘aeroplanes for the mind’: five ways to ensure that scientists are responsible pilots,2026,6,article,前方
+7125984896,Conversing with machines: How AI is changing the way scientists think,2026,0,article,前方
+7154289412,Discussion of “LAMBDA: Large Model Based Data Agent”,2026,0,editorial,前方
+7160025126,Comparing LLM and expert assessments of journal quality,2026,0,book-chapter,前方
+7160605441,Knowledge graphs and large language models for prompt-based scientometric inquiry,2026,0,article,前方
+7163207976,Fostering a collaborative partnership with AI agents in materials/nanoscience,2026,0,article,前方
