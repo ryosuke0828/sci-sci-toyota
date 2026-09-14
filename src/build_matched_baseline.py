@@ -10,6 +10,11 @@
   3. 抽出した論文の指標を SciSciNet から引く（トヨタ論文と同じ出所でなければ比較にならない）
   4. 升目ごとに、トヨタ論文の値が一般論文の何パーセントの位置にあるかを求める
 
+**チーム規模も比較群から引く。** Wu, Wang & Evans 2019（Nature）が「大きなチームは発展させ、
+小さなチームは破壊する」を示しており、disruption の解釈にはチーム規模の統制が要る。
+これを引かないと、disruption が低いのが「トヨタ特有」なのか「単に人数が多いから」なのかを
+区別できない。
+
 **参考文献数による層別も併せて出す。** 2026-09-08 に、新規性（下から1割の値）が
 ジャーナル対の数と順位相関 -0.406 を持つことを確認している。分野と年だけを揃えても
 参考文献の多寡で見かけの差が出るため、参考文献数の四分位で分けた順位も併記する。
@@ -92,7 +97,9 @@ def main() -> int:
                x."Atyp_10pct_Z"  AS ss_novelty,
                x."Atyp_Median_Z" AS ss_conventionality,
                x.disruption      AS ss_disruption,
-               x."C10"           AS ss_c10
+               x."C10"           AS ss_c10,
+               x.team_size       AS ss_team_size,
+               x.institution_count AS ss_institution_count
         FROM sample s
         LEFT JOIN read_parquet('{SS_URL}') x
           ON x.paperid = 'W' || CAST(s.work_id AS VARCHAR)
@@ -105,7 +112,8 @@ def main() -> int:
 
     # 升目ごとに順位を求める
     o = con.execute("SELECT paper_uid, wid, field_id, year FROM ours").df()
-    o = o.merge(a[["paper_uid"] + METRICS + ["referenced_works_count"]], on="paper_uid", how="left")
+    o = o.merge(a[["paper_uid"] + METRICS + ["referenced_works_count", "ss_team_size"]],
+                on="paper_uid", how="left")
     rows = []
     for (f, y), g in o.groupby(["field_id", "year"]):
         base = smp[(smp["field_id"] == f) & (smp["year"] == y)]
@@ -117,28 +125,39 @@ def main() -> int:
                 b = base[m].dropna()
                 rec[f"{m}_pct"] = round(100.0 * (b < v).mean(), 1) if (pd.notna(v) and len(b) >= 30) else None
                 rec[f"{m}_n_base"] = int(len(b))
-            # 参考文献数まで揃えた順位。分野と年だけを揃えても参考文献の多寡で順位が動くため
-            # （2026-09-14 の実測で、参考文献が少ない層の新規性順位67に対し中位層は29）、
-            # その論文と参考文献数が近い一般論文（±35%の範囲）だけを相手に取り直す
-            if pd.notna(r.referenced_works_count) and r.referenced_works_count > 0:
-                lo, hi = r.referenced_works_count * 0.65, r.referenced_works_count * 1.35
-                base_r = base[(base["n_refs"] >= lo) & (base["n_refs"] <= hi)]
+            # 揃える条件を段階的に増やした順位も出す。条件を増やすほど比較相手は減るので、
+            # 相手が30件未満になった場合は値を出さない。
+            #   _ref  … 参考文献数を ±35% で揃える
+            #   _team … さらにチーム規模を ±1人 で揃える
+            # 2026-09-14 の実測で、disruption の順位が 35.5 → 41.6 → 46.6 と動いた。
+            # チーム規模を揃えないと「トヨタは破壊的でない」という見かけの差が出る
+            # （Wu, Wang & Evans 2019 の「大きなチームは発展させ、小さなチームは破壊する」）。
+            nref = r.referenced_works_count
+            team = getattr(r, "ss_team_size", None)
+            base_r = base
+            if pd.notna(nref) and nref > 0:
+                base_r = base[(base["n_refs"] >= nref * 0.65) & (base["n_refs"] <= nref * 1.35)]
+            base_rt = base_r
+            if pd.notna(team):
+                base_rt = base_r[(base_rt["ss_team_size"] >= team - 1)
+                                 & (base_rt["ss_team_size"] <= team + 1)]
+            for suffix, bb in (("_ref", base_r), ("_ref_team", base_rt)):
                 for m in METRICS:
                     v = getattr(r, m)
-                    b = base_r[m].dropna()
-                    rec[f"{m}_pct_ref"] = round(100.0 * (b < v).mean(), 1) if (pd.notna(v) and len(b) >= 30) else None
-                    rec[f"{m}_n_base_ref"] = int(len(b))
+                    b = bb[m].dropna()
+                    rec[f"{m}_pct{suffix}"] = (round(100.0 * (b < v).mean(), 1)
+                                               if (pd.notna(v) and len(b) >= 30) else None)
+                    rec[f"{m}_n_base{suffix}"] = int(len(b))
             rows.append(rec)
     pct = pd.DataFrame(rows)
     pct.to_csv(OUT_PCT, index=False)
 
     print(f"\n出力: {OUT_PCT.relative_to(ROOT)}  {len(pct):,}行")
-    print("順位が出せた件数（分野×年で揃えた場合／参考文献数まで揃えた場合）:")
+    print("順位の中央値（揃える条件を増やしたときの動き）:")
+    print(f"  {'指標':20} {'分野×年':>8} {'＋参考文献数':>10} {'＋チーム規模':>10}")
     for m in METRICS:
-        c1 = pct[f"{m}_pct"].notna().sum()
-        c2 = pct[f"{m}_pct_ref"].notna().sum()
-        print(f"  {m:20} {c1:>4}件 中央値 {pct[f'{m}_pct'].median():5.1f}  /  "
-              f"{c2:>4}件 中央値 {pct[f'{m}_pct_ref'].median():5.1f}")
+        print(f"  {m:20} {pct[f'{m}_pct'].median():8.1f} {pct[f'{m}_pct_ref'].median():10.1f} "
+              f"{pct[f'{m}_pct_ref_team'].median():10.1f}")
     return 0
 
 
