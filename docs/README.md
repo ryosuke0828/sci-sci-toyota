@@ -24,6 +24,7 @@
 
 | [reports/novelty_hotstreak_literature.md](reports/novelty_hotstreak_literature.md) | 段階2 文献調査。指標の種類・妥当性の検証結果・採否の決定。**被引用で新規性指標を検証してはいけない** |
 | [reports/novelty_measure_verification.md](reports/novelty_measure_verification.md) | 新規性の指標を作り直し、SciSciNet の公開値と突き合わせた結果（581件）。実装の誤り5点の修正、1.31倍ずれた原因の特定、残る限界 |
+| [reports/novelty_analysis_results.md](reports/novelty_analysis_results.md) | **最新の分析結果**。条件を揃えた順位でみるとトヨタ論文は世の中の真ん中。仮説2つは不支持。組織差だけが残る |
 | [reports/novelty_first_results.md](reports/novelty_first_results.md) | **数値は無効**。新規性の最初の結果（718件）。値の定義が SciSciNet と違うことが後から判明した。作り直した値は上の報告書 |
 | [notes/openalex_exploration.md](notes/openalex_exploration.md) | OpenAlex探索メモ |
 
