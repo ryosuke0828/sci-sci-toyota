@@ -6,6 +6,7 @@
 一次資料: 本文PDF（`~/scisci-data/papers/sciscigpt.pdf`、19ページ）
 
 計画（`docs/plans/novelty_hotstreak.md`）の段階1-2に対応する。
+**周辺文献の調査は別メモ**（[sciscigpt_literature.md](sciscigpt_literature.md)）にある。
 この文献は指標の論文ではないので、**我々の指標の実装には影響しない**。
 ただし段階2（文献探索）で使える資源と、先生から別途依頼のある「AIの使い方の write-up」の材料がある。
 
