@@ -1,32 +1,32 @@
 {
-  "n_total": 671,
+  "n_total": 624,
   "by_org": {
     "AISIN IMRA(日本・aisin.com)": {
       "n": 81,
       "atypicality": 41.3,
       "conventionality": 54.1,
-      "disruption": 52.8,
-      "citation": 34.8,
+      "disruption": 53.0,
+      "citation": 44.0,
       "team": 6.5,
       "n_refs": 31.0,
       "hhi": 0.56
     },
     "AISIN IMRA(米国・imra.com)": {
-      "n": 186,
-      "atypicality": 35.5,
-      "conventionality": 64.2,
-      "disruption": 43.3,
-      "citation": 80.0,
+      "n": 139,
+      "atypicality": 42.75,
+      "conventionality": 58.25,
+      "disruption": 48.4,
+      "citation": 79.65,
       "team": 5.0,
-      "n_refs": 19.0,
-      "hhi": 0.63
+      "n_refs": 24.0,
+      "hhi": 0.64
     },
     "トヨタ自動車未来創成センター": {
       "n": 82,
       "atypicality": 63.1,
       "conventionality": 46.2,
-      "disruption": 50.05,
-      "citation": 36.35,
+      "disruption": 51.95,
+      "citation": 48.3,
       "team": 5.0,
       "n_refs": 31.0,
       "hhi": 0.52
@@ -35,70 +35,70 @@
       "n": 322,
       "atypicality": 65.6,
       "conventionality": 56.15,
-      "disruption": 46.4,
-      "citation": 45.8,
+      "disruption": 50.1,
+      "citation": 50.8,
       "team": 4.0,
       "n_refs": 43.0,
       "hhi": 0.53
     }
   },
   "h1_team": {
-    "n": 580,
-    "coef": -1.61,
-    "p": 0.3455,
-    "r2": 0.173
+    "n": 533,
+    "coef": -1.5,
+    "p": 0.3934,
+    "r2": 0.147
   },
   "h2_intl": {
-    "n": 580,
-    "coef": 0.33,
-    "p": 0.9162
+    "n": 533,
+    "coef": -0.76,
+    "p": 0.8126
   },
   "org_vs_interdisciplinarity": {
-    "n": 580,
-    "r2_org_only": 0.075,
-    "r2_with_controls": 0.187,
-    "f_org_only_p": 0.0,
+    "n": 533,
+    "r2_org_only": 0.047,
+    "r2_with_controls": 0.161,
+    "f_org_only_p": 1.2e-05,
     "f_with_controls_p": 0.0
   },
-  "org_effect_after_controls_p": 0.015062,
+  "org_effect_after_controls_p": 0.026899,
   "citation_by_atypicality_quintile": {
     "最も慣習的": {
-      "n": 108,
-      "citation": 61.2
+      "n": 100,
+      "citation": 53.7
     },
     "やや慣習的": {
-      "n": 108,
-      "citation": 54.8
+      "n": 99,
+      "citation": 54.0
     },
     "中間": {
-      "n": 108,
-      "citation": 41.2
+      "n": 99,
+      "citation": 49.3
     },
     "やや非慣習的": {
-      "n": 109,
-      "citation": 51.4
+      "n": 99,
+      "citation": 53.6
     },
     "最も非慣習的": {
-      "n": 107,
-      "citation": 43.8
+      "n": 99,
+      "citation": 48.4
     }
   },
   "citation_spearman": {
-    "rho": -0.14,
-    "p": 0.0011
+    "rho": -0.097,
+    "p": 0.0302
   },
   "descriptive_only": {
     "産学連携": {
-      "n_true": 247,
-      "median_true": 52.1,
-      "median_false": 49.7,
-      "p": 0.1178
+      "n_true": 224,
+      "median_true": 59.1,
+      "median_false": 53.0,
+      "p": 0.0592
     },
     "組織横断": {
       "n_true": 53,
       "median_true": 57.1,
-      "median_false": 49.7,
-      "p": 0.5204
+      "median_false": 53.8,
+      "p": 0.8509
     }
   }
 }
