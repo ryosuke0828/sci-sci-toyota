@@ -19,12 +19,18 @@
 ジャーナル対の数と順位相関 -0.406 を持つことを確認している。分野と年だけを揃えても
 参考文献の多寡で見かけの差が出るため、参考文献数の四分位で分けた順位も併記する。
 
+**同じ値の相手は半分を下、半分を上に数える**（2026-09-27 修正）。disruption はちょうど0の
+論文が比較相手の約2割を占める。「自分より小さい相手の割合」だけで数えていたため、同じ値の
+相手がすべて上に回り、順位が低く出ていた（分野×年で 35.5、修正後 40.9）。
+
 入力: data/derived/analysis/paper_analysis.csv
       ~/scisci-data/works_slim/*.parquet
 出力: data/derived/analysis/baseline_sample.csv   … 抽出した一般論文と指標
       data/derived/analysis/paper_percentiles.csv … トヨタ論文の順位
 
 実行: ~/.venvs/scisci-rir/bin/python src/build_matched_baseline.py
+      SCISCI_REUSE_SAMPLE=1 を付けると、抽出済みの baseline_sample.csv を使って順位だけを
+      計算し直す。抽出は乱数順なので、やり直すと比較相手が入れ替わってしまう
 """
 
 from __future__ import annotations
@@ -46,10 +52,19 @@ SS_URL = "https://storage.googleapis.com/sciscinet-neo/v2/sciscinet_papers.parqu
 N_PER_CELL = int(os.environ.get("SCISCI_N_PER_CELL", "3000"))
 
 METRICS = ["ss_novelty", "ss_conventionality", "ss_disruption", "ss_c10"]
+REUSE_SAMPLE = os.environ.get("SCISCI_REUSE_SAMPLE") == "1"
 
 
-def main() -> int:
-    a = pd.read_csv(IN_ANALYSIS)
+def pct_rank(b: pd.Series, v: float) -> float:
+    """比較相手 b のなかでの v の順位（0〜100）。同じ値の相手は半分を下、半分を上に数える。"""
+    return round(100.0 * ((b < v).mean() + 0.5 * (b == v).mean()), 1)
+
+
+def draw_sample(a: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """一般論文を升目ごとに抽出し、SciSciNet の指標を付ける。
+
+    戻り値は（抽出した一般論文, トヨタ論文の分野と年）。
+    """
     ours = a[a["ss_novelty"].notna() | a["own_novelty"].notna()].copy()
     ours["paperid"] = ours["work_id"].str.extract(r"(W\d+)")
     ours["wid"] = ours["work_id"].str.extract(r"W(\d+)").astype("Int64")
@@ -110,8 +125,21 @@ def main() -> int:
     for m in METRICS:
         print(f"  {m:20} {smp[m].notna().sum():>8,} / {len(smp):,} ({100*smp[m].notna().mean():.0f}%)")
 
-    # 升目ごとに順位を求める
     o = con.execute("SELECT paper_uid, wid, field_id, year FROM ours").df()
+    return smp, o
+
+
+def main() -> int:
+    a = pd.read_csv(IN_ANALYSIS)
+    if REUSE_SAMPLE:
+        # 抽出済みの一般論文と、前回の出力にあるトヨタ論文の分野・年をそのまま使う
+        smp = pd.read_csv(OUT_SAMPLE)
+        o = pd.read_csv(OUT_PCT, usecols=["paper_uid", "field_id", "year"])
+        print(f"抽出済みの一般論文を再利用: {len(smp):,} 件 / トヨタ論文 {len(o)} 件", flush=True)
+    else:
+        smp, o = draw_sample(a)
+
+    # 升目ごとに順位を求める
     o = o.merge(a[["paper_uid"] + METRICS + ["referenced_works_count", "ss_team_size"]],
                 on="paper_uid", how="left")
     rows = []
@@ -123,12 +151,13 @@ def main() -> int:
             for m in METRICS:
                 v = getattr(r, m)
                 b = base[m].dropna()
-                rec[f"{m}_pct"] = round(100.0 * (b < v).mean(), 1) if (pd.notna(v) and len(b) >= 30) else None
+                rec[f"{m}_pct"] = pct_rank(b, v) if (pd.notna(v) and len(b) >= 30) else None
                 rec[f"{m}_n_base"] = int(len(b))
-            # 揃える条件を段階的に増やした順位も出す。条件を増やすほど比較相手は減るので、
+            # 揃える条件を増やした順位も出す。条件を増やすほど比較相手は減るので、
             # 相手が30件未満になった場合は値を出さない。
-            #   _ref  … 参考文献数を ±35% で揃える
-            #   _team … さらにチーム規模を ±1人 で揃える
+            #   _ref      … 参考文献数を ±35% で揃える
+            #   _team     … チーム規模だけを ±1人 で揃える（チーム規模の効果を単独で見るため）
+            #   _ref_team … 参考文献数とチーム規模の両方を揃える
             # 2026-09-14 の実測で、disruption の順位が 35.5 → 41.6 → 46.6 と動いた。
             # チーム規模を揃えないと「トヨタは破壊的でない」という見かけの差が出る
             # （Wu, Wang & Evans 2019 の「大きなチームは発展させ、小さなチームは破壊する」）。
@@ -137,15 +166,16 @@ def main() -> int:
             base_r = base
             if pd.notna(nref) and nref > 0:
                 base_r = base[(base["n_refs"] >= nref * 0.65) & (base["n_refs"] <= nref * 1.35)]
-            base_rt = base_r
+            base_t, base_rt = base, base_r
             if pd.notna(team):
-                base_rt = base_r[(base_rt["ss_team_size"] >= team - 1)
-                                 & (base_rt["ss_team_size"] <= team + 1)]
-            for suffix, bb in (("_ref", base_r), ("_ref_team", base_rt)):
+                base_t = base[(base["ss_team_size"] >= team - 1) & (base["ss_team_size"] <= team + 1)]
+                base_rt = base_r[(base_r["ss_team_size"] >= team - 1)
+                                 & (base_r["ss_team_size"] <= team + 1)]
+            for suffix, bb in (("_ref", base_r), ("_team", base_t), ("_ref_team", base_rt)):
                 for m in METRICS:
                     v = getattr(r, m)
                     b = bb[m].dropna()
-                    rec[f"{m}_pct{suffix}"] = (round(100.0 * (b < v).mean(), 1)
+                    rec[f"{m}_pct{suffix}"] = (pct_rank(b, v)
                                                if (pd.notna(v) and len(b) >= 30) else None)
                     rec[f"{m}_n_base{suffix}"] = int(len(b))
             rows.append(rec)
