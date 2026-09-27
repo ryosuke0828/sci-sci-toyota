@@ -84,7 +84,7 @@ const p2 = v => (v < 0.01 ? v.toFixed(3) : v.toFixed(2));
 const man = n => `${Math.floor(n / 10000)}万${Math.round((n % 10000) / 1000)}千`;   // 432000 → 43万2千
 const S = N.stages, A = N.ana, D = A.descriptive_only;
 const V = lab => N.ver.find(v => v.lab === lab);
-const [spLo, spHi] = [V('定石らしさ').sp, V('z値の下位10%').sp].sort((a, c) => a - c).map(v => v.toFixed(2));
+const [spLo, spHi] = [V('定石らしさ').sp, V('zスコアの下位10%').sp].sort((a, c) => a - c).map(v => v.toFixed(2));
 const orgBy = name => N.org_res.find(o => o.org === name);
 const novRange = names => { const v = names.map(n => orgBy(n).nov); return `${Math.round(Math.min(...v))}〜${Math.round(Math.max(...v))}`; };
 const HIGH = ['豊田中央研究所', 'トヨタ自動車未来創成センター'], LOW = ['AISIN IMRA(日本・aisin.com)', 'AISIN IMRA(米国・imra.com)'];
@@ -182,10 +182,10 @@ const notes = (s, parts) => s.addNotes(parts.join('\n\n'));
   heading(s, '新規性（Uzzi et al. 2013）', 1.3);
   bullets(s, [
     '論文の参考文献が掲載された雑誌を、2誌ずつすべて組にする',
-    { text: ['各組が同じ年の論文全体で一緒に引用される頻度を、', '引用先を無作為に入れ替えた場合と比べて z 値にする（小さいほど珍しい組）'] },
+    { text: ['各組が同じ年の論文全体で一緒に引用される頻度を、', '引用先を無作為に入れ替えた場合と比べて zスコアにする（小さいほど珍しい組）'] },
     '論文ごとに2つの値を取る',
-    { text: '定石らしさ：z 値の中央値（高いほど、よくある組が中心）', sub: true },
-    { text: '非慣習性：z 値の下位10%（順位は、珍しい組を含むほど高くなる向きに揃えた）', sub: true },
+    { text: '定石らしさ：zスコアの中央値（高いほど、よくある組が中心）', sub: true },
+    { text: '非慣習性：zスコアの下位10%（順位は、珍しい組を含むほど高くなる向きに揃えた）', sub: true },
   ], { y: 1.8, h: 2.65, fs: 18, sp: 5, numbered: true });
   heading(s, 'その他の指標', 4.6);
   bullets(s, [
@@ -203,7 +203,7 @@ const notes = (s, parts) => s.addNotes(parts.join('\n\n'));
 
 // ---------- 1. SciSciNet 公開値の検証 ----------
 {
-  const conv = V('定石らしさ'), atyp = V('z値の下位10%');
+  const conv = V('定石らしさ'), atyp = V('zスコアの下位10%');
   const s = slide('1. SciSciNet 公開値の検証', `同じ指標を自前でも計算し、両方に値がある ${N.ver_n}件で比較（1点が1論文、破線は両者が同じ値）`);
   s.addImage({ path: IMG, x: MX, y: 1.75, w: 7.0, h: 7.0 * 3.9 / 9.0 });
   bullets(s, [
