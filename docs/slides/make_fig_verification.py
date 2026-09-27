@@ -1,6 +1,6 @@
 """発表資料 p.5 の散布図（自前計算と SciSciNet 公開値の比較）を作る。
 
-z 値は数千に達する論文があり、そのままでは点が一か所に潰れる。
+zスコアは数千に達する論文があり、そのままでは点が一か所に潰れる。
 符号を保ったまま対数的に縮める symlog 目盛りを使う（0付近の ±10 は線形）。
 """
 from pathlib import Path
@@ -14,8 +14,8 @@ m = pd.read_csv(ROOT / "data/derived/novelty/sciscinet_check.csv")
 plt.rcParams.update({"font.family": "Hiragino Sans", "font.size": 11})
 
 fig, axes = plt.subplots(1, 2, figsize=(9.0, 3.9), dpi=200)
-panels = [("median_z", "ss_median_z", "定石らしさ（z 値の中央値）"),
-          ("p10_z", "ss_p10_z", "z 値の下位10%（低いほど珍しい組み合わせ）")]
+panels = [("median_z", "ss_median_z", "定石らしさ（zスコアの中央値）"),
+          ("p10_z", "ss_p10_z", "zスコアの下位10%（低いほど珍しい組み合わせ）")]
 for ax, (a, b, title) in zip(axes, panels):
     x, y = m[a], m[b]
     ax.scatter(x, y, s=9, color="#333333", alpha=0.6, linewidths=0)
