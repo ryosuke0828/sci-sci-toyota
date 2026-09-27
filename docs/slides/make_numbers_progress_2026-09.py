@@ -54,7 +54,7 @@ def main() -> None:
     # ---- ① 検算: 自前の計算と SciSciNet の公開値（両方に値がある論文）----
     ver = []
     for lab, own, pub in [("定石らしさ", "median_z", "ss_median_z"),
-                          ("z値の下位10%", "p10_z", "ss_p10_z"),
+                          ("zスコアの下位10%", "p10_z", "ss_p10_z"),
                           ("雑誌の組の数", "n_pairs_with_z", "ss_pairs")]:
         x, y = chk[own], chk[pub]
         # 上下1%を除いた相関係数（極端に大きい値が少数あると、相関係数はそれに引っ張られる）
