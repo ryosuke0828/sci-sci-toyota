@@ -46,6 +46,9 @@ def main() -> int:
     a = pd.read_csv(D / "paper_analysis.csv")
     p = pd.read_csv(D / "paper_percentiles.csv")
     df = p.merge(a, on="paper_uid", how="left", suffixes=("", "_a"))
+    # 対象は2000年以降（2026-09-08 に先生へ伝えた前提）。1990年代以前は参考文献の登録が薄い。
+    # 2026-09-14 の版はこの絞り込みが抜けており、AISIN IMRA 米国の1988〜1999年の47件が入っていた
+    df = df[df["year"] >= 2000].copy()
 
     # 符号を反転して「高いほど非慣習的」に統一する
     df["atypicality"] = 100 - df["ss_novelty_pct"]
