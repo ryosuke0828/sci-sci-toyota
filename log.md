@@ -64,6 +64,9 @@
 7. **STATUS.md を 9/27 時点に更新**（/status スキル）。その後、SciSciGPT について根拠のない記述（後述）を削った。
 8. **保存**: 1ファイルずつコミット（push は伊倉涼介が手動で行うため未実施）。`scripts/backup_repo.sh snapshot` を3回
    （11:44 に 9/24 版を上書きする前、12:03、12:41）。9/24 版の資料は `~/scisci-backup/snapshot_2026-09-27_1144/` にある。
+9. **「z 値」を「zスコア」に表記変更**: 伊倉涼介の指示。散布図 `fig_verification_scatter.png` を作り直し、
+   `make_fig_verification.py`・`make_numbers_progress_2026-09.py`・`numbers_progress_2026-09.json`・`build_progress_2026-09.js`
+   の表記も揃えた。pptx は伊倉涼介が手で編集中のため触っていない（js から作り直すと手の編集が消える）。
 
 ### わかったこと
 
