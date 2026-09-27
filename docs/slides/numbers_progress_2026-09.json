@@ -1,0 +1,203 @@
+{
+ "year_from": 2000,
+ "org": [
+  {
+   "org": "豊田中央研究所",
+   "site": 355,
+   "matched": 352,
+   "ss": 296,
+   "nov": 268
+  },
+  {
+   "org": "トヨタ自動車未来創成センター",
+   "site": 154,
+   "matched": 131,
+   "ss": 93,
+   "nov": 69
+  },
+  {
+   "org": "AISIN IMRA(日本・aisin.com)",
+   "site": 97,
+   "matched": 84,
+   "ss": 74,
+   "nov": 72
+  },
+  {
+   "org": "AISIN IMRA(米国・imra.com)",
+   "site": 313,
+   "matched": 293,
+   "ss": 216,
+   "nov": 124
+  }
+ ],
+ "tot": {
+  "site": 919,
+  "matched": 860,
+  "ss": 679,
+  "nov": 533
+ },
+ "ver": [
+  {
+   "lab": "定石らしさ",
+   "sp": 0.82,
+   "pe": 0.81,
+   "pe_trim": 0.7,
+   "med_own": 113.2,
+   "med_ss": 217.1
+  },
+  {
+   "lab": "z値の下位10%",
+   "sp": 0.9,
+   "pe": 0.34,
+   "pe_trim": 0.79,
+   "med_own": -2.5,
+   "med_ss": 4.4
+  },
+  {
+   "lab": "雑誌の組の数",
+   "sp": 0.99,
+   "pe": 0.99,
+   "pe_trim": 0.99,
+   "med_own": 154.5,
+   "med_ss": 136.0
+  }
+ ],
+ "ver_n": 490,
+ "n_base": 432000,
+ "team_toyota": 5.0,
+ "team_base": 3.0,
+ "refs_toyota": 35.0,
+ "refs_base": 28.0,
+ "stages": {
+  "fy": {
+   "nov": 54.1,
+   "conv": 54.5,
+   "dis": 40.0,
+   "c10": 65.1
+  },
+  "ref": {
+   "nov": 52.6,
+   "conv": 56.0,
+   "dis": 49.5,
+   "c10": 59.0
+  },
+  "team": {
+   "nov": 53.7,
+   "conv": 55.2,
+   "dis": 49.6,
+   "c10": 52.3
+  },
+  "both": {
+   "nov": 52.8,
+   "conv": 56.5,
+   "dis": 50.2,
+   "c10": 50.8
+  }
+ },
+ "team_strata": [
+  {
+   "t": "1〜2人",
+   "n": 60,
+   "fy": 44.4,
+   "ref": 60.3,
+   "team": 46.5,
+   "both": 58.4
+  },
+  {
+   "t": "3〜4人",
+   "n": 157,
+   "fy": 40.2,
+   "ref": 51.1,
+   "team": 48.9,
+   "both": 52.7
+  },
+  {
+   "t": "5〜6人",
+   "n": 132,
+   "fy": 32.8,
+   "ref": 43.0,
+   "team": 45.7,
+   "both": 50.2
+  },
+  {
+   "t": "7人以上",
+   "n": 144,
+   "fy": 31.7,
+   "ref": 36.7,
+   "team": 44.6,
+   "both": 47.5
+  }
+ ],
+ "org_res": [
+  {
+   "org": "豊田中央研究所",
+   "n": 268,
+   "nov": 63.3,
+   "conv": 56.6,
+   "dis": 50.1,
+   "c10": 50.8
+  },
+  {
+   "org": "トヨタ自動車未来創成センター",
+   "n": 69,
+   "nov": 59.2,
+   "conv": 48.0,
+   "dis": 52.0,
+   "c10": 48.3
+  },
+  {
+   "org": "AISIN IMRA(日本・aisin.com)",
+   "n": 72,
+   "nov": 41.6,
+   "conv": 51.3,
+   "dis": 53.0,
+   "c10": 44.0
+  },
+  {
+   "org": "AISIN IMRA(米国・imra.com)",
+   "n": 124,
+   "nov": 35.9,
+   "conv": 64.0,
+   "dis": 48.4,
+   "c10": 79.7
+  }
+ ],
+ "n_test": 533,
+ "n_solo": 13,
+ "n_intl": 96,
+ "ana": {
+  "h1_team": {
+   "n": 533,
+   "coef": -1.5,
+   "p": 0.3934,
+   "r2": 0.147
+  },
+  "h2_intl": {
+   "n": 533,
+   "coef": -0.76,
+   "p": 0.8126
+  },
+  "org_vs_interdisciplinarity": {
+   "n": 533,
+   "r2_org_only": 0.047,
+   "r2_with_controls": 0.161,
+   "f_org_only_p": 1.2e-05,
+   "f_with_controls_p": 0.0
+  },
+  "org_effect_after_controls_p": 0.026899,
+  "descriptive_only": {
+   "産学連携": {
+    "n_true": 224,
+    "median_true": 59.1,
+    "median_false": 53.0,
+    "p": 0.0592
+   },
+   "組織横断": {
+    "n_true": 53,
+    "median_true": 57.1,
+    "median_false": 53.8,
+    "p": 0.8509
+   }
+  }
+ }
+}
