@@ -30,6 +30,10 @@
 1. 伊倉涼介の質問（スライドの「計算条件の一部が非公開」は、どこまで公開されていてどこが非公開か）を受けて、
    SciSciNet v2 の公開資料を確認した。確認先: GitHub `Northwestern-CSSI/sciscinet`（旧 `sciscinet-v2`）、
    https://northwestern-cssi.github.io/sciscinet/ 、Hugging Face の `Northwestern-CSSI/sciscinet-v2` のページ。
+2. 伊倉涼介の指示で、検算の散布図 `docs/slides/fig_verification_scatter.png` に値そのものの相関係数（ピアソン）を
+   順位相関と並べて載せた（定石らしさ 0.81、下位10% 0.34）。pptx は伊倉涼介が編集中のため触っていない。
+   - 相関係数は1本の論文（2023年、AISIN IMRA 日本、公開値では組が1つだけで両指標とも11,334）に大きく左右される。
+     この1本を除くと、定石らしさ 0.81 → 0.52、下位10% 0.34 → 0.83。
 
 ### わかったこと
 
