@@ -26,7 +26,8 @@ for ax, (a, b, title) in zip(axes, panels):
     ax.set_title(title, fontsize=12)
     ax.set_xlabel("自前計算"); ax.set_ylabel("SciSciNet 公開値")
     rho = x.corr(y, method="spearman")
-    ax.text(0.03, 0.97, f"n = {len(m)}\n順位相関 {rho:.2f}", transform=ax.transAxes,
+    r = x.corr(y)  # 値そのものの相関係数（ピアソン）。極端な値の数本に大きく左右される
+    ax.text(0.03, 0.97, f"n = {len(m)}\n順位相関 {rho:.2f}\n相関係数 {r:.2f}", transform=ax.transAxes,
             va="top", ha="left", fontsize=10)
     ax.grid(color="#e5e5e5", lw=0.5); ax.set_axisbelow(True)
     for s in ("top", "right"): ax.spines[s].set_visible(False)
