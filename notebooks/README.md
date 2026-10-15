@@ -8,7 +8,7 @@
 | [reproductions/random_impact_rule_external.ipynb](reproductions/random_impact_rule_external.ipynb) | Random Impact Ruleの固定入力による外的再現 | ネットワークを使わず、固定キャッシュから再計算する |
 | [reproductions/random_impact_rule_legacy.ipynb](reproductions/random_impact_rule_legacy.ipynb) | 先行版のRandom Impact Ruleパイプライン | 比較用に保持。新規の結論には外的再現ノートブックを優先する |
 | [exports/frontier_research_center_export.ipynb](exports/frontier_research_center_export.ipynb) | 未来創生センターの論文の指標を CSV に書き出す（今井先生の依頼、2026-10-07） | 報告資料（2026-09-28）と同じ表から抜き出すだけ。出力は `docs/exports/` |
-| [analysis/novelty_distribution_plots.ipynb](analysis/novelty_distribution_plots.ipynb) | 指標の分布の図（順位の分布2条件、値そのものの分布の全体・組織別）。今井先生の指示（2026-09-29）で、中央値だけでなく分布を示す | 報告資料（2026-09-28）と同じ表（`data/derived/analysis/`）から描くだけ。出力は `figures/novelty_distributions/`。最後のセルで資料の中央値との一致を確かめる |
+| [analysis/novelty_distribution_plots.ipynb](analysis/novelty_distribution_plots.ipynb) | 指標の分布の図。報告資料（2026-09-28）の7・8・11ページの表と同じ行・列の並びで、各マスを中央値から分布にする。今井先生の指示（2026-09-29） | 資料と同じ表（`data/derived/analysis/`）から描くだけ。出力は `figures/novelty_distributions/`（図3枚＋補足1枚）。最後のセルで資料の表の中央値との一致を確かめる |
 
 APIキーをノートブックへ直接書かない。ライブAPIを使う新規実験では環境変数から読み込み、取得日時・パラメータ・キャッシュを保存する。
 
