@@ -1,23 +1,28 @@
-"""論文の著者所属を Scopus Abstract Retrieval で補完する。
+"""論文の著者の所属を Scopus Abstract Retrieval API で補う。
 
-なぜ著者検索ではなく論文(DOI)から引くのか:
-  - Crossref の所属データは網羅率が34.5%しかない（出版社が登録した場合のみ）
-  - Scopus の Author Search で著者を引く方法は**同姓同名の問題を避けられない**
-    （パイロット検証で実測: ありふれた名前だと候補が数千件になる）
-  - `ORCID()` での厳密照合を試したが、対象著者6名すべてで0件だった。
-    Scopus 側に ORCID がほとんど登録されておらず、この手は使えない
-  - 一方 Abstract Retrieval は「この論文のこの著者の所属」を返すので、
-    **人物同定の曖昧さが原理的に発生しない**。既にどの論文かは確定しているため
+なぜ著者検索ではなく論文（DOI）から引くのか:
+  - OpenAlex の所属は論文に書かれた文字列のままで、同じ組織が何通りにも書かれる。
+    Scopus は組織名を揃えて返すので、組織単位の判定に使える
+  - Scopus の Author Search で著者を引く方法は同姓同名の問題を避けられない
+    （ありふれた名前だと候補が数千件になる）
+  - Abstract Retrieval は「この論文のこの著者の所属」を返すので、
+    人物を取り違える余地がない。どの論文かは既に確定しているため
+
+Scopus の利用には、契約機関のネットワークからのアクセスと API キーが要る。
 
 入力: data/derived/toyota_official_scrape/combined_papers.csv
 出力: data/derived/paper_enrichment/
   - scopus_paper_authors.csv … 1論文1著者1行（所属・Scopus著者ID・トヨタ系判定）
+確認用の出力（data/diagnostics/、コミットしない）: data/diagnostics/paper_enrichment/
   - scopus_papers.csv        … 1論文1行
   - scopus_summary.json
 
-クォータ: Abstract Retrieval は 10,000/週。641件なので問題ない。
+クォータ: Abstract Retrieval は 10,000件/週。対象は641件。
 
-実行: ~/.venvs/scisci-rir/bin/python src/enrich_papers_scopus.py
+環境変数:
+  SCOPUS_API_KEY  Scopus の API キー
+
+実行: python src/enrich_papers_scopus.py
 """
 from __future__ import annotations
 
@@ -37,6 +42,7 @@ IN_CSV = Path(os.environ.get(
     ROOT / "data" / "derived" / "toyota_official_scrape" / "combined_papers.csv"))
 OUT_DIR = Path(os.environ.get(
     "SCISCI_SCOPUS_OUT_DIR", ROOT / "data" / "derived" / "paper_enrichment"))
+DIAG_DIR = ROOT / "data" / "diagnostics" / "paper_enrichment"
 CACHE_PATH = Path(os.environ.get(
     "SCISCI_SCOPUS_CACHE", ROOT / "data" / "cache" / "scopus_abstract_cache.json"))
 
@@ -131,6 +137,7 @@ def is_toyota(text: str | None) -> bool:
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    DIAG_DIR.mkdir(parents=True, exist_ok=True)
     load_cache()
     df = pd.read_csv(IN_CSV)
     df["doi_norm"] = df["doi"].map(normalize_doi)
@@ -203,28 +210,7 @@ def main() -> None:
     papers_df = papers_df.merge(src, left_on="doi", right_on="doi_norm",
                                 how="left").drop(columns=["doi_norm"])
     authors_df.to_csv(OUT_DIR / "scopus_paper_authors.csv", index=False)
-    papers_df.to_csv(OUT_DIR / "scopus_papers.csv", index=False)
-
-    # Crossref との網羅率比較（この処理を行った理由そのもの）
-    cr_path = OUT_DIR / "crossref_papers.csv"
-    comparison = None
-    if cr_path.exists() and len(papers_df):
-        cr = pd.read_csv(cr_path)
-        m = cr[["doi", "has_affiliation_data"]].rename(
-            columns={"has_affiliation_data": "crossref_has_affil"}).merge(
-            papers_df[["doi", "has_affiliation_data"]].rename(
-                columns={"has_affiliation_data": "scopus_has_affil"}),
-            on="doi", how="outer")
-        comparison = {
-            "papers_compared": int(len(m)),
-            "crossref_coverage_pct": round(m["crossref_has_affil"].mean() * 100, 1),
-            "scopus_coverage_pct": round(m["scopus_has_affil"].mean() * 100, 1),
-            "union_coverage_pct": round(
-                (m["crossref_has_affil"].fillna(False)
-                 | m["scopus_has_affil"].fillna(False)).mean() * 100, 1),
-            "scopus_only": int((m["scopus_has_affil"].fillna(False)
-                                & ~m["crossref_has_affil"].fillna(False)).sum()),
-        }
+    papers_df.to_csv(DIAG_DIR / "scopus_papers.csv", index=False)
 
     summary = {
         "complete": complete,
@@ -241,9 +227,8 @@ def main() -> None:
             authors_df["is_toyota_affiliated"].sum()) if len(authors_df) else 0,
         "unique_scopus_author_ids": int(authors_df["scopus_author_id"].nunique())
         if len(authors_df) else 0,
-        "vs_crossref": comparison,
     }
-    (OUT_DIR / "scopus_summary.json").write_text(
+    (DIAG_DIR / "scopus_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print("\n===== サマリ =====", flush=True)
