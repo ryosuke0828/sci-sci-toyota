@@ -1,20 +1,16 @@
-"""目視確認の結果を、OpenAlex 対応づけの結果に反映する。
+"""目視確認の結果を、OpenAlex への対応づけの結果に反映する。
 
 なぜ別ファイルに分けているか:
-  対応づけの本体（`openalex_link_toyota_papers.py`）は毎日自動で実行され、
+  対応づけの本体（`openalex_link_toyota_papers.py`）は実行のたびに
   `openalex_links.csv` を作り直す。目視確認の結果を直接そこへ書き込むと
-  翌朝には消えてしまう。そのため判断は
+  次の実行で消えてしまう。そのため判断は
   `data/review/openalex_review_decisions.csv` に人手で残し、
-  このスクリプトで毎回上から適用する形にしている。
+  このスクリプトで毎回上から適用する。判断の履歴もこの表に残る。
 
-  今井先生のご指示「文字列一致だけでは誤同定があるため目視確認が必要」への
-  対応そのものであり、判断の履歴が残ることに意味がある。
-
-キーについて（2026-08-24 に変更）:
-  以前は `row_id`（入力CSVの行番号）で突き合わせていたが、これは**行の位置**
-  にすぎず、再スクレイピングや imra.eu の追加で行順が変われば
-  判断が別の論文に付いてしまう。そこで位置に依存しない `paper_uid`
-  （収集元＋正規化タイトル＋正規化DOI のハッシュ）に移行した。
+キーについて:
+  判断表は `paper_uid`（収集元＋正規化タイトル＋正規化DOI のハッシュ）で突き合わせる。
+  `row_id`（入力CSVの行番号）は行の位置にすぎず、スクレイピングをやり直して行の順序が
+  変わると、判断が別の論文に付いてしまうためである。
   さらに、判断表に記録したタイトルが実際の行と一致するかを毎回照合し、
   ずれていれば適用せずに中断する。
 
@@ -23,9 +19,10 @@
   data/review/openalex_review_decisions.csv          … 人手で作る判断表
 出力:
   data/derived/openalex_linking/openalex_links_reviewed.csv
-  data/derived/openalex_linking/reviewed_summary.json
+確認用の出力（data/diagnostics/、コミットしない）:
+  data/diagnostics/openalex_linking/reviewed_summary.json
 
-実行: ~/.venvs/scisci-rir/bin/python src/apply_review_decisions.py
+実行: python src/apply_review_decisions.py
 """
 from __future__ import annotations
 
@@ -42,6 +39,7 @@ from build_paper_table import paper_uid  # noqa: E402  安定キーの定義を1
 LINKS = ROOT / "data" / "derived" / "openalex_linking" / "openalex_links.csv"
 DECISIONS = ROOT / "data" / "review" / "openalex_review_decisions.csv"
 OUT_DIR = ROOT / "data" / "derived" / "openalex_linking"
+DIAG_DIR = ROOT / "data" / "diagnostics" / "openalex_linking"
 
 
 def main() -> None:
@@ -59,7 +57,7 @@ def main() -> None:
         if "paper_uid" not in dec.columns:
             raise SystemExit(
                 "判断表に paper_uid 列がありません。row_id 方式の古い表と思われます。"
-                "data/derived/papers/rowid_map.csv で変換してください。")
+                "data/diagnostics/papers/rowid_map.csv（工程5が書き出す）で変換してください。")
 
         # 判断表のキーが実在するか、記録したタイトルと一致するかを照合する。
         # 上流の再生成でタイトルが変わっていれば、ここで気づける。
@@ -110,7 +108,8 @@ def main() -> None:
                 "rate_pct": float(v["rate"])} for k, v in by_src.iterrows()},
         "unique_openalex_works": int(links["openalex_id"].nunique()),
     }
-    (OUT_DIR / "reviewed_summary.json").write_text(
+    DIAG_DIR.mkdir(parents=True, exist_ok=True)
+    (DIAG_DIR / "reviewed_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(json.dumps(summary, ensure_ascii=False, indent=2), flush=True)
