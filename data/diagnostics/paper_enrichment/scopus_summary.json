@@ -19,12 +19,5 @@
   "papers_with_affiliation_data": 608,
   "author_records_with_affiliation": 3074,
   "toyota_affiliated_author_records": 1865,
-  "unique_scopus_author_ids": 1294,
-  "vs_crossref": {
-    "papers_compared": 639,
-    "crossref_coverage_pct": 34.5,
-    "scopus_coverage_pct": 99.5,
-    "union_coverage_pct": 96.1,
-    "scopus_only": 394
-  }
+  "unique_scopus_author_ids": 1294
 }
