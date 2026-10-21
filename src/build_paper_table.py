@@ -1,28 +1,27 @@
-"""論文テーブルを、位置に依存しない安定した主キーで作り直す。
+"""論文の表を、行の位置に依存しない主キーで作る。
 
 なぜ必要か:
-  `combined_papers.csv` には単独で一意な列がない。現行の `row_id` は
-  `openalex_link_toyota_papers.py` が `range(len(df))` で振った**行の位置**であり、
-  入力の行順が変われば別の論文を指す。目視判断（`data/review/openalex_review_decisions.csv`）
-  がこの row_id をキーにしているため、再スクレイピングや imra.eu の追加で
-  判断が静かにずれる。
+  `combined_papers.csv` には単独で一意な列がない。`row_id` は
+  `openalex_link_toyota_papers.py` が `range(len(df))` で振った行の位置であり、
+  入力の行順が変われば別の論文を指す。
 
 主キーの設計:
   paper_uid = sha1(収集元 | 正規化タイトル | 正規化DOI) の先頭12桁。
   - 収集元を含めるのは、同一論文が複数サイトに載る場合を別の掲載として残すため
-    （未来創成センターと豊田中研の共著論文がこれにあたる。正常な重複であり、
+    （未来創生センターと豊田中央研究所の共著論文がこれにあたる。
       「どのサイトに載っていたか」は所属判定の情報になるので潰さない）。
-  - imra.com 内の完全重複1件は同じ uid に落ちるので、ここで解消される。
+  - 同じサイトに同じ論文が2回載っている掲載（imra.com と未来創生センターに1件ずつ）は同じ uid になるので、
+    ここで1件にまとまる。
   - 入力の行順・件数の増減に影響されない。
 
-入力: data/derived/toyota_official_scrape/combined_papers.csv
-      data/derived/openalex_linking/openalex_links_reviewed.csv
+入力: data/derived/openalex_linking/openalex_links_reviewed.csv
       data/derived/openalex_linking/openalex_works_meta.csv
 出力: data/derived/papers/papers.csv      … 1掲載1行。主キー paper_uid
-      data/derived/papers/rowid_map.csv   … 旧 row_id → paper_uid の対応表（判断表の移行用）
-      data/derived/papers/summary.json
+確認用の出力（data/diagnostics/、コミットしない）:
+      data/diagnostics/papers/rowid_map.csv   … openalex_links.csv の row_id → paper_uid の対応表
+      data/diagnostics/papers/summary.json
 
-実行: ~/.venvs/scisci-rir/bin/python src/build_paper_table.py
+実行: python src/build_paper_table.py
 """
 from __future__ import annotations
 
@@ -35,10 +34,10 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
-IN_COMBINED = ROOT / "data" / "derived" / "toyota_official_scrape" / "combined_papers.csv"
 IN_LINKS = ROOT / "data" / "derived" / "openalex_linking" / "openalex_links_reviewed.csv"
 IN_WORKS = ROOT / "data" / "derived" / "openalex_linking" / "openalex_works_meta.csv"
 OUT_DIR = ROOT / "data" / "derived" / "papers"
+DIAG_DIR = ROOT / "data" / "diagnostics" / "papers"
 
 
 def normalize_doi(raw) -> str | None:
@@ -67,6 +66,7 @@ def paper_uid(source_org, title, doi) -> str:
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    DIAG_DIR.mkdir(parents=True, exist_ok=True)
 
     links = pd.read_csv(IN_LINKS)
     works = pd.read_csv(IN_WORKS)
@@ -77,7 +77,7 @@ def main() -> None:
 
     # 旧 row_id との対応を先に残す（判断表の移行に使う）
     links[["row_id", "paper_uid", "source_org", "title", "doi", "openalex_id"]] \
-        .to_csv(OUT_DIR / "rowid_map.csv", index=False)
+        .to_csv(DIAG_DIR / "rowid_map.csv", index=False)
 
     dup = int(links["paper_uid"].duplicated().sum())
     if dup:
@@ -141,14 +141,14 @@ def main() -> None:
             papers.loc[papers["is_work_primary"], "referenced_works_count"].sum()),
         "by_source_org": json.loads(by_src.to_json(orient="index")),
     }
-    (OUT_DIR / "summary.json").write_text(
+    (DIAG_DIR / "summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print("\n===== papers.csv =====", flush=True)
     print(by_src.to_string(), flush=True)
     print(json.dumps({k: v for k, v in summary.items() if k != "by_source_org"},
                      ensure_ascii=False, indent=2), flush=True)
-    print(f"\n出力: {OUT_DIR/'papers.csv'}\n      {OUT_DIR/'rowid_map.csv'}", flush=True)
+    print(f"\n出力: {OUT_DIR/'papers.csv'}\n      {DIAG_DIR/'rowid_map.csv'}", flush=True)
 
 
 if __name__ == "__main__":
