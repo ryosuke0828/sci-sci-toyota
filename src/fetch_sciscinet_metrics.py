@@ -1,22 +1,18 @@
-"""SciSciNet が公開している指標を、我々の論文について取り込む。
+"""SciSciNet が公開している指標を、対象の論文について取り出す。
 
-2026-09-14 に方針を変えた。当初「すべて自前実装、SciSciNet は検算のみ」としていたが、
-被覆率を測ったところ SciSciNet は我々の852件のうち741件（87%）を持っており、
-disruption は741件、新規性は580件に値が入っていた。自前計算（581件）とほぼ同数である。
-自前でしか出せないのは91件で、その8割は2024年以降（SciSciNet のデータが2024年で終わるため）。
+分析の指標には SciSciNet の公開値を使う。比較相手の一般論文にも同じ出どころの値が要るためである。
+自前で計算した新規性（novelty_uzzi.py）は、SciSciNet の値の検証にだけ使う。
 
-したがって **SciSciNet の値を主軸にし、自前の値は検証と2025年以降の穴埋めに使う**。
-これにより段階0-3（被引用テーブルの構築）と段階3-2（CD index の自前計算）を省ける。
-
-**自前の値と混ぜてはいけない。** 尺度が違う（新規性の中央値が自前113に対し公開217）。
+**自前の値と混ぜてはいけない。** 尺度が違う（定石らしさ＝z の中央値の、論文全体での中央値が自前113に対し公開217）。
 別々の列として持ち、主分析は片方で通す。
 
 入手先: gs://sciscinet-neo/v2/sciscinet_papers.parquet（5.26GB、匿名で読める Parquet）
 結合キー: OpenAlex の work_id（v2 の `paperid` がそれ。`doi` は前置き付きで使いにくい）
 
+入力: data/derived/papers/papers.csv
 出力: data/derived/papers/sciscinet_metrics.csv … 1論文1行
 
-実行: ~/.venvs/scisci-rir/bin/python src/fetch_sciscinet_metrics.py
+実行: python src/fetch_sciscinet_metrics.py
 """
 
 from __future__ import annotations
