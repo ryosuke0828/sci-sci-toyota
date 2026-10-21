@@ -32,17 +32,17 @@ Scopus・WoSなど、大阪大学の契約や個人申請が絡む外部APIの�
 
 作業が一区切りついたら、`log.md` に詳細を書いたうえで **`/status` スキルを使って `STATUS.md` を更新する**。`STATUS.md` に経緯や実装の詳細を書かない（それは `log.md` の役割である）。更新ルールの詳細は `.claude/skills/status/SKILL.md` に書いてある。
 
-## 自動データ取得（毎日 JST 9:30）
+## 自動データ取得（2026-10-14 に終了）
 
-伊倉涼介はこの作業を月曜と木曜にしか行わない。その間もデータ取得を進めるため、launchd による自動実行を設定してある（`~/Library/LaunchAgents/org.msp-lab.scisci-fetch.plist`）。
+2026-08-03 から launchd で毎日 JST 9:30 に OpenAlex との紐付けを自動実行していた。9/25 に完了して結果が変わらなくなったので、2026-10-14 にスケジュール（`org.msp-lab.scisci-fetch`）を止め、`~/scisci-auto/` と `scripts/sync_auto.sh` を削除した。セッション開始時の同期は不要。
 
-**重要な制約**: macOS のプライバシー保護(TCC)により、launchd が起動したプロセスは Google Drive 配下（`~/Library/CloudStorage`）を読めない（`Operation not permitted` になる）。そのため自動取得は Drive の外の **`~/scisci-auto/`** で完結させ、結果を後から同期する構成にしてある。Drive 上に置いたスクリプトを launchd から直接叩くことはできない。
+自動実行をまた組むときの注意: macOS のプライバシー保護(TCC)により、launchd が起動したプロセスは Google Drive 配下（`~/Library/CloudStorage`）を読めない（`Operation not permitted` になる）。Drive の外で完結させる必要がある。
 
-**セッション開始時にやること**: `scripts/sync_auto.sh` を実行する。自動取得の結果をリポジトリに回収し、進捗（`~/scisci-auto/FETCH_DIGEST.md`）を表示する。伊倉涼介が「同期して」と言った場合も同じ。
+## 大きなデータの置き場所（2026-10-14）
 
-**取得スクリプトを変更したとき**: 必ず `scripts/sync_auto.sh push` を流す。`~/scisci-auto/src/` にコピーされているものが実際に動くので、これを忘れると自動実行が古いコードのまま走り続ける。
+OpenAlex の全論文データの抜き出し（`works_slim`、23GB、2026-06-26 版）と `journal_sources.parquet`・`institutions.parquet` は、Google Drive の `My Drive/others/TA:RA/scisci-data/` に置いてある（リポジトリの外。手元に中身を置かない「オンラインのみ」の状態）。手元の `~/scisci-data/` は削除した。
 
-**取得処理を追加するとき**: `~/scisci-auto/daily_fetch.sh` の `STEPS` 配列に足す。各スクリプトは (a) ディスクキャッシュを持ち取得済み分でクォータを消費しない、(b) クォータ切れを検出したら中断して途中結果を保存する、(c) 入出力パスを環境変数 `SCISCI_INPUT_CSV` / `SCISCI_OUT_DIR` / `SCISCI_CACHE_PATH` で差し替えられる、の3条件を満たすこと。
+`openalex_snapshot_extract.py`・`build_reference_titles.py`・`build_paper_covariates.py`・`novelty_uzzi.py`・`build_matched_baseline.py`（新しい比較用サンプルを引くとき）を流すときは、環境変数 `SCISCI_SLIM_GLOB`・`SCISCI_SOURCES_PARQUET`・`SCISCI_INST_PARQUET` でこの場所を指定する（初回は Drive から23GBのダウンロードになる）。`SCISCI_NOVELTY_DB`（作業用の DuckDB、約10GB）は Drive の中に作らず、手元に置く。作業用の `novelty.duckdb` は削除したので、`novelty_uzzi.py` を流すと作り直しになる（約80分）。OpenAlex は古い版を残さないので、このデータは消さない。
 
 ## バックアップ（必須）
 
