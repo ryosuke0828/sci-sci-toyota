@@ -1,25 +1,29 @@
-"""論文単位の共変量をまとめる（段階2の残件3・段階3-5の入力）。
+"""論文単位の説明変数と統制項を、1論文1行の表にまとめる。
 
-段階2の文献調査で決めた説明変数と統制項を、1論文1行の表にする。
-指標（novelty / disruption）そのものは含めない。突き合わせは段階3で行う。
+指標（新規性・破壊性）そのものは含めない。
 
-出典と根拠は `docs/reports/novelty_hotstreak_literature.md` の7節にある。要点だけ再掲する。
-
-  - チーム規模 … Uzzi et al. 2013 本体が「チームは単著より37.7%多く新規の組み合わせを入れる」
-  - 国際共同 … Wagner et al. 2019 が Uzzi の指標そのもので国際共同を扱っている
-  - 学際性 … Fontana et al. 2020 の「Uzzi の指標は学際性と重なる」への切り分けに要る。**統制項**
-  - 参考文献数 … 2026-09-08 の自前検証で p10_z と順位相関 -0.406。**統制しないと見かけの関係が出る**
+変数と根拠:
+  - チーム規模 … Uzzi et al. 2013 が「チームは単著より37.7%多く新規の組み合わせを入れる」と報告
+  - 国際共同 … Wagner et al. 2019 が Uzzi の指標で国際共同を扱っている
+  - 学際性 … Fontana et al. 2020 が「Uzzi の指標は学際性と重なる」と指摘しており、
+    切り分けに要る。**統制項**
+  - 参考文献数 … 参考文献が多いほど掲載誌の組が増え、新規性（z の下位10%値）が極端な値になりやすい
+    （組の数との順位相関 -0.406）。**統制しないと見かけの関係が出る**
 
 産学連携は2通りに作る。所属文字列から作ったもの（`src/normalize_affiliations.py`）と、
 OpenAlex の機関種別から作ったもの。両者は一致しないので、突き合わせて食い違いを見るために両方残す。
 
 入力: data/derived/papers/papers.csv
       data/derived/papers/authorship_affiliations.csv
-      ~/scisci-data/works_slim/*.parquet
-      ~/scisci-data/institutions.parquet   （無ければ OpenAlex から作る）
+      openalex_snapshot_extract.py の出力
+      OpenAlex の機関データ（institutions.parquet。無ければ OpenAlex のスナップショットから作る）
 出力: data/derived/papers/paper_covariates.csv
 
-実行: ~/.venvs/scisci-rir/bin/python src/build_paper_covariates.py
+環境変数:
+  SCISCI_SLIM_GLOB     抜き出したデータの場所
+  SCISCI_INST_PARQUET  機関データの場所
+
+実行: python src/build_paper_covariates.py
 """
 
 from __future__ import annotations
@@ -101,7 +105,7 @@ def main() -> int:
         FROM byfield GROUP BY paper_uid
     """).df()
 
-    # 所属文字列から作る変数（段階0-4 の出力）
+    # 所属文字列から作る変数（normalize_affiliations.py の出力）
     aff = pd.read_csv(IN_AFFIL)
     aff_vars = aff.groupby("paper_uid").agg(
         has_university_affil=("is_university", "max"),
