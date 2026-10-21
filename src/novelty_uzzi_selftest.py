@@ -1,17 +1,13 @@
 """novelty_uzzi.py の計数とシャッフルが正しいかを、合成データで確かめる。
 
-疎行列の転置積に置き換えた際（2026-09-07）、置き換え前の DuckDB 自己結合と
-同じ数を返すことを担保するために書いた。スナップショットが無くても走る。
+OpenAlex のスナップショットが無くても走る。
 
   検査1 … cooccurrence() の値が、SQL で素直に書いた計数と完全一致する
   検査2 … shuffle_strata() が Uzzi の次数保存条件を満たす
            （論文ごとの被引用年別の参照本数、ジャーナル年ごとの被引用数）
-  検査3 … 出現回数で数え、同一誌どうしの対も正しく作る（2026-09-10 の仕様変更）
+  検査3 … 参照の全ペアの出現回数で数え（SciSciNet と同じ）、同一誌どうしの対も正しく作る
 
-2026-09-10: SciSciNet に合わせて計数を「共起した論文数」から「参照の全ペアの出現回数」に
-変えたので、検査1の参照実装と検査3の期待値を書き換えた。
-
-実行: ~/.venvs/scisci-rir/bin/python src/novelty_uzzi_selftest.py
+実行: python src/novelty_uzzi_selftest.py
 """
 
 from __future__ import annotations
