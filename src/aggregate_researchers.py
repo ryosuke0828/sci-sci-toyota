@@ -1,35 +1,32 @@
-"""論文×著者テーブルを研究者単位に集約する（名寄せ）。
+"""論文×著者の表を研究者単位にまとめる（名寄せ）。
 
-入力: data/derived/papers/authorships.csv              … 論文の著者1人1行（4,448行）
+入力: data/derived/papers/authorships.csv              … 論文の著者1人1行
       data/derived/papers/authorship_affiliations.csv  … 所属文字列の正規化結果
       data/derived/papers/papers.csv                   … 出版年・被引用数・掲載元
 出力: data/derived/researchers/
   - researchers.csv          … 1研究者1行
-  - author_records_keyed.csv … 元レコードに名寄せキーと確信度を付けたもの
-  - namekey_validation.json  … 名寄せ規則の精度をORCIDで実測した結果
+確認用の出力（data/diagnostics/、コミットしない）: data/diagnostics/researchers/
+  - author_records_keyed.csv … 元の行に名寄せキーと確信度を付けたもの
+  - namekey_validation.json  … 名寄せ規則の精度を ORCID で実測した結果
   - researchers_summary.json
 
 設計:
-  著者識別子のうち OpenAlex Author ID と WoS ResearcherID は
-  いずれも過剰併合していることを確認済み（2026-08-03）。
-  実測でクリーンだったのは ORCID だけなので、ORCID を最上位の権威とする。
+  OpenAlex の Author ID は別人を1人に併合していることがある。
+  実測で信頼できたのは ORCID だけなので、ORCID を最優先にする。
 
-  ただし ORCID は全レコードの約21%にしか付いていないため、
+  ただし ORCID は全体の約21%にしか付いていないため、
   残りは氏名から作ったキーで寄せる。氏名キーは
   「姓 + 名の先頭イニシャル」とする。これで
   `Martin E. Fermann` / `M. E. Fermann` / `M.E. Fermann` が1人にまとまる。
 
-  氏名キーは当然誤る（姓とイニシャルが同じ別人を併合する）ので、
-  **ORCIDが付いているレコードを正解ラベルとして、その誤り率を実測する**。
-  実測値を確信度の根拠にし、低確信度のクラスタは目視確認に回す。
+  氏名キーは誤ることがある（姓とイニシャルが同じ別人を併合する）ので、
+  ORCID が付いている行を正解として、その誤り率を実測する。
+  実測値を確信度の根拠にし、確信度を列（confidence）に残す。
 
-2026-09-07 に入力を差し替えた。旧版は中間ファイル `crossref_authors.csv`（3,206行、
-DOI がある論文のみ）を読んでいたが、現行の `authorships.csv` は OpenAlex を背骨にして
-Crossref・Scopus を統合したもので、DOI のない論文も含む。論文の単位も DOI ではなく
-`paper_uid` に変えた（DOI の網羅率は72%しかない）。所属も、正規化済みの
-`authorship_affiliations.csv` から組織名・業種を引くようにした。
+  論文の単位は DOI ではなく `paper_uid` を使う（DOI の網羅率は72%しかない）。
+  組織名・業種は `authorship_affiliations.csv` から引く。
 
-実行: ~/.venvs/scisci-rir/bin/python src/aggregate_researchers.py
+実行: python src/aggregate_researchers.py
 """
 from __future__ import annotations
 
@@ -45,6 +42,7 @@ IN_AUTHORSHIPS = ROOT / "data" / "derived" / "papers" / "authorships.csv"
 IN_AFFIL = ROOT / "data" / "derived" / "papers" / "authorship_affiliations.csv"
 IN_PAPERS = ROOT / "data" / "derived" / "papers" / "papers.csv"
 OUT_DIR = ROOT / "data" / "derived" / "researchers"
+DIAG_DIR = ROOT / "data" / "diagnostics" / "researchers"
 
 
 def norm(s) -> str:
@@ -135,6 +133,7 @@ def load_records() -> pd.DataFrame:
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    DIAG_DIR.mkdir(parents=True, exist_ok=True)
     a = load_records()
     print(f"著者レコード {len(a)}件 / 論文 {a['paper_uid'].nunique()}件 / "
           f"氏名キー {a['name_key'].nunique()}種", flush=True)
@@ -166,7 +165,7 @@ def main() -> None:
     a["cluster_id"] = a.apply(cluster_id, axis=1)
     a["cluster_source"] = a["cluster_id"].str.startswith("orcid:").map(
         {True: "orcid", False: "name_key"})
-    a.to_csv(OUT_DIR / "author_records_keyed.csv", index=False)
+    a.to_csv(DIAG_DIR / "author_records_keyed.csv", index=False)
 
     # ---- 研究者単位に集約 ----
     def agg(g: pd.DataFrame) -> pd.Series:
@@ -219,7 +218,7 @@ def main() -> None:
 
     r = r.sort_values("n_papers", ascending=False)
     r.to_csv(OUT_DIR / "researchers.csv", index=False)
-    (OUT_DIR / "namekey_validation.json").write_text(
+    (DIAG_DIR / "namekey_validation.json").write_text(
         json.dumps(validation, ensure_ascii=False, indent=2), encoding="utf-8")
 
     summary = {
@@ -240,7 +239,7 @@ def main() -> None:
         },
         "namekey_validation": validation,
     }
-    (OUT_DIR / "researchers_summary.json").write_text(
+    (DIAG_DIR / "researchers_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print("\n===== 集約結果 =====", flush=True)
