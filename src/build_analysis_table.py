@@ -1,23 +1,23 @@
-"""分析用のテーブルを1論文1行にまとめる（段階3-5 の入力）。
+"""分析用のテーブルを1論文1行にまとめる。
 
 4つの出力を結合する。
 
   papers.csv              … 基本情報（収集元・出版年・分野・被引用）
   sciscinet_metrics.csv   … 指標。**主軸**（新規性・定石らしさ・disruption・C10 ほか）
   paper_covariates.csv    … 説明変数と統制項（チーム規模・国際共同・学際性 ほか）
-  paper_novelty.csv       … 自前で計算した新規性。**検証用と2025年以降の穴埋め**
+  paper_novelty.csv       … 自前で計算した新規性。**検証用**
 
 指標の列は接頭辞で出所が分かるようにしてある。
 
   ss_*   … SciSciNet の公開値。主分析はこちら
-  own_*  … 自前計算。頑健性の確認と、SciSciNet に無い2025年以降に使う
+  own_*  … 自前計算。SciSciNet の値の検証用で、分析（analyze_novelty_v2.py）では使っていない
 
-**2つを混ぜて1本の変数にしてはいけない。** 尺度が違う（新規性の中央値が自前113、公開217）。
+**2つを混ぜて1本の変数にしてはいけない。** 尺度が違う（定石らしさの中央値が自前113、公開217）。
 どちらを使ったかを必ず明記する。
 
 出力: data/derived/analysis/paper_analysis.csv
 
-実行: ~/.venvs/scisci-rir/bin/python src/build_analysis_table.py
+実行: python src/build_analysis_table.py
 """
 
 from __future__ import annotations
