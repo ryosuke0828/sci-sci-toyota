@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
-m = pd.read_csv(ROOT / "data/derived/novelty/sciscinet_check.csv")
+m = pd.read_csv(ROOT / "data/diagnostics/novelty/sciscinet_check.csv")
 plt.rcParams.update({"font.family": "Hiragino Sans", "font.size": 11})
 
 fig, axes = plt.subplots(1, 2, figsize=(9.0, 3.9), dpi=200)
