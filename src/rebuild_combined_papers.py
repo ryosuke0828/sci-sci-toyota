@@ -1,14 +1,14 @@
-"""4サイトのスクレイプ結果を統合して combined_papers.csv を作り直す。
+"""4サイトのスクレイピング結果を連結して combined_papers.csv を作る。
 
-`notebooks/exploration/toyota_official_scrape_consolidate.ipynb` の統合処理を、
-再実行できるようスクリプトにしたもの。処理内容は同じ（単純な連結＋リンクからのDOI抽出）で、
-重複の除去は行わない。行の順序も同じなので、下流が使う `row_id`（行位置）は変わらない。
-
-2026-09-07: aisin.com の解析不具合（src/reparse_aisin_imra_jp.py 参照）を反映するために作成。
+処理は単純な連結と、リンクからの DOI の抽出だけで、重複の除去は行わない。
+同じ論文が2サイトに載っている場合は別の掲載として残す（下流の `paper_uid` は収集元を含む）。
+行の順序は入力の順のまま保つ。対応づけの工程が付ける `row_id` は行の位置だからである。
 
 入力: data/derived/toyota_official_scrape/{frontier_research_center,toyota_central_rd_labs,
       aisin_imra_jp,imra_com}.csv
 出力: data/derived/toyota_official_scrape/combined_papers.csv
+
+実行: python src/rebuild_combined_papers.py
 """
 
 from __future__ import annotations
