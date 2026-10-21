@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# API key and contact e-mail
+.env
+
+# Raw copies of the scraped web pages (written by the scraping notebooks; not redistributed)
+data/derived/toyota_official_scrape/*_raw.html
+data/derived/toyota_official_scrape/*_raw.json
+data/derived/toyota_official_scrape/aisin_imra_jp_raw_pages/
+
+# Raw Scopus API responses (redistribution is restricted by the Scopus terms)
+data/cache/scopus_*
+
+# Check outputs written by the steps (summaries, unmatched papers, intermediate values). Not committed
+data/diagnostics/
+
+# Large local data: OpenAlex snapshot extract and DuckDB work files
+works_slim/
+*.duckdb
+*.duckdb.tmp
+
+# Written when steps 10-13 are rerun; not needed to reproduce the committed outputs
+data/cache/openalex_title_cache.json
+data/derived/papers/paper_references.json
+
+# OS and editors
+.DS_Store
+._*
+.vscode/
+.idea/
