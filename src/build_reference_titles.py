@@ -1,20 +1,24 @@
-"""各論文と、その参考文献のタイトルを対応づけたテーブルを作る。
+"""各論文と、その参考文献のタイトルを対応づけた表を作る。
 
-参照関係（どの論文がどれを引用したか）は OpenAlex のスナップショット抽出
-（~/scisci-data/works_slim/）にある。抽出時にタイトル列は容量の都合で落としたので、
-引用先のタイトルだけを OpenAlex API から補う。50件を1リクエストにまとめるので
-21,745件でも約435リクエストで済む（無料枠は1日1000）。
+参照関係（どの論文がどれを引用したか）は、OpenAlex のスナップショットから抜き出したデータ
+（openalex_snapshot_extract.py の出力）にある。抜き出すときにタイトル列は容量の都合で落としたので、
+引用先のタイトルだけを OpenAlex API から補う。50件を1リクエストにまとめるので、
+2万件余りでも約435リクエストで済む。
 
 入力: data/derived/papers/papers.csv
-      ~/scisci-data/works_slim/*.parquet   （参照エッジ・DOI・出版年・掲載誌）
+      openalex_snapshot_extract.py の出力（参照・DOI・出版年・掲載誌）
 出力: data/derived/papers/paper_references.csv   … 1行＝(論文, 参考文献1件)
       data/derived/papers/paper_references.json  … {論文タイトル: [参考文献タイトル, ...]}
       data/cache/openalex_title_cache.json       … work_id → タイトル
 
 クォータ切れ（HTTP 429 かつ X-RateLimit-Remaining == 0）を検出したら中断し、
-途中結果とキャッシュを必ず書き出す。翌日そのまま再実行すれば続きから進む。
+途中結果と取得済みの分を必ず書き出す。翌日そのまま再実行すれば続きから進む。
 
-実行: ~/.venvs/scisci-rir/bin/python src/build_reference_titles.py
+環境変数:
+  SCISCI_SLIM_GLOB      抜き出したデータの場所（既定 ~/scisci-data/works_slim/*.parquet）
+  SCISCI_CONTACT_EMAIL  OpenAlex に知らせる連絡先
+
+実行: python src/build_reference_titles.py
 """
 
 from __future__ import annotations
@@ -36,7 +40,8 @@ OUT_DIR = ROOT / "data" / "derived" / "papers"
 CACHE_PATH = ROOT / "data" / "cache" / "openalex_title_cache.json"
 
 API = "https://api.openalex.org/works"
-MAILTO = "r.ikura@msp-lab.org"
+# 連絡先を添えると OpenAlex の応答が安定する（polite pool）。未設定なら添えない
+MAILTO = os.environ.get("SCISCI_CONTACT_EMAIL", "")
 BATCH = 50
 
 
@@ -65,8 +70,9 @@ def fetch_titles(ids: list[int], cache: dict) -> None:
             "filter": "openalex_id:" + "|".join(f"https://openalex.org/W{i}" for i in chunk),
             "select": "id,title",
             "per_page": BATCH,
-            "mailto": MAILTO,
         }
+        if MAILTO:
+            params["mailto"] = MAILTO
         resp = requests.get(API, params=params, timeout=60)
         if resp.status_code == 429:
             # 一時的なスロットリングと、日次予算の使い切りを区別する。
