@@ -1,13 +1,12 @@
-"""収集済み論文をCrossrefで補完する（著者名・所属・参考文献数）。
-
-OpenAlexの無料枠（1日1,000件）と違い、Crossrefは10 req/秒・日次上限なしで使える。
-そのため OpenAlex のクォータが尽きた日でもこの処理は進められる。
+"""収集した論文の著者名・所属・参考文献数を Crossref から補う。
 
 これを行う理由:
-  - AISIN IMRA米国版(imra.com)の313件は**サイト上に著者名の記載が一切ない**
-  - Crossrefは著者ごとの `affiliation` 文字列を返すので、
+  - AISIN IMRA 米国（imra.com）の掲載には、サイト上に著者名の記載がない
+  - Crossref は著者ごとの `affiliation` 文字列を返すので、
     「どの著者がトヨタ系所属か」を著者単位で判定できる
-    （未来創成センターの太字表記に相当する情報を、他の3ソースにも与えられる）
+
+Crossref は日次の上限がなく、10 req/秒まで使える。応答は data/cache/crossref_cache.json に
+保存し、取得済みの DOI は再取得しない。
 
 入力: data/derived/toyota_official_scrape/combined_papers.csv
 出力: data/derived/paper_enrichment/
@@ -15,11 +14,15 @@ OpenAlexの無料枠（1日1,000件）と違い、Crossrefは10 req/秒・日次
   - crossref_authors.csv … 1論文1著者1行（所属・トヨタ系判定つき）
   - crossref_summary.json
 
-実行: ~/.venvs/scisci-rir/bin/python src/enrich_papers_crossref.py
+環境変数:
+  SCISCI_CONTACT_EMAIL  Crossref に知らせる連絡先（設定すると応答が安定する）
+
+実行: python src/enrich_papers_crossref.py
 """
 from __future__ import annotations
 
 import json
+import os
 import re
 import time
 import unicodedata
@@ -33,9 +36,10 @@ IN_CSV = ROOT / "data" / "derived" / "toyota_official_scrape" / "combined_papers
 OUT_DIR = ROOT / "data" / "derived" / "paper_enrichment"
 CACHE_PATH = ROOT / "data" / "cache" / "crossref_cache.json"
 
-MAILTO = "ikuraryosuke@gmail.com"
+# 連絡先を添えると Crossref の応答が安定する（polite pool）。未設定なら添えない
+MAILTO = os.environ.get("SCISCI_CONTACT_EMAIL", "")
 SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": f"scisci-toyota (mailto:{MAILTO})"})
+SESSION.headers.update({"User-Agent": f"scisci-toyota (mailto:{MAILTO})" if MAILTO else "scisci-toyota"})
 
 # 所属文字列がトヨタ系かの判定に使う語。日本語表記も拾う。
 TOYOTA_PATTERNS = [
