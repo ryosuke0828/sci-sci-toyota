@@ -22,7 +22,49 @@
 - [ ] 【新】hot streak（段階3-7） — 保留。今井先生の指示（2026-09-29）で「その他の分析はデータ拡充・他指標などの目処がたってから」。先生が研究者データベースの準備 doc を作成中
 - [x] 【新】指標の分布の図（今井先生の指示、2026-09-29） — 済み（2026-10-15）。報告書 `docs/reports/novelty_distributions.md`、図 `figures/novelty_distributions/`
 - [x] 【新】未来創生センター分の CSV（今井先生の依頼、2026-10-07） — 済み。同日 10:25 に zip で先生に送付（メールで確認、2026-10-15）
-- [ ] 【新】研究室内で共有するリポジトリの作成（2026-10-07、10-08 に公開から private に変更） — 試作済み（`~/scisci-public/`、コミット前）。計画 `docs/plans/public_release.md` の段階1〜4を実施、段階0（見せる相手が阪大の人だけか・置き場所）が未完了。10-13 に先生が GitHub の private リポジトリで進めることを了承。10-14 に伊倉涼介が先生側でのリポジトリ作成と招待を依頼し、返信待ち。著者数0は直さないと決まった（10-14）
+- [ ] 【新】研究室内で共有するリポジトリの作成（2026-10-07、10-08 に公開から private に変更） — 試作済み（`~/scisci-public/`、コミット前）。計画 `docs/plans/public_release.md` の段階1〜4を実施、段階0（見せる相手が阪大の人だけか・置き場所）が未完了。10-13 に先生が GitHub の private リポジトリで進めることを了承。10-14 に伊倉涼介が先生側でのリポジトリ作成と招待を依頼し、返信待ち。著者数0は直さないと決まった（10-14）。10-21 に林奏汰さんの shibayama-novelty リポジトリと1つに併合する方針になり、林さん側の試作を点検した（下記）
+
+---
+
+## 2026-10-21
+
+### 林奏汰さんのリポジトリ（shibayama-novelty）の点検
+
+伊倉涼介の依頼。`docs/to_check/` に林さんのリポジトリの zip と、`CONTRIBUTING.md` の変更点をまとめた `CONTRIBUTING_diff.md` が置かれた（依頼文では contributing_new.md と呼ばれていた）。
+林さんのリポジトリは、柴山らの新規性（Shibayama, Yin & Matsumoto 2021、参考文献のタイトルの語ベクトル間の距離）を同じトヨタ関連4組織の論文で計算し、検証するもの。
+伊倉涼介のリポジトリと1つに併合する前提で、`CONTRIBUTING.md` を「1つのリポジトリに複数の解析を置く」形（`src/<解析名>/`、`data/derived/<解析名>/<グループ>/`、`reproduce_<解析名>.ipynb`、README は解析ごとに節）に変えている。
+zip は scratchpad に展開して読んだだけで、林さんのコードは実行していない（再現の確認は未実施。初回に scispaCy の約530MB のダウンロードが要る）。
+
+#### 照合した「これまでの決定」
+
+`docs/plans/public_release.md` の決定事項、`public_release/` の CONTRIBUTING・AGENTS・.gitignore、10/14 の会話（決まりを汎化した経緯）、先生とのメール「コードリポジトリについて」（10/8〜10/14）。
+メールには併合の話は無い。10/14 時点では「共同編集者は SciSci と関係ないテーマで、各自のリポジトリに同じ決まりを使う」想定だった。併合は今回の新しい方針なので、計画文書の決定事項に書き足す必要がある（未実施）。
+
+#### わかったこと
+
+- **`data/diagnostics/` の決まりが消えている。** 林さんの `CONTRIBUTING.md` には、確認用の出力を `data/diagnostics/` に書きコミットしない決まり（構造の図の1行と本文の1段落）が無い。`CONTRIBUTING_diff.md` の8か所の変更には含まれていない。
+  差分の「変更前」の本文にもこの決まりが無いので、10/14 に決まりを足す前の版を元にしたとみられる。伊倉側の `.gitignore` と書き出しはこの決まりに依存している
+- **入力3表を `data/raw/` に写している。** 伊倉側の `~/scisci-public/data/derived/papers/` と行をキーで揃えて比べた結果:
+  - `papers.csv` と `paper_references.csv` は共通の列の中身が完全に一致
+  - `papers.csv` に、伊倉側に無い2列（`is_in_top_10_percent`、`is_in_top_1_percent`。README では OpenAlex Works API から 10/01 取得）が足されている。この2列を作るコードはリポジトリに無い
+  - `authorships.csv` は 10/14 に Crossref を外す前の版で、5列（`affil_crossref`、`orcid_crossref`、`matched_crossref`、`spine`、`orcid_openalex_raw`）が多い。メールアドレスの伏せ方が違う（林さん `[email removed]`、伊倉側 `[email]@ドメイン`、114行）。
+    `given` の3行で空白の文字が違う（林さん側は U+2005）。それ以外の列は一致
+  - 林さんのスクリプトが著者の表から読むのは `orcid` と `name_key` だけで、Crossref・Scopus の列は使わない。伊倉側の表を直接読むように変えても数値は変わらないはず（JSON の `inputs` のパスとハッシュは変わる）
+- **Scopus のデータが入っているが、共有範囲の書き方が違う。** `authorships.csv` に `affil_scopus` と `scopus_author_id` がある。林さんの README は「共有は研究の関係者に限る」で、Scopus に触れていない。伊倉側の決定は「大阪大学の構成員だけ」
+- **環境が違う。** 伊倉側は Python 3.14、numpy 2.4.6、pandas 3.0.3。林さんは Python 3.13、numpy 2.5.2、pandas 3.0.5、spaCy 3.8.16、scikit-learn、matplotlib。`requirements.txt` を共有にすると、どちらかの再現の確認をやり直すことになる
+- **言語が違う。** 伊倉側の README・data/README・AGENTS は英語（10/07 の決定）、林さんのものは日本語
+- **AGENTS.md に個人の作業の決まりが入っている。** 林さんの所属、「push は林が行う」「提出前に林が確認する」「やり取りは日本語」「段階を飛ばさない」など。伊倉側では個人の事情を研究室用の AGENTS に入れない決定（計画の段階3）。
+  また「所属判定に `inst_openalex` を使わない」は、伊倉側の `is_toyota` の判定（`build_authorship_table.py`）が `inst_openalex` を使っているので、全体の決まりとして書くと食い違う。林さんの `CLAUDE.md` は `CONTRIBUTING.md` を読み込んでいない
+- 共有するものと解析ごとのものの分け方に、`AGENTS.md`・`CLAUDE.md`・`.env.example`・`.gitignore`・`data/README.md`・`data/review/`・`notebooks/` が含まれていない。解析をまたいで他の解析の出力を読むときの決まりも無い
+- 併合には伊倉側の配置の変更が要る（`src/` 直下 → `src/<解析名>/` など）。計画の「作業用リポジトリと同じ配置にしてパスを書き換えずに動かす」とぶつかる
+- そのほか: RG65 と SimLex-999 は配布条件の記載が無いまま `data/raw/` に入っている（決まりは「再配布してよいものだけ」）。README の組織名が「未来創成」。README に取得日の TODO が残っている
+- 問題が無かった点: 9工程とも README の結果につながり、本筋以外のものは無い。メールアドレス・絶対パス・API キーは見つからなかった。ノートブックの出力は消してある。
+  表の列名はすべて snake_case、スクリプト名は `<動詞>_<対象>`。`.venv`・`.DS_Store`・scispaCy のモデルは `.gitignore` 済み（zip には `.venv` ごと入っていて約6万ファイル）。データは合計約41MB で、50MB を超えるファイルは無い
+
+#### 次にやること
+
+- 伊倉涼介が林さんに修正点を伝える。併合の方針（解析名、言語、環境、解析をまたぐ読み込み）を決める
+- 決まったら `docs/plans/public_release.md` の決定事項に併合の方針を書き足す
 
 ---
 
