@@ -1,10 +1,10 @@
 """所属文字列を正規化し、組織名と業種を付ける。
 
 `affil_openalex` は同じ組織でも表記がばらばら（1,529通り）で、そのままでは組織単位の集計ができない。
-段階3-5 の説明変数（産学連携の有無、組織横断性）を作るための下ごしらえ。
+産学連携の有無と、トヨタ系の複数組織にまたがる共著かどうかを判定するための下ごしらえ。
 
 方針:
-  - 所属文字列は Scopus（正規化済み）→ OpenAlex（網羅的）→ Crossref の順に採用する。
+  - 所属文字列は Scopus（正規化済み）→ OpenAlex（網羅的）の順に採用する。
   - `;` で機関ごとに割り、機関ごとに正規表現で「正式名」と「業種」を当てる。
   - 業種は大学・公的研究機関・病院を先に判定し、残った企業語（Inc. / Co., Ltd. など）を企業とする。
     順序が逆だと "XX University Hospital, Inc." のようなものを取り違える。
@@ -14,7 +14,7 @@
 入力: data/derived/papers/authorships.csv
 出力: data/derived/papers/authorship_affiliations.csv … 1行＝著者1人（authorships.csv と同じ粒度）
 
-実行: ~/.venvs/scisci-rir/bin/python src/normalize_affiliations.py
+実行: python src/normalize_affiliations.py
 """
 
 from __future__ import annotations
@@ -99,11 +99,10 @@ def classify(inst: str) -> tuple[str | None, str]:
 
 def main() -> int:
     a = pd.read_csv(IN_CSV)
-    a["affil_best"] = a["affil_scopus"].fillna(a["affil_openalex"]).fillna(a["affil_crossref"])
+    a["affil_best"] = a["affil_scopus"].fillna(a["affil_openalex"])
     a["affil_source"] = (
         a["affil_scopus"].notna().map({True: "scopus", False: None})
         .fillna(a["affil_openalex"].notna().map({True: "openalex", False: None}))
-        .fillna(a["affil_crossref"].notna().map({True: "crossref", False: None}))
     )
 
     toyota_orgs, sectors = [], []
