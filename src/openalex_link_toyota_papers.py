@@ -1,19 +1,26 @@
-"""Phase 4: トヨタ関連公式サイトのスクレイピング結果を OpenAlex Work ID に紐付ける。
+"""トヨタ関連サイトのスクレイピング結果を OpenAlex の Work ID に対応づける。
 
-入力: data/derived/toyota_official_scrape/combined_papers.csv (919件)
+入力: data/derived/toyota_official_scrape/combined_papers.csv
 出力: data/derived/openalex_linking/
-  - openalex_links.csv       … 1論文1行。OpenAlex ID・マッチ手法・スコア・要目視フラグ
-  - openalex_works_meta.csv  … 紐付いた Work のメタデータ（Phase 5 の指標計算の入力）
-  - unmatched.csv            … 紐付かなかった論文
-  - run_summary.json         … 実行サマリ
+  - openalex_links.csv       … 1論文1行。OpenAlex ID・対応づけの方法・スコア・目視確認の要否
+  - openalex_works_meta.csv  … 対応づいた Work の書誌情報
+確認用の出力（data/diagnostics/、コミットしない）: data/diagnostics/openalex_linking/
+  - unmatched.csv            … 対応づかなかった論文
+  - run_summary.json         … 実行の要約
 
-方針（今井先生の指示「文字列一致だけでは誤同定があるため目視確認が必要」を反映）:
-  - DOI がある論文は DOI 完全一致（誤同定の余地がないので自動採用）
-  - DOI がない論文はタイトル検索 + 正規化タイトルの類似度で判定し、
-    スコアに応じて auto / review / no_match の3段階に振り分ける
-    （review 以下は人手確認に回す想定。自動で確定させない）
+方針（文字列の一致だけでは誤って対応づけることがあるので、目視確認を前提にする）:
+  - DOI がある論文は DOI の完全一致で決める（誤る余地がないので自動で採用）
+  - DOI がない論文はタイトルで検索し、正規化したタイトルの類似度で判定する。
+    スコアに応じて auto / review / no_match に振り分け、review 以下は自動で確定させない
+    （人手で確認した結果は `src/apply_review_decisions.py` で反映する）
 
-実行: ~/.venvs/scisci-rir/bin/python src/openalex_link_toyota_papers.py
+API の応答は data/cache/openalex_linking_cache.json に保存し、取得済みの分は再取得しない。
+
+環境変数:
+  SCISCI_CONTACT_EMAIL  OpenAlex に知らせる連絡先（設定すると応答が安定する）
+  SCISCI_INPUT_CSV / SCISCI_OUT_DIR / SCISCI_DIAG_DIR / SCISCI_CACHE_PATH  入出力の場所を差し替える
+
+実行: python src/openalex_link_toyota_papers.py
 """
 from __future__ import annotations
 
@@ -30,20 +37,20 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# 自動実行（launchd）は Google Drive 配下を読めない（macOS のプライバシー保護により
-# `Operation not permitted` になる）。そのため ~/scisci-auto/ など Drive 外の
-# 作業ディレクトリでも動くよう、入出力パスを環境変数で差し替えられるようにしてある。
-# 環境変数を設定しなければ従来どおり Drive 上のリポジトリ内で完結する。
+# 入出力の場所は環境変数で差し替えられる。設定しなければリポジトリ内で完結する。
 IN_CSV = Path(os.environ.get(
     "SCISCI_INPUT_CSV",
     ROOT / "data" / "derived" / "toyota_official_scrape" / "combined_papers.csv"))
 OUT_DIR = Path(os.environ.get(
     "SCISCI_OUT_DIR", ROOT / "data" / "derived" / "openalex_linking"))
+DIAG_DIR = Path(os.environ.get(
+    "SCISCI_DIAG_DIR", ROOT / "data" / "diagnostics" / "openalex_linking"))
 
 API = "https://api.openalex.org/works"
-MAILTO = "ikuraryosuke@gmail.com"  # polite pool（10 req/秒・100k/日）
+# 連絡先を添えると OpenAlex の応答が安定する（polite pool）。未設定なら添えない
+MAILTO = os.environ.get("SCISCI_CONTACT_EMAIL", "")
 SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": f"scisci-toyota-linking (mailto:{MAILTO})"})
+SESSION.headers.update({"User-Agent": f"scisci-toyota-linking (mailto:{MAILTO})" if MAILTO else "scisci-toyota-linking"})
 
 SELECT = ",".join([
     "id", "doi", "title", "publication_year", "type", "cited_by_count",
@@ -124,7 +131,7 @@ def get(params: dict, retries: int = 3) -> dict | None:
     if key in _cache:
         return _cache[key]
 
-    req = {**params, "mailto": MAILTO}
+    req = {**params, "mailto": MAILTO} if MAILTO else dict(params)
     for attempt in range(retries):
         time.sleep(0.15)
         try:
@@ -161,7 +168,7 @@ def get(params: dict, retries: int = 3) -> dict | None:
 
 
 def flatten_work(w: dict) -> dict:
-    """Phase 5 で使う形にフラット化する。"""
+    """後段の表で使う形に平らにする。"""
     auths = w.get("authorships") or []
     insts, countries = [], []
     for a in auths:
@@ -287,6 +294,7 @@ def resolve(df: pd.DataFrame, results: dict[int, dict],
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    DIAG_DIR.mkdir(parents=True, exist_ok=True)
     load_cache()
     df = pd.read_csv(IN_CSV)
     df["row_id"] = range(len(df))
@@ -323,7 +331,7 @@ def main() -> None:
 
     link_path = OUT_DIR / "openalex_links.csv"
     meta_path = OUT_DIR / "openalex_works_meta.csv"
-    unmatched_path = OUT_DIR / "unmatched.csv"
+    unmatched_path = DIAG_DIR / "unmatched.csv"
     link_df.to_csv(link_path, index=False)
     meta_df.to_csv(meta_path, index=False)
     link_df[~link_df["matched"]].to_csv(unmatched_path, index=False)
@@ -345,7 +353,7 @@ def main() -> None:
         "duplicate_openalex_ids": int(
             link_df["openalex_id"].notna().sum() - len(meta_df)),
     }
-    (OUT_DIR / "run_summary.json").write_text(
+    (DIAG_DIR / "run_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print("\n===== サマリ =====", flush=True)
