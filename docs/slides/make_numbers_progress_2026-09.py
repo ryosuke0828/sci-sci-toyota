@@ -35,7 +35,7 @@ def main() -> None:
     a = pd.read_csv(DD / "analysis" / "paper_analysis.csv")
     p = pd.read_csv(DD / "analysis" / "paper_percentiles.csv")
     smp = pd.read_csv(DD / "analysis" / "baseline_sample.csv")
-    chk = pd.read_csv(DD / "novelty" / "sciscinet_check.csv")
+    chk = pd.read_csv(DD.parent / "diagnostics" / "novelty" / "sciscinet_check.csv")
     ana = json.loads((DD / "analysis" / "novelty_analysis.json").read_text())
     N: dict = {"year_from": YEAR_FROM}
 
