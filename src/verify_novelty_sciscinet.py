@@ -1,32 +1,31 @@
-"""自前で計算した Uzzi の指標を、SciSciNet の公開値と突き合わせて検算する（段階3-3）。
+"""自前で計算した Uzzi の指標を、SciSciNet の公開値と突き合わせる。
 
-段階1-1 で実装の食い違いを5点見つけて直した（2026-09-10）。直したものが本当に
-SciSciNet と同じ定義になっているかは、公開値との相関でしか確かめられない。
+自前の実装が SciSciNet と同じ定義になっているかは、公開値との相関で確かめるしかない。
 
-**データの入手先について（2026-09-10 に訂正）**
+データの入手先:
+  SciSciNet v2 の公式配布先である Google Cloud Storage を使う。
+  `gs://sciscinet-neo/v2/sciscinet_papers.parquet`（5.26GB）は匿名で読めて Parquet
+  なので、必要な列だけ範囲リクエストで取れる。ログインもトークンも要らない。
+  なお Hugging Face の `cssi/SciSciGPT-SciSciNet` は SciSciGPT のデモ用に間引いた
+  1,119万件の抜粋（本体は1.34億件）で、対象の論文がほとんど含まれないので使えない。
 
-当初 Hugging Face の `cssi/SciSciGPT-SciSciNet` を使う予定だったが、これは
-SciSciGPT のデモ用に間引いた **1,119万件の抜粋**（本体は1.34億件）で、我々の論文は
-DOI がある471件中4件しか含まれていなかった。検算には使えない。
-
-代わりに SciSciNet v2 の公式配布先である Google Cloud Storage を使う。
-`gs://sciscinet-neo/v2/sciscinet_papers.parquet`（5.26GB）は**匿名で読めて Parquet
-なので、必要な列だけ範囲リクエストで取れる**。ログインもトークンも要らない。
-
-**突き合わせは OpenAlex の work_id で行う。** v2 の `paperid` は `W112393110` の形の
+突き合わせは OpenAlex の work_id で行う。v2 の `paperid` は `W112393110` の形の
 OpenAlex Work ID そのものなので、DOI を経由せずに結合できる（DOI が無い論文も拾える）。
 なお v2 の `doi` 列は `https://doi.org/...` の形で前置きが付いており、素の DOI とは一致しない。
 
 突き合わせる列:
-  Atyp_Median_Z … 中央値 z（conventionality）。我々の median_z に対応
-  Atyp_10pct_Z  … 10パーセンタイル z（novelty）。我々の p10_z に対応
-  Atyp_Pairs    … 有効なジャーナル対の数。我々の n_pairs_with_z に対応。
-                  同一誌どうしの対を入れたかどうかがここに出るので、修正2の直接の検証になる
+  Atyp_Median_Z … 中央値 z（conventionality）。自前の median_z に対応
+  Atyp_10pct_Z  … 10パーセンタイル z（novelty）。自前の p10_z に対応
+  Atyp_Pairs    … 有効なジャーナル対の数。自前の n_pairs_with_z に対応。
+                  同一誌どうしの対を入れたかどうかがここに出る
 
-出力: data/derived/novelty/sciscinet_check.csv     … 論文ごとの自前値と公開値
-      data/derived/novelty/sciscinet_check.json    … 相関などの要約
+入力: data/derived/novelty/paper_novelty.csv
+      data/derived/papers/papers.csv
+出力: data/derived/novelty/sciscinet_check.json    … 相関などの要約
+確認用の出力（data/diagnostics/、コミットしない）:
+      data/diagnostics/novelty/sciscinet_check.csv … 論文ごとの自前値と公開値
 
-実行: ~/.venvs/scisci-rir/bin/python src/verify_novelty_sciscinet.py
+実行: python src/verify_novelty_sciscinet.py
 """
 
 from __future__ import annotations
@@ -41,6 +40,7 @@ ROOT = Path(__file__).resolve().parent.parent
 IN_NOVELTY = ROOT / "data" / "derived" / "novelty" / "paper_novelty.csv"
 IN_PAPERS = ROOT / "data" / "derived" / "papers" / "papers.csv"
 OUT_DIR = ROOT / "data" / "derived" / "novelty"
+DIAG_DIR = ROOT / "data" / "diagnostics" / "novelty"
 
 SS_URL = "https://storage.googleapis.com/sciscinet-neo/v2/sciscinet_papers.parquet"
 
@@ -91,7 +91,8 @@ def main() -> int:
         }
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    m.to_csv(OUT_DIR / "sciscinet_check.csv", index=False)
+    DIAG_DIR.mkdir(parents=True, exist_ok=True)
+    m.to_csv(DIAG_DIR / "sciscinet_check.csv", index=False)
     (OUT_DIR / "sciscinet_check.json").write_text(json.dumps(out, ensure_ascii=False, indent=2))
 
     print("\n=== 検算の結果 ===")
