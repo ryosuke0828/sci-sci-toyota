@@ -1,22 +1,24 @@
-"""OpenAlex の Parquet スナップショットから、novelty / disruption / hot streak に必要な列だけを抽出する。
+"""OpenAlex の Parquet スナップショットから、新規性の計算などに必要な列だけを抜き出す。
 
-背景: OpenAlex API は従量課金（無料枠 1日1000リクエスト）で、数千万論文の参照文献を引くには使えない。
-      公開スナップショット s3://openalex/data/parquet/ を列プルーニングして読む。
-      必要な列は全体 725GB の 6.9%（約50GB）で済む（実測、docs/plans/novelty_hotstreak.md）。
+背景: OpenAlex API は無料枠が1日1000リクエストで、数千万論文の参考文献を引くには使えない。
+      公開スナップショット s3://openalex/data/parquet/ から必要な列だけを読む。
+      必要な列は全体 725GB の 6.9%（約50GB）で済む。
 
 設計:
   - 入力ファイル1本 = 出力ファイル1本。出力が既にあればスキップするので、途中で止めても再開できる。
   - 書き込みは .tmp に出してから rename する。中断した書きかけを「完了」と誤認しないため。
   - ID は "https://openalex.org/W123" の形。前置21文字＋種別1文字を落として整数にする。
     容量が減り、後段のジャーナル対の列挙・結合が速くなる。
-  - 出力先は Google Drive の外（~/scisci-data/）。Drive 内に50GBを置くと同期が破綻する。
-  - 並列はスレッドで行う。当初 ProcessPoolExecutor を使ったが、親を kill しても
-    ワーカーが PPID=1 の孤児として生き残り、回線を食い続ける事故が起きた（2026-08-24）。
+  - 並列はスレッドで行う。プロセスで並列にすると、親を止めてもワーカーが残り続けることがあった。
     DuckDB はクエリ実行中に GIL を解放するので、スレッドでも並列性は落ちない。
+
+スナップショットは OpenAlex 側で定期的に置き換わるので、取得した時期によって結果が少し変わる。
 
 環境変数:
   SCISCI_SNAPSHOT_OUT   出力ディレクトリ（既定 ~/scisci-data/works_slim）
-  SCISCI_SNAPSHOT_JOBS  並列プロセス数（既定 8）
+  SCISCI_SNAPSHOT_JOBS  並列数（既定 8）
+
+実行: python src/openalex_snapshot_extract.py
 """
 
 from __future__ import annotations
