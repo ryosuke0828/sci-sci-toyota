@@ -10,15 +10,15 @@
   4. z = (観測 - 平均) / 標準偏差。論文ごとに z の中央値（conventionality）と
      10パーセンタイル（novelty）を取る。
 
-**シャッフルは全参照ネットワーク上で行う**。当初、対象ジャーナルに絞ってからシャッフルしていたが、
-それでは絞り込みの外にある参照が入れ替えの対象から外れ、Uzzi の次数保存の条件を満たさない。
+**シャッフルは全参照ネットワーク上で行う**。対象ジャーナルに絞ってからシャッフルすると、
+絞り込みの外にある参照が入れ替えの対象から外れ、Uzzi の次数保存の条件を満たさない。
 絞り込みは数える段階だけに適用する（数える側を絞っても対象ペアの計数は変わらない）。
 
 ## 数え方: SQL の自己結合ではなく疎行列の転置積
 
 「j1 と j2 の両方を引いている論文の数」は、論文×ジャーナルの二値疎行列 M に対する
-Mᵀ M の要素そのものである。当初 DuckDB の自己結合で数えていたが、1億エッジで
-1回あたり約400秒かかり（並列が効かず CPU 使用率47%で頭打ち）、26年×11回では実用にならなかった。
+Mᵀ M の要素そのものである。DuckDB の自己結合で数えると、1億エッジで
+1回あたり約400秒かかり（並列が効かない）、26年×11回では実用にならない。
 
   M … 行 = コーパスの論文、列 = 対象ジャーナル（その年に我々の論文が作る対に現れる誌のみ）
   C = Mᵀ M … 上三角が全ジャーナル対の共起論文数。対象誌は高々数千なので密行列で持てる
@@ -26,15 +26,15 @@ Mᵀ M の要素そのものである。当初 DuckDB の自己結合で数え�
 シャッフルも numpy で行う。エッジを被引用年 cy で整列しておけば、層ごとの入れ替えは
 連続スライスの in-place シャッフルで済む。
 
-実測（2020年、コーパス325万論文・参照エッジ1億581万本、M2 Pro 10コア）:
-  → 下部の run_year() が各段階の秒数を出力する。
+2020年はコーパス325万論文・参照エッジ1億581万本。run_year() が各処理の秒数を出力する。
 
 入力: data/derived/papers/papers.csv
-      ~/scisci-data/works_slim/*.parquet
+      openalex_snapshot_extract.py の出力
 出力: data/derived/novelty/paper_novelty.csv     … 論文ごとの median z と 10パーセンタイル z
-      data/derived/novelty/pair_zscores_{year}.parquet … ジャーナル対ごとの z（検算用）
+確認用の出力（data/diagnostics/、コミットしない）:
+      data/diagnostics/novelty/pair_zscores_{year}.parquet … ジャーナル対ごとの z（検算用）
 
-実行: ~/.venvs/scisci-rir/bin/python src/novelty_uzzi.py [年 ...]
+実行: python src/novelty_uzzi.py [年 ...]
       年を指定しなければ、対象論文が存在する年をすべて処理する。
 
 環境変数:
@@ -43,6 +43,7 @@ Mᵀ M の要素そのものである。当初 DuckDB の自己結合で数え�
   SCISCI_SLIM_GLOB  works_slim の場所
   SCISCI_NOVELTY_DB 作業用 DuckDB ファイルの場所
   SCISCI_NOVELTY_OUT 出力先（試走で本番の出力を上書きしないため）
+  SCISCI_SOURCES_PARQUET 雑誌の一覧を置く場所（無ければ OpenAlex のスナップショットから作る）
 """
 
 from __future__ import annotations
@@ -69,6 +70,7 @@ SOURCES_PARQUET = Path(os.environ.get(
     "SCISCI_SOURCES_PARQUET", str(Path.home() / "scisci-data" / "journal_sources.parquet")))
 SOURCES_MANIFEST = "https://openalex.s3.amazonaws.com/data/parquet/sources/manifest.json"
 OUT_DIR = Path(os.environ.get("SCISCI_NOVELTY_OUT", ROOT / "data" / "derived" / "novelty"))
+DIAG_DIR = ROOT / "data" / "diagnostics" / "novelty"
 N_RAND = int(os.environ.get("SCISCI_N_RAND", "10"))
 SEED = int(os.environ.get("SCISCI_SEED", "20260907"))
 MIN_YEAR = 2000
@@ -80,7 +82,7 @@ def load_our_papers() -> pd.DataFrame:
     p["wid"] = p["work_id"].str.extract(r"W(\d+)").astype("Int64")
     p = p[p["year_openalex"] >= MIN_YEAR]
     # SciSciNet は焦点論文を DocType == 'Journal' に限る。合わせて雑誌論文だけにする。
-    # 会議論文182件などが外れる（2026-09-10 の判断。組織ごとに落ち方が偏る点は報告書に記載）
+    # 会議論文182件などが外れる。外れる割合は組織によって偏る
     n_before = len(p)
     p = p[p["type"] == "article"]
     print(f"焦点論文: {len(p)} 件（type='article' 以外の {n_before - len(p)} 件を除外）", flush=True)
@@ -95,7 +97,7 @@ def build_journal_sources(con: duckdb.DuckDBPyConnection) -> None:
     `primary_location.source.id` をそのまま使うと会議録や書籍シリーズまで「誌」として
     数えてしまい、ジャーナル対が増える。
 
-    2026-09-11 の照合で、SciSciNet より1論文あたりの誌数が 21 対 17 と多かった。
+    SciSciNet と照合すると、1論文あたりの誌数が 21 対 17 と多かった。
     雑誌に限ると19、引用先も雑誌論文に限ると18まで詰まる（17には届かない。
     SciSciNet は掲載誌の割り当て規則を公開していないため、それ以上は追えない）。
     """
@@ -330,8 +332,8 @@ def run_year(con: duckdb.DuckDBPyConnection, year: int, rng: np.random.Generator
     pair_z["j2"] = idx2j[pair_z["i2"].values]
     pair_z = pair_z[["j1", "j2", "observed", "mu", "sd", "z"]]
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    pair_z.to_parquet(OUT_DIR / f"pair_zscores_{year}.parquet", index=False)
+    DIAG_DIR.mkdir(parents=True, exist_ok=True)
+    pair_z.to_parquet(DIAG_DIR / f"pair_zscores_{year}.parquet", index=False)
 
     con.register("pair_z_df", pair_z)
     res = con.execute(f"""
