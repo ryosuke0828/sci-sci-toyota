@@ -28,6 +28,7 @@
 | [reports/novelty_distributions.md](reports/novelty_distributions.md) | 上の分析結果を分布の図で示したもの（2026-10-15、今井先生の指示）。報告資料の7・8・11ページの表と同じ並びで、各マスを分布にした。図は `figures/novelty_distributions/` |
 | [reports/novelty_first_results.md](reports/novelty_first_results.md) | **数値は無効**。新規性の最初の結果（718件）。値の定義が SciSciNet と違うことが後から判明した。作り直した値は上の報告書 |
 | [notes/openalex_exploration.md](notes/openalex_exploration.md) | OpenAlex探索メモ |
+| [reports/shibayama_novelty_review.md](reports/shibayama_novelty_review.md) | 林奏汰さんのリポジトリ（柴山らの新規性）へのレビュー（2026-10-21）。研究室用リポジトリと併合する前に直してほしい5点と相談2点。コードに詳しくない人向けに、AI エージェントへの指示文を付けた |
 
 ## 別件: AIの使い方の write-up（`Sci-sci-tasks.md` の依頼）
 
